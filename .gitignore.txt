@@ -4,6 +4,7 @@ $ cat .gitignore
 
 #Folders
 !/.minecraft/
+!/.ProjectTEP
 
 #Files
 !/.gitignore
