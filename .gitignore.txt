@@ -1,0 +1,10 @@
+$ cat .gitignore
+#Whitelist
+/*
+
+#Folders
+!/.minecraft/
+
+#Files
+!/.gitignore
+!/README.md

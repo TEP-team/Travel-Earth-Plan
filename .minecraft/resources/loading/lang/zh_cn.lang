@@ -1,0 +1,42 @@
+#Custom Tips for TEP
+tip.tep.1=本服务器除基础操作按键外，其余所有按键需要玩家自行配置.
+tip.tep.2=服务器的冬季机制是永久的，你需要时刻注意保暖！
+tip.tep.3=加热器是个不错的室内取暖方式！
+tip.tep.4=你可以制造 "矿物生成机" 以省去挖矿的时间.
+tip.tep.5=一旦到了晚上，怪物将会蜂拥而至，而血月则会使它们更加愤怒！
+tip.tep.6="求生者指南" 中包含了许多的求生与科学知识.
+tip.tep.7=你的最终目标是在其他玩家的不断侵扰下，制造出 "天界塔" 以使地球重获生机.
+tip.tep.8=服务器包含了许多自定义的内容，例如一些机器："脚本编译机" "聚变反应堆" "天界塔" 等.
+tip.tep.9="天界塔" 中所需要的 "生命之核" 与 "信标" 每人只许合成一次哦.
+tip.tep.10=玩家之间可以相互组成阵营，使自己的阵营发展得更快，更强大.
+
+#Custom Main Menu for TEP
+menu.tep.ctserver=加入服务器
+menu.tep.options=选项设置
+menu.tep.mods=模组设置
+menu.tep.settings=视频设置
+menu.tep.languages=语言设置
+menu.tep.links=链接区
+menu.tep.back=返回
+menu.tep.quit=退出游戏
+link.tep.afdian=爱发电
+
+#ZenScripts Messages for TEP
+tpgem.tep.tpsuccess=§6[§bTEP§6] §a随机传送成功！
+tpgem.tep.tpfail=§6[§bTEP§6] §c随机传送失败，请等待冷却完成后再次尝试！
+pipe.tep.dbsuccess=§6[§bTEP§6] §a抽血成功，§c你失去了 §e4 §a点HP！
+pipe.tep.dbfail=§6[§bTEP§6] §c抽血失败，你的血量太少了！
+pipe.tep.injectsuccess=§6[§bTEP§6] §a注射成功，你恢复了 §e4 §a点HP！
+pipe.tep.injectfail=§6[§bTEP§6] §c注射失败，血量必须小于 §e30 §c！
+bleeding.tep.bsuccess=§6[§bTEP§6] §c你流血了！
+fractured.tep.fsuccess=§6[§bTEP§6] §c你骨折了！
+healing.tep.msuccess=§6[§bTEP§6] §a伤口包扎成功！
+healing.tep.bsuccess=§6[§bTEP§6] §a你恢复了 §e2 §a点HP！
+healing.tep.mfail=§6[§bTEP§6] §c包扎失败，你没有流血！
+healing.tep.mpsuccess=§6[§bTEP§6] §a医疗包使用成功！
+healing.tep.psuccess=§6[§bTEP§6] §a你恢复了 §e6 §a点HP！
+healing.tep.mpfail=§6[§bTEP§6] §c医疗包使用失败，你的血量必须低于 §e30 §c！
+healing.tep.ssuccess=§6[§bTEP§6] §a治疗成功！
+healing.tep.sfail=§6[§bTEP§6] §c治疗失败，你没骨折！
+fractured.tep.sprint=§6[§bTEP§6] §c骨折时不可以奔跑！
+fractured.tep.jump=§6[§bTEP§6] §c骨折时不可以跳跃！

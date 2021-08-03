@@ -1,0 +1,142 @@
+{
+  "harvestcraft:candledeco10": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco11": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco12": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco13": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "simpledifficulty:campfire": [
+    {
+      "properties": {
+        "burning": "true"
+      },
+      "temperature": 7.0
+    },
+    {
+      "properties": {
+        "burning": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "harvestcraft:candledeco9": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "minecraft:lava": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "harvestcraft:candledeco5": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco6": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "minecraft:magma": [
+    {
+      "properties": {},
+      "temperature": 10.0
+    }
+  ],
+  "harvestcraft:candledeco7": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "minecraft:lit_furnace": [
+    {
+      "properties": {},
+      "temperature": 4.0
+    }
+  ],
+  "harvestcraft:candledeco8": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco1": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco2": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "minecraft:torch": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco3": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "minecraft:flowing_lava": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "harvestcraft:candledeco4": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco14": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco15": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco16": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ]
+}

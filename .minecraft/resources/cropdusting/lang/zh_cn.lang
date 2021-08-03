@@ -1,0 +1,6 @@
+itemGroup.cropdusting=排气施肥
+
+item.cropdusting:poop.name=粪便
+
+tile.cropdusting:fertile_dirt.name=肥沃的土
+

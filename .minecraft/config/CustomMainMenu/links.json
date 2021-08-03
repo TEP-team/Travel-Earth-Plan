@@ -1,0 +1,102 @@
+{
+    "other":
+    {
+        "background":
+        {
+        "image": "custommainmenu:background_links.png",
+        "mode": "fill"
+     }
+   },
+
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "¡ì4Copyright Mojang AB. Do not distribute!",
+            "hoverText" : "¡ìcCopyright Mojang AB. Do not distribute!",
+            "posX" : -150,
+            "posY" : -10,
+            "alignment" : "bottom_right",
+            "action" : {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        }
+   },
+
+    "buttons":
+    {
+    "back": {
+         "text": "menu.tep.back",
+         "tooltip": "menu.tep.back",
+         "pressSound": "block.iron_door.open",
+         "hoverSound": "block.iron_door.open",
+         "alignment": "bottom_left",
+         "posX": 6,
+         "posY": -26,
+         "width": 50,
+         "height": 20,
+         "action": {
+         "type": "openGui",
+         "gui": "mainmenu"
+        }
+      },
+        "MCBBS":
+        {
+            "text": "",
+            "tooltip" : "MCBBS",
+            "texture": "custommainmenu:MCBBS.png",
+            "pressSound": "block.iron_door.open",
+            "hoverSound": "entity.enderpearl.throw",
+            "posX" : 20,
+            "posY" : 87,
+            "width": 65,
+            "height": 30,
+            "imageWidth": 279,
+            "imageHeight": 95,
+            "alignment": "top_left",
+            "action": {
+                "type": "openLink",
+                "link": "https://www.mcbbs.net/thread-1220809-1-1.html"
+            }
+          },
+
+  "Afdian": {
+            "text": "",
+            "tooltip" : "link.tep.afdian",
+            "texture": "custommainmenu:afdian.png",
+            "pressSound": "block.iron_door.open",
+            "hoverSound": "entity.enderpearl.throw",
+            "posX" : -21,
+            "posY" : 89,
+            "width": 27,
+            "height": 27,
+            "imageWidth": 80,
+            "imageHeight": 80,
+            "alignment": "top_center",
+            "action": {
+                "type": "openLink",
+                "link": "https://afdian.net/@anye2932"
+            }
+          },
+
+  "QQ": {
+            "text": "",
+            "tooltip" : "QQ",
+            "texture": "custommainmenu:qq.png",
+            "pressSound": "block.iron_door.open",
+            "hoverSound": "entity.enderpearl.throw",
+            "posX" : -65,
+            "posY" : 87,
+            "width": 27,
+            "height": 27,
+            "imageWidth": 320,
+            "imageHeight": 320,
+            "alignment": "top_right",
+            "action": {
+                "type": "openLink",
+                "link": "https://jq.qq.com/?_wv=1027&k=0DsFXDET"
+            }
+        }
+    }
+}

@@ -1,0 +1,172 @@
+{
+    "buttons":
+    {
+
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "tooltip": "menu.singleplayer",
+            "pressSound": "block.iron_trapdoor.close",
+            "hoverSound": "block.iron_trapdoor.open",
+            "posX" : 115,
+            "posY" : 70,
+            "width" : 75,
+            "height" : 20,
+            "texture": "custommainmenu:button_1.png",
+            "alignment" : "top_left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "Server":
+        {
+            "text" : "menu.tep.ctserver",
+            "tooltip": "menu.tep.ctserver",
+            "pressSound": "block.iron_trapdoor.close",
+            "hoverSound": "block.iron_trapdoor.open",
+            "posX" : -103,
+            "posY" : 55,
+            "width" : 75,
+            "height" : 20,
+            "texture": "custommainmenu:button_1.png",
+            "alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "106.13.201.149:8003"
+            }
+        },
+
+        "options":
+        {
+            "text" : "menu.tep.options",
+            "tooltip": "menu.tep.options",
+            "pressSound": "block.iron_trapdoor.close",
+            "hoverSound": "block.iron_trapdoor.open",
+            "posX" : -140,
+            "posY" : 85,
+            "width" : 75,
+            "height" : 20,
+            "texture": "custommainmenu:button_3.png",
+            "alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+
+        "mods":
+        {
+            "text" : "menu.tep.mods",
+            "tooltip": "menu.tep.mods",
+            "pressSound": "block.iron_trapdoor.close",
+            "hoverSound": "block.iron_trapdoor.open",
+            "posX" : -103,
+            "posY" : 115,
+            "width" : 75,
+            "height" : 20,
+            "texture": "custommainmenu:button_4.png",
+            "alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
+        "Video Settings":
+        {
+            "text" : "menu.tep.settings",
+            "tooltip": "menu.tep.settings",
+            "pressSound": "block.iron_trapdoor.close",
+            "hoverSound": "block.iron_trapdoor.open",
+            "posX" : -140,
+            "posY" : 145,
+            "width" : 75,
+            "height" : 20,
+            "texture": "custommainmenu:button_5.png",
+            "alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options.video"
+            }
+        },
+
+        "Links":
+        {
+            "text" : "menu.tep.links",
+            "tooltip": "menu.tep.links",
+            "pressSound": "block.iron_door.open",
+            "hoverSound": "block.iron_door.open",
+            "posX" : -103,
+            "posY" : 175,
+            "width" : 75,
+            "height" : 20,
+            "texture": "custommainmenu:button_7.png",
+            "alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "custom.links"
+            }
+        },
+
+        "quit":
+        {
+            "text": "menu.tep.quit",
+            "tooltip": "menu.tep.quit",
+            "pressSound": "entity.enderpearl.throw",
+            "hoverSound": "block.wooden_door.open",
+            "posX" : -140,
+            "posY" : 205,
+            "width" : 75,
+            "height" : 20,
+            "imageWidth": 75,
+            "imageHeight": 20,
+            "texture": "custommainmenu:button_8.png",
+            "alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "fml":
+        {
+            "text" : "",
+            "posX" : 1,
+            "posY" : -54,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+
+        "Author's words":
+        {
+            "text" : "¡ì1¡ìlTravel Earth Plan ¡ìe¡ìlMade by ¡ì5¡ìlTEP-team",
+            "posX" : 1,
+            "posY" : -9,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+   },
+    
+    "other":
+    {
+    "background":{
+     "image" : "",
+      "slideshow":{
+       "images" : ["custommainmenu:background_1.png","custommainmenu:background_2.png","custommainmenu:background_3.png","custommainmenu:background_4.png"],
+       "displayDuration" : 100,
+       "fadeDuration" : 45
+            }
+        }
+    }  
+}
