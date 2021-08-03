@@ -10,12 +10,8 @@ A Minecraft Server for Minecraft Java Edtion [1.12.2]
 
 您不可直接将我们所构建的代码搬到您的 服务器/模组包 内.
 
-如需学习魔改，我们建议您查阅下列网站：
+服务器MCBBS宣传帖：https://www.mcbbs.net/thread-1220809-1-1.html
 
-CraftTweaker的官方WIKI：https://docs.blamejared.com/
-
-youyihj的Zentutorial：https://youyi580.gitbook.io/zentutorial/
-
-感谢您游玩本服务器.
+在此，感谢您游玩本服务器.
 
 特别感谢：科星，哈罗，GBL，友谊等为服务器提供魔改帮助的人.
