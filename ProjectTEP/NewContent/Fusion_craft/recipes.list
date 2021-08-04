@@ -1,16 +1,19 @@
 import crafttweaker.item.IItemStack;
+
 ##contenttweaker:super_coil=超导线圈-item
 var iron as IItemStack = <ore:ingotIron>;
 repices.addShaped(sc,
     [[<contenttweaker:shinycopper_ingot>,<contenttweaker:shinycopper_ingot>,<contenttweaker:shinycopper_ingot>],
      [<contenttweaker:shinycopper_ingot>,iron,<contenttweaker:shinycopper_ingot>],
      [<contenttweaker:shinycopper_ingot>,<contenttweaker:shinycopper_ingot>,<contenttweaker:shinycopper_ingot>]]);
+
 ##mek:generator:9=电磁线圈-tile
 repices.remove(<contenttweaker:cell_cold>);
 repices.addShaped(<mekanismgenerators:generator:9>,
     [[<modularmachinery:blockcasing:4>,<contenttweaker:cell_cold>,<modularmachinery:blockcasing:4>],
      [<contenttweaker:cell_cold>,<mekanismgenerators:generator:9>,<contenttweaker:cell_cold>],
      [<modularmachinery:blockcasing:4>,<contenttweaker:cell_cold>,<modularmachinery:blockcasing:4>]]);
+
 ##<contenttweaker:cell_empty>
 repices.addShaped(<contenttweaker:cell_empty>,
     [[<ore:ingotTin>,<ore:ingotTin>,<ore:ingotTin>],
