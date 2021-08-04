@@ -1,0 +1,22 @@
+import mods.modularmachinery.RecipeBuilder;
+import mods.modularmachinery.RecipePrimer;
+##导入MM包
+
+RecipeBuilder.newBuilder("F1", "fluid_processor",40).
+addItemInput(<mekanism:dust:4>*1).
+addFluidInput(<liquid:liquidlithium>*10).
+addFluidInput(<liquid:sulfuricacid>*10).
+addEnergyPerTickInput(50).
+addFluidOutput(<liquid:electrolyte>*20).setChance(0.75).
+build();
+##银粉加硫酸加液态锂混合得出电解液
+
+RecipeBuilder.newBuilder("F1", "fluid_processor",100).
+addItemInput(<cell_empty>*1).
+addItemInput(<pneumaticcraft:air_canister>*1).
+addEnergyperTickInput(100).
+addItemOutput(<cell_cold>*1).setChance(0.3).
+addItemOutput(<pneumaticcraft:air_canister:30000>*1).
+bulid();
+##空单元加充满的空气罐丢入液体处理机有0.4的概率获得一个液氮单元（空单元有概率损坏）
+
