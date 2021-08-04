@@ -11,7 +11,7 @@ addFluidOutput(<liquid:electrolyte>*20).setChance(0.75).
 build();
 ##银粉加硫酸加液态锂混合得出电解液
 
-RecipeBuilder.newBuilder("F1", "fluid_processor",100).
+RecipeBuilder.newBuilder("F2", "fluid_processor",100).
 addItemInput(<cell_empty>*1).
 addItemInput(<pneumaticcraft:air_canister>*1).
 addEnergyperTickInput(100).
@@ -20,3 +20,11 @@ addItemOutput(<pneumaticcraft:air_canister:30000>*1).
 bulid();
 ##空单元加充满的空气罐丢入液体处理机有0.4的概率获得一个液氮单元（空单元有概率损坏）
 
+RecipeBuilder.newBuilder("F3", "Mixing_tank",6000).
+addItemInput(<minecraft:glowstone_dust>*1).
+addFluidInput(<liquid:sulfuricacid>*1250).
+addEnergyperTickInput(500).
+addItemOutput(<crafttweaker:High_purity_calcium_carbonate>*2).
+addFluidOutput(<liquid:HF>*1000).
+build();
+##使用萤石以及硫酸在mixing_tank中制取氟化氢（高纯碳酸钙为副产物）

@@ -1,5 +1,6 @@
 item.cell_empty.name=空单元
-item.cell_dt.name=氘氚单元
+item.cell_dt.name=浓缩氘单元
 item.cell_cold.name=液氮单元
-item.shinycopper_ingot=闪铜锭
-tiem.super_coil=超导线圈
+item.shinycopper_ingot.name=闪铜锭
+item.super_coil.name=超导线圈
+item.High_purity_calcium_carbonate.name=高纯碳酸钙
