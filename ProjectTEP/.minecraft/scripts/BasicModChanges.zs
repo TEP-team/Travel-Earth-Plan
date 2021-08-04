@@ -7,6 +7,7 @@ import mods.dropt.Dropt;
 //ICE_HCLB_chiller [DELETE]
 val ice as IItemStack[] = [<simpledifficulty:chiller>,<simpledifficulty:ice_helmet>,<simpledifficulty:ice_chestplate>,<simpledifficulty:ice_leggings>,<simpledifficulty:ice_boots>];
 for ICE in ice {recipes.remove(ICE);}
+
 //ICE_HCLB_chiller [DROP]
 Dropt.list("ice_fire_block")
 .add(Dropt.rule()

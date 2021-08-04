@@ -11,26 +11,24 @@ import crafttweaker.event.EntityLivingJumpEvent;
 import crafttweaker.event.EntityLivingFallEvent;
 import crafttweaker.event.PlayerTickEvent;
 import crafttweaker.text.ITextComponent;
-import crafttweaker.command.ICommandManager;
-import crafttweaker.util.Position3f;
 
 //cd_time of tp_gem
 events.onPlayerTick(function(event as PlayerTickEvent) {
-var player as IPlayer = event.player;
-var world as IWorld = player.world;
+    var player as IPlayer = event.player;
+    var world as IWorld = player.world;
     if (!world.remote) {
-var pdata = player.data;
-    if (pdata has "cd_time") {
-var cdtime = pdata.memberGet("cd_time") as int;
-    if (cdtime > 0) {
-        player.update(pdata + {"cd_time": cdtime - 1});
+        var pdata = player.data;
+        if (pdata has "cd_time") {
+            var cdtime = pdata.memberGet("cd_time") as int;
+            if (cdtime > 0) {
+                player.update(pdata + {"cd_time": cdtime - 1});
+                    }
                 }
             }
-        }
-    });
+        });
 
 //bleeding event
-val mobs as string[] = ["minecraft:zombie", "minecraft:skeleton", "minecraft:creeper", "minecraft:spider", "minecraft:enderman", "minecraft:stary"];
+val mobs as string[] = ["minecraft:zombie", "minecraft:skeleton", "minecraft:creeper", "minecraft:spider", "minecraft:enderman", "minecraft:stray", "minecraft:witch"];
 events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
     var player as IEntityLivingBase = event.entityLivingBase;
     var world as IWorld = player.world;
@@ -48,11 +46,14 @@ events.onEntityLivingJump(function(event as EntityLivingJumpEvent) {
     var living as IEntityLivingBase = event.entityLivingBase;
     var world as IWorld = living.world;
     var Fractured as bool = living.isPotionActive(<potion:contenttweaker:fractured>);
-    if (!world.remote && living instanceof IPlayer && Fractured) {
+    if (living instanceof IPlayer && Fractured) {
         var player as IPlayer = living;
-        player.health -= 2;
-        player.sendRichTextMessage(ITextComponent.fromTranslation("fractured.tep.jump"));
-        player.playSound("minecraft:entity.player.hurt", 1, 1);
+        if (world.remote) {
+            player.playSound("minecraft:entity.player.hurt", 1, 1);
+        } if (!world.remote) {
+            player.health -= 2;
+            player.sendRichTextMessage(ITextComponent.fromTranslation("fractured.tep.jump"));
+        }
     }
 });
 
@@ -61,10 +62,15 @@ events.onEntityLivingFall(function(event as EntityLivingFallEvent) {
     var distance = event.distance as float;
     var living as IEntityLivingBase = event.entityLivingBase;
     var world as IWorld = living.world;
+    var potion1 as bool = living.isPotionActive(<potion:minecraft:resistance>);
+    var potion2 as bool = living.isPotionActive(<potion:minecraft:regeneration>);
     if (!world.remote && living instanceof IPlayer) {
         var player as IPlayer = living;
-            if (distance > 0) {
-                player.update({PlayerPersisted: {fractured: distance}});
+        if (potion1 && potion2) {
+            return;
+        }
+        else if (distance > 0) {
+            player.update({PlayerPersisted: {fractured: distance}});
         }
     }
 });
@@ -75,10 +81,10 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
     var world as IWorld = living.world;
     if (!world.remote && living instanceof IPlayer) {
         var player as IPlayer = living;
-        var distance = player.data.PlayerPersisted.fractured;
         var pdp = player.data.PlayerPersisted;
-        if (!isNull(pdp) && !isNull(distance) && distance.asFloat() >= 8) {
-            player.addPotionEffect(<potion:contenttweaker:fractured>.makePotionEffect(999999999999, 0));
+        var distance = player.data.PlayerPersisted.fractured;
+        if (!isNull(pdp) && !isNull(distance) && distance.asFloat() >= 7) {
+            player.addPotionEffect(<potion:contenttweaker:fractured>.makePotionEffect(99999999999, 0));
             player.sendRichTextMessage(ITextComponent.fromTranslation("fractured.tep.fsuccess"));
         }
     }

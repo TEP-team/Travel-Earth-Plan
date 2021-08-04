@@ -14,7 +14,6 @@ beaBlock.beaconBase = false;
 beaBlock.register();
 
 var lifeCore as Block = VanillaFactory.createBlock("life_core", <blockmaterial:rock>);
-lifeCore.blockLayer = "CUTOUT_MIPPED";
 lifeCore.blockHardness = 2;
 lifeCore.blockResistance = 4;
 lifeCore.blockSoundType = <soundtype:stone>;

@@ -1,7 +1,14 @@
 {
   "messages": {
     "deathMessages": [
-      "You are DEAD!"
+      "You are DEAD !",
+      "Oh, shit, what happened ?",
+      "Emm... I think that's very bad .",
+      "Nooooooooooooo !",
+      "You're so stupid that you died !",
+      "I think you haven't game experiences.",
+      "Try again，I think the same thing will happen to you !",
+      "Why can't you play carefully ?"
     ]
   }
 }

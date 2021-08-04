@@ -46,7 +46,7 @@ fr.isReady = function(duration, amplifier) {
 };
 fr.performEffect = function(living, amplifier) {
     var world as IWorld = living.world;
- 	if(!world.remote && living instanceof Player && living.isSprinting) {
+ 	if(!world.remote && living instanceof Player) {
 		var player as Player = living;
 		player.sendRichTextMessage(ITextComponent.fromTranslation("fractured.tep.sprint"));
 		player.health -= 2;

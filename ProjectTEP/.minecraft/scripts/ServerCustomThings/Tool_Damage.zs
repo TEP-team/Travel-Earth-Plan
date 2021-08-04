@@ -3,13 +3,13 @@
 import crafttweaker.item.IItemStack;
 
 //maxDamage and recipe [flint_and_steel, lighter] 
-var fas =  <minecraft:flint_and_steel:5>;
+var fas =  <minecraft:flint_and_steel>;
 fas.maxDamage = 4;
 recipes.remove(fas);
 recipes.addShapeless(fas,
     [<minecraft:cobblestone>,<minecraft:flint>]);
 
-var l3 = <variedcommodities:lighter:31>;
+var l3 = <variedcommodities:lighter>;
 l3.maxDamage = 44;
 recipes.addShaped(l3,
     [[null,<minecraft:coal>,null],

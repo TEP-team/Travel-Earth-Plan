@@ -59,3 +59,12 @@ ss.maxDamage = 90;
 hw.maxStackSize = 1;
 hw.rarity = "uncommon";
 hw.register();
+
+var mes = VanillaFactory.createItem("metal_stick");
+mes.register();
+
+var cs = VanillaFactory.createItem("coal_stick");
+cs.register();
+
+var cst = VanillaFactory.createItem("cloth_string");
+cst.register();

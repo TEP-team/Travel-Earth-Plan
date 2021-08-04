@@ -61,15 +61,9 @@ recipes.addShapeless(<minecraft:planks:5>*4,
 var stick = <minecraft:stick>;
 recipes.remove(stick);
 recipes.addShaped(stick*2,
-    [[null,null,<ore:plankWood>],
-	 [null,<ore:plankWood>,null],
-	 [<ore:plankWood>,null,null]]);
-recipes.addShaped(stick*2,
-    [[<ore:plankWood>,null,null],
-	 [null,<ore:plankWood>,null],
-	 [null,null,<ore:plankWood>]]);
-
-//Beacon
+    [[<ore:plankWood>],
+	 [<ore:plankWood>],
+	 [<ore:plankWood>]]);
 
 //Contenttweaker
 recipes.addShaped(<contenttweaker:sieve_string>,
@@ -95,20 +89,68 @@ recipes.addShapeless(bwr,
     [wr,wr,wr,wr]);
 
 recipes.addShaped(<contenttweaker:conversion_core>,
-    [[<ore:dustRedstone>,<contenttweaker:error_code>,<ore:dustRedstone>],
-	 [<contenttweaker:error_code>,<minecraft:iron_block>,<contenttweaker:error_code>],
-	 [<ore:dustRedstone>,<contenttweaker:error_code>,<ore:dustRedstone>]]);
+    [[<ore:dustRedstone>,<contenttweaker:common_code>,<ore:dustRedstone>],
+	 [<contenttweaker:common_code>,<ore:ingotIron>,<contenttweaker:common_code>],
+	 [<ore:dustRedstone>,<contenttweaker:common_code>,<ore:dustRedstone>]]);
 
 recipes.addShaped(<contenttweaker:handsaw_wood>,
     [[null,null,<ore:ingotIron>],
 	 [null,<ore:ingotIron>,<ore:plankWood>],
 	 [<minecraft:stick>,<ore:plankWood>,null]]);
 
-//bonsaipot
+recipes.addShaped(<contenttweaker:medical_splint>,
+    [[null,<minecraft:stick>,<minecraft:string>],
+	 [<minecraft:stick>,null,<minecraft:stick>],
+	 [<minecraft:string>,<minecraft:stick>,null]]);
+
+recipes.addShaped(<contenttweaker:medical_metal_splint>,
+    [[null,<contenttweaker:metal_stick>,<minecraft:string>],
+	 [<contenttweaker:metal_stick>,null,<contenttweaker:metal_stick>],
+	 [<minecraft:string>,<contenttweaker:metal_stick>,null]]);
+
+recipes.addShaped(<contenttweaker:metal_stick>*4,
+    [[<ore:ingotIron>],
+	 [<ore:ingotIron>],
+	 [<ore:ingotIron>]]);
+
+recipes.addShaped(<contenttweaker:pipe_empty>,
+    [[null,null,<contenttweaker:metal_stick>],
+	 [null,<ore:ingotIron>,null],
+	 [<contenttweaker:metal_stick>,null,null]]);
+
+recipes.addShapeless(<contenttweaker:cloth_string>,
+    [<minecraft:string>,<minecraft:string>,<minecraft:string>,<minecraft:string>]);
+
+recipes.addShapeless(<contenttweaker:medical_bandage>,
+    [<contenttweaker:cloth_string>,<contenttweaker:cloth_string>,<contenttweaker:cloth_string>]);
+
+recipes.addShaped(<contenttweaker:medical_pack>,
+    [[<contenttweaker:cloth_string>,<contenttweaker:cloth_string>,<contenttweaker:cloth_string>],
+	 [<contenttweaker:medical_bandage>,<contenttweaker:pipe_blood>,<contenttweaker:medical_metal_splint>],
+	 [<contenttweaker:cloth_string>,<contenttweaker:cloth_string>,<contenttweaker:cloth_string>]]);
+
+//Basics
 var iron = <ore:ingotIron>;
+recipes.remove(<bonsaitrees:bonsaipot>);
 recipes.addShaped(<bonsaitrees:bonsaipot>,
     [[iron,null,iron],
 	 [iron,iron,iron]]);
+
+recipes.remove(<spiceoflife:bookfoodjournal>);
+recipes.addShapeless(<spiceoflife:bookfoodjournal>,
+    [<minecraft:book>,<minecraft:wheat>]);
+
+recipes.remove(<spiceoflife:lunchbag>);
+recipes.addShaped(<spiceoflife:lunchbag>,
+    [[null,<contenttweaker:cloth_string>,null],
+	 [<contenttweaker:cloth_string>,<spiceoflife:bookfoodjournal>,<contenttweaker:cloth_string>],
+	 [null,<contenttweaker:cloth_string>,null]]);
+
+recipes.remove(<spiceoflife:lunchbox>);
+recipes.addShaped(<spiceoflife:lunchbox>,
+    [[null,iron,null],
+	 [iron,<spiceoflife:lunchbag>,iron],
+	 [null,iron,null]]);
 
 //glass and pane
 var flint = <minecraft:flint> as IItemStack;
@@ -150,3 +192,5 @@ for PaneD in paneD {
 } for number, PaneD in paneD {
     recipes.addShapeless(PaneD, [flintMore[number], glassD[number]]);
 } //Group 4
+
+recipes.remove(<minecraft:minecart>);

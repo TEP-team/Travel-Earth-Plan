@@ -9,7 +9,7 @@ item.contenttweaker.error_code.name=§c错误代码
 item.contenttweaker.sieve_string.name=丝制筛网
 item.contenttweaker.wood_residue.name=木渣
 item.contenttweaker.big_wood_residue.name=大木渣
-item.contenttweaker.conversion_core.name=重组核心
+item.contenttweaker.conversion_core.name=红石程序芯片
 item.contenttweaker.handsaw_wood.name=手锯
 item.contenttweaker.tp_gem.name=传送石
 item.contenttweaker.pipe_empty.name=空针管
@@ -18,9 +18,13 @@ item.contenttweaker.medical_bandage.name=绷带
 item.contenttweaker.medical_pack.name=医疗包
 item.contenttweaker.medical_splint.name=简易夹板
 item.contenttweaker.medical_metal_splint.name=金属夹板
+item.contenttweaker.metal_stick.name=§7铁金属棒
+item.contenttweaker.coal_stick.name=§7碳石墨棒
+item.contenttweaker.cloth_string.name=布料
+item.contenttweaker.rainbow_gem.name=七彩宝石
 
-tile.contenttweaker.beacon_block.name=§b天界塔外壳
-tile.contenttweaker.beacon_base.name=§b天界塔基座
+tile.contenttweaker.beacon_block.name=§b§l天界塔外壳
+tile.contenttweaker.beacon_base.name=§b§l天界塔基座
 tile.contenttweaker.life_core.name=§c生命之核
 
 fluid.electrolyte=§7电解溶液
