@@ -1,0 +1,7 @@
+liquid.HF.name=氟化氢[提纯氘的原料]
+liquid.dt_4.name=1级提纯氟化氢
+liquid.dt_3.name=2级提纯氟化氢
+liquid.dt_2.name=3级提纯氟化氢
+liquid.dt_1.name=4级提纯氟化氢
+liquid.dt.name=高纯氘剂
+bulid();
