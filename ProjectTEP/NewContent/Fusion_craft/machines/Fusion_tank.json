@@ -1,0 +1,2106 @@
+{
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "nbt": {"statusTag":{"type":"0","message":""},"casingColor":"16730368","id":"minecraft:tilemachinecontroller","items":{"inventoryArray":[{"holderEmpty":"1b","holderId":"0"},{"holderEmpty":"1b","holderId":"1"}],"outSlots":,"miscSlots":,"inSlots":,"sides":}},
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 2,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 2,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 1,
+            "nbt": {"facing":"3","id":"mekanismgenerators:electromagnetic_coil","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 2,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 2,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 0,
+            "nbt": {"facing":"1","id":"mekanismgenerators:electromagnetic_coil","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 1,
+            "nbt": {"facing":"3","id":"mekanismgenerators:electromagnetic_coil","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 2,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "z": 2,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 1,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 0,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 0,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 0,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 0,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 0,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 1,
+            "nbt": {"facing":"3","id":"mekanismgenerators:electromagnetic_coil","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 0,
+            "nbt": {"facing":"4","id":"mekanismgenerators:electromagnetic_coil","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 1,
+            "nbt": {"facing":"3","id":"mekanismgenerators:electromagnetic_coil","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 0,
+            "nbt": {"facing":"4","id":"mekanismgenerators:electromagnetic_coil","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "z": 1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 0,
+            "nbt": {"facing":"4","id":"mekanismgenerators:electromagnetic_coil","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 0,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 0,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 0,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 0,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 0,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "z": 0,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 5,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 5,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 5,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 4,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 5,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 4,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 5,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 4,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": -3,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": -3,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": -2,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -3,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": -2,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": -2,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 5,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 5,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 5,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 4,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -3,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": -3,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -3,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 3,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 3,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 3,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 4,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 3,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -3,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": -2,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -3,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": -1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -3,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": -1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": -1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -2,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": -1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 4,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 3,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": -2,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -2,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 2,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 2,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 2,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 3,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 2,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": -2,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": -1,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -2,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -1,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 4,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 4,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 4,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "nbt": {"facing":"5","id":"mekanismgenerators:electromagnetic_coil","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 3,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 2,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": -1,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -2,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -2,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -2,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -1,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 2,
+            "nbt": {"facing":"5","id":"mekanismgenerators:electromagnetic_coil","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 2,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": -1,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -1,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "nbt": {"input":"1b","size":"7","casingColor":"16730368","id":"minecraft:tilefluidinputhatch","tank":{"Empty":"","gasTag":{"Empty":""}}},
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 3,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 3,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 3,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "nbt": {"facing":"4","id":"mekanismgenerators:electromagnetic_coil","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 2,
+            "nbt": {"facing":"3","id":"mekanismgenerators:electromagnetic_coil","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 3,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 3,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 1,
+            "nbt": {"facing":"3","id":"mekanismgenerators:electromagnetic_coil","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 2,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 1,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -1,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "nbt": {"hatchSize":"7","casingColor":"16730368","id":"minecraft:tileenergyoutputhatch","energy":"0L"},
+            "elements": [
+                "modularmachinery:blockenergyoutputhatch@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "nbt": {"casingColor":"20503","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+            "nbt": {"facing":"3","id":"mekanismgenerators:electromagnetic_coil","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 2,
+            "nbt": {"facing":"3","id":"mekanismgenerators:electromagnetic_coil","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 1,
+            "nbt": {"facing":"3","id":"mekanismgenerators:electromagnetic_coil","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 1,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "nbt": {"busSize":"5","casingColor":"16730368","id":"minecraft:tileitemoutputbus","inventory":{"inventoryArray":[{"holderEmpty":"1b","holderId":"0"},{"holderEmpty":"1b","holderId":"1"},{"holderEmpty":"1b","holderId":"2"},{"holderEmpty":"1b","holderId":"3"},{"holderEmpty":"1b","holderId":"4"},{"holderEmpty":"1b","holderId":"5"},{"holderEmpty":"1b","holderId":"6"},{"holderEmpty":"1b","holderId":"7"},{"holderEmpty":"1b","holderId":"8"},{"holderEmpty":"1b","holderId":"9"},{"holderEmpty":"1b","holderId":"10"},{"holderEmpty":"1b","holderId":"11"},{"holderEmpty":"1b","holderId":"12"},{"holderEmpty":"1b","holderId":"13"},{"holderEmpty":"1b","holderId":"14"},{"holderEmpty":"1b","holderId":"15"}],"outSlots":,"miscSlots":,"inSlots":,"sides":}},
+            "elements": [
+                "modularmachinery:blockoutputbus@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        }
+    ]}

@@ -4,3 +4,5 @@ item.cell_cold.name=液氮单元
 item.shinycopper_ingot.name=闪铜锭
 item.super_coil.name=超导线圈
 item.High_purity_calcium_carbonate.name=高纯碳酸钙
+item.nanometer_material=纳米基
+bulid();
