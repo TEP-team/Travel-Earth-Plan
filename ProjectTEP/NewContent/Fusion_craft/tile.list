@@ -1,3 +1,8 @@
 tile.generator:9.name:电磁线圈
 ##来自Mek的电磁线圈，仅仅在此处列出,无需添加
-
+tile.gc_bearing.name=气体离心机轴承
+tile.gc_reinforced_gf.name=强化玻璃纤维柱
+tile.gc_box.name=强化玻璃纤维气体离心盒
+tile.gc_control.name=气体离心机电控设备
+tile.gc_mortor.name=气体离心机驱动模块
+tile.gc_temperature_monitor.name=气体离心机温控模块
