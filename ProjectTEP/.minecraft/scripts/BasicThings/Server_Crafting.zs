@@ -1,7 +1,6 @@
-#priority 302
+#priority 32753
 
 import crafttweaker.item.IItemStack;
-import crafttweaker.item.IIngredient;
 
 //Conversion_Core
 recipes.addShapeless(<minecraft:log:1>,
@@ -65,70 +64,6 @@ recipes.addShaped(stick*2,
 	 [<ore:plankWood>],
 	 [<ore:plankWood>]]);
 
-//Contenttweaker
-recipes.addShaped(<contenttweaker:sieve_string>,
-    [[<minecraft:stick>,<minecraft:stick>,<minecraft:stick>],
-	 [<minecraft:stick>,<minecraft:string>,<minecraft:stick>],
-	 [<minecraft:stick>,<minecraft:stick>,<minecraft:stick>]]);
-
-recipes.addShaped(<contenttweaker:snow_tool>,
-    [[null,null,<minecraft:dye:4>],
-	 [null,<ore:ingotIron>,null],
-	 [<ore:dustRedstone>,null,null]]);
-
-recipes.addShapeless(<contenttweaker:wood_residue>,
-    [<contenttweaker:sieve_string>.anyDamage().transformDamage(),<minecraft:snowball>]);
-
-var wr as IItemStack = <contenttweaker:wood_residue>;
-var bwr as IItemStack = <contenttweaker:big_wood_residue>;
-recipes.addShapeless(<minecraft:log>,
-    [<contenttweaker:snow_tool>.anyDamage().transformDamage(2),wr,wr,wr,wr,wr,wr,wr,wr]);
-recipes.addShapeless(<minecraft:log>,
-    [<contenttweaker:snow_tool>.anyDamage().transformDamage(2),bwr,bwr]);
-recipes.addShapeless(bwr,
-    [wr,wr,wr,wr]);
-
-recipes.addShaped(<contenttweaker:conversion_core>,
-    [[<ore:dustRedstone>,<contenttweaker:common_code>,<ore:dustRedstone>],
-	 [<contenttweaker:common_code>,<ore:ingotIron>,<contenttweaker:common_code>],
-	 [<ore:dustRedstone>,<contenttweaker:common_code>,<ore:dustRedstone>]]);
-
-recipes.addShaped(<contenttweaker:handsaw_wood>,
-    [[null,null,<ore:ingotIron>],
-	 [null,<ore:ingotIron>,<ore:plankWood>],
-	 [<minecraft:stick>,<ore:plankWood>,null]]);
-
-recipes.addShaped(<contenttweaker:medical_splint>,
-    [[null,<minecraft:stick>,<minecraft:string>],
-	 [<minecraft:stick>,null,<minecraft:stick>],
-	 [<minecraft:string>,<minecraft:stick>,null]]);
-
-recipes.addShaped(<contenttweaker:medical_metal_splint>,
-    [[null,<contenttweaker:metal_stick>,<minecraft:string>],
-	 [<contenttweaker:metal_stick>,null,<contenttweaker:metal_stick>],
-	 [<minecraft:string>,<contenttweaker:metal_stick>,null]]);
-
-recipes.addShaped(<contenttweaker:metal_stick>*4,
-    [[<ore:ingotIron>],
-	 [<ore:ingotIron>],
-	 [<ore:ingotIron>]]);
-
-recipes.addShaped(<contenttweaker:pipe_empty>,
-    [[null,null,<contenttweaker:metal_stick>],
-	 [null,<ore:ingotIron>,null],
-	 [<contenttweaker:metal_stick>,null,null]]);
-
-recipes.addShapeless(<contenttweaker:cloth_string>,
-    [<minecraft:string>,<minecraft:string>,<minecraft:string>,<minecraft:string>]);
-
-recipes.addShapeless(<contenttweaker:medical_bandage>,
-    [<contenttweaker:cloth_string>,<contenttweaker:cloth_string>,<contenttweaker:cloth_string>]);
-
-recipes.addShaped(<contenttweaker:medical_pack>,
-    [[<contenttweaker:cloth_string>,<contenttweaker:cloth_string>,<contenttweaker:cloth_string>],
-	 [<contenttweaker:medical_bandage>,<contenttweaker:pipe_blood>,<contenttweaker:medical_metal_splint>],
-	 [<contenttweaker:cloth_string>,<contenttweaker:cloth_string>,<contenttweaker:cloth_string>]]);
-
 //Basics
 var iron = <ore:ingotIron>;
 recipes.remove(<bonsaitrees:bonsaipot>);
@@ -153,20 +88,19 @@ recipes.addShaped(<spiceoflife:lunchbox>,
 	 [null,iron,null]]);
 
 //glass and pane
-var flint = <minecraft:flint> as IItemStack;
+var shears = <minecraft:shears> as IItemStack;
 var Glass0 = <minecraft:glass> as IItemStack;
 var Pane0 = <minecraft:glass_pane> as IItemStack;
 recipes.remove(Pane0);
-    recipes.addShapeless(Pane0*6,
-        [flint,Glass0]);
+recipes.addShapeless(Pane0*6,
+        [shears.anyDamage().transformDamage(),Glass0]);
 
-val flintMore = [flint,flint,flint,flint] as IItemStack[];
 val paneA = [<minecraft:stained_glass_pane>*6,<minecraft:stained_glass_pane:1>*6,<minecraft:stained_glass_pane:2>*6,<minecraft:stained_glass_pane:3>*6] as IItemStack[];
 val glassA = [<minecraft:stained_glass>,<minecraft:stained_glass:1>,<minecraft:stained_glass:2>,<minecraft:stained_glass:3>] as IItemStack[];
 for PaneA in paneA {
     recipes.remove(PaneA);
 } for number, PaneA in paneA {
-    recipes.addShapeless(PaneA, [flintMore[number], glassA[number]]);
+    recipes.addShapeless(PaneA, [shears.anyDamage().transformDamage(), glassA[number]]);
 } //Group 1
 
 val paneB = [<minecraft:stained_glass_pane:4>*6,<minecraft:stained_glass_pane:5>*6,<minecraft:stained_glass_pane:6>*6,<minecraft:stained_glass_pane:7>*6] as IItemStack[];
@@ -174,7 +108,7 @@ val glassB = [<minecraft:stained_glass:4>,<minecraft:stained_glass:5>,<minecraft
 for PaneB in paneB {
     recipes.remove(PaneB);
 } for number, PaneB in paneB {
-    recipes.addShapeless(PaneB, [flintMore[number], glassB[number]]);
+    recipes.addShapeless(PaneB, [shears.anyDamage().transformDamage(), glassB[number]]);
 } //Group 2
 
 val paneC = [<minecraft:stained_glass_pane:8>*6,<minecraft:stained_glass_pane:9>*6,<minecraft:stained_glass_pane:10>*6,<minecraft:stained_glass_pane:11>*6] as IItemStack[];
@@ -182,7 +116,7 @@ val glassC = [<minecraft:stained_glass:8>,<minecraft:stained_glass:9>,<minecraft
 for PaneC in paneC {
     recipes.remove(PaneC);
 } for number, PaneC in paneC {
-    recipes.addShapeless(PaneC, [flintMore[number], glassC[number]]);
+    recipes.addShapeless(PaneC, [shears.anyDamage().transformDamage(), glassC[number]]);
 } //Group 3
 
 val paneD = [<minecraft:stained_glass_pane:12>*6,<minecraft:stained_glass_pane:13>*6,<minecraft:stained_glass_pane:14>*6,<minecraft:stained_glass_pane:15>*6] as IItemStack[];
@@ -190,7 +124,7 @@ val glassD = [<minecraft:stained_glass:12>,<minecraft:stained_glass:13>,<minecra
 for PaneD in paneD {
     recipes.remove(PaneD);
 } for number, PaneD in paneD {
-    recipes.addShapeless(PaneD, [flintMore[number], glassD[number]]);
+    recipes.addShapeless(PaneD, [shears.anyDamage().transformDamage(), glassD[number]]);
 } //Group 4
 
 recipes.remove(<minecraft:minecart>);
