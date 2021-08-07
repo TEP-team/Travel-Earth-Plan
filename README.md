@@ -8,10 +8,8 @@ A Minecraft Server for Minecraft Java Edtion [1.12.2]
 
 我们对您开放下载并同意您借鉴我们所构建的代码，材质等.
 
-您不可直接将我们所构建的代码搬到您的 服务器/模组包 内.
-
 服务器MCBBS宣传帖：https://www.mcbbs.net/thread-1220809-1-1.html
 
-在此，感谢您游玩本服务器.
+感谢您游玩本服务器.
 
 特别感谢：科星，哈罗，GBL，友谊等为服务器提供魔改帮助的人.
