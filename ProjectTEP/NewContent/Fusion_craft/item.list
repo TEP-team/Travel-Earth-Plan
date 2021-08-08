@@ -9,7 +9,7 @@ item.tin_solder_dust=焊锡粉
 ##基础物品
 item.cell_empty.name=空单元
 item.cell_dt.name=浓缩氘单元
-item.cell_cold.name=液氮单元\
+item.cell_cold.name=液氮单元
 item.paper_8.name=8张纸
 item.paper_ee=涂满了电解液的纸张
 item.cell_electrolyte=电解液单元
@@ -28,13 +28,13 @@ item.rom_moudule.name=rom模块
 item.calculation.name=计算模块
 item.pcb.name=PCB板
 //#1级物品
-item.temperature_monitor.name=测温单元//看名懂
+item.temperature_monitor.name=测温单元 //看名懂
 item.test_unit.name=测速单元
 //2级物品
 item.singlechip_1.name=计算机
 item.singlechip_2.name=高级计算机
 item.singlechip_0.name=单片机模块
-item.parallel_module=互联单元//并联计算机模块
+item.parallel_module=互联单元 //并联计算机模块
 //3级物品
 item.gc_control.name=气体离心机控制器
 item.ft_contron.name=聚变堆控制器
@@ -47,9 +47,9 @@ item.resistance_park_1.name=小型电阻包
 item.resistance_park_2.name=中型电阻包
 item.resistance_park_3.name=大型电阻包
 //2级物品
-item.mini_driver.name=微型驱动电路//用于驱动计算机模块
-item.mediuim_driver.name=中型驱动电路//同下
-item.huge_driver.name=大型控制电路//用于驱动电力马达等大型模块
+item.mini_driver.name=微型驱动电路 //用于驱动计算机模块
+item.mediuim_driver.name=中型驱动电路 //同下
+item.huge_driver.name=大型控制电路 //用于驱动电力马达等大型模块
 
 
 ##Gas-centrifuge——气体离心机相关物品
