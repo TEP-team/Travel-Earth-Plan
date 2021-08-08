@@ -1,3 +1,6 @@
+#Mod Changes
+item.modularmachinery.itemmodularium.name=基础合金锭
+
 #Custom Tips for TEP
 tip.tep.1=本服务器除基础操作按键外，其余所有按键需要玩家自行配置.
 tip.tep.2=服务器的冬季机制是永久的，你需要时刻注意保暖！
@@ -41,4 +44,4 @@ healing.tep.sfail=§c治疗失败，你没有骨折！
 fractured.tep.sprint=§c骨折时不可以奔跑，已扣除 §e2 §c点HP作为警告！
 fractured.tep.jump=§c骨折时不可以跳跃，已扣除 §e2 §c点HP作为警告！
 gem.tep.use=§a彩虹的气息在你的四周蔓延开来...
-gem.tep.give=§d你受到了庇佑祈祷！
+gem.tep.give=§d你受到了来自彩虹的庇佑祈祷！

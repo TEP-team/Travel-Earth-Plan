@@ -1,4 +1,4 @@
-#priority 300
+#priority 32751
 
 //ToolTips
 <contenttweaker:sieve_string>.anyDamage().addTooltip("§b可以筛出雪球中的碎渣.");
@@ -21,9 +21,6 @@
 <contenttweaker:pipe_blood>.addTooltip("§a右击以恢复 §e4 §a点生命值!");
 <contenttweaker:pipe_blood>.addTooltip("§c生命值低于 §e40 §c时才可以使用!");
 
-<contenttweaker:life_core>.addTooltip("§a蕴含着以往地球的生命之力...");
-<contenttweaker:life_core>.addTooltip("§b天界塔或许有办法激活它.");
-
 <contenttweaker:medical_bandage>.addTooltip("§a右击以恢复 §e2 §a点生命值!");
 <contenttweaker:medical_bandage>.addTooltip("§a可以治疗 §e流血 §a!");
 <contenttweaker:medical_bandage>.addTooltip("§c流血时才可以使用!");
@@ -37,5 +34,6 @@
 <contenttweaker:medical_metal_splint>.addTooltip("§a可以治疗 §e骨折 §a!");
 <contenttweaker:medical_metal_splint>.addTooltip("§c骨折时才可以使用!");
 
-<contenttweaker:coal_stick>.addTooltip("§7煤炭块与其他元素压缩而成的棒材");
-<contenttweaker:coal_stick>.addTooltip("§2在 §e聚变反应堆 §2中效果显著.");
+<contenttweaker:rainbow_gem>.addTooltip("§b科学, §5魔法, §c生命 §a三大之力在此聚集.");
+<contenttweaker:rainbow_gem>.addTooltip("§a右键以获得 §9彩§e虹 §a的庇佑!");
+<contenttweaker:rainbow_gem>.addTooltip("§a这闪烁的光芒来自于 §6彩虹世界 §a... ?");

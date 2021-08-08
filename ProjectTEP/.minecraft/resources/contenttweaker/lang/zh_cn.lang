@@ -1,3 +1,4 @@
+#items
 item.contenttweaker.shinycopper_ingot.name=闪铜锭
 item.contenttweaker.shinystar_matter.name=闪星物质
 item.contenttweaker.cell_empty.name=空单元
@@ -19,15 +20,37 @@ item.contenttweaker.medical_pack.name=医疗包
 item.contenttweaker.medical_splint.name=简易夹板
 item.contenttweaker.medical_metal_splint.name=金属夹板
 item.contenttweaker.metal_stick.name=§7铁金属棒
-item.contenttweaker.coal_stick.name=§7碳石墨棒
 item.contenttweaker.cloth_string.name=布料
-item.contenttweaker.rainbow_gem.name=七彩宝石
+item.contenttweaker.rainbow_gem.name=彩虹宝石
+item.contenttweaker.world_core.name=世界核心
+item.contenttweaker.sky_core.name=天空核心
+item.contenttweaker.ground_core.name=地底核心
+item.contenttweaker.hammer_plate.name=板材锻造锤
 
+#blocks
 tile.contenttweaker.beacon_block.name=§b§l天界塔外壳
 tile.contenttweaker.beacon_base.name=§b§l天界塔基座
-tile.contenttweaker.life_core.name=§c生命之核
 
+#fluids
 fluid.electrolyte=§7电解溶液
 
+#potions
 effect.contenttweaker.bleeding=§4流血
 effect.contenttweaker.fractured=§4骨折
+
+#materials
+base.material.bium=基础合金
+base.material.mium=中级合金
+base.material.aium=高级合金
+base.material.graphite=石墨
+base.material.uranium=铀
+base.material.plutonium=钚
+base.material.lithium=锂
+base.material.phosphorus=磷
+base.material.platinum=铂
+
+#parts
+contenttweaker.part.control_circuit=%s 控制电路
+contenttweaker.part.energy_circuit=%s 能源电路
+contenttweaker.part.machinery_circuit=%s 机械电路
+contenttweaker.part.bearing=%s 轴承
