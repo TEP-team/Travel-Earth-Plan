@@ -5,7 +5,8 @@ item.shinycopper_ingot.name=闪铜锭
 item.High_purity_calcium_carbonate.name=高纯碳酸钙
 item.iron_with_nickel=铁镍合金粉
 item.tin_solder_dust=焊锡粉
-
+item.ingot_IS=焊锡
+item.ingot_IN.name=铁镍合金锭
 ##基础物品
 item.cell_empty.name=空单元
 item.cell_dt.name=浓缩氘单元
@@ -18,7 +19,6 @@ item.reinforced_gf.强化玻璃纤维
 
 ##工具
 item.electric_iron.name=电烙铁
-item.tim_solder=焊锡
 
 ##机器模块
 ////逻辑相关
