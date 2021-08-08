@@ -5,7 +5,7 @@ item.shinycopper_ingot.name=闪铜锭
 item.High_purity_calcium_carbonate.name=高纯碳酸钙
 item.iron_with_nickel=铁镍合金粉
 item.tin_solder_dust=焊锡粉
-item.ingot_IS=焊锡
+item.ingot_IS.name=焊锡
 item.ingot_IN.name=铁镍合金锭
 ##基础物品
 item.cell_empty.name=空单元
@@ -15,7 +15,6 @@ item.paper_8.name=8张纸
 item.paper_ee=涂满了电解液的纸张
 item.cell_electrolyte=电解液单元
 item.super_coil.name=超导线圈
-item.reinforced_gf.强化玻璃纤维
 
 ##工具
 item.electric_iron.name=电烙铁
@@ -25,7 +24,7 @@ item.electric_iron.name=电烙铁
 //1级物品
 item.ram_modile.name=ram模块
 item.rom_moudule.name=rom模块
-item.calculation.name=计算模块
+item.cpu.name=计算模块
 item.pcb.name=PCB板
 //#1级物品
 item.temperature_monitor.name=测温单元 //看名懂
@@ -35,6 +34,7 @@ item.singlechip_1.name=计算机
 item.singlechip_2.name=高级计算机
 item.singlechip_0.name=单片机模块
 item.parallel_module=互联单元 //并联计算机模块
+item.pin.name=插销端子
 //3级物品
 item.gc_IPC.name=气体离心机计算机
 item.ft_IPC.name=聚变堆计算机
