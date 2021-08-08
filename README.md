@@ -8,7 +8,7 @@ A Minecraft Server for Minecraft Java Edtion [1.12.2]
 
 我们对您开放下载并同意您借鉴我们所构建的代码，材质等.
 
-服务器MCBBS宣传帖：https://www.mcbbs.net/thread-1220809-1-1.html
+服务器MCBBS宣传帖：暂无
 
 感谢您游玩本服务器.
 
