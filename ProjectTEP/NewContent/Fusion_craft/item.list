@@ -36,8 +36,8 @@ item.singlechip_2.name=高级计算机
 item.singlechip_0.name=单片机模块
 item.parallel_module=互联单元 //并联计算机模块
 //3级物品
-item.gc_control.name=气体离心机控制器
-item.ft_contron.name=聚变堆控制器
+item.gc_IPC.name=气体离心机计算机
+item.ft_IPC.name=聚变堆计算机
 ////电源相关
 //1级物品
 item.capacitance_park_1.name=小型电容包
@@ -54,9 +54,9 @@ item.huge_driver.name=大型控制电路 //用于驱动电力马达等大型模�
 
 ##Gas-centrifuge——气体离心机相关物品
 item.gc_singlechip.name=气体离心机控制板
-item.gc_driver.name=气体离心机控制器
+
 
 ##Fusion_tank-聚变反应堆相关物品
 item.ft_singlechip.name=聚变反应堆控制板
-item.ft_driver.name=聚变堆控制器
+
 

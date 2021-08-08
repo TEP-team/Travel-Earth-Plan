@@ -6,3 +6,5 @@ tile.gc_box.name=强化玻璃纤维气体离心盒
 tile.gc_control.name=气体离心机电控设备
 tile.gc_mortor.name=气体离心机驱动模块
 tile.gc_temperature_monitor.name=气体离心机温控模块
+tile.gc_driver.name=气体离心机控制器
+tile.ft_driver.name=聚变堆控制器
