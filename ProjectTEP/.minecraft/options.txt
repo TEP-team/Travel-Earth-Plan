@@ -15,7 +15,7 @@ difficulty:1
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["[简体中文材质]Minecraft-Mod-Language-Package-2.2.89.zip"]
+resourcePacks:["Minecraft-Mod-Language-Package-2.2.89.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
