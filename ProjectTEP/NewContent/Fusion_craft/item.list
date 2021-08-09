@@ -2,7 +2,6 @@
 item.nanometer_material=纳米基
 item.glass_fibre.name=玻璃纤维
 item.shinycopper_ingot.name=闪铜锭
-item.High_purity_calcium_carbonate.name=高纯碳酸钙
 item.iron_with_nickel=铁镍合金粉
 item.tin_solder_dust=焊锡粉
 item.ingot_IS.name=焊锡
@@ -30,14 +29,15 @@ item.pcb.name=PCB板
 item.temperature_monitor.name=测温单元 //看名懂
 item.test_unit.name=测速单元
 //2级物品
-item.singlechip_1.name=计算机
-item.singlechip_2.name=高级计算机
-item.singlechip_0.name=单片机模块
-item.parallel_module=互联单元 //并联计算机模块
+item.singlechip.name=单片机模块
 item.pin.name=插销端子
+//#2级物品
+item.exe_gc.name=气体离心机程序
+item.exe_ft.name=聚变堆程序
 //3级物品
 item.gc_IPC.name=气体离心机计算机
 item.ft_IPC.name=聚变堆计算机
+item.PC.name=便携式个人智能终端
 ////电源相关
 //1级物品
 item.capacitance_park_1.name=小型电容包
@@ -53,10 +53,10 @@ item.huge_driver.name=大型控制电路 //用于驱动电力马达等大型模�
 
 
 ##Gas-centrifuge——气体离心机相关物品
-item.gc_singlechip.name=气体离心机控制板
+item.gc_singlechip.name=气体离心机控制板 //黄色
 
 
 ##Fusion_tank-聚变反应堆相关物品
-item.ft_singlechip.name=聚变反应堆控制板
+item.ft_singlechip.name=聚变反应堆控制板  //绿色
 
 
