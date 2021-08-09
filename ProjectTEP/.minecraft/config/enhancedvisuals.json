@@ -3,12 +3,13 @@
     "deathMessages": [
       "You are DEAD !",
       "Oh, shit, what happened ?",
-      "Emm... I think that's very bad .",
+      "Emm... I think that\u0027s very bad .",
       "Nooooooooooooo !",
-      "You're so stupid that you died !",
-      "I think you haven't game experiences.",
+      "You\u0027re so stupid that you died !",
+      "I think you haven\u0027t game experiences.",
       "Try again，I think the same thing will happen to you !",
-      "Why can't you play carefully ?"
+      "Why can\u0027t you play carefully ?",
+      "Haha ! you dropped all of your Items !"
     ]
   }
 }
