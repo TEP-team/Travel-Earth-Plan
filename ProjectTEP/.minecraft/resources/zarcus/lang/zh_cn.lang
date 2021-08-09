@@ -1,0 +1,108 @@
+#VMW languages Made By ChromaPIE, Not TEP-team! 
+#VMW languages Made By ChromaPIE, Not TEP-team! 
+#VMW languages Made By ChromaPIE, Not TEP-team! 
+#VMW languages Made By ChromaPIE, Not TEP-team! 
+#VMW languages Made By ChromaPIE, Not TEP-team! 
+
+message.zarcus.backfailed=使用失败：激活卷轴需花费 §6Θ %s§r.
+
+string.zarcus.nato=北约制式
+string.zarcus.ak101bug=（弹匣实际只接受 5.45x39mm 子弹）
+string.zarcus.m1carbinebug=（弹匣实际只接受 7.62x51mm 子弹）
+string.zarcus.m45bug=（实际只接受 12 Gauge 霰弹）
+string.zarcus.m4a1bug=（仅安装 AR-57 机闸亦可装载，但将导致手部动作异常）
+string.zarcus.m134flavor=这还用问？
+string.zarcus.springfield=.30-06 “春田”
+string.zarcus.and= 以及 
+string.zarcus.or= 或 
+string.zarcus.mauser=毛瑟
+string.zarcus.osipr=（未完成，变更待定）
+
+type.zarcus.energy=能量
+type.zarcus.nuke=原子弹
+type.zarcus.plasma=等离子体
+type.zarcus.bfg=§4大███枪§r
+type.zarcus.rl=火箭发射器
+type.zarcus.mgl=多管榴弹发射器
+type.zarcus.mpr=多用途脉冲步枪
+type.zarcus.smart=智能枪
+type.zarcus.csa=随身战斗手枪
+type.zarcus.mng=转轮机枪
+type.zarcus.sh=霰弹枪
+type.zarcus.dbs=双管霰弹枪
+type.zarcus.sas=半自动霰弹枪
+type.zarcus.cs=战斗霰弹枪
+type.zarcus.c_s=卡宾枪/霰弹枪
+type.zarcus.sats=半自动战术霰弹枪
+type.zarcus.slayer=超级霰弹枪（二型屠魔者）
+type.zarcus.gpc=精准高斯火炮
+type.zarcus.nuke=核武器
+type.zarcus.ar=突击步枪
+type.zarcus.ar_c=突击步枪/卡宾枪
+type.zarcus.ar_c_saw=突击步枪/卡宾枪/班用自动武器
+type.zarcus.ar_lmg_pdw=突击步枪/轻型机关枪/单兵自卫武器
+type.zarcus.bar=犊牛式突击步枪
+type.zarcus.mar=模块化突击步枪
+type.zarcus.ear=能量突击步枪
+type.zarcus.sap=半自动手枪
+type.zarcus.lrp=长后座行程手枪
+type.zarcus.sasp=警用半自动手枪
+type.zarcus.msp=军用手枪
+type.zarcus.sasap=单动式半自动手枪
+type.zarcus.sssrsap=苏联制式半自动手枪
+type.zarcus.dap=双动式手枪
+type.zarcus.dsap=单-双动式手枪
+type.zarcus.cep=碳能手枪
+type.zarcus.rev=左轮手枪
+type.zarcus.mp=自动手枪
+type.zarcus.ump=通用自动手枪
+type.zarcus.smg=冲锋枪
+type.zarcus.pdw=单兵自卫武器
+type.zarcus.s_p=冲锋枪/单兵自卫武器
+type.zarcus.s_p_m=冲锋枪/单兵自卫武器/全自动手枪
+type.zarcus.pcc_smg=手枪口径卡宾枪/冲锋枪
+type.zarcus.emf=多用途能量枪
+type.zarcus.ba=后装式步枪
+type.zarcus.lar=杠杆式步枪
+type.zarcus.ba-r=泵动式步枪
+type.zarcus.rba-r=泵动式连发步枪
+type.zarcus.sar=半自动步枪
+type.zarcus.r=步枪
+type.zarcus.c=卡宾枪
+type.zarcus.br=战斗步枪
+type.zarcus.dmr=精确射手步枪
+type.zarcus.br_dmr=战斗步枪/精确射手步枪
+type.zarcus.amr=反器材步枪
+type.zarcus.sn=狙击步枪
+type.zarcus.ssn=特种狙击步枪
+type.zarcus.psn=精确狙击步枪
+type.zarcus.ams=反器材狙击步枪
+type.zarcus.sass=半自动狙击手系统
+type.zarcus.cove=圣约卡宾枪
+type.zarcus.gl=榴弹发射器
+type.zarcus.lmg=轻型机枪
+type.zarcus.gpmg=通用机枪
+type.zarcus.mp_smg=全自动手枪/冲锋枪
+
+statpart.zarcus.need=§f· 需要 
+statpart.zarcus.head=§6§l———— 详细参数 ————§r
+statpart.zarcus.source=§b§l能源供给：§r
+statpart.zarcus.type=§b§l类型：§r
+statpart.zarcus.frate=§b§l开火模式：§r
+statpart.zarcus.mag=§b§l适用弹匣/弹药：§r
+statpart.zarcus.damage=§b§l单发伤害：§r
+statpart.zarcus.cart=§b§l弹药口径/种类：§r
+statpart.zarcus.rate=§b§l射速：§r
+statpart.zarcus.ir=§b§l失准度：§r
+
+frate.zarcus.ba=栓式
+frate.zarcus.semi=半自动
+frate.zarcus.auto=全自动
+frate.zarcus.burst=爆发开火
+frate.zarcus.sa=半自动、全自动
+frate.zarcus.sba=半自动、爆发开火、全自动
+frate.zarcus.sb=半自动、爆发开火
+frate.zarcus.pa=泵动式
+frate.zarcus.la=杠杆式
+
+ir.zarcus.mod=中等
