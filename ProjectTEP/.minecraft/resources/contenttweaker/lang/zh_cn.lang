@@ -48,9 +48,10 @@ base.material.plutonium=钚
 base.material.lithium=锂
 base.material.phosphorus=磷
 base.material.platinum=铂
+base.material.mercury=汞
 
 #parts
-contenttweaker.part.control_circuit=%s 控制电路
-contenttweaker.part.energy_circuit=%s 能源电路
-contenttweaker.part.machinery_circuit=%s 机械电路
-contenttweaker.part.bearing=%s 轴承
+contenttweaker.part.control_circuit=%s控制电路
+contenttweaker.part.energy_circuit=%s能源电路
+contenttweaker.part.machinery_circuit=%s机械电路
+contenttweaker.part.bearing=%s轴承

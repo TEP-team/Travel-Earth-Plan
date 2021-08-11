@@ -1,3 +1,10 @@
+/*  ZenScripts for Minecraft Modpack "Travel Earth Plan".
+    You can use these scripts as a example.
+    But you can't copy and paste these scripts to your Modpack.
+    Thanks a lot!
+    Oh, Dark2932's English is so bad!
+*/
+
 #priority 28998
 
 import crafttweaker.item.IItemStack;
@@ -57,32 +64,39 @@ recipes.addShaped(casing3 * 2,
      [rs,<contenttweaker:material_part>,rs],
      [casing,rs,casing]]);
 
+recipes.remove(<modularmachinery:blockinputbus>);
 recipes.addShaped(<modularmachinery:blockinputbus>,
     [[casing,<minecraft:hopper>,casing],
      [casing,<minecraft:chest>,casing],
      [casing,casing,casing]]);
 
+recipes.remove(<modularmachinery:blockoutputbus>);
 recipes.addShaped(<modularmachinery:blockoutputbus>,
     [[casing,casing,casing],
      [casing,<minecraft:chest>,casing],
      [casing,<minecraft:hopper>,casing]]);
 
+recipes.remove(<modularmachinery:blockfluidinputhatch>);
 recipes.addShaped(<modularmachinery:blockfluidinputhatch>,
     [[casing,<minecraft:bucket>,casing],
      [casing,<minecraft:chest>,casing],
      [casing,casing,casing]]);
 
+recipes.remove(<modularmachinery:blockfluidoutputhatch>);
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch>,
     [[casing,casing,casing],
      [casing,<minecraft:chest>,casing],
      [casing,<minecraft:bucket>,casing]]);
 
-recipes.addShaped(<modularmachinery:blockfluidinputhatch>,
+recipes.remove(<modularmachinery:blockenergyinputhatch>);
+recipes.addShaped(<modularmachinery:blockenergyinputhatch>,
     [[casing,<minecraft:redstone_block>,casing],
      [casing,<minecraft:chest>,casing],
      [casing,casing,casing]]);
 
-recipes.addShaped(<modularmachinery:blockfluidoutputhatch>,
+recipes.remove(<modularmachinery:blockenergyoutputhatch>);
+recipes.addShaped(<modularmachinery:blockenergyoutputhatch>,
     [[casing,casing,casing],
      [casing,<minecraft:chest>,casing],
      [casing,<minecraft:redstone_block>,casing]]);
+

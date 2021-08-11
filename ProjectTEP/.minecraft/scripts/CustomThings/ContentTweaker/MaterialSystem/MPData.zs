@@ -6,6 +6,10 @@
 */
 
 #loader contenttweaker
+#priority 32759
 
+import mods.contenttweaker.MaterialSystem;
+import mods.contenttweaker.Material;
+import mods.contenttweaker.Part;
 import scripts.CustomThings.ContentTweaker.MaterialSystem.Materials;
-import scripts.CustomThings.ContentTweaker.MaterialSystem.Parts;
+

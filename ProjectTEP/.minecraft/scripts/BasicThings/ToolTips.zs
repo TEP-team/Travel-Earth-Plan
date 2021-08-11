@@ -1,3 +1,10 @@
+/*  ZenScripts for Minecraft Modpack "Travel Earth Plan".
+    You can use these scripts as a example.
+    But you can't copy and paste these scripts to your Modpack.
+    Thanks a lot!
+    Oh, Dark2932's English is so bad!
+*/
+
 #priority 32751
 
 //ToolTips
@@ -36,4 +43,6 @@
 
 <contenttweaker:rainbow_gem>.addTooltip("§b科学, §5魔法, §c生命 §a三大之力在此聚集.");
 <contenttweaker:rainbow_gem>.addTooltip("§a右键以获得 §9彩§e虹 §a的庇佑!");
-<contenttweaker:rainbow_gem>.addTooltip("§a这闪烁的光芒来自于 §6彩虹世界 §a... ?");
+<contenttweaker:rainbow_gem>.addTooltip("§a这闪烁的光芒来自于 §6彩虹 §a... ?");
+
+<contenttweaker:hammer_plate>.anyDamage().addTooltip("§b可以将金属锭锻造为金属板材.");

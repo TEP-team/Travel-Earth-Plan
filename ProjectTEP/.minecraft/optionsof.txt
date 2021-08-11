@@ -30,8 +30,8 @@ ofRainSplash:true
 ofLagometer:false
 ofShowFps:false
 ofAutoSaveTicks:4000
-ofBetterGrass:3
-ofConnectedTextures:3
+ofBetterGrass:2
+ofConnectedTextures:1
 ofWeather:true
 ofSky:true
 ofStars:true
@@ -58,7 +58,7 @@ ofEmissiveTextures:true
 ofLazyChunkLoading:false
 ofRenderRegions:false
 ofSmartAnimations:true
-ofDynamicFov:true
+ofDynamicFov:false
 ofAlternateBlocks:true
 ofDynamicLights:2
 ofScreenshotSize:1

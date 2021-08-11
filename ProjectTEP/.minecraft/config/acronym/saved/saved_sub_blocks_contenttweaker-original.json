@@ -1,0 +1,36 @@
+{
+  "savedSubBlockNames": {
+    "0": {
+      "0": "plutonium_dense_ore",
+      "1": "aium_block",
+      "2": "lithium_ore",
+      "3": "plutonium_block",
+      "4": "platinum_poor_ore",
+      "5": "platinum_block",
+      "6": "platinum_dense_ore",
+      "7": "phosphorus_block",
+      "8": "platinum_ore",
+      "9": "plutonium_ore",
+      "10": "phosphorus_dense_ore",
+      "11": "lithium_block",
+      "12": "uranium_block",
+      "13": "uranium_ore",
+      "14": "phosphorus_poor_ore",
+      "15": "uranium_dense_ore"
+    },
+    "1": {
+      "0": "graphite_block",
+      "1": "plutonium_poor_ore",
+      "2": "lithium_poor_ore",
+      "3": "mium_block",
+      "4": "uranium_poor_ore",
+      "5": "phosphorus_ore",
+      "6": "bium_block",
+      "7": "lithium_dense_ore",
+      "8": "mercury_poor_ore",
+      "9": "mercury_ore",
+      "10": "mercury_block",
+      "11": "mercury_dense_ore"
+    }
+  }
+}
