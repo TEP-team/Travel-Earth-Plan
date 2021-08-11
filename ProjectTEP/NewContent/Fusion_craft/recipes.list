@@ -17,5 +17,36 @@ repices.addShaped(<mekanismgenerators:generator:9>,
 ##<contenttweaker:cell_empty>
 repices.addShaped(<contenttweaker:cell_empty>,
     [[<ore:ingotTin>,<ore:ingotTin>,<ore:ingotTin>],
-     [<ore:ingotTin>,<mekanismgenerators:reactorglass>,<ore:ingotTin>],
+     [<ore:ingotTin>,<minecraft:glass>,<ore:ingotTin>],
      [<ore:ingotTin>,<ore:ingotTin>,<ore:ingotTin>]]);
+
+repices.addShapedless(<contenttweaker:iron_with_nickel>*2,
+    [<ore:dustIron>,<ore:dustNickel>,]);
+
+repices.addShapeless(<contenttweaker:tin_solder_dust>,
+    [<ore:dustTin>,<ore:dustLead>]);
+
+repices.addShaped(<contenttweaker:item.paper_ee>,
+    [[<contenttweaker:paper_8.name>,<contenttweaker:paper_8.name>,<contenttweaker:paper_8.name>],
+     [<contenttweaker:paper_8.name>,<contenttweaker:paper_8.name>,<contenttweaker:paper_8.name>],
+     [<contenttweaker:paper_8.name>,<contenttweaker:paper_8.name>,<contenttweaker:paper_8.name>]]);
+
+repices.addShaped(<contenttweaker:paper_8.name>,
+    [[<minecraft:paper>,<minecraft:paper>,<minecraft:paper>],
+     [<minecraft:paper>,<null>,<minecraft:paper>],
+     [<minecraft:paper>,<minecraft:paper>,<minecraft:paper>]]);
+
+repices.addShaped(<contenttweaker:electric_iron>,
+    [[,,],
+     [,,],
+     [,,]]);
+
+repices.addShaped(<contenttweaker:>,
+    [[,,],
+     [,,],
+     [,,]]);
+
+repices.addShaped(,
+    [[,,],
+     [,,],
+     [,,]]);
