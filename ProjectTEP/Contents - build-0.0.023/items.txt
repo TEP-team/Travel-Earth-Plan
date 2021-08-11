@@ -1,0 +1,33 @@
+item.super_coil.name=超导线圈
+item.nanometer_material.name=纳米基
+item.iron_with_nickel.name=铁镍合金粉
+item.tin_solder_dust.name=焊锡粉
+item.ingot_is.name=焊锡
+item.ingot_in.name=铁镍合金锭
+item.glass_fibre.name=玻璃纤维
+item.papers.name=压缩纸
+item.paper_ee.name=涂满电解液的纸
+item.cell_electrolyte.name=电解液单元
+
+item.electric_iron.name=电烙铁焊柄
+item.capacitance_pack.name=电容包
+item.resistance_pack.name=电阻包
+
+item.pc.name=便携式智能终端
+item.ram.name=RAM 模块
+item.rom.name=ROM 模块
+item.cpu.name=CPU
+item.pcb.name=PCB 板
+item.pin.name=插销端接口
+
+item.temperature_monitor.name=测温单元
+item.test_unit.name=测速单元
+item.mini_driver.name=微型驱动电路
+item.mediuim_driver.name=中型驱动电路
+item.huge_driver.name=大型控制电路
+item.singlechip.name=未配置的控制板
+item.gc_singlechip.name=气体离心机控制板
+item.ft_singlechip.name=聚变反应堆控制板
+item.exe.name=未配置的程序读取片
+item.gc_exe.name=气体离心机程序读取片
+item.ft_exe.name=聚变堆程序读取片
