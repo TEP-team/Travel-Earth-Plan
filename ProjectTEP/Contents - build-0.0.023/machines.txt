@@ -34,16 +34,19 @@ addFluidInput(<liquid:HF>*10).
 addEnergyperTickInput(500).
 addFluidOuput(<liquid:dt_4>*8).
 bulid();
+
 RecipeBuilder.newBuilder("g2", "Gas_centrifuge",10).
 addFluidInput(<liquid:dt_4>*10).
 addEnergyperTickInput(500).
 addFluidOuput(<liquid:dt_3>*8).
 bulid();
+
 RecipeBuilder.newBuilder("g3", "Gas_centrifuge",10).
 addFluidInput(<liquid:dt_2>*10).
 addEnergyperTickInput(500).
 addFluidOuput(<liquid:dt_1>*8).
 bulid();
+
 RecipeBuilder.newBuilder("g4", "Gas_centrifuge",10).
 addFluidInput(<liquid:dt_1>*10).
 addEnergyperTickInput(500).

@@ -1,0 +1,6 @@
+fluid.hf=氟化氢
+fluid.dt=高纯氘剂
+fluid.dt_1=1级提纯氟化氢
+fluid.dt_2=2级提纯氟化氢
+fluid.dt_3=3级提纯氟化氢
+fluid.dt_4=4级提纯氟化氢
