@@ -1,0 +1,447 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/fancymenu/images/menu.png
+  action = texturizebackground
+}
+
+customization {
+  path = resources/fancymenu/sounds/music.wav
+  loop = true
+  action = addaudio
+}
+
+customization {
+  identifier = %id=400322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-right
+  x = -121
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=400382%
+  width = 51
+  action = resizebutton
+  height = 19
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = Settings
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttontexture
+  backgroundhovered = resources/fancymenu/images/mods.png
+  backgroundnormal = resources/fancymenu/images/settingsandmods.png
+}
+
+customization {
+  identifier = %id=400382%
+  path = resources/fancymenu/sounds/keyboarda.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=400382%
+  action = sethoverlabel
+  label = §eSettings
+}
+
+customization {
+  identifier = %id=400382%
+  path = resources/fancymenu/sounds/keyboardc.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttondescription
+  description = Game Settings
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-right
+  x = -95
+  action = movebutton
+  y = 53
+}
+
+customization {
+  identifier = %id=502382%
+  width = 82
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = §cQuit Game
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttontexture
+  backgroundhovered = resources/fancymenu/images/quitb.png
+  backgroundnormal = resources/fancymenu/images/quita.png
+}
+
+customization {
+  identifier = %id=502382%
+  path = resources/fancymenu/sounds/keyboardb.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=502382%
+  action = sethoverlabel
+  label = §4Really ?
+}
+
+customization {
+  identifier = %id=502382%
+  path = resources/fancymenu/sounds/keyboardc.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttondescription
+  description = Quit Game
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = mid-right
+  x = -121
+  action = movebutton
+  y = 53
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttontexture
+  backgroundhovered = resources/fancymenu/images/languageb.png
+  backgroundnormal = resources/fancymenu/images/languagea.png
+}
+
+customization {
+  identifier = %id=376382%
+  path = resources/fancymenu/sounds/papera.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=376382%
+  path = resources/fancymenu/sounds/paperb.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttondescription
+  description = Game Language
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = bottom-centered
+  x = -24
+  action = movebutton
+  y = -34
+}
+
+customization {
+  identifier = %id=400298%
+  width = 69
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-right
+  x = -64
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=400346%
+  width = 51
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = Mods
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttontexture
+  backgroundhovered = resources/fancymenu/images/mods.png
+  backgroundnormal = resources/fancymenu/images/settingsandmods.png
+}
+
+customization {
+  identifier = %id=400346%
+  path = resources/fancymenu/sounds/keyboarda.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=400346%
+  path = resources/fancymenu/sounds/keyboardc.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttondescription
+  description = Game Mods
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  path = resources/fancymenu/images/logo.png
+  orientation = top-left
+  x = 16
+  width = 259
+  actionid = 61cf2768-bff1-4ffd-a38c-68f126fbd3501628554642869
+  action = addtexture
+  y = 15
+  height = 55
+}
+
+customization {
+  hoversound = resources/fancymenu/sounds/join.wav
+  orientation = mid-right
+  buttonaction = joinserver
+  backgroundhovered = resources/fancymenu/images/joinb.png
+  description = &9Travel Earth Plan
+  label = §aJoin Server
+  clicksound = resources/fancymenu/sounds/bell.wav
+  hoverlabel = §ePlay Now !
+  x = -121
+  width = 108
+  actionid = 7f2f5bfb-13a5-414c-94f7-93cd36aa5f0d1628584835621
+  action = addbutton
+  y = -26
+  backgroundnormal = resources/fancymenu/images/joina.png
+  value = mushang-furong.top:8003
+  height = 40
+}
+
+customization {
+  orientation = mid-left
+  shadow = false
+  x = 16
+  actionid = 2cdd0f62-2a69-4be5-b13e-2837741454f11628555399411
+  action = addtext
+  y = -17
+  scale = 1.0
+  alignment = left
+  value = Hello , §e%playername%
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 2
+  actionid = 6fa971e2-71c9-4a85-98d9-dcb61c1534801628555465572
+  action = addtext
+  y = -9
+  scale = 1.0
+  alignment = left
+  value = §9Travel Earth Plan §6Made By §5TEP-team
+}
+
+customization {
+  orientation = top-left
+  basecolor = #d3a300
+  shadow = true
+  splashfilepath = resources\fancymenu\splash.txt
+  rotation = -15.0
+  x = 239
+  actionid = ade5f768-ced1-487a-9d8d-c2d9d58831991628555509847
+  action = addsplash
+  y = 64
+  scale = 1.0
+  refresh = false
+  bouncing = true
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 2
+  actionid = 2db62829-c0f6-452f-8d78-7694ab2d1f211628555664940
+  action = addtext
+  y = -45
+  scale = 1.0
+  alignment = left
+  value = Minecraft Version : §7%mcversion%
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 2
+  actionid = 8918afbe-70ad-419c-af1a-e8a42a326c2c1628555718974
+  action = addtext
+  y = -18
+  scale = 1.0
+  alignment = left
+  value = Active Mods : §a%loadedmods%
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 2
+  actionid = cd0fd4b7-ea4d-4191-9b86-446c8fbdd44a1628555781674
+  action = addtext
+  y = -27
+  scale = 1.0
+  alignment = left
+  value = Total Mods : §d%totalmods%
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 2
+  actionid = 973515e2-0f8b-4e45-ba54-137e3751737d1628555873415
+  action = addtext
+  y = -36
+  scale = 1.0
+  alignment = left
+  value = Forge Version : §b%version:forge%
+}
+
+customization {
+  hoversound = resources/fancymenu/sounds/keyboardd.wav
+  orientation = mid-left
+  buttonaction = openlink
+  backgroundhovered = resources/fancymenu/images/links/afdian.png
+  description = Support Us ?
+  label = 
+  clicksound = resources/fancymenu/sounds/keyboarde.wav
+  x = 147
+  width = 36
+  actionid = 18687394-b42f-4d23-97cd-8bdd187f6cad1628584835626
+  action = addbutton
+  y = 28
+  backgroundnormal = resources/fancymenu/images/links/afdian.png
+  value = https://afdian.net/@anye2932
+  height = 36
+}
+
+customization {
+  hoversound = resources/fancymenu/sounds/keyboardd.wav
+  orientation = mid-left
+  buttonaction = openlink
+  backgroundhovered = resources/fancymenu/images/links/mcbbs.png
+  description = Check Public Post ?
+  label = 
+  clicksound = resources/fancymenu/sounds/keyboarde.wav
+  x = 17
+  width = 87
+  actionid = 715b6f84-192d-4a23-9332-4b9d27add95e1628584835626
+  action = addbutton
+  y = 28
+  backgroundnormal = resources/fancymenu/images/links/mcbbs.png
+  value = https://www.mcbbs.net/thread-1220809-1-1.html
+  height = 35
+}
+
+customization {
+  hoversound = resources/fancymenu/sounds/keyboardd.wav
+  orientation = mid-left
+  buttonaction = openlink
+  backgroundhovered = resources/fancymenu/images/links/github.png
+  description = Check Contents ?
+  label = 
+  clicksound = resources/fancymenu/sounds/keyboarde.wav
+  x = 243
+  width = 30
+  actionid = bedc35f5-5477-4cd6-ba70-290e98b92fe41628584835627
+  action = addbutton
+  y = 30
+  backgroundnormal = resources/fancymenu/images/links/github.png
+  value = https://github.com/TEP-team/Travel-Earth-Plan
+  height = 30
+}
+
+customization {
+  path = resources/fancymenu/images/info.png
+  orientation = mid-left
+  x = 7
+  width = 281
+  actionid = b000b46a-729f-45ed-bb63-933885a0ea0a1628563564086
+  action = addtexture
+  y = -26
+  height = 99
+}
+
+customization {
+  orientation = mid-left
+  shadow = false
+  x = 15
+  actionid = 68496809-7074-4962-a4f7-55e416ad1f3e1628564331891
+  action = addtext
+  y = -6
+  scale = 1.0
+  alignment = left
+  value = 欢迎加入 §9Travel Earth Plan 地球旅行计划.
+}
+
+customization {
+  orientation = mid-left
+  shadow = false
+  x = 15
+  actionid = 8e6a1841-5849-4f50-a1e5-af4513af889a1628564825030
+  action = addtext
+  y = 5
+  scale = 1.0
+  alignment = left
+  value = §a本服务器为 §b科技 §8| §d魔法 §8| §6战争 §8| §c魔改 §a型服务器.
+}
+
+customization {
+  orientation = mid-left
+  shadow = false
+  x = 15
+  actionid = 2943a919-7246-4056-8853-40d7ce522b5d1628564987239
+  action = addtext
+  y = 16
+  scale = 1.0
+  alignment = left
+  value = §e祝您游戏愉快！
+}
+

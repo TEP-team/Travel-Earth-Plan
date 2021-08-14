@@ -133,5 +133,3 @@ for PaneD in paneD {
 } for number, PaneD in paneD {
     recipes.addShapeless(PaneD, [shears.anyDamage().transformDamage(), glassD[number]]);
 } //Group 4
-
-recipes.remove(<minecraft:minecart>);

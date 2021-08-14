@@ -1,5 +1,5 @@
 #items
-item.contenttweaker.shinycopper_ingot.name=闪铜锭
+item.contenttweaker.shinycopper_ingot.name=闪星锭
 item.contenttweaker.shinystar_matter.name=闪星物质
 item.contenttweaker.cell_empty.name=空单元
 item.contenttweaker.cell_cold.name=液氮单元
@@ -26,10 +26,45 @@ item.contenttweaker.world_core.name=世界核心
 item.contenttweaker.sky_core.name=天空核心
 item.contenttweaker.ground_core.name=地底核心
 item.contenttweaker.hammer_plate.name=板材锻造锤
+item.contenttweaker.super_coil.name=超导线圈
+item.contenttweaker.iron_with_nickel.name=铁镍合金粉
+item.contenttweaker.tin_solder_dust.name=焊锡粉
+item.contenttweaker.ingot_is.name=焊锡
+item.contenttweaker.ingot_in.name=铁镍合金锭
+item.contenttweaker.glass_fibre.name=玻璃纤维
+item.contenttweaker.papers.name=压缩纸
+item.contenttweaker.paper_ee.name=电解纸
+item.contenttweaker.motor.name=马达
+item.contenttweaker.cell_electrolyte.name=电解液单元
+item.contenttweaker.electric_iron.name=电烙铁焊柄
+item.contenttweaker.nano_pack.name=纳米材料包
+item.contenttweaker.capacitance_pack.name=电容包
+item.contenttweaker.resistance_pack.name=电阻包
+item.contenttweaker.pc.name=便携式智能终端
+item.contenttweaker.ram.name=RAM 模块
+item.contenttweaker.rom.name=ROM 模块
+item.contenttweaker.cpu.name=CPU
+item.contenttweaker.pcb.name=PCB 板
+item.contenttweaker.pin.name=插销端接口
+item.contenttweaker.temperature_monitor.name=测温单元
+item.contenttweaker.test_unit.name=测速单元
+item.contenttweaker.mini_driver.name=微型驱动电路
+item.contenttweaker.mediuim_driver.name=中型驱动电路
+item.contenttweaker.huge_driver.name=大型控制电路
+item.contenttweaker.singlechip.name=未配置的控制板
+item.contenttweaker.gc_singlechip.name=气体离心机控制板
+item.contenttweaker.ft_singlechip.name=聚变反应堆控制板
+item.contenttweaker.exe.name=未配置的程序读取片
+item.contenttweaker.gc_exe.name=气体离心机程序读取片
+item.contenttweaker.ft_exe.name=聚变堆程序读取片
 
 #blocks
-tile.contenttweaker.beacon_block.name=§b§l天界塔外壳
-tile.contenttweaker.beacon_base.name=§b§l天界塔基座
+tile.contenttweaker.beacon_block.name=§b天界塔外壳
+tile.contenttweaker.litherite_light.name=§b荧光莱泽尔石
+tile.contenttweaker.erodium_light.name=§b荧光艾洛蒂石
+tile.contenttweaker.kyronite_light.name=§b荧光凯罗尼石
+tile.contenttweaker.pladium_light.name=§b荧光普雷蒂石
+tile.contenttweaker.ionite_light.name=§b荧光艾恩尼石
 
 #fluids
 fluid.electrolyte=§7电解溶液
@@ -49,9 +84,7 @@ base.material.lithium=锂
 base.material.phosphorus=磷
 base.material.platinum=铂
 base.material.mercury=汞
+base.material.nickel=镍
 
 #parts
-contenttweaker.part.control_circuit=%s控制电路
-contenttweaker.part.energy_circuit=%s能源电路
-contenttweaker.part.machinery_circuit=%s机械电路
 contenttweaker.part.bearing=%s轴承

@@ -19,7 +19,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
     var world as IWorld = player.world;
     var pdata as IData = player.data;
     var phase as string = event.phase;
-    if (!world.remote && phase == "START") {
+    if (!world.remote && !player.isFake() && phase == "START") {
         if (pdata has "rainbowGem") {
             var rbg = pdata.memberGet("rainbowGem") as int;
             if (rbg == 1) {

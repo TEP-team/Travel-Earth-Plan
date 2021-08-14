@@ -1,0 +1,51 @@
+{
+  "name": "environmentaltech:kyronite_crystal",
+  "target-item": "environmentaltech:kyronite_crystal",
+  "target-count": 16,
+  "duration": 400,
+  "catalyst": "environmentaltech:erodium_crystal",
+
+  "input-types": {
+    "e": {"id": "contenttweaker:erodium_light"},
+    "m": {"id": "compactmachines3:wallbreakable"}
+  },
+
+  "symmetrical": true,
+  "shape": [
+    [
+      ["_","_","_","_","_"],
+      ["_","m","m","m","_"],
+      ["_","m","m","m","_"],
+      ["_","m","m","m","_"],
+      ["_","_","_","_","_"]
+    ],
+    [
+      ["_","m","m","m","_"],
+      ["m","_","_","_","m"],
+      ["m","_","_","_","m"],
+      ["m","_","_","_","m"],
+      ["_","m","m","m","_"]
+    ],
+    [
+      ["_","m","m","m","_"],
+      ["m","_","_","_","m"],
+      ["m","_","e","_","m"],
+      ["m","_","_","_","m"],
+      ["_","m","m","m","_"]
+    ],
+    [
+      ["_","m","m","m","_"],
+      ["m","_","_","_","m"],
+      ["m","_","_","_","m"],
+      ["m","_","_","_","m"],
+      ["_","m","m","m","_"]
+    ],
+    [
+      ["_","_","_","_","_"],
+      ["_","m","m","m","_"],
+      ["_","m","m","m","_"],
+      ["_","m","m","m","_"],
+      ["_","_","_","_","_"]
+    ]
+  ]
+}

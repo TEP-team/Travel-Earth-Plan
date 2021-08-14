@@ -1,0 +1,51 @@
+{
+  "name": "environmentaltech:pladium_crystal",
+  "target-item": "environmentaltech:pladium_crystal",
+  "target-count": 16,
+  "duration": 500,
+  "catalyst": "environmentaltech:kyronite_crystal",
+
+  "input-types": {
+    "k": {"id": "contenttweaker:kyronite_light"},
+    "m": {"id": "compactmachines3:wallbreakable"}
+  },
+
+  "symmetrical": true,
+  "shape": [
+    [
+      ["_","_","_","_","_"],
+      ["_","m","m","m","_"],
+      ["_","m","m","m","_"],
+      ["_","m","m","m","_"],
+      ["_","_","_","_","_"]
+    ],
+    [
+      ["_","m","m","m","_"],
+      ["m","_","_","_","m"],
+      ["m","_","_","_","m"],
+      ["m","_","_","_","m"],
+      ["_","m","m","m","_"]
+    ],
+    [
+      ["_","m","m","m","_"],
+      ["m","_","_","_","m"],
+      ["m","_","k","_","m"],
+      ["m","_","_","_","m"],
+      ["_","m","m","m","_"]
+    ],
+    [
+      ["_","m","m","m","_"],
+      ["m","_","_","_","m"],
+      ["m","_","_","_","m"],
+      ["m","_","_","_","m"],
+      ["_","m","m","m","_"]
+    ],
+    [
+      ["_","_","_","_","_"],
+      ["_","m","m","m","_"],
+      ["_","m","m","m","_"],
+      ["_","m","m","m","_"],
+      ["_","_","_","_","_"]
+    ]
+  ]
+}

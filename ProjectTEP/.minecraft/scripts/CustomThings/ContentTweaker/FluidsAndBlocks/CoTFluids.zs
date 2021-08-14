@@ -17,6 +17,6 @@ el.luminosity = 1;
 el.temperature = 100;
 el.viscosity = 650;
 el.colorize = false;
-el.stillLocation = "contenttweaker:gui/fluids/el_still";
-el.flowingLocation = "contenttweaker:gui/fluids/el_flow";
+el.stillLocation = "contenttweaker:blocks/fluids/el_still";
+el.flowingLocation = "contenttweaker:blocks/fluids/el_flow";
 el.register();

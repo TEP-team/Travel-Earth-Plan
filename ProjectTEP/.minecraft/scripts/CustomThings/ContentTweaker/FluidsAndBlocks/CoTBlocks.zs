@@ -11,22 +11,20 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 
-var beaBlock as Block = VanillaFactory.createBlock("beacon_block", <blockmaterial:iron>);
+var beaBlock as Block = VanillaFactory.createBlock("beacon_block",<blockmaterial:iron>);
 beaBlock.blockHardness = 6;
 beaBlock.blockResistance = 10;
-beaBlock.blockSoundType = <soundtype:metal>;
 beaBlock.entitySpawnable = false;
 beaBlock.witherProof = false;
-beaBlock.beaconBase = false;
 beaBlock.register();
 
-/*
-var lifeCore as Block = VanillaFactory.createBlock("life_core", <blockmaterial:rock>);
-lifeCore.blockHardness = 2;
-lifeCore.blockResistance = 4;
-lifeCore.blockSoundType = <soundtype:stone>;
-lifeCore.entitySpawnable = false;
-lifeCore.lightValue = 2;
-lifeCore.toolLevel = 0;
-lifeCore.register();
-*/
+val etlight as string[] = ["litherite_light","erodium_light","kyronite_light","pladium_light","ionite_light"];
+for Etlight in etlight {
+    val light = VanillaFactory.createBlock(Etlight,<blockmaterial:rock>);
+    light.blockHardness = 2;
+    light.blockSoundType = <soundtype:stone>;
+    light.lightValue = 4;
+    light.entitySpawnable = false;
+    light.toolLevel = 0;
+    light.register();
+}

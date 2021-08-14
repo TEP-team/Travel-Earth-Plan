@@ -23,28 +23,35 @@ tg.maxStackSize = 1;
 tg.glowing = true;
 tg.itemRightClick = function(item, world, player, hand) {
     var health = player.health;
-    if (!world.remote && world.dimension == 0 && health == 40) {
-        var pdata = player.data;
-        if (pdata has "cd_time") {
-            var cdtime = pdata.memberGet("cd_time") as int;
-            if (cdtime > 0) {
-                player.sendRichTextMessage(ITextComponent.fromTranslation("tpgem.tep.tpfail"));
-                return "fail";
-                    }
+    if (!world.remote) {
+        if (health < 14) {
+            player.sendRichTextMessage(ITextComponent.fromTranslation("tpgem.tep.tpcannot"));
+            return "fail";
+        }
+        else if (!player.isFake() && world.dimension == 0) {
+            var pdata = player.data;
+            if (pdata has "cd_time") {
+                var cdtime = pdata.memberGet("cd_time") as int;
+                if (cdtime > 0) {
+                    player.sendRichTextMessage(ITextComponent.fromTranslation("tpgem.tep.tpfail"));
+                    return "fail";
                 }
-        var tpx = Math.random() * 2000 + player.x - 2000;
-        var tpz = Math.random() * 2000 + player.z - 2000;
-        Commands.call("playsound minecraft:block.portal.travel block @p ~ ~ ~ 0.15 2", player, world, false, true);
-        Commands.call("tp @p " + tpx + " 100 " + tpz, player, world, false, true);
-        Commands.call("effect @p resistance 10 0", player, world, false, true);
-        Commands.call("effect @p regeneration 10 0", player, world, false, true);
-        player.sendRichTextMessage(ITextComponent.fromTranslation("tpgem.tep.tpsuccess"));
-        player.update(pdata + {"cd_time": 2400});
-        item.shrink(1);
+            }
+            var tpx = Math.random() * 2000 + player.x - 2000;
+            var tpz = Math.random() * 2000 + player.z - 2000;
+            Commands.call("playsound minecraft:block.portal.travel block @p ~ ~ ~ 0.15 2", player, world, false, true);
+            Commands.call("tp @p " + tpx + " 140 " + tpz, player, world, false, true);
+            Commands.call("effect @p resistance 10 0", player, world, false, true);
+            Commands.call("effect @p regeneration 10 0", player, world, false, true);
+            player.sendRichTextMessage(ITextComponent.fromTranslation("tpgem.tep.tpsuccess"));
+            player.update(pdata + {"cd_time": 2400});
+            item.shrink(1);
+            return "success";
+        }
         return "success";
-                }
+    }
     return "pass";
-            };
+};
 tg.register();
 
 //pipe_empty [METERIAL AND DRAW BLOOD]
@@ -54,7 +61,7 @@ pe.maxStackSize = 4;
 pe.itemRightClick = function(item, world, player, hand) {
     var health = player.health;
     if (!world.remote) {
-        if (health > 4) {
+        if (!player.isFake() && health > 4) {
             Commands.call("effect @p weakness 10 0", player, world, false, true);
             Commands.call("effect @p slowness 5 0", player, world, false, true);
             Commands.call("effect @p blindness 3 0", player, world, false, true);
@@ -79,7 +86,7 @@ pb.maxStackSize = 4;
 pb.itemRightClick = function(item, world, player, hand) {
     var health = player.health as int;
     if (!world.remote) {
-        if (health < 40) {
+        if (!player.isFake() && health < 20) {
             Commands.call("effect @p resistance 3 0", player, world, false, true);
             Commands.call("effect @p speed 3 0", player, world, false, true);
             Commands.call("effect @p strength 1 0", player, world, false, true);
@@ -104,7 +111,7 @@ mb.maxStackSize = 4;
 mb.itemRightClick = function(item, world, player, hand) {
     var bleeding = player.isPotionActive(<potion:contenttweaker:bleeding>);
     if (!world.remote) {
-        if (bleeding) {
+        if (!player.isFake() && bleeding) {
         player.removePotionEffect(<potion:contenttweaker:bleeding>);
         Commands.call("effect @p resistance 2 0", player, world, false, true);
         Commands.call("effect @p speed 2 0", player, world, false, true);
@@ -132,7 +139,7 @@ mp.itemRightClick = function(item, world, player, hand) {
     var fractured = player.isPotionActive(<potion:contenttweaker:fractured>);
     if (!world.remote) {
         var health = player.health;
-        if (health < 40) {
+        if (!player.isFake() && health < 20) {
         player.removePotionEffect(<potion:contenttweaker:bleeding>);
         player.removePotionEffect(<potion:contenttweaker:fractured>);
         Commands.call("effect @p resistance 10 1", player, world, false, true);
@@ -159,7 +166,7 @@ ms.maxStackSize = 4;
 ms.itemRightClick = function(item, world, player, hand) {
     if (!world.remote) {
         var fractured = player.isPotionActive(<potion:contenttweaker:fractured>);
-        if (fractured) {
+        if (!player.isFake() && fractured) {
         player.removePotionEffect(<potion:contenttweaker:fractured>);
         Commands.call("effect @p resistance 2 0", player, world, false, true);
         Commands.call("effect @p speed 2 0", player, world, false, true);
@@ -183,7 +190,7 @@ mms.maxStackSize = 4;
 mms.itemRightClick = function(item, world, player, hand) {
     if (!world.remote) {
         var fractured = player.isPotionActive(<potion:contenttweaker:fractured>);
-        if (fractured) {
+        if (!player.isFake() && fractured) {
         player.removePotionEffect(<potion:contenttweaker:fractured>);
         Commands.call("effect @p resistance 5 1", player, world, false, true);
         Commands.call("effect @p speed 5 0", player, world, false, true);
@@ -193,12 +200,13 @@ mms.itemRightClick = function(item, world, player, hand) {
         player.health += 3;
         item.shrink(1);
         return "success";
-        } else {
+        } 
+        else {
             player.sendRichTextMessage(ITextComponent.fromTranslation("healing.tep.sfail"));
             return "fail";
         }   return "pass";
     }
-     return "pass";
+    return "pass";
 };
 mms.register();
 
@@ -207,13 +215,14 @@ var rg as Item = VanillaFactory.createItem("rainbow_gem");
 rg.rarity = "epic";
 rg.glowing = true;
 rg.itemRightClick = function(item, world, player, hand) {
-    if (!world.remote) {
+    if (!world.remote && !player.isFake()) {
         var pdata = player.data;
         player.update(pdata + {"rainbowGem": 101});
         player.sendRichTextMessage(ITextComponent.fromTranslation("gem.tep.use"));
         Commands.call("playsound botania:blacklotus ambient @p ~ ~ ~ 1 1", player, world, false, true);
         item.shrink(1);
         return "success";
-    }   return "pass";
+    }   
+    return "pass";
 };
 rg.register();

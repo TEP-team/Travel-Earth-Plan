@@ -1,0 +1,31 @@
+{
+  "name": "environmentaltech:erodium_crystal",
+  "target-item": "environmentaltech:erodium_crystal",
+  "target-count": 16,
+  "duration": 300,
+  "catalyst": "environmentaltech:litherite_crystal",
+
+  "input-types": {
+    "l": {"id": "contenttweaker:litherite_light"},
+    "m": {"id": "compactmachines3:wallbreakable"}
+  },
+
+  "symmetrical": true,
+  "shape": [
+    [
+      ["_","_","_"],
+      ["_","m","_"],
+      ["_","_","_"]
+    ],
+    [
+      ["_","m","_"],
+      ["m","l","m"],
+      ["_","m","_"]
+    ],
+    [
+      ["_","_","_"],
+      ["_","m","_"],
+      ["_","_","_"]
+    ]
+  ]
+}

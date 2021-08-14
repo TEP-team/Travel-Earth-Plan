@@ -1,0 +1,31 @@
+{
+  "name": "minecraft:chorus_flower",
+  "target-item": "minecraft:chorus_flower",
+  "target-count": 1,
+  "duration": 200,
+  "catalyst": "minecraft:ender_pearl",
+
+  "input-types": {
+    "e": {"id": "minecraft:end_stone"},
+    "m": {"id": "minecraft:melon_block"}
+  },
+
+  "symmetrical": true,
+  "shape": [
+    [
+      ["e","e","e"],
+      ["e","e","e"],
+      ["e","e","e"]
+    ],
+    [
+      ["e","e","e"],
+      ["e","m","e"],
+      ["e","e","e"]
+    ],
+    [
+      ["e","e","e"],
+      ["e","e","e"],
+      ["e","e","e"]
+    ]
+  ]
+}

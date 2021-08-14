@@ -5,13 +5,23 @@ item.modularmachinery.itemmodularium.name=基础合金锭
 tip.tep.1=本服务器除基础操作按键外，其余所有按键需要玩家自行配置.
 tip.tep.2=服务器的冬季机制是永久的，你需要时刻注意保暖！
 tip.tep.3=加热器是个不错的室内取暖方式！
-tip.tep.4=你可以制造 "矿物生成机" 以省去挖矿的时间.
+tip.tep.4=你可以制造 "虚空矿物采掘机" 以省去挖矿的时间.
 tip.tep.5=一旦到了晚上，怪物将会蜂拥而至，而血月则会使它们更加愤怒！
 tip.tep.6="求生者指南" 中包含了许多的求生与科学知识.
 tip.tep.7="娇媚之刺" 和 "模块炮塔" 可以帮助你防御敌怪与玩家.
 tip.tep.8=服务器包含了许多自定义的内容，例如一些机器："脚本编译机" "聚变反应堆" "天界塔" 等.
 tip.tep.9="天界塔" 所需要的 "信标" 每人只许合成一次哦.
 tip.tep.10=玩家之间可以相互组成阵营，使自己的阵营发展得更快，更强大.
+tip.tep.11=如果在野外碰到玩家，你可以与他结交为伴，亦或是杀掉他，夺走他的物资 ?
+tip.tep.12=传送石只允许在生命值高于 §e14 §h时使用！
+tip.tep.13=你可以用环境科技中的机器来获取需要的资源.
+tip.tep.14=气动工艺中的机器非常有趣，只要你细心的去研究.
+tip.tep.15=尝试用架一个烤架在篝火上，烤一些肉吃！
+tip.tep.16=住在地下或者山脉之间是个不错的选择.
+tip.tep.17=你可以使用精灵门来跟精灵们进行一些特殊的交易.
+tip.tep.18=最好不要相信一些玩家，他们可能会夺取你的信任，再偷走你的资产.
+tip.tep.19=组队系统有一些特殊的选项，比如无伤系统.
+tip.tep.20=盖亚守护者最好在无人游荡的情况下对付，以免他人抢走你的战利品.
 
 #Custom Main Menu for TEP
 menu.tep.ctserver=加入服务器
@@ -27,6 +37,7 @@ link.tep.afdian=爱发电
 #ZenScripts Messages for TEP
 tpgem.tep.tpsuccess=§a随机传送成功！
 tpgem.tep.tpfail=§c随机传送失败，请等待冷却完成后再次尝试！
+tpgem.tep.tpcannot=§c随机传送失败，生命必须大于等于 §e14 §c！
 pipe.tep.dbsuccess=§a抽血成功，你失去了 §e4 §a点HP！
 pipe.tep.dbfail=§c抽血失败，你的血量太少了！
 pipe.tep.injectsuccess=§a注射成功，你恢复了 §e4 §a点HP！
