@@ -16,8 +16,8 @@ vanilla.seeds.removeSeed(<minecraft:wheat_seeds>);
 //furnace
 furnace.addRecipe(<minecraft:leather>,<minecraft:rotten_flesh>,15);
 
-val furnace as IItemStack[] = [<pneumaticcraft:empty_pcb:100>,<variedcommodities:ingot_steel>];
-for RemoveF in furnace {
+val furnaces as IItemStack[] = [<pneumaticcraft:empty_pcb:100>,<variedcommodities:ingot_steel>];
+for RemoveF in furnaces {
     furnace.remove(RemoveF);
 }
 
@@ -28,8 +28,8 @@ for MW in mw {
     furnace.remove(MW);
 }
 
-val crafting_table as IItemStack[] = [<variedcommodities:mana>,<variedcommodities:bullet>,<variedcommodities:vcrecipes_book>];
-for RemoveC in crafting_table {
+val crafting_tables as IItemStack[] = [<variedcommodities:mana>,<variedcommodities:bullet>,<variedcommodities:vcrecipes_book>];
+for RemoveC in crafting_tables {
     recipes.remove(RemoveC);
 }
 

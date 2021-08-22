@@ -23,24 +23,26 @@ val tsinputs as IIngredient[] =
 ];
 
 //Terresteel Ingot
-val terreSteel as AgglomerationRecipe = AgglomerationRecipe.create();
 val terreSteelBlocks as AgglomerationMultiblock = AgglomerationMultiblock.create();
+terreSteelBlocks.center(<botania:storage>);
+terreSteelBlocks.centerReplace(<minecraft:iron_block>);
+
+val terreSteel as AgglomerationRecipe = AgglomerationRecipe.create();
 terreSteel.output(terre_steel*2);
 terreSteel.inputs(tsinputs);
 terreSteel.manaCost(400000);
 terreSteel.multiblock(terreSteelBlocks);
-terreSteelBlocks.center(<botania:storage>);
-terreSteelBlocks.centerReplace(<minecraft:iron_block>);
 
 //Gaia Spirit Ingot
-val gsi as AgglomerationRecipe = AgglomerationRecipe.create();
 val gsiBlocks as AgglomerationMultiblock = AgglomerationMultiblock.create();
+gsiBlocks.center(<botania:storage:1>);
+gsiBlocks.edge(<botania:livingrock>);
+gsiBlocks.corner(<botania:storage:2>);
+
+val gsi as AgglomerationRecipe = AgglomerationRecipe.create();
 gsi.output(<botania:manaresource:14>);
-gsi.inputs(terre_steel,<botania:manaresource:5>*4,<botania:rune:8>);
+gsi.inputs([terre_steel,<botania:manaresource:5>*4,<botania:rune:8>]);
 gsi.manaCost(30000);
 gsi.color1(0xdb00de);
 gsi.color2(0x00FF00);
 gsi.multiblock(gsiBlocks);
-gsiBlocks.center(<botania:storage:1>);
-gsiBlocks.edge(<botania:livingrock>);
-gsiBlocks.corner(<botania:storage:2>);

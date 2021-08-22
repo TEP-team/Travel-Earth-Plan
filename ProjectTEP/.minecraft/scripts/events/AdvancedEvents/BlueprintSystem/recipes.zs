@@ -7,7 +7,7 @@
 
 #priority 50000
 import crafttweaker.data.IData;
-import scripts.Events.AdvancedEvents.BlueprintSystem.lib;
+import scripts.events.AdvancedEvents.BlueprintSystem.lib;
 
 var iron = <ore:ingotIron>;
 

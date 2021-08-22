@@ -7,7 +7,7 @@
 
 #priority 50001
 import crafttweaker.item.IItemStack;
-import scripts.Events.AdvancedEvents.BlueprintSystem.lib;
+import scripts.events.AdvancedEvents.BlueprintSystem.lib;
 
 //Field Projector
 var FieldProjector as IItemStack = <contenttweaker:blueprint_machine>.withTag({display: {Lore: ["§aField Projector"]}});
