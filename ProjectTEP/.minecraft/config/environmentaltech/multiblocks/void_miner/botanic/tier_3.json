@@ -1,0 +1,124 @@
+{
+  "outputs": [
+    {
+      "target": "flowers",
+      "weight": 12,
+      "id": "OD_PREFIX:normalflowers"
+    },
+    {
+      "target": "mushrooms",
+      "weight": 8,
+      "id": "OD_PREFIX:mushrooms"
+    },
+    {
+      "target": "blacklotus",
+      "weight": 2,
+      "id": "botania:blacklotus"
+    },
+    {
+      "target": "log",
+      "weight": 18,
+      "id": "OD_PREFIX:logWood"
+    },
+    {
+      "target": "sapling",
+      "weight": 15,
+      "id": "OD_PREFIX:treeSapling"
+    },
+    {
+      "target": "leaves",
+      "weight": 20,
+      "id": "OD_PREFIX:treeLeaves"
+    },
+    {
+      "target": "food",
+      "weight": 4,
+      "id": "<minecraft:dye:3>"
+    },
+    {
+      "target": "food",
+      "weight": 4,
+      "id": "minecraft:carrot:0"
+    },
+    {
+      "target": "food",
+      "weight": 4,
+      "id": "minecraft:potato:0"
+    },
+    {
+      "target": "food",
+      "weight": 4,
+      "id": "minecraft:apple:0"
+    },
+    {
+      "target": "food",
+      "weight": 4,
+      "id": "minecraft:reeds:0"
+    },
+    {
+      "target": "seed",
+      "weight": 4,
+      "id": "minecraft:red_mushroom:0"
+    },
+    {
+      "target": "seed",
+      "weight": 4,
+      "id": "minecraft:brown_mushroom:0"
+    },
+    {
+      "target": "plant",
+      "weight": 2,
+      "id": "minecraft:chorus_flower:0"
+    },
+    {
+      "target": "plant",
+      "weight": 4,
+      "id": "minecraft:wheat_seeds:0"
+    },
+    {
+      "target": "plant",
+      "weight": 4,
+      "id": "minecraft:pumpkin_seeds:0"
+    },
+    {
+      "target": "plant",
+      "weight": 4,
+      "id": "minecraft:melon_seeds:0"
+    },
+    {
+      "target": "plant",
+      "weight": 4,
+      "id": "minecraft:cactus:0"
+    },
+    {
+      "target": "plant",
+      "weight": 4,
+      "id": "minecraft:beetroot_seeds:0"
+    },
+    {
+      "target": "green",
+      "weight": 24,
+      "id": "minecraft:tallgrass:1"
+    },
+    {
+      "target": "green",
+      "weight": 24,
+      "id": "minecraft:tallgrass:2"
+    },
+    {
+      "target": "brown",
+      "weight": 20,
+      "id": "minecraft:deadbush:0"
+    },
+    {
+      "target": "garden",
+      "weight": 10,
+      "id": "OD_PREFIX:gardens"
+    },
+    {
+      "target": "flowers",
+      "weight": 10,
+      "id": "OD_PREFIX:doubleflowers"
+    }
+  ]
+}

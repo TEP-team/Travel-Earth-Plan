@@ -1,0 +1,19 @@
+{
+    "name": "作物种植",
+    "category": "survival",
+    "icon": "harvestcraft:barleyseeditem",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:paper",
+            "title": "简介",
+            "text": "寒冷的季节导致不耐寒的植物大面积死亡，唯一的粮食来源途径断了.$(br2)我们必须要想办法养活植物."
+        },
+        {
+            "type": "spotlight",
+            "item": "sereneseasons:greenhouse_glass",
+            "title": "温室搭建",
+            "text": "$(6)温室 $()可以使作物在寒冷的天气下正常生长.$(br2)你只需要使用 $(6)温室玻璃 $()搭建一个类似于隧道的形状即可.$(br2)玻璃与作物之间的高度不得超过 $(c)6 $()格，否则温室将不起作用."
+        }
+    ]
+}

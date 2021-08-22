@@ -1,0 +1,124 @@
+{
+  "outputs": [
+    {
+      "target": "black",
+      "weight": 35,
+      "id": "minecraft:coal"
+    },
+    {
+      "target": "white",
+      "weight": 27,
+      "id": "minecraft:iron_ore"
+    },
+    {
+      "target": "blue",
+      "weight": 25,
+      "id": "contenttweaker:sub_block_holder_1:13"
+    },
+    {
+      "target": "red",
+      "weight": 22,
+      "id": "minecraft:redstone"
+    },
+    {
+      "target": "gray",
+      "weight": 20,
+      "id": "contenttweaker:sub_block_holder_0:7"
+    },
+    {
+      "target": "blue",
+      "weight": 19,
+      "id": "minecraft:dye:4"
+    },
+    {
+      "target": "yellow",
+      "weight": 18,
+      "id": "minecraft:gold_ore"
+    },
+    {
+      "target": "cyan",
+      "weight": 2,
+      "id": "minecraft:diamond"
+    },
+    {
+      "target": "lime",
+      "weight": 1,
+      "id": "minecraft:emerald"
+    },
+    {
+      "target": "orange",
+      "weight": 27,
+      "id": "mekanism:oreblock:1"
+    },
+    {
+      "target": "white",
+      "weight": 27,
+      "id": "mekanism:oreblock:2"
+    },
+    {
+      "target": "light_blue",
+      "weight": 16,
+      "id": "mekanism:oreblock"
+    },
+    {
+      "target": "nothing",
+      "weight": 10,
+      "id": "contenttweaker:sub_block_holder_0:2"
+    },
+    {
+      "target": "green",
+      "weight": 14,
+      "id": "contenttweaker:sub_block_holder_1:4"
+    },
+    {
+      "target": "white",
+      "weight": 10,
+      "id": "contenttweaker:sub_block_holder_0:4"
+    },
+    {
+      "target": "yellow",
+      "weight": 9,
+      "id": "contenttweaker:sub_block_holder_0:5"
+    },
+    {
+      "target": "light_blue",
+      "weight": 6,
+      "id": "contenttweaker:sub_block_holder_0:3"
+    },
+    {
+      "target": "gray",
+      "weight": 4,
+      "id": "contenttweaker:sub_block_holder_0:15"
+    },
+    {
+      "target": "red",
+      "weight": 12,
+      "id": "minecraft:netherbrick"
+    },
+    {
+      "target": "white",
+      "weight": 2,
+      "id": "<environmentaltech:mica>"
+    },
+    {
+      "target": "crystal",
+      "weight": 30,
+      "id": "environmentaltech:litherite_crystal"
+    },
+    {
+      "target": "crystal",
+      "weight": 30,
+      "id": "environmentaltech:erodium_crystal"
+    },
+    {
+      "target": "crystal",
+      "weight": 30,
+      "id": "environmentaltech:kyronite_crystal"
+    },
+    {
+      "target": "crystal",
+      "weight": 1,
+      "id": "environmentaltech:lonsdaleite_crystal"
+    }
+  ]
+}

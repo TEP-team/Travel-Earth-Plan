@@ -1,0 +1,10 @@
+{
+	"name": "求生者指南",
+	"landing_text": "由前辈们流传下来的知识总结，这本书将带领求生者们在这片寒冷废土上求生...",
+	"book_texture": "patchouli:textures/gui/book_purple.png",
+	"model": "patchouli:book_purple",
+	"index_icon": "minecraft:book",
+	"show_progress": false,
+	"pause_game": false,
+	"subtitle": "Made By Dark2932"
+}
