@@ -1,7 +1,7 @@
 {
   "name": "environmentaltech:kyronite_crystal",
   "target-item": "environmentaltech:kyronite_crystal",
-  "target-count": 16,
+  "target-count": 18,
   "duration": 400,
   "catalyst": "environmentaltech:erodium_crystal",
 

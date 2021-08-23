@@ -1,0 +1,31 @@
+{
+  "name": "pneumaticcraft:ingot_iron_compressed",
+  "target-item": "pneumaticcraft:ingot_iron_compressed",
+  "target-count": 4,
+  "duration": 240,
+  "catalyst": "minecraft:redstone",
+
+  "input-types": {
+    "i": {"id": "minecraft:iron_block"},
+    "o": {"id": "minecraft:obsidian"}
+  },
+
+  "symmetrical": true,
+  "shape": [
+    [
+      ["_","_","_"],
+      ["_","o","_"],
+      ["_","_","_"]
+    ],
+    [
+      ["_","o","_"],
+      ["o","i","o"],
+      ["_","o","_"]
+    ],
+    [
+      ["_","_","_"],
+      ["_","o","_"],
+      ["_","_","_"]
+    ]
+  ]
+}

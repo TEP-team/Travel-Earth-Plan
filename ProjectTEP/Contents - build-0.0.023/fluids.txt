@@ -1,3 +1,2 @@
-fluid.hf=氟化氢
-fluid.dt=高纯氘剂
-fluid.el=电解液
+fluid.fluoride=氟化氢
+fluid.deuterium=高纯氘剂

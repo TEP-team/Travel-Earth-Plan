@@ -1,0 +1,31 @@
+{
+    "name": "篝火",
+    "category": "survival",
+    "icon": "simpledifficulty:campfire",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:paper",
+            "title": "简介",
+            "text": "$(6)篝火 $()是你在前期求生时唯一能够提供保暖的东西，而且与 $(6)篝火烤架 $()配合可以烤熟你捕获的食物.$(br2)它需要 $(6)打火石 $()来激活."
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:flint_and_steel",
+            "title": "打火石",
+            "text": "$(6)打火石 $()是唯一的点火工具，但它只有 $(c)5 $()点耐久.$(br2)它现在不是 $(6)铁锭 $()与 $(6)燧石 $()来合成了，它需要 $(6)圆石 $()和 $(6)燧石 $()进行合成."
+        },
+        {
+            "type": "spotlight",
+            "item": "simpledifficulty:campfire",
+            "title": "篝火",
+            "text": "它需要 $(6)打火石 $()来点亮.$(br2)它可不是一直燃烧的，你得为它提供 $(6)原木$() 才可以持续燃烧.$(br2)长期野外探险必备！"
+        },
+        {
+            "type": "spotlight",
+            "item": "simpledifficulty:spit",
+            "title": "烤架",
+            "text": "放置在 $(6)篝火 $()的上方，并点亮篝火，你可以在烤架上烤一些东西来吃."
+        }
+    ]
+}

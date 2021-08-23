@@ -1,0 +1,74 @@
+{
+  "outputs": [
+    {
+      "target": "black",
+      "weight": 35,
+      "id": "minecraft:coal"
+    },
+    {
+      "target": "white",
+      "weight": 27,
+      "id": "minecraft:iron_ore"
+    },
+    {
+      "target": "blue",
+      "weight": 25,
+      "id": "contenttweaker:sub_block_holder_1:13"
+    },
+    {
+      "target": "red",
+      "weight": 22,
+      "id": "minecraft:redstone"
+    },
+    {
+      "target": "gray",
+      "weight": 20,
+      "id": "contenttweaker:sub_block_holder_0:7"
+    },
+    {
+      "target": "blue",
+      "weight": 19,
+      "id": "minecraft:dye:4"
+    },
+    {
+      "target": "yellow",
+      "weight": 18,
+      "id": "minecraft:gold_ore"
+    },
+    {
+      "target": "cyan",
+      "weight": 2,
+      "id": "minecraft:diamond"
+    },
+    {
+      "target": "lime",
+      "weight": 1,
+      "id": "minecraft:emerald"
+    },
+    {
+      "target": "orange",
+      "weight": 27,
+      "id": "mekanism:oreblock:1"
+    },
+    {
+      "target": "white",
+      "weight": 27,
+      "id": "mekanism:oreblock:2"
+    },
+    {
+      "target": "light_blue",
+      "weight": 16,
+      "id": "mekanism:oreblock"
+    },
+    {
+      "target": "red",
+      "weight": 12,
+      "id": "minecraft:netherbrick"
+    },
+    {
+      "target": "crystal",
+      "weight": 30,
+      "id": "environmentaltech:litherite_crystal"
+    }
+  ]
+}

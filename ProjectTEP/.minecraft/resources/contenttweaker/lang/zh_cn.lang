@@ -1,5 +1,5 @@
 #items
-item.contenttweaker.shinycopper_ingot.name=闪星锭
+item.contenttweaker.shinystar_ingot.name=闪星锭
 item.contenttweaker.shinystar_matter.name=闪星物质
 item.contenttweaker.cell_empty.name=空单元
 item.contenttweaker.cell_cold.name=液氮单元
@@ -25,11 +25,18 @@ item.contenttweaker.rainbow_gem.name=彩虹宝石
 item.contenttweaker.world_core.name=世界核心
 item.contenttweaker.sky_core.name=天空核心
 item.contenttweaker.ground_core.name=地底核心
+item.contenttweaker.mana_core.name=魔力核心
+item.contenttweaker.smart_core.name=智慧核心
+item.contenttweaker.life_core.name=生命核心
+item.contenttweaker.seasons_core.name=四季核心
+item.contenttweaker.machinery_core.name=机械核心
+item.contenttweaker.shiny_core.name=闪耀核心
+item.contenttweaker.heaven_core.name=天界核心
 item.contenttweaker.hammer_plate.name=板材锻造锤
 item.contenttweaker.super_coil.name=超导线圈
 item.contenttweaker.iron_with_nickel.name=铁镍合金粉
 item.contenttweaker.tin_solder_dust.name=焊锡粉
-item.contenttweaker.ingot_is.name=焊锡
+item.contenttweaker.ingot_is.name=焊锡锭
 item.contenttweaker.ingot_in.name=铁镍合金锭
 item.contenttweaker.glass_fibre.name=玻璃纤维
 item.contenttweaker.papers.name=压缩纸
@@ -57,17 +64,26 @@ item.contenttweaker.ft_singlechip.name=聚变反应堆控制板
 item.contenttweaker.exe.name=未配置的程序读取片
 item.contenttweaker.gc_exe.name=气体离心机程序读取片
 item.contenttweaker.ft_exe.name=聚变堆程序读取片
+item.contenttweaker.rainbow_rune.name=彩虹符文
+item.contenttweaker.blueprint_empty.name=§b蓝图 (空)
+item.contenttweaker.blueprint_machine.name=§e蓝图 (机器)
+item.contenttweaker.blueprint_gun.name=§6蓝图 (武器)
 
 #blocks
 tile.contenttweaker.beacon_block.name=§b天界塔外壳
-tile.contenttweaker.litherite_light.name=§b荧光莱泽尔石
-tile.contenttweaker.erodium_light.name=§b荧光艾洛蒂石
-tile.contenttweaker.kyronite_light.name=§b荧光凯罗尼石
-tile.contenttweaker.pladium_light.name=§b荧光普雷蒂石
-tile.contenttweaker.ionite_light.name=§b荧光艾恩尼石
+tile.contenttweaker.litherite_light.name=§a荧光莱泽尔石
+tile.contenttweaker.erodium_light.name=§d荧光艾洛蒂石
+tile.contenttweaker.kyronite_light.name=§2荧光凯罗尼石
+tile.contenttweaker.pladium_light.name=§5荧光普雷蒂石
+tile.contenttweaker.structure_block.name=结构组件
+tile.contenttweaker.gc_core.name=§e气体离心机核心
+tile.contenttweaker.gc_bearing.name=§e气体离心机轴承
+tile.contenttweaker.ft_core.name=§2聚变堆核心
 
 #fluids
-fluid.electrolyte=§7电解溶液
+fluid.electrolyte=§2电解溶液
+fluid.fluoride=§8液态氟化氢
+fluid.deuterium=液态高纯氘
 
 #potions
 effect.contenttweaker.bleeding=§4流血
@@ -85,6 +101,8 @@ base.material.phosphorus=磷
 base.material.platinum=铂
 base.material.mercury=汞
 base.material.nickel=镍
+base.material.silver=银
+base.material.lead=铅
 
 #parts
 contenttweaker.part.bearing=%s轴承

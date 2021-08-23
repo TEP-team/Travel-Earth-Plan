@@ -1,7 +1,7 @@
 {
   "name": "environmentaltech:erodium_crystal",
   "target-item": "environmentaltech:erodium_crystal",
-  "target-count": 16,
+  "target-count": 18,
   "duration": 300,
   "catalyst": "environmentaltech:litherite_crystal",
 

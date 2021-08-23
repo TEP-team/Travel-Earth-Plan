@@ -48,7 +48,7 @@ customization {
 customization {
   identifier = %id=400382%
   action = setbuttontexture
-  backgroundhovered = resources/fancymenu/images/mods.png
+  backgroundhovered = resources/fancymenu/images/settings.png
   backgroundnormal = resources/fancymenu/images/settingsandmods.png
 }
 
@@ -249,7 +249,7 @@ customization {
   hoverlabel = §ePlay Now !
   x = -121
   width = 108
-  actionid = 7f2f5bfb-13a5-414c-94f7-93cd36aa5f0d1628584835621
+  actionid = 2cc8e8e9-ae7d-43cf-ac0b-0e0b6dfce1921629552674575
   action = addbutton
   y = -26
   backgroundnormal = resources/fancymenu/images/joina.png
@@ -266,7 +266,7 @@ customization {
   y = -17
   scale = 1.0
   alignment = left
-  value = Hello , §e%playername%
+  value = Hello , §e%playername%！
 }
 
 customization {
@@ -354,7 +354,7 @@ customization {
   clicksound = resources/fancymenu/sounds/keyboarde.wav
   x = 147
   width = 36
-  actionid = 18687394-b42f-4d23-97cd-8bdd187f6cad1628584835626
+  actionid = 9af2f022-e57b-494e-a49e-b1cc9507d6691629552674581
   action = addbutton
   y = 28
   backgroundnormal = resources/fancymenu/images/links/afdian.png
@@ -372,7 +372,7 @@ customization {
   clicksound = resources/fancymenu/sounds/keyboarde.wav
   x = 17
   width = 87
-  actionid = 715b6f84-192d-4a23-9332-4b9d27add95e1628584835626
+  actionid = 562590f5-fe53-490d-81d1-fb415b7fc9e41629552674582
   action = addbutton
   y = 28
   backgroundnormal = resources/fancymenu/images/links/mcbbs.png
@@ -390,7 +390,7 @@ customization {
   clicksound = resources/fancymenu/sounds/keyboarde.wav
   x = 243
   width = 30
-  actionid = bedc35f5-5477-4cd6-ba70-290e98b92fe41628584835627
+  actionid = d3c96e57-a2c2-42bd-9745-9c2c57daf1c91629552674582
   action = addbutton
   y = 30
   backgroundnormal = resources/fancymenu/images/links/github.png
