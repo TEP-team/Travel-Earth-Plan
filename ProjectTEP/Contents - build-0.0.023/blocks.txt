@@ -1,5 +1,0 @@
-tile.contenttweaker.structure_block.name=结构组件  ##白色
-tile.contenttweaker.gc_core.name=气体离心机核心  ##黄色
-tile.contenttweaker.gc_bearing.name=气体离心机轴承  ##黄色
-tile.contenttweaker.ft_core.name=聚变堆核心  ##绿色
-

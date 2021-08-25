@@ -1,2 +1,0 @@
-fluid.fluoride=氟化氢
-fluid.deuterium=高纯氘剂
