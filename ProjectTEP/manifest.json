@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Travel Earth Plan",
-  "author": "Dark2932 , FURONG_",
+  "author": "TEP-team",
   "files": [
     {
       "projectID": 224472,
@@ -59,13 +59,13 @@
       "required": true
     },
     {
-      "projectID": 311383,
-      "fileID": 2853945,
+      "projectID": 225605,
+      "fileID": 2489549,
       "required": true
     },
     {
-      "projectID": 225605,
-      "fileID": 2489549,
+      "projectID": 311383,
+      "fileID": 2853945,
       "required": true
     },
     {
@@ -90,7 +90,7 @@
     },
     {
       "projectID": 514170,
-      "fileID": 3434443,
+      "fileID": 3441551,
       "required": true
     },
     {
@@ -114,18 +114,23 @@
       "required": true
     },
     {
+      "projectID": 283589,
+      "fileID": 2708030,
+      "required": true
+    },
+    {
       "projectID": 327592,
       "fileID": 2853556,
       "required": true
     },
     {
-      "projectID": 367706,
-      "fileID": 3433822,
+      "projectID": 268560,
+      "fileID": 2835175,
       "required": true
     },
     {
-      "projectID": 268560,
-      "fileID": 2835175,
+      "projectID": 367706,
+      "fileID": 3433822,
       "required": true
     },
     {
@@ -239,13 +244,13 @@
       "required": true
     },
     {
-      "projectID": 233019,
-      "fileID": 2450734,
+      "projectID": 79287,
+      "fileID": 2481605,
       "required": true
     },
     {
-      "projectID": 79287,
-      "fileID": 2481605,
+      "projectID": 233019,
+      "fileID": 2450734,
       "required": true
     },
     {
@@ -294,6 +299,11 @@
       "required": true
     },
     {
+      "projectID": 260912,
+      "fileID": 2745852,
+      "required": true
+    },
+    {
       "projectID": 220811,
       "fileID": 2571951,
       "required": true
@@ -310,7 +320,7 @@
     },
     {
       "projectID": 246996,
-      "fileID": 2722575,
+      "fileID": 3440963,
       "required": true
     },
     {
@@ -394,13 +404,13 @@
       "required": true
     },
     {
-      "projectID": 226447,
-      "fileID": 2477566,
+      "projectID": 250398,
+      "fileID": 3025548,
       "required": true
     },
     {
-      "projectID": 250398,
-      "fileID": 3025548,
+      "projectID": 226447,
+      "fileID": 2477566,
       "required": true
     },
     {
@@ -416,6 +426,11 @@
     {
       "projectID": 253211,
       "fileID": 3308160,
+      "required": true
+    },
+    {
+      "projectID": 243190,
+      "fileID": 3425205,
       "required": true
     },
     {
@@ -454,13 +469,13 @@
       "required": true
     },
     {
-      "projectID": 292785,
-      "fileID": 2915154,
+      "projectID": 253230,
+      "fileID": 2465617,
       "required": true
     },
     {
-      "projectID": 289444,
-      "fileID": 2537249,
+      "projectID": 292785,
+      "fileID": 2915154,
       "required": true
     },
     {
@@ -474,13 +489,13 @@
       "required": true
     },
     {
-      "projectID": 246010,
-      "fileID": 2694397,
+      "projectID": 245453,
+      "fileID": 2691536,
       "required": true
     },
     {
-      "projectID": 245453,
-      "fileID": 2691536,
+      "projectID": 246010,
+      "fileID": 2694397,
       "required": true
     },
     {
@@ -491,11 +506,6 @@
     {
       "projectID": 223735,
       "fileID": 2676866,
-      "required": true
-    },
-    {
-      "projectID": 243788,
-      "fileID": 3157722,
       "required": true
     },
     {
@@ -536,11 +546,6 @@
     {
       "projectID": 268324,
       "fileID": 2460821,
-      "required": true
-    },
-    {
-      "projectID": 248278,
-      "fileID": 2975661,
       "required": true
     },
     {
@@ -616,6 +621,11 @@
     {
       "projectID": 315773,
       "fileID": 3341793,
+      "required": true
+    },
+    {
+      "projectID": 350869,
+      "fileID": 3426584,
       "required": true
     },
     {
