@@ -10,7 +10,7 @@
 import crafttweaker.world.IWorld;
 import crafttweaker.player.IPlayer;
 import crafttweaker.entity.IEntityLivingBase;
-import crafttweaker.text.ITextComponent;
+import crafttweaker.text.ITextComponent.fromTranslation;
 import crafttweaker.event.EntityLivingJumpEvent;
 
 events.onEntityLivingJump(function(event as EntityLivingJumpEvent) {
@@ -24,7 +24,7 @@ events.onEntityLivingJump(function(event as EntityLivingJumpEvent) {
         } 
         if (!world.remote) {
             player.health -= 2;
-            player.sendRichTextMessage(ITextComponent.fromTranslation("fractured.tep.jump"));
+            player.sendRichTextMessage(fromTranslation("fractured.tep.jump"));
         }
     }
 });

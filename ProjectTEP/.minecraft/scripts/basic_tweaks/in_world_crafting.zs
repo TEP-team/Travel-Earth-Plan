@@ -10,4 +10,4 @@ import crafttweaker.item.IItemStack;
 import mods.inworldcrafting.FluidToItem;
 
 //FluidToItem
-FluidToItem.transform(<contenttweaker:paper_ee>,<liquid:electrolyte>,[<minecraft:paper>],true);
+FluidToItem.transform(<contenttweaker:paper_ee>*8,<liquid:electrolyte>,[<contenttweaker:papers>],true);

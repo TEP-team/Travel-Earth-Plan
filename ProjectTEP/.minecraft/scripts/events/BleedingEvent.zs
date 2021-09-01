@@ -11,7 +11,7 @@ import crafttweaker.world.IWorld;
 import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.entity.IEntity;
 import crafttweaker.player.IPlayer;
-import crafttweaker.text.ITextComponent;
+import crafttweaker.text.ITextComponent.fromTranslation;
 import crafttweaker.event.EntityLivingHurtEvent;
 
 val mobs as string[] =
@@ -33,7 +33,7 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
             var attacker as IEntity = event.damageSource.trueSource;
             if (!isNull(attacker) && !attacker instanceof IPlayer && attacker instanceof IEntityLivingBase && mobs has attacker.definition.id) {
                 player.addPotionEffect(<potion:contenttweaker:bleeding>.makePotionEffect(6000, 0));
-                player.sendRichTextMessage(ITextComponent.fromTranslation("bleeding.tep.bsuccess"));
+                player.sendRichTextMessage(fromTranslation("bleeding.tep.bsuccess"));
             }
         }
     }

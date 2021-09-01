@@ -14,27 +14,13 @@ var crystal1 = <environmentaltech:litherite_crystal>;
 var crystal2 = <environmentaltech:erodium_crystal>;
 var crystal3 = <environmentaltech:kyronite_crystal>;
 var crystal4 = <environmentaltech:pladium_crystal>;
-var crystal5 = <environmentaltech:ionite_crystal>;
-var crystal6 = <environmentaltech:aethium_crystal>;
-var crystal7 = <environmentaltech:lonsdaleite_crystal>;
+var lcrystal = <environmentaltech:lonsdaleite_crystal>;
 var interconnect = <environmentaltech:interconnect>;
 var structure = <environmentaltech:structure_panel>;
 var structure1 = <environmentaltech:structure_frame_1>;
 var structure2 = <environmentaltech:structure_frame_2>;
 var structure3 = <environmentaltech:structure_frame_3>;
 var structure4 = <environmentaltech:structure_frame_4>;
-var structure5 = <environmentaltech:structure_frame_5>;
-var structure6 = <environmentaltech:structure_frame_6>;
-
-val five_six as IItemStack[] = 
-[
-    structure5,structure6,
-    <environmentaltech:void_ore_miner_cont_5>,<environmentaltech:void_ore_miner_cont_6>,
-    <environmentaltech:void_botanic_miner_cont_5>,<environmentaltech:void_botanic_miner_cont_6>
-];
-for fx in five_six {
-    recipes.remove(fx);
-}
 
 recipes.remove(crystal1);
 recipes.addShapeless(crystal1*9,
@@ -96,10 +82,10 @@ recipes.remove(<environmentaltech:modifier_accuracy>);
 recipes.addShaped(<environmentaltech:modifier_accuracy>,
     [[<minecraft:diamond_block>,crystal3,<minecraft:diamond_block>],
     [<environmentaltech:mica>,<environmentaltech:modifier_null>,<environmentaltech:mica>],
-    [<minecraft:diamond_block>,crystal7,<minecraft:diamond_block>]]);
+    [<minecraft:diamond_block>,lcrystal,<minecraft:diamond_block>]]);
 
 recipes.remove(<environmentaltech:modifier_luck>);
 recipes.addShaped(<environmentaltech:modifier_luck>,
     [[<minecraft:emerald_block>,crystal4,<minecraft:emerald_block>],
     [<environmentaltech:mica>,<environmentaltech:modifier_null>,<environmentaltech:mica>],
-    [<minecraft:emerald_block>,crystal7,<minecraft:emerald_block>]]);
+    [<minecraft:emerald_block>,lcrystal,<minecraft:emerald_block>]]);

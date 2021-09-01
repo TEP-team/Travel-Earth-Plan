@@ -10,19 +10,26 @@ import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipePrimer;
 import crafttweaker.item.IItemStack;
 
-RecipeBuilder.newBuilder("mana_altar:1","mana_altar",10).
+function manaItemsBuilder(name as string, tick as int, mana as int, input1 as IItemStack, input2 as IItemStack, output as IItemStack) {
+    RecipeBuilder.newBuilder(name, "mana_altar", tick).
+    addManaInput(mana).
+    addItemInput(input1).
+    addItemInput(input2).
+    addItemOutput(output).
+    build();
+}
+
+val planks as IItemStack = <ore:plankWood>;
+
+//snow_ball_mana
+RecipeBuilder.newBuilder("snow_ball_mana", "mana_altar", 10).
 addItemInput(<minecraft:snowball>).
+addFluidOutput(<liquid:water>).
 addManaOutput(50).
 build();
 
-RecipeBuilder.newBuilder("mana_altar:2","mana_altar",200).
-addItemInput(<ore:plankWood>).
-addManaInput(1000).
-addItemOutput(<botania:livingwood>).
-build();
+//natura pylon
+manaItemsBuilder("item:0", 300, 10000, <botania:pylon>, <botania:manaresource:4>, <botania:pylon:1>);
 
-RecipeBuilder.newBuilder("mana_altar:3","mana_altar",200).
-addItemInput(<ore:cobblestone>).
-addManaOutput(1000).
-addItemOutput(<botania:livingrock>).
-build();
+//gaia pylon
+manaItemsBuilder("item:1", 400, 15000, <botania:pylon:1>, <botania:manaresource:7>, <botania:pylon:2>);

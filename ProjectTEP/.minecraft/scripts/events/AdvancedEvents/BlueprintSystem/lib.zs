@@ -11,7 +11,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.player.IPlayer;
 import crafttweaker.world.IWorld;
 import crafttweaker.data.IData;
-import crafttweaker.text.ITextComponent;
+import crafttweaker.text.ITextComponent.fromTranslation;
 import crafttweaker.event.PlayerRightClickItemEvent;
 
 //get the data of used blueprint
@@ -20,16 +20,13 @@ function bluePrintData(bluePrint as IItemStack, nameAsBlueprint as string) {
         var player as IPlayer = event.player;
         var world as IWorld = player.world;
         if (!world.remote && !player.isFake()) {
-            var itemid = event.item.definition.id;
-            var bpid = bluePrint.definition.id;
-            var itemtag = event.item.tag;
-            var bptag = bluePrint.tag;
-            if (itemid == bpid && itemtag == bptag) {
+            if (bluePrint.matches(event.item)) {
                 //Thanks to youyihj for providing this method for me.
                 var blueprint as IData = IData.createEmptyMutableDataMap();
                 blueprint.memberSet(nameAsBlueprint, 1);
                 player.update({PlayerPersisted: {blueprintData: blueprint}});
-                player.sendRichTextMessage(ITextComponent.fromTranslation("blueprint.tep.getsuccess"));
+                player.sendRichTextMessage(fromTranslation("blueprint.tep.getsuccess"));
+                event.item.mutable().shrink(1);
             }
         }
     });

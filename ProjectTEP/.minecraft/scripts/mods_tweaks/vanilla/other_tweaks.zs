@@ -6,7 +6,6 @@
 */
 
 #priority 40000
-import crafttweaker.item.IItemStack;
 
 var iron = <ore:ingotIron>;
 
@@ -14,24 +13,15 @@ var iron = <ore:ingotIron>;
 vanilla.seeds.removeSeed(<minecraft:wheat_seeds>);
 
 //furnace
-furnace.addRecipe(<minecraft:leather>,<minecraft:rotten_flesh>,15);
-
-val furnaces as IItemStack[] = [<pneumaticcraft:empty_pcb:100>,<variedcommodities:ingot_steel>];
-for RemoveF in furnaces {
-    furnace.remove(RemoveF);
-}
-
-//mods
-val mw = loadedMods["mw"].items;
-for MW in mw {
-    recipes.remove(MW);
-    furnace.remove(MW);
-}
-
-val crafting_tables as IItemStack[] = [<variedcommodities:mana>,<variedcommodities:bullet>,<variedcommodities:vcrecipes_book>];
-for RemoveC in crafting_tables {
-    recipes.remove(RemoveC);
-}
+furnace.remove(<pneumaticcraft:empty_pcb:100>);
+furnace.remove(<forge:bucketfilled>.withTag({FluidName: "purifiedwater", Amount: 1000}));
+furnace.remove(<simpledifficulty:purified_water_bottle>);
+furnace.addRecipe(<contenttweaker:hot_water>,<minecraft:water_bucket>,0.2);
+furnace.addRecipe(<minecraft:leather>,<minecraft:rotten_flesh>,0.1);
+furnace.addRecipe(<contenttweaker:ingot_is>,<contenttweaker:tin_solder_dust>,1);
+furnace.addRecipe(<contenttweaker:ingot_in>,<contenttweaker:iron_with_nickel>,1);
+furnace.setFuel(<contenttweaker:wood_residue>,38);
+furnace.setFuel(<contenttweaker:big_wood_residue>,150);
 
 recipes.remove(<bonsaitrees:bonsaipot>);
 recipes.addShaped(<bonsaitrees:bonsaipot>,

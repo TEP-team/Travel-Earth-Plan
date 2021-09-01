@@ -5,5 +5,4 @@
     Thanks a lot!
 */
 
-#priority 60001
-
+#priority 51000

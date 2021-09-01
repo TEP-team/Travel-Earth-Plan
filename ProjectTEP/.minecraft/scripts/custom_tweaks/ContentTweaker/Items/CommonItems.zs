@@ -10,6 +10,8 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 
+//===============================================================
+
 //snow_tool
 var st = VanillaFactory.createItem("snow_tool");
 st.maxDamage = 120;
@@ -32,6 +34,7 @@ var rrune = VanillaFactory.createItem("rainbow_rune");
 rrune.glowing = true;
 rrune.rarity = "epic";
 rrune.register();
+
 //===============================================================
 
 var epic_items as string[] = 
@@ -64,11 +67,14 @@ for bt in basic_tools {
 var basic_materials as string[] = 
 [
     "iron_with_nickel","tin_solder_dust","ingot_is","ingot_in",
-    "glass_fibre","papers","paper_ee","cell_electrolyte",
-    "cell_empty","cell_cold","cell_dt","wood_residue",
-    "big_wood_residue","metal_stick","cloth_string",
-    "common_code","error_code","motor","blueprint_empty",
-    "blueprint_machine","blueprint_gun"
+    "papers","paper_ee","cell_electrolyte","cell_empty","cell_cold",
+    "cell_dt","wood_residue","big_wood_residue","metal_stick",
+    "cloth_string","motor","blueprint_empty","pc","ram","rom",
+    "blueprint_machine","blueprint_gun","cpu","ft_exe","exe",
+    "pcb","pin","temperature_monitor","test_unit","mini_driver",
+    "mediuim_driver","huge_driver","singlechip","gc_exe",
+    "gc_singlechip","ft_singlechip","hot_water","basic_uper",
+    "medium_uper","adv_uper"
 ];
 for bm in basic_materials {
     var BM = VanillaFactory.createItem(bm);
@@ -81,27 +87,7 @@ var tools as string[] = ["electric_iron","capacitance_pack","resistance_pack","n
 for t in tools {
     var Tools = VanillaFactory.createItem(t);
     Tools.rarity = "uncommon";
+    Tools.maxDamage = 150;
     Tools.maxStackSize = 1;
     Tools.register();
-}
-
-//===============================================================
-
-var computer_items as string[] = ["pc","ram","rom","cpu","pcb","pin"];
-for ci in computer_items {
-    var CI = VanillaFactory.createItem(ci);
-    CI.register();
-}
-
-//===============================================================
-
-var machine_items as string[] =
-[
-    "temperature_monitor","test_unit","mini_driver",
-    "mediuim_driver","huge_driver","singlechip","exe",
-    "gc_exe","ft_exe","gc_singlechip","ft_singlechip"
-];
-for mi in machine_items {
-    var MI = VanillaFactory.createItem(mi);
-    MI.register();
 }

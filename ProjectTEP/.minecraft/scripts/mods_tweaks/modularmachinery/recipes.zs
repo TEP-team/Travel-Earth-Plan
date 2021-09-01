@@ -8,28 +8,27 @@
 #priority 40000
 import crafttweaker.item.IItemStack;
 
-var paper as IItemStack = <minecraft:paper>;
-var rs as IItemStack = <ore:dustRedstone>;
-var iron as IItemStack = <ore:ingotIron>;
-var bium as IItemStack = <modularmachinery:itemmodularium>;
-var plate1 as IItemStack = <contenttweaker:material_part:12>;
-var plate2 as IItemStack = <contenttweaker:material_part:29>;
-var plate3 as IItemStack = <contenttweaker:material_part:46>;
-var casing as IItemStack = <modularmachinery:blockcasing>;
-var casing1 as IItemStack = <modularmachinery:blockcasing:1>;
-var casing2 as IItemStack = <modularmachinery:blockcasing:2>;
-var casing3 as IItemStack = <modularmachinery:blockcasing:3>;
-var casing4 as IItemStack = <modularmachinery:blockcasing:4>;
-var casing5 as IItemStack = <modularmachinery:blockcasing:5>;
+var paper = <minecraft:paper>;
+var rs = <ore:dustRedstone>;
+var iron = <ore:ingotIron>;
+var bium = <contenttweaker:material_part:11>;
+var mium = <contenttweaker:material_part:28>;
+var aium = <contenttweaker:material_part:45>;
+var plate1 = <contenttweaker:material_part:12>;
+var plate2 = <contenttweaker:material_part:29>;
+var plate3 = <contenttweaker:material_part:46>;
+var casing = <modularmachinery:blockcasing>;
+var casing1 = <modularmachinery:blockcasing:1>;
+var casing2 = <modularmachinery:blockcasing:2>;
+var casing3 = <modularmachinery:blockcasing:3>;
+var casing4 = <modularmachinery:blockcasing:4>;
+var casing5 = <modularmachinery:blockcasing:5>;
 
-recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:scripter"}),
+//add
+recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:compiler"}),
     [[rs,rs,rs],
 	 [rs,paper,rs],
 	 [rs,rs,rs]]);
-
-recipes.remove(<modularmachinery:itemmodularium>);
-recipes.addShapeless(<modularmachinery:itemmodularium>,
-    [iron,rs]);
 
 recipes.remove(casing);
 recipes.addShaped(casing * 8,
@@ -100,15 +99,81 @@ recipes.addShaped(<modularmachinery:blockenergyoutputhatch>,
      [casing,<minecraft:chest>,casing],
      [casing,<minecraft:redstone_block>,casing]]);
 
-recipes.remove(<modularmachinery:blockenergyinputhatch:1>);
-recipes.addShaped(<modularmachinery:blockenergyinputhatch:1>,
-    [[null,<contenttweaker:conversion_core>,null],
-     [bium,<modularmachinery:blockenergyinputhatch>,bium],
-     [<minecraft:redstone_block>,bium,<minecraft:redstone_block>]]);
+recipes.addShaped(<gugu-utils:sparkmanahatch>.withTag({}),
+    [[casing,<botania:spark>,casing],
+     [casing,<botania:pool>,casing],
+     [casing,casing,casing]]);
 
-recipes.remove(<modularmachinery:blockenergyoutputhatch:1>);
-recipes.addShaped(<modularmachinery:blockenergyoutputhatch:1>,
-    [[<minecraft:redstone_block>,bium,<minecraft:redstone_block>],
-     [bium,<modularmachinery:blockenergyoutputhatch>,bium],
-     [null,<contenttweaker:conversion_core>,null]]);
+recipes.addShaped(<gugu-utils:sparkmanahatch:1>.withTag({}),
+    [[casing,casing,casing],
+     [casing,<botania:pool>,casing],
+     [casing,<botania:spark>,casing]]);
 
+//MachineBlocks
+//remove
+val remove as IItemStack[] = [<modularmachinery:blockinputbus:1>,<modularmachinery:blockoutputbus:1>,<modularmachinery:blockfluidinputhatch:1>,<modularmachinery:blockfluidoutputhatch:1>];
+for Remove in remove {
+    recipes.remove(Remove);
+}
+
+//ItemMachines
+val ingot as IItemStack[] = [bium,bium,mium,mium,aium,aium];
+val itemIn as IItemStack[] = [<modularmachinery:blockinputbus:1>,<modularmachinery:blockinputbus:2>,<modularmachinery:blockinputbus:3>,<modularmachinery:blockinputbus:4>,<modularmachinery:blockinputbus:5>,<modularmachinery:blockinputbus:6>];
+val itemsIn as IItemStack[] = [<modularmachinery:blockinputbus:0>,<modularmachinery:blockinputbus:1>,<modularmachinery:blockinputbus:2>,<modularmachinery:blockinputbus:3>,<modularmachinery:blockinputbus:4>,<modularmachinery:blockinputbus:5>];
+
+for i, ItemIn in itemIn {
+    recipes.addShaped(ItemIn,
+        [[null,<minecraft:hopper>,null],
+         [ingot[i],itemsIn[i],ingot[i]],
+         [<minecraft:chest>,ingot[i],<minecraft:chest>]]);
+}
+
+val itemOut as IItemStack[] = [<modularmachinery:blockoutputbus:1>,<modularmachinery:blockoutputbus:2>,<modularmachinery:blockoutputbus:3>,<modularmachinery:blockoutputbus:4>,<modularmachinery:blockoutputbus:5>,<modularmachinery:blockoutputbus:6>];
+val itemsOut as IItemStack[] = [<modularmachinery:blockoutputbus:0>,<modularmachinery:blockoutputbus:1>,<modularmachinery:blockoutputbus:2>,<modularmachinery:blockoutputbus:3>,<modularmachinery:blockoutputbus:4>,<modularmachinery:blockoutputbus:5>];
+for i, ItemOut in itemOut {
+    recipes.addShaped(ItemOut,
+        [[<minecraft:chest>,ingot[i],<minecraft:chest>],
+         [ingot[i],itemsOut[i],ingot[i]],
+         [null,<minecraft:hopper>,null]]);
+}
+
+//FluidMachines
+val ingots as IItemStack[] = [bium,bium,mium,mium,aium,aium,aium];
+val fluidIn as IItemStack[] = [<modularmachinery:blockfluidinputhatch:1>,<modularmachinery:blockfluidinputhatch:2>,<modularmachinery:blockfluidinputhatch:3>,<modularmachinery:blockfluidinputhatch:4>,<modularmachinery:blockfluidinputhatch:5>,<modularmachinery:blockfluidinputhatch:6>,<modularmachinery:blockfluidinputhatch:7>];
+val fluidsIn as IItemStack[] = [<modularmachinery:blockfluidinputhatch:0>,<modularmachinery:blockfluidinputhatch:1>,<modularmachinery:blockfluidinputhatch:2>,<modularmachinery:blockfluidinputhatch:3>,<modularmachinery:blockfluidinputhatch:4>,<modularmachinery:blockfluidinputhatch:5>,<modularmachinery:blockfluidinputhatch:6>];
+
+for i, FluidIn in fluidIn {
+    recipes.addShaped(FluidIn,
+        [[null,<minecraft:hopper>,null],
+         [ingots[i],fluidsIn[i],ingots[i]],
+         [<minecraft:bucket>,ingots[i],<minecraft:bucket>]]);
+}
+
+val fluidOut as IItemStack[] = [<modularmachinery:blockfluidoutputhatch:1>,<modularmachinery:blockfluidoutputhatch:2>,<modularmachinery:blockfluidoutputhatch:3>,<modularmachinery:blockfluidoutputhatch:4>,<modularmachinery:blockfluidoutputhatch:5>,<modularmachinery:blockfluidoutputhatch:6>,<modularmachinery:blockfluidoutputhatch:7>];
+val fluidsOut as IItemStack[] = [<modularmachinery:blockfluidoutputhatch:0>,<modularmachinery:blockfluidoutputhatch:1>,<modularmachinery:blockfluidoutputhatch:2>,<modularmachinery:blockfluidoutputhatch:3>,<modularmachinery:blockfluidoutputhatch:4>,<modularmachinery:blockfluidoutputhatch:5>,<modularmachinery:blockfluidoutputhatch:6>];
+for i, FluidOut in fluidOut {
+    recipes.addShaped(FluidOut,
+        [[<minecraft:bucket>,ingots[i],<minecraft:bucket>],
+         [ingots[i],fluidsOut[i],ingots[i]],
+         [null,<minecraft:hopper>,null]]);
+}
+
+//EnergyMachines
+val energyIn as IItemStack[] = [<modularmachinery:blockenergyinputhatch:1>,<modularmachinery:blockenergyinputhatch:2>,<modularmachinery:blockenergyinputhatch:3>,<modularmachinery:blockenergyinputhatch:4>,<modularmachinery:blockenergyinputhatch:5>,<modularmachinery:blockenergyinputhatch:6>,<modularmachinery:blockenergyinputhatch:7>];
+val energysIn as IItemStack[] = [<modularmachinery:blockenergyinputhatch>,<modularmachinery:blockenergyinputhatch:1>,<modularmachinery:blockenergyinputhatch:2>,<modularmachinery:blockenergyinputhatch:3>,<modularmachinery:blockenergyinputhatch:4>,<modularmachinery:blockenergyinputhatch:5>,<modularmachinery:blockenergyinputhatch:6>];
+
+for i, EnergyIn in energyIn {
+    recipes.addShaped(EnergyIn,
+        [[null,<contenttweaker:conversion_core>,null],
+         [ingots[i],energysIn[i],ingots[i]],
+         [<minecraft:redstone_block>,ingots[i],<minecraft:redstone_block>]]);
+}
+
+val energyOut as IItemStack[] = [<modularmachinery:blockenergyoutputhatch:1>,<modularmachinery:blockenergyoutputhatch:2>,<modularmachinery:blockenergyoutputhatch:3>,<modularmachinery:blockenergyoutputhatch:4>,<modularmachinery:blockenergyoutputhatch:5>,<modularmachinery:blockenergyoutputhatch:6>,<modularmachinery:blockenergyoutputhatch:7>];
+val energysOut as IItemStack[] = [<modularmachinery:blockenergyoutputhatch>,<modularmachinery:blockenergyoutputhatch:1>,<modularmachinery:blockenergyoutputhatch:2>,<modularmachinery:blockenergyoutputhatch:3>,<modularmachinery:blockenergyoutputhatch:4>,<modularmachinery:blockenergyoutputhatch:5>,<modularmachinery:blockenergyoutputhatch:6>];
+for i, EnergyOut in energyOut {
+    recipes.addShaped(EnergyOut,
+        [[<minecraft:redstone_block>,ingots[i],<minecraft:redstone_block>],
+         [ingots[i],energysOut[i],ingots[i]],
+         [null,<contenttweaker:conversion_core>,null]]);
+}

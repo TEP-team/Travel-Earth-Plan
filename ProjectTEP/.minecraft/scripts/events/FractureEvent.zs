@@ -10,7 +10,7 @@
 import crafttweaker.world.IWorld;
 import crafttweaker.player.IPlayer;
 import crafttweaker.entity.IEntityLivingBase;
-import crafttweaker.text.ITextComponent;
+import crafttweaker.text.ITextComponent.fromTranslation;
 import crafttweaker.event.EntityLivingFallEvent;
 import crafttweaker.event.EntityLivingHurtEvent;
 
@@ -40,7 +40,7 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
         var distance = player.data.PlayerPersisted.fractured;
         if (!isNull(pdp) && !isNull(distance) && distance.asFloat() >= 7) {
             player.addPotionEffect(<potion:contenttweaker:fractured>.makePotionEffect(99999999999, 0));
-            player.sendRichTextMessage(ITextComponent.fromTranslation("fractured.tep.fsuccess"));
+            player.sendRichTextMessage(fromTranslation("fractured.tep.fsuccess"));
         }
     }
 });

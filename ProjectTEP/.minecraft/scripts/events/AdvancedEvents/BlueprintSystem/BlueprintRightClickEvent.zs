@@ -6,19 +6,34 @@
 */
 
 #priority 50001
-import crafttweaker.item.IItemStack;
-import scripts.events.AdvancedEvents.BlueprintSystem.lib;
+import scripts.events.AdvancedEvents.BlueprintSystem.lib.bluePrintData;
 
 //Field Projector
-var FieldProjector as IItemStack = <contenttweaker:blueprint_machine>.withTag({display: {Lore: ["§aField Projector"]}});
-lib.bluePrintData(FieldProjector, "Field_Projector");
+bluePrintData(<contenttweaker:blueprint_machine>.withTag({display: {Lore: ["§aField Projector"]}}), "Field_Projector");
 
 //Void Ore Miner
-var VoidOreMiner as IItemStack = <contenttweaker:blueprint_machine>.withTag({display: {Lore: ["§aVoid Ore Miner"]}});
-lib.bluePrintData(VoidOreMiner, "Void_Ore_Miner");
+bluePrintData(<contenttweaker:blueprint_machine>.withTag({display: {Lore: ["§aVoid Ore Miner"]}}), "Void_Ore_Miner");
 
 //Void Botanic Miner
-var VoidBotanicMiner as IItemStack = <contenttweaker:blueprint_machine>.withTag({display: {Lore: ["§aVoid Botanic Miner"]}});
-lib.bluePrintData(VoidBotanicMiner, "Void_Botanic_Miner");
+bluePrintData(<contenttweaker:blueprint_machine>.withTag({display: {Lore: ["§aVoid Botanic Miner"]}}), "Void_Botanic_Miner");
 
-//e
+//Runic Altar
+bluePrintData(<contenttweaker:blueprint_machine>.withTag({display: {Lore: ["§aRunic Altar"]}}), "Runic_Altar");
+
+//Terrastrial Agglomeration Plate
+bluePrintData(<contenttweaker:blueprint_machine>.withTag({display: {Lore: ["§aTerrastrial Agglomeration Plate"]}}), "Terrastrial_Agglomeration_Plate");
+
+//Elven Gateway Core
+bluePrintData(<contenttweaker:blueprint_machine>.withTag({display: {Lore: ["§aElven Gateway Core"]}}), "Elven_Gateway_Core");
+
+//Assembly Controller
+bluePrintData(<contenttweaker:blueprint_machine>.withTag({display: {Lore: ["§aAssembly Controller"]}}), "Assembly_Controller");
+
+//Refinery
+bluePrintData(<contenttweaker:blueprint_machine>.withTag({display: {Lore: ["§aRefinery"]}}), "Refinery");
+
+//Thermopneumatic Processing Plant
+bluePrintData(<contenttweaker:blueprint_machine>.withTag({display: {Lore: ["§aThermopneumatic Processing Plant"]}}), "Thermopneumatic_Processing_Plant");
+
+//Plastic Mixer
+bluePrintData(<contenttweaker:blueprint_machine>.withTag({display: {Lore: ["§aPlastic Mixer"]}}), "Plastic_Mixer");

@@ -10,7 +10,7 @@
 import crafttweaker.player.IPlayer;
 import crafttweaker.world.IWorld;
 import crafttweaker.data.IData;
-import crafttweaker.text.ITextComponent;
+import crafttweaker.text.ITextComponent.fromTranslation;
 import crafttweaker.event.PlayerTickEvent;
 
 events.onPlayerTick(function(event as PlayerTickEvent) {
@@ -22,8 +22,8 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
         if (pdata has "rainbowGem") {
             var rbg = pdata.memberGet("rainbowGem") as int;
             if (rbg == 1) {
-                player.give(itemUtils.getItem("contenttweaker:world_core"));
-                player.sendRichTextMessage(ITextComponent.fromTranslation("gem.tep.give"));
+                player.give(<contenttweaker:world_core>);
+                player.sendRichTextMessage(fromTranslation("gem.tep.give"));
                 player.update(pdata + {"rainbowGem": rbg - 1});
             }
             else if (rbg > 0) {

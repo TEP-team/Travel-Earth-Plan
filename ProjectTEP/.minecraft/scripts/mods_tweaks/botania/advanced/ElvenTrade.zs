@@ -6,13 +6,8 @@
 */
 
 #priority 39000
-import crafttweaker.item.IIngredient;
 import mods.botania.ElvenTrade;
 
-val pcbblueprint as IIngredient[] = 
-[
-    <contenttweaker:blueprint_empty>,
-    <mekanism:controlcircuit:2>,
-    <environmentaltech:pladium_crystal>*9
-];
-ElvenTrade.addRecipe([<pneumaticcraft:pcb_blueprint>],pcbblueprint);
+//pcb_blueprint
+ElvenTrade.addRecipe([<pneumaticcraft:pcb_blueprint>],[<contenttweaker:blueprint_empty>,<mekanism:controlcircuit:2>,<environmentaltech:pladium_crystal>*9]);
+ElvenTrade.addRecipe([<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_dismantler"})],[<minecraft:paper>,<forge:bucketfilled>.withTag({FluidName: "electrolyte", Amount: 1000}),<minecraft:emerald>*8]);

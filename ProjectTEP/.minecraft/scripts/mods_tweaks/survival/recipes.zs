@@ -7,45 +7,24 @@
 
 #priority 40000
 import crafttweaker.item.IItemStack;
-import crafttweaker.item.IIngredient;
 
 val iron = <ore:ingotIron>;
 val rs = <ore:dustRedstone>;
 
-//ICE_HCLB_chiller [DELETE]
-val ice as IItemStack[] = [<simpledifficulty:chiller>,<simpledifficulty:ice_helmet>,<simpledifficulty:ice_chestplate>,<simpledifficulty:ice_leggings>,<simpledifficulty:ice_boots>];
-for ICE in ice {
-    recipes.remove(ICE);
+//mods hide
+val mods as string[] = ["sereneseasons","armorunder"];
+for Mods in mods {
+    val remove = loadedMods[Mods].items;
+    for Remove in remove {
+        recipes.remove(Remove);
+    }
 }
 
-//Scaling Health Remove
-var healing as IItemStack[] = [<scalinghealth:healingitem>,<scalinghealth:healingitem:1>,<scalinghealth:heartcontainer>,<scalinghealth:heartdust>];
-for Healing in healing {
-    recipes.remove(Healing);
-}
-
-//Botania Tweaks Remove
-val bt = loadedMods["botania_tweaks"].items;
-for BT in bt {
-    recipes.remove(BT);
-}
-
-//season_items
-val seasonItems as IItemStack[] = 
-[
-    <sereneseasons:season_clock>,<sereneseasons:season_sensor_spring>,
-    <sereneseasons:season_sensor_summer>,<sereneseasons:season_sensor_autumn>,
-    <sereneseasons:season_sensor_winter>
-];
-for SeasonItems in seasonItems {
-    recipes.remove(SeasonItems);
-}
-
-//armorunder
-val armorunder = loadedMods["armorunder"].items;
-for under in armorunder {
-    recipes.remove(under);
-}
+var fas = <minecraft:flint_and_steel>;
+fas.maxDamage = 4;
+recipes.remove(fas);
+recipes.addShapeless(fas,
+    [<minecraft:cobblestone>,<minecraft:flint>]);
 
 recipes.addShaped(<armorunder:goopak_heat>*4,
     [[null,<contenttweaker:cloth_string>,null],
@@ -60,7 +39,7 @@ recipes.addShaped(<armorunder:warm_liner_material>,
 recipes.addShapeless(<armorunder:heating_goo>,
     [<minecraft:flint_and_steel>.anyDamage().transformDamage(),<minecraft:slime_ball>]);
 
-recipes.addShapeless(<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:tep_guide"}),
+recipes.addShapeless(<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:tep_guide_chinese"}),
     [<minecraft:book>,<minecraft:snowball>]);
 
 recipes.addShaped(<armorunder:liner_snips>,
@@ -85,7 +64,6 @@ recipes.addShaped(<armorunder:warm_boots_liner>,
     [[<armorunder:warm_liner_material>,null,<armorunder:warm_liner_material>],
      [<armorunder:warm_liner_material>,null,<armorunder:warm_liner_material>]]);
 
-recipes.remove(<sereneseasons:greenhouse_glass>);
 recipes.addShaped(<sereneseasons:greenhouse_glass>*4,
     [[<ore:dyeCyan>,<minecraft:glass>,<ore:dyeCyan>],
      [<minecraft:glass>,<armorunder:heating_goo>,<minecraft:glass>],
@@ -120,9 +98,3 @@ recipes.addShaped(<simpledifficulty:charcoal_filter>*2,
     [[null,<minecraft:paper>,null],
      [<minecraft:paper>,<minecraft:coal:1>,<minecraft:paper>],
      [null,<minecraft:paper>,null]]);
-
-var fas =  <minecraft:flint_and_steel>;
-fas.maxDamage = 4;
-recipes.remove(fas);
-recipes.addShapeless(fas,
-    [<minecraft:cobblestone>,<minecraft:flint>]);

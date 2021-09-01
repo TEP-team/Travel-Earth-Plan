@@ -10,30 +10,22 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Fluid;
 
-var el as Fluid = VanillaFactory.createFluid("electrolyte", 0x7B8682);
-el.density = 500;
-el.luminosity = 1;
-el.temperature = 100;
-el.viscosity = 650;
-el.colorize = false;
-el.stillLocation = "contenttweaker:blocks/fluids/el_still";
-el.flowingLocation = "contenttweaker:blocks/fluids/el_flow";
-el.register();
+//fluid_builder
+function fluidBuilder(name as string, still as string, flow as string, density_ as int, viscosity_ as int) {
+    var fluid_builder as Fluid = VanillaFactory.createFluid(name, 0x000000);
+    fluid_builder.stillLocation = "contenttweaker:blocks/fluids/" + still;
+    fluid_builder.flowingLocation = "contenttweaker:blocks/fluids/" + flow;
+    fluid_builder.density = density_;
+    fluid_builder.viscosity = viscosity_;
+    fluid_builder.colorize = false;
+    fluid_builder.register();
+}
 
-var dt as Fluid = VanillaFactory.createFluid("deuterium", 0x000000);
-dt.density = 100;
-dt.viscosity = 760;
-dt.colorize = false;
-dt.stillLocation = "contenttweaker:blocks/fluids/deuterium_still";
-dt.flowingLocation = "contenttweaker:blocks/fluids/deuterium_flow";
-dt.gaseous = true;
-dt.register();
+//electrolyte
+fluidBuilder("electrolyte","electrolyte_still","electrolyte_flow",500,650);
 
-var hf as Fluid = VanillaFactory.createFluid("fluoride", 0x000000);
-hf.density = 100;
-hf.viscosity = 760;
-hf.colorize = false;
-hf.stillLocation = "contenttweaker:blocks/fluids/fluoride_still";
-hf.flowingLocation = "contenttweaker:blocks/fluids/fluoride_flow";
-hf.gaseous = true;
-hf.register();
+//deuterium
+fluidBuilder("deuterium","deuterium_still","deuterium_flow",100,760);
+
+//fluoride
+fluidBuilder("fluoride","fluoride_still","fluoride_flow",100,760);

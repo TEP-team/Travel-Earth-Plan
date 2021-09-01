@@ -10,8 +10,11 @@ import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipePrimer;
 import crafttweaker.item.IItemStack;
 
-RecipeBuilder.newBuilder("energy_0", "energy_dismantler", 2400).
-addItemInput(<contenttweaker:shinystar_matter>).
-addEnergyPerTickInput(500).
-addItemOutput(<contenttweaker:shinystar_ingot>).
+//liquid - deuterium
+RecipeBuilder.newBuilder("gas_0", "gas_centrifuger", 5).
+addItemInput(<contenttweaker:material_part:77>).
+addFluidInput(<liquid:fluoride>*5).
+addFluidInput(<liquid:electrolyte>*1).
+addEnergyPerTickInput(150).
+addFluidOutput(<liquid:deuterium>*1).
 build();
