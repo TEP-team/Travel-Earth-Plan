@@ -1,6 +1,6 @@
 {
     "registryname": "mana_altar",
-    "localizedname": "魔法祭坛",
+    "localizedname": "魔力祭坛",
     "requires-blueprint": true,
     "color": "DFE1D3",
     "parts": [
@@ -145,7 +145,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "modularmachinery:blockfluidoutputhatch@2"
+                "botania:livingrock@0"
             ]
         },
         {

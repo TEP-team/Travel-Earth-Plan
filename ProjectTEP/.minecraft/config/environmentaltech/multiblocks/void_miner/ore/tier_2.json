@@ -11,9 +11,9 @@
       "id": "minecraft:iron_ore"
     },
     {
-      "target": "blue",
+      "target": "light_blue",
       "weight": 25,
-      "id": "contenttweaker:sub_block_holder_1:13"
+      "id": "contenttweaker:sub_block_holder_1:3"
     },
     {
       "target": "red",
@@ -23,7 +23,7 @@
     {
       "target": "gray",
       "weight": 20,
-      "id": "contenttweaker:sub_block_holder_0:7"
+      "id": "contenttweaker:sub_block_holder_1"
     },
     {
       "target": "blue",
@@ -61,29 +61,19 @@
       "id": "mekanism:oreblock"
     },
     {
-      "target": "nothing",
-      "weight": 10,
-      "id": "contenttweaker:sub_block_holder_0:2"
-    },
-    {
-      "target": "green",
-      "weight": 14,
-      "id": "contenttweaker:sub_block_holder_1:4"
-    },
-    {
-      "target": "yellow",
-      "weight": 9,
-      "id": "contenttweaker:sub_block_holder_0:5"
-    },
-    {
       "target": "red",
       "weight": 12,
       "id": "minecraft:netherbrick"
     },
     {
       "target": "white",
+      "weight": 10,
+      "id": "minecraft:quartz"
+    },
+    {
+      "target": "white",
       "weight": 2,
-      "id": "<environmentaltech:mica>"
+      "id": "environmentaltech:mica"
     },
     {
       "target": "crystal",

@@ -163,17 +163,7 @@ customization {
 
 customization {
   identifier = %id=400298%
-  orientation = bottom-centered
-  x = -24
-  action = movebutton
-  y = -34
-}
-
-customization {
-  identifier = %id=400298%
-  width = 69
-  action = resizebutton
-  height = 20
+  action = hidebutton
 }
 
 customization {
@@ -249,11 +239,11 @@ customization {
   hoverlabel = §ePlay Now !
   x = -121
   width = 108
-  actionid = 2cc8e8e9-ae7d-43cf-ac0b-0e0b6dfce1921629552674575
+  actionid = a26f837f-90c6-40b9-a15c-7d2bf6ea6ec51630196902889
   action = addbutton
   y = -26
   backgroundnormal = resources/fancymenu/images/joina.png
-  value = mushang-furong.top:8003
+  value = crlskyblock.club:27777
   height = 40
 }
 
@@ -354,7 +344,7 @@ customization {
   clicksound = resources/fancymenu/sounds/keyboarde.wav
   x = 147
   width = 36
-  actionid = 9af2f022-e57b-494e-a49e-b1cc9507d6691629552674581
+  actionid = 0f59ba26-605f-4474-aa08-dd2db851f3231630196902900
   action = addbutton
   y = 28
   backgroundnormal = resources/fancymenu/images/links/afdian.png
@@ -372,7 +362,7 @@ customization {
   clicksound = resources/fancymenu/sounds/keyboarde.wav
   x = 17
   width = 87
-  actionid = 562590f5-fe53-490d-81d1-fb415b7fc9e41629552674582
+  actionid = 4c08f397-473c-414a-9d86-67c6fbd2c9cc1630196902901
   action = addbutton
   y = 28
   backgroundnormal = resources/fancymenu/images/links/mcbbs.png
@@ -390,7 +380,7 @@ customization {
   clicksound = resources/fancymenu/sounds/keyboarde.wav
   x = 243
   width = 30
-  actionid = d3c96e57-a2c2-42bd-9745-9c2c57daf1c91629552674582
+  actionid = 769284c2-b9fc-4c4a-91a7-9d6a87b67d8e1630196902918
   action = addbutton
   y = 30
   backgroundnormal = resources/fancymenu/images/links/github.png

@@ -1,0 +1,82 @@
+{
+    "super_ore": {
+      "type": "sphere",
+      "stone": "minecraft:stone",
+      "ore": [
+        {
+            "ore": "oreCoal",
+            "weight": 30
+        },
+        {
+            "ore": "oreIron",
+            "weight": 24
+        },
+        {
+            "ore": "orephosphorus",
+            "weight": 20
+        },
+        {
+            "ore": "orelead",
+            "weight": 18
+        },
+        {
+            "ore": "oreuranium",
+            "weight": 16
+        },
+        {
+            "ore": "orenickel",
+            "weight": 12
+        },
+        {
+            "ore": "oresilver",
+            "weight": 16
+        },
+        {
+            "ore": "oreRedstone",
+            "weight": 20
+        },
+        {
+            "ore": "oreLapis",
+            "weight": 16
+        },
+        {
+            "ore": "oreGold",
+            "weight": 18
+        },
+        {
+            "ore": "oremercury",
+            "weight": 10
+        },
+        {
+            "ore": "oreplatinum",
+            "weight": 8
+        },
+        {
+            "ore": "orelithium",
+            "weight": 10
+        },
+        {
+            "ore": "oreCopper",
+            "weight": 22
+        },
+        {
+            "ore": "oreTin",
+            "weight": 22
+        },
+        {
+            "ore": "oreOsmium",
+            "weight": 16
+        },
+        {
+            "ore": "oreDiamond",
+            "weight": 4
+        }
+      ],
+      "rarity": 200,
+      "min_y": 2,
+      "max_y": 30,
+      "density": 400,
+      "vertical_size": 5,
+      "horizontal_size": 5
+    }
+}

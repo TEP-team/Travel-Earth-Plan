@@ -1,0 +1,16 @@
+{
+    "general": {
+        "buttons": {},
+        "disable_sound_events": false
+    },
+    "animations": {
+        "disable": true,
+        "model_type": 0
+    },
+    "player_preview": {
+        "mode": 0,
+        "scale": 20,
+        "x": 20,
+        "y": 50
+    }
+}

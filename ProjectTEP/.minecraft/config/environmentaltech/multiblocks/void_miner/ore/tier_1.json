@@ -11,19 +11,9 @@
       "id": "minecraft:iron_ore"
     },
     {
-      "target": "blue",
-      "weight": 25,
-      "id": "contenttweaker:sub_block_holder_1:13"
-    },
-    {
       "target": "red",
       "weight": 22,
       "id": "minecraft:redstone"
-    },
-    {
-      "target": "gray",
-      "weight": 20,
-      "id": "contenttweaker:sub_block_holder_0:7"
     },
     {
       "target": "blue",
@@ -64,6 +54,11 @@
       "target": "red",
       "weight": 12,
       "id": "minecraft:netherbrick"
+    },
+    {
+      "target": "white",
+      "weight": 10,
+      "id": "minecraft:quartz"
     },
     {
       "target": "crystal",
