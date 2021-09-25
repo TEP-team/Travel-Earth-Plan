@@ -19,8 +19,6 @@ function manaItemsBuilder(name as string, tick as int, mana as int, input1 as II
     build();
 }
 
-val planks as IItemStack = <ore:plankWood>;
-
 //snow_ball_mana
 RecipeBuilder.newBuilder("snow_ball_mana", "mana_altar", 10).
 addItemInput(<minecraft:snowball>).
@@ -33,3 +31,6 @@ manaItemsBuilder("item:0", 300, 10000, <botania:pylon>, <botania:manaresource:4>
 
 //gaia pylon
 manaItemsBuilder("item:1", 400, 15000, <botania:pylon:1>, <botania:manaresource:7>, <botania:pylon:2>);
+
+//Elven Gateway Core
+manaItemsBuilder("item:2", 600, 60000, <contenttweaker:blueprint_empty>, <botania:manaresource:4>, <contenttweaker:blueprint_machine>.withTag({display: {Lore: ["§aElven Gateway Core"]}}));

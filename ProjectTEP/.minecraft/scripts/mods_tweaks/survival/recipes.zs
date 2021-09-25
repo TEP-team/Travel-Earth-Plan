@@ -8,8 +8,8 @@
 #priority 40000
 import crafttweaker.item.IItemStack;
 
-val iron = <ore:ingotIron>;
-val rs = <ore:dustRedstone>;
+var iron = <ore:ingotIron>;
+var redstone = <minecraft:redstone>;
 
 //mods hide
 val mods as string[] = ["sereneseasons","armorunder"];
@@ -39,8 +39,13 @@ recipes.addShaped(<armorunder:warm_liner_material>,
 recipes.addShapeless(<armorunder:heating_goo>,
     [<minecraft:flint_and_steel>.anyDamage().transformDamage(),<minecraft:slime_ball>]);
 
-recipes.addShapeless(<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:tep_guide_chinese"}),
-    [<minecraft:book>,<minecraft:snowball>]);
+recipes.addShaped(<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:tep_guide_chinese"}),
+    [[<minecraft:snowball>],
+     [<minecraft:book>],
+     [<minecraft:snowball>]]);
+
+recipes.addShaped(<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:tep_guide_english"}),
+    [[<minecraft:snowball>,<minecraft:book>,<minecraft:snowball>]]);
 
 recipes.addShaped(<armorunder:liner_snips>,
     [[<ore:ingotIron>,<contenttweaker:cloth_string>],
@@ -90,7 +95,7 @@ recipes.addShaped(<simpledifficulty:rain_collector>,
 recipes.remove(<simpledifficulty:heater>);
 recipes.addShaped(<simpledifficulty:heater>,
     [[<armorunder:heating_goo>,null,<armorunder:heating_goo>],
-     [<armorunder:heating_goo>,rs,<armorunder:heating_goo>],
+     [<armorunder:heating_goo>,redstone,<armorunder:heating_goo>],
      [iron,iron,iron]]);
 
 recipes.remove(<simpledifficulty:charcoal_filter>);

@@ -6,7 +6,6 @@
 */
 
 #priority 39000
-import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.botaniatweaks.Agglomeration;
 

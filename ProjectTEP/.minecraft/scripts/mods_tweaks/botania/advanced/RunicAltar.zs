@@ -66,3 +66,6 @@ RuneAltar.addRecipe(<minecraft:skull>,[<minecraft:clay_ball>,<minecraft:clay_bal
 
 //wither_skeleton_skull
 RuneAltar.addRecipe(<minecraft:skull:1>,[<botania:rune:1>,<minecraft:skull>,<minecraft:coal>,<minecraft:coal>,<minecraft:quartz>,<minecraft:quartz>],12000);
+
+//blueprint - 'Terrastrial Agglomeration Plate'
+RuneAltar.addRecipe(<contenttweaker:blueprint_machine>.withTag({display: {Lore: ["§aTerrastrial Agglomeration Plate"]}}),[<contenttweaker:blueprint_empty>,<botania:manaresource:1>,<minecraft:dye:4>,<minecraft:dye:4>,<minecraft:dye:4>],30000);

@@ -12,6 +12,6 @@ import crafttweaker.item.IItemStack;
 
 RecipeBuilder.newBuilder("energy_0", "energy_dismantler", 2400).
 addItemInput(<contenttweaker:shinystar_matter>).
-addEnergyPerTickInput(500).
+addEnergyPerTickInput(4000).
 addItemOutput(<contenttweaker:shinystar_ingot>).
 build();

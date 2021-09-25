@@ -24,6 +24,7 @@ addItemInput(<contenttweaker:cell_dt>).
 addEnergyPerTickOutput(5000).
 addItemOutput(<contenttweaker:shinystar_matter>).setChance(0.03).
 addItemOutput(<contenttweaker:material_part:94>*8).
+addItemOutput(<contenttweaker:cell_empty>).
 build();
 
 //shinystar_ingot generate power

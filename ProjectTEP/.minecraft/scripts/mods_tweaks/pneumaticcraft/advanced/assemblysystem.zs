@@ -18,5 +18,3 @@ assembly.removeLaserRecipe(<pneumaticcraft:aphorism_tile>);
 //add
 assembly.addLaserRecipe(<pneumaticcraft:printed_circuit_board>,<contenttweaker:pcb>);
 assembly.addLaserRecipe(<contenttweaker:pcb>,<pneumaticcraft:printed_circuit_board>);
-assembly.addLaserRecipe(<contenttweaker:ram>,<contenttweaker:rom>);
-assembly.addLaserRecipe(<contenttweaker:rom>,<contenttweaker:ram>);

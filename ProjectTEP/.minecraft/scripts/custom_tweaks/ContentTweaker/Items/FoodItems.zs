@@ -5,7 +5,7 @@
     Thanks a lot!
 */
 
-#priority 70004
+#priority 70005
 #loader contenttweaker
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.IItemFoodEaten;

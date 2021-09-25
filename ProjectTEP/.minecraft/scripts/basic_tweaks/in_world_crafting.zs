@@ -11,3 +11,14 @@ import mods.inworldcrafting.FluidToItem;
 
 //FluidToItem
 FluidToItem.transform(<contenttweaker:paper_ee>*8,<liquid:electrolyte>,[<contenttweaker:papers>],true);
+
+//dusts
+for i, Dusts in dusts {
+    FluidToItem.transform(Dusts,<liquid:water>,[dirtydusts[i]],false);
+}
+
+for i, DustsInt in dustInt {
+    val basedusts = materials.makeStack(DustsInt);
+	val basedirtydusts = materials.makeStack(dirtydustInt[i]);
+    FluidToItem.transform(basedusts,<liquid:water>,[basedirtydusts],false);
+}

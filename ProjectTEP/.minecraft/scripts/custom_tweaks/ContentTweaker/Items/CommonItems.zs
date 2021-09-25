@@ -10,32 +10,18 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 
-//===============================================================
+function itemBuilder(name as string, rarity as string, maxdamage as int, maxstacksize as int, glowing as bool) {
+    var item as Item = VanillaFactory.createItem(name);
+    item.rarity = rarity;
+    item.maxDamage = maxdamage;
+    item.maxStackSize = maxstacksize;
+    item.glowing = glowing;
+    item.register();
+}
 
-//snow_tool
-var st = VanillaFactory.createItem("snow_tool");
-st.maxDamage = 120;
-st.maxStackSize = 1;
-st.rarity = "uncommon";
-st.register();
-
-//===============================================================
-
-//conversion_core
-var coc = VanillaFactory.createItem("conversion_core");
-coc.glowing = true;
-coc.rarity = "uncommon";
-coc.register();
-
-//===============================================================
-
-//rainbow_rune
-var rrune = VanillaFactory.createItem("rainbow_rune");
-rrune.glowing = true;
-rrune.rarity = "epic";
-rrune.register();
-
-//===============================================================
+itemBuilder("snow_tool", "uncommon", 120, 1, false);
+itemBuilder("conversion_core", "uncommon", -1, 64, true);
+itemBuilder("rainbow_rune", "epic", -1, 64, true);
 
 var epic_items as string[] = 
 [
@@ -45,24 +31,13 @@ var epic_items as string[] =
     "seasons_core","heaven_core"
 ];
 for ei in epic_items {
-    var EI = VanillaFactory.createItem(ei);
-    EI.rarity = "epic";
-    EI.glowing = true;
-    EI.register();
+    itemBuilder(ei, "epic", -1, 64, true);
 }
-
-//===============================================================
 
 var basic_tools as string[] = ["sieve_string","handsaw_wood","hammer_plate"];
 for bt in basic_tools {
-    var BT = VanillaFactory.createItem(bt);
-    BT.maxDamage = 90;
-    BT.maxStackSize = 1;
-    BT.rarity = "uncommon";
-    BT.register();
+    itemBuilder(bt, "uncommon", 90, 1, false);
 }
-
-//===============================================================
 
 var basic_materials as string[] = 
 [
@@ -77,17 +52,10 @@ var basic_materials as string[] =
     "medium_uper","adv_uper"
 ];
 for bm in basic_materials {
-    var BM = VanillaFactory.createItem(bm);
-    BM.register();
+    itemBuilder(bm, "common", -1, 64, false);
 }
-
-//===============================================================
 
 var tools as string[] = ["electric_iron","capacitance_pack","resistance_pack","nano_pack"];
 for t in tools {
-    var Tools = VanillaFactory.createItem(t);
-    Tools.rarity = "uncommon";
-    Tools.maxDamage = 150;
-    Tools.maxStackSize = 1;
-    Tools.register();
+    itemBuilder(t, "uncommon", 150, 1, false);
 }

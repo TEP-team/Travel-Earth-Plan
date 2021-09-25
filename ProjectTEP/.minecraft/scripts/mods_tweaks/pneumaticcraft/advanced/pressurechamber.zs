@@ -67,3 +67,19 @@ pressurechamber.addRecipe([<minecraft:paper>,<pneumaticcraft:transistor>,<conten
 
 pressurechamber.addRecipe(
     [<minecraft:coal>], 1.6, [<contenttweaker:material_part:62>]);
+
+pressurechamber.addRecipe(
+    [<contenttweaker:material_part:25>,<environmentaltech:kyronite_crystal>*2], 2.0, [<contenttweaker:material_part:42>]);
+
+//blueprint
+//Refinery
+pressurechamber.addRecipe([<contenttweaker:blueprint_empty>,<contenttweaker:cell_empty>],1.2,[<contenttweaker:blueprint_machine>.withTag({display: {Lore: ["§aRefinery"]}})]);
+
+//Thermopneumatic Processing Plant
+pressurechamber.addRecipe([<contenttweaker:blueprint_empty>,<contenttweaker:cell_empty>*2,<forge:bucketfilled>.withTag({FluidName: "oil", Amount: 1000})],1.5,[<contenttweaker:blueprint_machine>.withTag({display: {Lore: ["§aThermopneumatic Processing Plant"]}})]);
+
+//Plastic Mixer
+pressurechamber.addRecipe([<contenttweaker:blueprint_empty>,<pneumaticcraft:compressed_iron_gear>],1.8,[<contenttweaker:blueprint_machine>.withTag({display: {Lore: ["§aPlastic Mixer"]}})]);
+
+//Assembly Controller
+pressurechamber.addRecipe([<contenttweaker:blueprint_empty>,<pneumaticcraft:unassembled_pcb>],2.0,[<contenttweaker:blueprint_machine>.withTag({display: {Lore: ["§aAssembly Controller"]}})]);

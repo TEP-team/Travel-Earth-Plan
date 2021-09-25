@@ -8,9 +8,9 @@
 #priority 39000
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipePrimer;
-import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IItemStack;
-import crafttweaker.data.IData;
+
+var iron = <minecraft:iron_ingot>;
 
 function oneBuilder(name as string, tick as int, perenergy as int, input as IItemStack, output as IItemStack) {
     RecipeBuilder.newBuilder(name, "packer", tick).
@@ -39,21 +39,6 @@ function threeBuilder(
     addItemOutput(output).
     build();
 }
-
-var iron = <minecraft:iron_ingot>;
-
-//materials
-var materials as IItemDefinition = <contenttweaker:material_part>.definition;
-val bearingInt as int[] = [0,17,34,51,68,85,102,119,136,153,170,187,204];
-val beamInt as int[] = [1,18,35,52,69,86,103,120,137,154,171,188,205];
-val boltInt as int[] = [2,19,36,53,70,87,104,121,138,155,172,189,206];
-val casingInt as int[] = [3,20,37,54,71,88,105,122,139,156,173,190,207];
-val denseplateInt as int[] = [7,24,41,58,75,92,109,126,143,160,177,194,211];
-val gearInt as int[] = [10,27,44,61,78,95,112,129,146,163,180,197,214];
-val ingotInt as int[] = [11,28,45,62,79,96,113,130,147,164,181,198,215];
-val nuggetInt as int[] = [12,29,46,63,80,97,114,131,148,165,182,199,216];
-val plateInt as int[] = [13,30,47,64,81,98,115,132,149,166,183,200,217];
-val rodInt as int[] = [14,31,48,65,82,99,116,133,150,167,184,201,218];
 
 //add recipes
 for r, BearingInt in bearingInt {
@@ -115,7 +100,7 @@ threeBuilder("packer:8", 200, 400, <pneumaticcraft:unassembled_pcb>, <pneumaticc
 twoBuilder("packer:9", 100, 400, <pneumaticcraft:ingot_iron_compressed>*4, iron, <pneumaticcraft:compressed_iron_gear>);
 
 //singlechip
-threeBuilder("packer:10", 400, 1200, <contenttweaker:material_part:58>*4, <contenttweaker:pin>*2, <contenttweaker:mini_driver>, <contenttweaker:singlechip>);
+threeBuilder("packer:10", 400, 1200, <contenttweaker:material_part:58>*4, <contenttweaker:pin>*2, <contenttweaker:huge_driver>, <contenttweaker:singlechip>);
 
 //exe
 threeBuilder("packer:11", 300, 2000, <contenttweaker:material_part:149>*2, <mekanism:controlcircuit:3>, <contenttweaker:pin>, <contenttweaker:exe>);
@@ -134,3 +119,6 @@ threeBuilder("pack:15", 700, 560, <contenttweaker:mediuim_driver>, <contenttweak
 
 //mixin_tank
 threeBuilder("pack:16", 1200, 100, <minecraft:paper>, <ironchest:iron_chest:6>*2, <mekanism:machineblock2:11>.withTag({tier: 3})*2, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mixin_tank"}));
+
+//rom
+threeBuilder("pack:17", 200, 1200, <contenttweaker:ram>, <contenttweaker:papers>*8, <contenttweaker:tin_solder_dust>*8, <contenttweaker:rom>);

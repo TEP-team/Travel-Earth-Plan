@@ -38,9 +38,9 @@ dataChecker("Runic_Altar",<botania:runealtar>,
 
 //Terrastrial Agglomeration Plate
 dataChecker("Terrastrial_Agglomeration_Plate",<botania:terraplate>,
-    [[<minecraft:lapis_block>,<botania:manatablet>.withTag({mana: 500000}),<minecraft:lapis_block>],
+    [[<pneumaticcraft:plastic:4>,<botania:manatablet>.withTag({mana: 500000}),<pneumaticcraft:plastic:4>],
      [<botania:storage>,<botania:rune:8>,<botania:storage>],
-     [<minecraft:lapis_block>,<botania:storage>,<minecraft:lapis_block>]]);
+     [<pneumaticcraft:plastic:4>,<minecraft:lapis_block>,<pneumaticcraft:plastic:4>]]);
 
 //Elven Gateway Core
 dataChecker("Elven_Gateway_Core",<botania:alfheimportal>,

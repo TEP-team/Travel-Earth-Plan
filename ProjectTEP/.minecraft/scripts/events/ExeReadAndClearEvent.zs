@@ -7,21 +7,33 @@
 
 #priority 57000
 #loader crafttweaker reloadableevents
-import crafttweaker.world.IWorld;
 import crafttweaker.player.IPlayer;
 import crafttweaker.item.IItemStack;
 import crafttweaker.text.ITextComponent.fromTranslation;
-import crafttweaker.event.PlayerInteractEvent;
+import crafttweaker.event.PlayerInteractBlockEvent;
 
+//clear
+events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
+    var player as IPlayer = event.player;
+    if (!player.world.remote && !player.isFake() && player.isSneaking) {
+        var item = event.item;
+        if (<contenttweaker:ft_exe>.matches(item) || <contenttweaker:gc_exe>.matches(item)) {
+            item.mutable().shrink(1);
+            player.give(<contenttweaker:exe>);
+            player.sendRichTextMessage(fromTranslation("exe.tep.clear"));
+        }
+    }
+});
+
+//read
 //function
 function exeGetter(blockObject as IItemStack, itemObject as IItemStack, exeCard as IItemStack) {
-    events.onPlayerInteract(function(event as PlayerInteractEvent) {
+    events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
         var player as IPlayer = event.player;
         if (!player.world.remote && !player.isFake()) {
             if (blockObject.asBlock().definition.id == event.block.definition.id) {
                 var item = event.item;
                 if (itemObject.matches(item)) {
-                    //var turnState = turnBlock.definition.defaultState; turnBlock as IItemStack
                     player.give(exeCard);
                     item.mutable().shrink(1);
                     player.sendRichTextMessage(fromTranslation("exe.tep.get"));

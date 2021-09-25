@@ -91,6 +91,8 @@ fluid.deuterium=高纯氘
 #potions
 effect.contenttweaker.bleeding=§4流血
 effect.contenttweaker.fractured=§4骨折
+effect.contenttweaker.fullmoon=§e满月诅咒
+effect.contenttweaker.bloodmoon=§c血月诅咒
 
 #materials
 base.material.bium=基础合金

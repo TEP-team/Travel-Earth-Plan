@@ -13,7 +13,7 @@ import crafttweaker.entity.IEntity;
 import crafttweaker.player.IPlayer;
 import crafttweaker.text.ITextComponent.fromTranslation;
 import crafttweaker.event.EntityLivingHurtEvent;
-
+/*
 val mobs as string[] =
 [
     "minecraft:zombie",
@@ -24,14 +24,14 @@ val mobs as string[] =
     "minecraft:stray",
     "minecraft:witch"
 ];
-
+*/
 events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
     var player as IEntityLivingBase = event.entityLivingBase;
     var world as IWorld = player.world;
     if (!world.remote) {
         if (player instanceof IPlayer && world.random.nextInt(0, 100) <= 8) {
             var attacker as IEntity = event.damageSource.trueSource;
-            if (!isNull(attacker) && !attacker instanceof IPlayer && attacker instanceof IEntityLivingBase && mobs has attacker.definition.id) {
+            if (!isNull(attacker) /*&& !attacker instanceof IPlayer && attacker instanceof IEntityLivingBase && mobs has attacker*/) {
                 player.addPotionEffect(<potion:contenttweaker:bleeding>.makePotionEffect(6000, 0));
                 player.sendRichTextMessage(fromTranslation("bleeding.tep.bsuccess"));
             }

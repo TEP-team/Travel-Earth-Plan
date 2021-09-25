@@ -6,3 +6,7 @@
 */
 
 #priority 51000
+import crafttweaker.player.IPlayer;
+import crafttweaker.world.IWorld;
+
+//there's nothing

@@ -14,6 +14,23 @@ import mods.contenttweaker.Commands;
 import mods.randomtweaker.cote.Potion;
 import crafttweaker.text.ITextComponent;
 
+function potionBuilder(name as string, color as int) {
+	var potion as Potion = VanillaFactory.createPotion(name, color);
+	potion.badEffectIn = true;
+	potion.shouldRenderHUD = true;
+	potion.shouldRender = true;
+	potion.beneficial = false;
+	potion.instant = false;
+	potion.register();
+}
+
+//fullmoon and bloodmoon
+var potions as string[] = ["fullmoon","bloodmoon"];
+var colors as int[] = [0xfff5d8,0x750005];
+for i, Potions in potions {
+	potionBuilder(Potions, colors[i]);
+}
+
 //bleeding
 var bl as Potion = VanillaFactory.createPotion("bleeding", 0xB4011E);
 bl.badEffectIn = true;

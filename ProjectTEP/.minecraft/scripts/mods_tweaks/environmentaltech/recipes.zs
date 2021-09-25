@@ -8,8 +8,8 @@
 #priority 40000
 import crafttweaker.item.IItemStack;
 
-var rs = <minecraft:redstone>;
 var iron = <ore:ingotIron>;
+var redstone = <minecraft:redstone>;
 var crystal1 = <environmentaltech:litherite_crystal>;
 var crystal2 = <environmentaltech:erodium_crystal>;
 var crystal3 = <environmentaltech:kyronite_crystal>;
@@ -34,9 +34,9 @@ recipes.addShaped(interconnect*4,
 
 recipes.remove(<valkyrielib:modifier_component>);
 recipes.addShaped(<valkyrielib:modifier_component>,
-    [[iron,rs,iron],
-     [rs,<minecraft:obsidian>,rs],
-     [iron,rs,iron]]);
+    [[iron,redstone,iron],
+     [redstone,<minecraft:obsidian>,redstone],
+     [iron,redstone,iron]]);
 
 recipes.remove(<environmentaltech:laser_lens_crystal>);
 recipes.addShaped(<environmentaltech:laser_lens_crystal>,

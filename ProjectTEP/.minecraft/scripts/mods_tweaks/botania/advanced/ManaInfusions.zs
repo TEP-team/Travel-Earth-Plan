@@ -21,4 +21,8 @@ for Remove in remove {
 }
 
 //add
+//infusion
 ManaInfusion.addInfusion(<botania:felpumpkin>,<minecraft:pumpkin>,20000);
+
+//alchemy
+ManaInfusion.addAlchemy(<contenttweaker:blueprint_machine>.withTag({display: {Lore: ["§aRunic Altar"]}}),<contenttweaker:blueprint_machine>,8000);

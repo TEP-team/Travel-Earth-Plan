@@ -6,7 +6,8 @@
 */
 
 #priority 40000
-import crafttweaker.item.IItemStack;
+
+var redstone = <minecraft:redstone>;
 
 //add
 recipes.remove(<mekanism:atomicdisassembler>);
@@ -16,9 +17,9 @@ recipes.addShaped(<mekanism:atomicdisassembler>,
      [null,<mekanism:ingot>,null]]);
 
 recipes.addShaped(<mekanism:controlcircuit>,
-    [[<minecraft:redstone>,<mekanism:ingot:1>.withTag({tier: 3}),<minecraft:redstone>],
+    [[redstone,<mekanism:ingot:1>.withTag({tier: 3}),redstone],
      [<mekanism:ingot:1>,<contenttweaker:papers>,<mekanism:ingot:1>],
-     [<minecraft:redstone>,<mekanism:ingot:1>,<minecraft:redstone>]]);
+     [redstone,<mekanism:ingot:1>,redstone]]);
 
 recipes.remove(<mekanism:controlcircuit:1>);
 recipes.addShaped(<mekanism:controlcircuit:1>,

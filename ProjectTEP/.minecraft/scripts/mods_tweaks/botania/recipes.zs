@@ -8,8 +8,6 @@
 #priority 40000
 import crafttweaker.item.IItemStack;
 
-var rs = <ore:dustRedstone>;
-
 //remove
 var remove as IItemStack[] = 
 [
