@@ -52,31 +52,31 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
 events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     var player as IPlayer = event.player;
     var world as IWorld = player.world;
-    if (!world.remote && !player.isFake() && player.isSneaking) {
+    if (!player.isFake() && player.isSneaking) {
         var block = event.block;
         if (<mekanism:basicblock:13>.asBlock().definition.id == block.definition.id) {
             var item = event.item;
             if (<contenttweaker:electric_iron>.matches(item)) {
-                var tsd = <contenttweaker:tin_solder_dust>;
-                var x = event.x;
-                var y = event.y;
-                var z = event.z;
-                world.spawnEntity(tsd.createEntityItem(world, x, y + 1, z));
-                world.setBlockState(<blockstate:minecraft:air>, event.position);
-                item.mutable().shrink(1);
-                item.damage -= 5;
-                var random = world.random;
-                if (random.nextInt(0, 100) <= 25) {
-                    world.spawnEntity(tsd.createEntityItem(world, x, y + 1, z));
-                }
-                if (random.nextInt(0, 100) <= 20) {
-                    world.spawnEntity(tsd.createEntityItem(world, x, y + 1, z));
-                }
-                if (random.nextInt(0, 100) <= 15) {
-                    world.spawnEntity(tsd.createEntityItem(world, x, y + 1, z));
-                }
-                if (random.nextInt(0, 100) <= 10) {
-                    world.spawnEntity(tsd.createEntityItem(world, x, y + 1, z));
+                if (!world.remote) {
+                    var tsd = <contenttweaker:tin_solder_dust>;
+                    var x = event.x;
+                    var y = event.y;
+                    var z = event.z;
+                    var i as int = 0;
+                    while (i < 3) {
+                        world.spawnEntity(tsd.createEntityItem(world, x, y + 1, z));
+                        i += 1;
+                    }
+                    world.setBlockState(<blockstate:minecraft:air>, event.position);
+                    var random = world.random;
+                    if (random.nextInt(1, 100) <= 25) {
+                        world.spawnEntity(tsd.createEntityItem(world, x, y + 1, z));
+                    }
+                    if (random.nextInt(1, 100) <= 20) {
+                        world.spawnEntity(tsd.createEntityItem(world, x, y + 1, z));
+                    }
+                } else {
+                    player.playSound("entity.generic.explode", 0.5, 1.5);
                 }
             }
         }

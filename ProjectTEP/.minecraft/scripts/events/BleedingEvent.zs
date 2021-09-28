@@ -29,7 +29,7 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
     var player as IEntityLivingBase = event.entityLivingBase;
     var world as IWorld = player.world;
     if (!world.remote) {
-        if (player instanceof IPlayer && world.random.nextInt(0, 100) <= 8) {
+        if (player instanceof IPlayer && world.random.nextInt(1, 100) <= 8) {
             var attacker as IEntity = event.damageSource.trueSource;
             if (!isNull(attacker) /*&& !attacker instanceof IPlayer && attacker instanceof IEntityLivingBase && mobs has attacker*/) {
                 player.addPotionEffect(<potion:contenttweaker:bleeding>.makePotionEffect(6000, 0));

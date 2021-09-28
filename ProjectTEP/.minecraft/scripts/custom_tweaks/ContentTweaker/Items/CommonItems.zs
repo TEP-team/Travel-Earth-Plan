@@ -49,13 +49,13 @@ var basic_materials as string[] =
     "pcb","pin","temperature_monitor","test_unit","mini_driver",
     "mediuim_driver","huge_driver","singlechip","gc_exe",
     "gc_singlechip","ft_singlechip","hot_water","basic_uper",
-    "medium_uper","adv_uper"
+    "medium_uper","adv_uper","electric_iron"
 ];
 for bm in basic_materials {
     itemBuilder(bm, "common", -1, 64, false);
 }
 
-var tools as string[] = ["electric_iron","capacitance_pack","resistance_pack","nano_pack"];
+var tools as string[] = ["capacitance_pack","resistance_pack","nano_pack"];
 for t in tools {
     itemBuilder(t, "uncommon", 150, 1, false);
 }

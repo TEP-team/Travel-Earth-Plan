@@ -2,7 +2,7 @@
 
 A Minecraft Server for Minecraft Java Edtion [1.12.2]
 
-一个 科技 | 战争 | 魔法 | 魔改 服务器.
+一个 科技 | 魔法 | 魔改 服务器.
 
 您可以在仓库内找到我们开发服务器所绘制的代码，材质等.
 

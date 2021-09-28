@@ -6,6 +6,7 @@
 */
 
 #priority 50002
+#loader crafttweaker reloadableevents
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.player.IPlayer;
@@ -21,7 +22,6 @@ function bluePrintData(bluePrint as IItemStack, nameAsBlueprint as string) {
         var world as IWorld = player.world;
         if (!world.remote && !player.isFake()) {
             if (bluePrint.matches(event.item)) {
-                //Thanks to youyihj for providing this method for me.
                 var blueprint as IData = IData.createEmptyMutableDataMap();
                 blueprint.memberSet(nameAsBlueprint, 1);
                 player.update({PlayerPersisted: {blueprintData: blueprint}});

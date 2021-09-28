@@ -7,6 +7,11 @@
 
 #priority 60000
 
+//function
+function langGet(key as string) as string {
+    return game.localize(key);
+}
+
 //ToolTips
 <forge:bucketfilled>.withTag({FluidName: "electrolyte", Amount: 1000}).addTooltip("§b高度的酸性，锂与硫酸的反应产物.");
 <contenttweaker:sieve_string>.anyDamage().addTooltip("§b可以筛出雪球中的碎渣.");
@@ -41,7 +46,7 @@
 <pneumaticcraft:empty_pcb:*>.addTooltip("§b如果耐久不满，请在 §e紫外光灯线 §b中进行紫外线照射！");
 <pneumaticcraft:empty_pcb:100>.addTooltip("§b目前电路板耐久为零，可直接放入 §6装配室 §b中进行激光印刷！");
 
-<cropdusting:poop>.addTooltip("§b它可以食用 §c???.");
+<cropdusting:poop>.addTooltip("§b它可以食用.");
 <cropdusting:poop>.addTooltip("§a没错你就是老八的传人！");
 
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mana_altar"}).addTooltip("§c注意：§e魔法水晶 §c因结构问题未显示，请获得该物品后搭建机器.");
