@@ -7,16 +7,14 @@
 
 #priority 40000
 import crafttweaker.item.IItemStack;
-import mods.jei.JEI.hide;
+import mods.jei.JEI.removeAndHide;
 
 //mods hide
 val mods as string[] = ["variedcommodities","scalinghealth","botania_tweaks"];
 for Mods in mods {
     val hides = loadedMods[Mods].items;
     for Hide in hides {
-        hide(Hide);
-        recipes.remove(Hide);
-        furnace.remove(Hide);
+        removeAndHide(Hide);
     }
 }
 
@@ -55,7 +53,6 @@ val hides as IItemStack[] =
     <mekanism:jetpack>,<mekanism:armoredjetpack>,<mekanism:electricbow>
 ];
 for Hide in hides {
-    recipes.remove(Hide);
-    hide(Hide);
+    removeAndHide(Hide);
 }
 
