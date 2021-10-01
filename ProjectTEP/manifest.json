@@ -11,6 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Travel Earth Plan",
+  "version": "Beta Edition - v1.0.0",
   "author": "TEP-team",
   "files": [
     {
@@ -90,12 +91,7 @@
     },
     {
       "projectID": 514170,
-      "fileID": 3441551,
-      "required": true
-    },
-    {
-      "projectID": 224535,
-      "fileID": 2443253,
+      "fileID": 3476210,
       "required": true
     },
     {
@@ -105,7 +101,7 @@
     },
     {
       "projectID": 304750,
-      "fileID": 3429303,
+      "fileID": 3441670,
       "required": true
     },
     {
@@ -139,8 +135,18 @@
       "required": true
     },
     {
+      "projectID": 270790,
+      "fileID": 2761302,
+      "required": true
+    },
+    {
       "projectID": 268566,
       "fileID": 2835177,
+      "required": true
+    },
+    {
+      "projectID": 530919,
+      "fileID": 3476255,
       "required": true
     },
     {
@@ -174,13 +180,13 @@
       "required": true
     },
     {
-      "projectID": 401178,
-      "fileID": 3432318,
+      "projectID": 525389,
+      "fileID": 3456159,
       "required": true
     },
     {
-      "projectID": 256359,
-      "fileID": 2656640,
+      "projectID": 401178,
+      "fileID": 3432318,
       "required": true
     },
     {
@@ -464,11 +470,6 @@
       "required": true
     },
     {
-      "projectID": 223150,
-      "fileID": 2689602,
-      "required": true
-    },
-    {
       "projectID": 253230,
       "fileID": 2465617,
       "required": true
@@ -621,11 +622,6 @@
     {
       "projectID": 315773,
       "fileID": 3341793,
-      "required": true
-    },
-    {
-      "projectID": 350869,
-      "fileID": 3426584,
       "required": true
     },
     {
