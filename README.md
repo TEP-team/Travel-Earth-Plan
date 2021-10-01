@@ -12,4 +12,4 @@ A Minecraft Server for Minecraft Java Edtion [1.12.2]
 
 感谢您游玩本服务器.
 
-特别感谢：科星，哈罗，GBL，友谊等为服务器提供魔改帮助的人.
+特别感谢：[ikexing (科星)](https://github.com/ikexing-cn)，[superhelo (小哈罗)](https://github.com/XHL315)，[GBLodb(GBL Jr.)](https://github.com/GBLodb)，[friendlyhj (友谊hj)](https://github.com/friendlyhj) 等为服务器提供魔改帮助的人.
