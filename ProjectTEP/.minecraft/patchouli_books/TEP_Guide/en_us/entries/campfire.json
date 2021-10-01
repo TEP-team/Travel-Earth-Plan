@@ -1,0 +1,31 @@
+{
+    "name": "Campfire",
+    "category": "survival",
+    "icon": "simpledifficulty:campfire",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:paper",
+            "title": "Description",
+            "text": "$(6)Campfire $() is the only thing that can provide warmth when you are surviving in the early, And with the $(6) Spit $() you can cook your catch. $(br2) It requires $(6) Flint and Steel $() to activate."
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:flint_and_steel",
+            "title": "Flint and Steel",
+            "text": "$(6) Flint and Steel $() is the only ignition tool, but it only has $(c)5 $() points of durability. $(br2) It is now not $(6) Iron Ingot $() and $(6) Flint $() to synthesize, it requires $(6) Round Stone $() and $(6) Flint $() to synthesize."
+        },
+        {
+            "type": "spotlight",
+            "item": "simpledifficulty:campfire",
+            "title": "Campfire",
+            "text": "It needs $(6) Flint and Steel $() to light up. $(br2) It doesn't burn all the time, you have to provide it with $(6) logs $() to keep it burning. $(br2)A must for long term wilderness adventures!"
+        },
+        {
+            "type": "spotlight",
+            "item": "simpledifficulty:spit",
+            "title": "Spit",
+            "text": "Place it on top of the $(6) Campfire $() and light the campfire so you can cook something on the spit to eat."
+        }
+    ]
+}

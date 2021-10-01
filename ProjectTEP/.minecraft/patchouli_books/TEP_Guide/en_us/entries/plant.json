@@ -1,0 +1,19 @@
+{
+    "name": "Crop Cultivation",
+    "category": "survival",
+    "icon": "harvestcraft:barleyseeditem",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:paper",
+            "title": "Description",
+            "text": "The cold season has led to a massive die-off of plants that are not hardy and the only source of food is broken. $(br2) We have to find ways to feed the plants."
+        },
+        {
+            "type": "spotlight",
+            "item": "sereneseasons:greenhouse_glass",
+            "title": "Greenhouse Construction",
+            "text": "The $(6) Greenhouse $() allows crops to grow properly in cold weather. $(br2) You just need to build a tunnel-like shape using $(6) Greenhouse Glass $(). $(br2)The height between the glass and the crop must not exceed $(c)6 $() blocks, otherwise the greenhouse will not work."
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "tep.patchouli.title",
+	"landing_text": "tep.patchouli.landing_text",
+	"book_texture": "patchouli:textures/gui/book_purple.png",
+	"model": "patchouli:book_purple",
+	"index_icon": "minecraft:book",
+	"show_progress": false,
+	"pause_game": false,
+	"i18n": true,
+	"subtitle": "tep.patchouli.subtitle"
+}
