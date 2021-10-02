@@ -4,8 +4,8 @@ on:
     branches: [lib]
   workflow_dispatch:
 env:
-  BUILD: Travel Earth Plan-
-  VERSION: Beta v1.0
+  BUILD: Travel Earth Plan
+  VERSION: Beta Edition v1.0
 
 
 jobs:
