@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 env:
   BUILD: Travel Earth Plan
-  VERSION: Beta Edition v1.0
+  VERSION: Build Edition v
 
 
 jobs:
