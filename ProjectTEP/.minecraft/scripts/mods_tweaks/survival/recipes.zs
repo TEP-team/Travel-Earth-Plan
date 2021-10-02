@@ -39,13 +39,8 @@ recipes.addShaped(<armorunder:warm_liner_material>,
 recipes.addShapeless(<armorunder:heating_goo>,
     [<minecraft:flint_and_steel>.anyDamage().transformDamage(),<minecraft:slime_ball>]);
 
-recipes.addShaped(<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:tep_guide_chinese"}),
-    [[<minecraft:snowball>],
-     [<minecraft:book>],
-     [<minecraft:snowball>]]);
-
-recipes.addShaped(<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:tep_guide_english"}),
-    [[<minecraft:snowball>,<minecraft:book>,<minecraft:snowball>]]);
+recipes.addShapeless(<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:tep_guide"}),
+    [<minecraft:book>,<minecraft:snowball>]);
 
 recipes.addShaped(<armorunder:liner_snips>,
     [[<ore:ingotIron>,<contenttweaker:cloth_string>],

@@ -160,7 +160,15 @@ recipes.addShaped(<contenttweaker:heaven_core>,
 	 [<contenttweaker:machinery_core>,<contenttweaker:world_core>,<contenttweaker:mana_core>],
 	 [<contenttweaker:seasons_core>,<contenttweaker:ground_core>,<contenttweaker:shiny_core>]]);
 
+recipes.addShaped(<contenttweaker:blueprint_machine>.withTag({display: {Lore: "§aVoid Botanic Miner"}}),
+	[[<ore:logWood>,<minecraft:dirt>,<ore:logWood>],
+	 [<minecraft:dirt>,<contenttweaker:blueprint_empty>,<minecraft:dirt>],
+	 [<ore:logWood>,<minecraft:dirt>,<ore:logWood>]]);
 
+recipes.addShaped(<contenttweaker:blueprint_machine>.withTag({display: {Lore: "§aVoid Ore Miner"}}),
+	[[<ore:coals>,<ore:ingotIron>,<ore:coals>],
+	 [<ore:ingotIron>,<contenttweaker:blueprint_empty>,<ore:ingotIron>],
+	 [<ore:coals>,<ore:ingotIron>,<ore:coals>]]);
 
 //===============================================================
 var hammer = <contenttweaker:hammer_plate>;

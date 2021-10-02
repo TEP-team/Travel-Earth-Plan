@@ -45,7 +45,7 @@ var basic_materials as string[] =
     "papers","paper_ee","cell_electrolyte","cell_empty","cell_cold",
     "cell_dt","wood_residue","big_wood_residue","metal_stick",
     "cloth_string","motor","blueprint_empty","pc","ram","rom",
-    "blueprint_machine","blueprint_gun","cpu","ft_exe","exe",
+    "blueprint_machine","cpu","ft_exe","exe",
     "pcb","pin","temperature_monitor","test_unit","mini_driver",
     "mediuim_driver","huge_driver","singlechip","gc_exe",
     "gc_singlechip","ft_singlechip","hot_water","basic_uper",

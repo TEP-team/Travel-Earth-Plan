@@ -14,7 +14,7 @@ import crafttweaker.block.IBlockState;
 import crafttweaker.text.ITextComponent.fromTranslation;
 import crafttweaker.event.PlayerInteractBlockEvent;
 
-function levelUper(blockObject as IItemStack, itemObject as IItemStack, state as IBlockState, inventoryItem as IItemStack, amount as int) {
+function levelUper(blockObject as IItemStack, itemObject as IItemStack, state as IBlockState, inventoryItem as IItemStack) {
     events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
         var player as IPlayer = event.player;
         var world as IWorld = event.world;
@@ -30,14 +30,13 @@ function levelUper(blockObject as IItemStack, itemObject as IItemStack, state as
                             var pos = event.position;
                             world.setBlockState(state, pos);
                             item.mutable().shrink(1);
-                            itemIn.mutable().shrink(amount);
+                            itemIn.mutable().shrink(inventoryItem.amount);
                             player.sendRichTextMessage(fromTranslation("level.tep.up"));
                         } else {
                             player.playSound("entity.player.levelup", 1, 1);
                             player.playSound("entity.generic.explode", 0.5, 1.5);
                         }
-                    } else {
-                        player.sendRichTextMessage(fromTranslation("level.tep.fail"));
+                        break;
                     }
                 }
             }
