@@ -15,6 +15,11 @@
   "author": "TEP-team",
   "files": [
     {
+      "projectID": 525389,
+      "fileID": 3479833,
+      "required": true
+    },
+    {
       "projectID": 224472,
       "fileID": 2969118,
       "required": true
@@ -46,7 +51,7 @@
     },
     {
       "projectID": 408853,
-      "fileID": 3060450,
+      "fileID": 3464826,
       "required": true
     },
     {
@@ -91,17 +96,12 @@
     },
     {
       "projectID": 514170,
-      "fileID": 3476210,
-      "required": true
-    },
-    {
-      "projectID": 286924,
-      "fileID": 2998090,
+      "fileID": 3478652,
       "required": true
     },
     {
       "projectID": 304750,
-      "fileID": 3441670,
+      "fileID": 3454949,
       "required": true
     },
     {
@@ -126,7 +126,7 @@
     },
     {
       "projectID": 367706,
-      "fileID": 3433822,
+      "fileID": 3474996,
       "required": true
     },
     {
@@ -146,7 +146,7 @@
     },
     {
       "projectID": 530919,
-      "fileID": 3476255,
+      "fileID": 3478154,
       "required": true
     },
     {
@@ -177,11 +177,6 @@
     {
       "projectID": 310383,
       "fileID": 2660325,
-      "required": true
-    },
-    {
-      "projectID": 525389,
-      "fileID": 3456159,
       "required": true
     },
     {
@@ -246,7 +241,7 @@
     },
     {
       "projectID": 224663,
-      "fileID": 3092964,
+      "fileID": 3466431,
       "required": true
     },
     {
@@ -321,7 +316,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3435328,
+      "fileID": 3478825,
       "required": true
     },
     {
@@ -361,7 +356,7 @@
     },
     {
       "projectID": 284350,
-      "fileID": 3063275,
+      "fileID": 3466382,
       "required": true
     },
     {
@@ -371,7 +366,7 @@
     },
     {
       "projectID": 255389,
-      "fileID": 3437859,
+      "fileID": 3467503,
       "required": true
     },
     {
@@ -451,12 +446,12 @@
     },
     {
       "projectID": 254334,
-      "fileID": 3086478,
+      "fileID": 3466259,
       "required": true
     },
     {
       "projectID": 410295,
-      "fileID": 3433667,
+      "fileID": 3467878,
       "required": true
     },
     {
@@ -586,7 +581,7 @@
     },
     {
       "projectID": 257814,
-      "fileID": 3437866,
+      "fileID": 3467576,
       "required": true
     },
     {
