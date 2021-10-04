@@ -16,11 +16,11 @@ events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent) {
 
     if (!player.world.remote && !player.isFake()) {
         //commands
-        var cmds as string[] = ["gamerule naturalRegeneration false", "gamerule keepInventory false", "gamerule maxEntityCramming 16", "gamerule mobGriefing false"];
+        /*var cmds as string[] = ["gamerule naturalRegeneration false", "gamerule keepInventory true", "gamerule maxEntityCramming 16", "gamerule mobGriefing false"];
         
         for cmd in cmds {
             server.commandManager.executeCommand(server, cmd);
-        }
+        }*/
 
         //messages
         for i in 1 to 5 {

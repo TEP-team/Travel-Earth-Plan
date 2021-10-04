@@ -35,14 +35,28 @@ events.onEntityLivingFall(function(event as EntityLivingFallEvent) {
 events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
     var living as IEntityLivingBase = event.entityLivingBase;
     var world as IWorld = living.world;
-
     if (!world.remote && living instanceof IPlayer) {
         var player as IPlayer = living;
         var data as IData = player.data.PlayerPersisted;
-
         if (!isNull(data) && !isNull(data.fractured) && data.fractured.asFloat() >= 7.0f) {
-            player.addPotionEffect(<potion:contenttweaker:fractured>.makePotionEffect(99999999999, 0));
-            player.sendRichTextMessage(fromTranslation("fractured.tep.fsuccess"));
+            var Fractured as bool = living.isPotionActive(<potion:contenttweaker:fractured>);
+            if (!Fractured) {
+                player.addPotionEffect(<potion:contenttweaker:fractured>.makePotionEffect(99999999999, 0));
+                player.sendRichTextMessage(fromTranslation("fractured.tep.fsuccess"));
+            }
+        }
+    }
+});
+
+events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
+    var living as IEntityLivingBase = event.entityLivingBase;
+    var world as IWorld = living.world;
+    if (!world.remote) {
+        var type as string = event.damageSource.damageType;
+        var Fractured as bool = living.isPotionActive(<potion:contenttweaker:fractured>);
+        if (type == "fall" && Fractured) {
+            var player as IPlayer = living;
+            player.health -= 2;
         }
     }
 });

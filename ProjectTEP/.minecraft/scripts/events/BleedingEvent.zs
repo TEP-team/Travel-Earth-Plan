@@ -13,18 +13,7 @@ import crafttweaker.entity.IEntity;
 import crafttweaker.player.IPlayer;
 import crafttweaker.text.ITextComponent.fromTranslation;
 import crafttweaker.event.EntityLivingHurtEvent;
-/*
-val mobs as string[] =
-[
-    "minecraft:zombie",
-    "minecraft:skeleton",
-    "minecraft:creeper",
-    "minecraft:spider",
-    "minecraft:enderman",
-    "minecraft:stray",
-    "minecraft:witch"
-];
-*/
+
 events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
     var living as IEntityLivingBase = event.entityLivingBase;
     var world as IWorld = living.world;
@@ -32,9 +21,12 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
     if(!world.remote && living instanceof IPlayer && world.random.nextInt(100) <= 8) {
         var player as IPlayer = living;
         var attacker as IEntity = event.damageSource.trueSource;
-        if(!isNull(attacker) /*&& !attacker instanceof IPlayer && attacker instanceof IEntityLivingBase && mobs has attacker*/) {
-            player.addPotionEffect(<potion:contenttweaker:bleeding>.makePotionEffect(6000, 0));
-            player.sendRichTextMessage(fromTranslation("bleeding.tep.bsuccess"));
+        if(!isNull(attacker) && !attacker instanceof IPlayer && attacker instanceof IEntityLivingBase) {
+            var bleeding as bool = living.isPotionActive(<potion:contenttweaker:bleeding>);
+            if (!bleeding) {
+                player.addPotionEffect(<potion:contenttweaker:bleeding>.makePotionEffect(6000, 0));
+                player.sendRichTextMessage(fromTranslation("bleeding.tep.bsuccess"));
+            }
         }
     }
 });

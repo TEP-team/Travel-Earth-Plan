@@ -72,9 +72,7 @@ fr.performEffect = function(living, amplifier) {
 	var sprinting = living.isSprinting;
  	if(!world.remote && living instanceof Player && sprinting) {
 		var player as Player = living;
-		player.sendRichTextMessage(ITextComponent.fromTranslation("fractured.tep.sprint"));
-		player.health -= 2;
-		Commands.call("playsound entity.player.hurt player @p ~ ~ ~ 1 1", player, world ,false, true);
+		player.addPotionEffect(<potion:minecraft:long_slowness>.makePotionEffect(25, 2));
 	}
 }; 
 fr.register();
