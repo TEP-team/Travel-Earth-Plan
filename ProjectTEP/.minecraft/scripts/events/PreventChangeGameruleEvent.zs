@@ -17,7 +17,7 @@ events.onCommand(function(event as CommandEvent) {
     var sender as ICommandSender = event.commandSender;
 
     if (!sender.world.remote && sender instanceof IPlayer) {
-        var cmds as string[] = ["gamemode", "give", "gamerule", "sereneseasons"];
+        var cmds as string[] = [ "give", "gamerule", "sereneseasons"];
 
         if (cmds has cmd) {
             event.cancel();

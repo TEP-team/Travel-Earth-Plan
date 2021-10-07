@@ -47,3 +47,7 @@ tooltipAdder("tooltip.tep.27", <cropdusting:poop>);
 tooltipAdder("tooltip.tep.28", <cropdusting:poop>);
 tooltipAdder("tooltip.tep.29", <modularmachinery:itemblueprint>);
 tooltipAdder("tooltip.tep.30", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mana_altar"}));
+tooltipAdder("tooltip.tep.31", <contenttweaker:blueprint_empty>);
+tooltipAdder("tooltip.tep.32", <contenttweaker:noodles_bubbled>);
+tooltipAdder("tooltip.tep.33", <contenttweaker:noodles>);
+tooltipAdder("tooltip.tep.34", <contenttweaker:brain>);

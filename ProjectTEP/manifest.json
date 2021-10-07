@@ -15,6 +15,21 @@
   "author": "TEP-team",
   "files": [
     {
+      "projectID": 272515,
+      "fileID": 2685984,
+      "required": true
+    },
+    {
+      "projectID": 285968,
+      "fileID": 2700901,
+      "required": true
+    },
+    {
+      "projectID": 235492,
+      "fileID": 2825547,
+      "required": true
+    },
+    {
       "projectID": 224472,
       "fileID": 2969118,
       "required": true
@@ -87,11 +102,6 @@
     {
       "projectID": 514170,
       "fileID": 3482054,
-      "required": true
-    },
-    {
-      "projectID": 304750,
-      "fileID": 3454949,
       "required": true
     },
     {
@@ -312,11 +322,6 @@
     {
       "projectID": 233071,
       "fileID": 2562139,
-      "required": true
-    },
-    {
-      "projectID": 311624,
-      "fileID": 3406677,
       "required": true
     },
     {

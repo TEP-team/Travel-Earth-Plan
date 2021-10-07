@@ -9,6 +9,7 @@
 #loader contenttweaker
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.IItemFoodEaten;
+import crafttweaker.text.ITextComponent.fromTranslation;
 
 //noodles
 VanillaFactory.createItemFood("noodles", 2).register();
@@ -23,3 +24,16 @@ noodles_bubbled.onItemFoodEaten = function(stack, world, player) {
     }
 };
 noodles_bubbled.register();
+
+//brain
+val brain = VanillaFactory.createItemFood("brain", 1);
+brain.saturation = 0.5;
+brain.onItemFoodEaten = function(stack, world, player) {
+    if (!world.remote && !player.isFake()) {
+        player.addPotionEffect(<potion:minecraft:hunger>.makePotionEffect(2400, 0));
+        player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(140, 0));
+        player.sendRichTextMessage(fromTranslation("brain.tep.eat"));
+        player.health -= 1;
+    }
+};
+brain.register();

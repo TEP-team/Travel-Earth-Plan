@@ -40,7 +40,7 @@ item.contenttweaker.papers.name=压缩纸
 item.contenttweaker.paper_ee.name=电解纸
 item.contenttweaker.motor.name=马达
 item.contenttweaker.cell_electrolyte.name=电解液单元
-item.contenttweaker.electric_iron.name=电烙铁焊柄
+item.contenttweaker.electric_iron.name=电烙铁
 item.contenttweaker.nano_pack.name=纳米材料包
 item.contenttweaker.capacitance_pack.name=电容包
 item.contenttweaker.resistance_pack.name=电阻包
@@ -70,6 +70,7 @@ item.contenttweaker.hot_water.name=热水
 item.contenttweaker.basic_uper.name=基础升级卡
 item.contenttweaker.medium_uper.name=中级升级卡
 item.contenttweaker.adv_uper.name=高级升级卡
+item.contenttweaker.brain.name=脑子
 
 #blocks
 tile.contenttweaker.litherite_light.name=§a荧光莱泽尔石
