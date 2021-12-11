@@ -20,7 +20,7 @@ for Logs in logs {
     recipes.remove(Logs);
 }
 for pn, Planks in planks {
-    recipes.addShapeless(Planks, [logs[pn]]);
+    recipes.addShapeless(Planks*2, [logs[pn]]);
     recipes.addShapeless(Planks*4, [<contenttweaker:handsaw_wood>.anyDamage().transformDamage(),logs[pn]]);
 }
 

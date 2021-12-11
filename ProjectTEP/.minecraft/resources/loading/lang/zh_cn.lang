@@ -33,7 +33,6 @@ link.tep.afdian=爱发电
 #Localization
 tpgem.tep.tpsuccess=§a随机传送成功！
 tpgem.tep.tpfail=§c随机传送失败，请等待冷却完成后再次尝试！
-tpgem.tep.tpcannot=§c随机传送失败，生命必须大于等于 §e14 §c！
 pipe.tep.dbsuccess=§a抽血成功，你失去了 §e4 §a点HP！
 pipe.tep.dbfail=§c抽血失败，你的血量太少了！
 pipe.tep.injectsuccess=§a注射成功，你恢复了 §e4 §a点HP！
@@ -67,7 +66,7 @@ brain.tep.eat=§c呕！这吃起来太恶心了！
 
 #Tool Tips
 tooltip.tep.0=§b高度的酸性，锂与硫酸反应的产物.
-tooltip.tep.1=§b可以筛出雪球中的碎渣.
+tooltip.tep.1=§b可以筛出雪中含有的杂物.
 tooltip.tep.2=§b可以将原木锯出更多的木板.
 tooltip.tep.3=§b可以将木渣聚合.
 tooltip.tep.4=§6闪烁迷离，震荡不定.

@@ -239,7 +239,7 @@ customization {
   hoverlabel = §ePlay Now !
   x = -121
   width = 108
-  actionid = a26f837f-90c6-40b9-a15c-7d2bf6ea6ec51630196902889
+  actionid = 04be621b-5387-44ec-95f6-4f71554ad3521631435630543
   action = addbutton
   y = -26
   backgroundnormal = resources/fancymenu/images/joina.png
@@ -339,12 +339,12 @@ customization {
   orientation = mid-left
   buttonaction = openlink
   backgroundhovered = resources/fancymenu/images/links/afdian.png
-  description = Support Us ?
+  description = 支持我们?
   label = 
   clicksound = resources/fancymenu/sounds/keyboarde.wav
   x = 147
   width = 36
-  actionid = 0f59ba26-605f-4474-aa08-dd2db851f3231630196902900
+  actionid = 307abdf2-8d41-4967-aa91-252a87ff87d91631435630544
   action = addbutton
   y = 28
   backgroundnormal = resources/fancymenu/images/links/afdian.png
@@ -357,12 +357,12 @@ customization {
   orientation = mid-left
   buttonaction = openlink
   backgroundhovered = resources/fancymenu/images/links/mcbbs.png
-  description = Check Public Post ?
+  description = 查看服务器宣传帖?
   label = 
   clicksound = resources/fancymenu/sounds/keyboarde.wav
   x = 17
   width = 87
-  actionid = 4c08f397-473c-414a-9d86-67c6fbd2c9cc1630196902901
+  actionid = da9d6b9a-7726-4b6e-beaa-2c5c490ab84d1631435630544
   action = addbutton
   y = 28
   backgroundnormal = resources/fancymenu/images/links/mcbbs.png
@@ -375,12 +375,12 @@ customization {
   orientation = mid-left
   buttonaction = openlink
   backgroundhovered = resources/fancymenu/images/links/github.png
-  description = Check Contents ?
+  description = 翻阅源码?
   label = 
   clicksound = resources/fancymenu/sounds/keyboarde.wav
   x = 243
   width = 30
-  actionid = 769284c2-b9fc-4c4a-91a7-9d6a87b67d8e1630196902918
+  actionid = b42d218d-fa96-46b3-b2aa-cf20fc345be41631435630545
   action = addbutton
   y = 30
   backgroundnormal = resources/fancymenu/images/links/github.png
@@ -395,7 +395,7 @@ customization {
   width = 281
   actionid = b000b46a-729f-45ed-bb63-933885a0ea0a1628563564086
   action = addtexture
-  y = -26
+  y = -25
   height = 99
 }
 

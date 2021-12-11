@@ -3,6 +3,3 @@ type = customizablemenus
 net.minecraft.client.gui.GuiIngameMenu {
 }
 
-net.minecraft.client.gui.GuiMainMenu {
-}
-

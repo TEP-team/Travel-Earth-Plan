@@ -21,32 +21,24 @@ tg.rarity = "epic";
 tg.maxStackSize = 1;
 tg.glowing = true;
 tg.itemRightClick = function(item, world, player, hand) {
-    var health = player.health;
-    if (!world.remote) {
-        if (health < 14) {
-            player.sendRichTextMessage(ITextComponent.fromTranslation("tpgem.tep.tpcannot"));
-            return "fail";
-        }
-        else if (!player.isFake() && world.dimension == 0) {
-            var pdata = player.data;
-            if (pdata has "cd_time") {
-                var cdtime = pdata.memberGet("cd_time") as int;
-                if (cdtime > 0) {
-                    player.sendRichTextMessage(ITextComponent.fromTranslation("tpgem.tep.tpfail"));
-                    return "fail";
-                }
+    if (!world.remote && !player.isFake() && world.dimension == 0) {
+        var pdata = player.data;
+        if (pdata has "cd_time") {
+            var cdtime as int = pdata.memberGet("cd_time").asInt();
+            if (cdtime > 0) {
+                player.sendRichTextMessage(ITextComponent.fromTranslation("tpgem.tep.tpfail"));
+                return "fail";
             }
-            var tpx = Math.random() * 2000 + player.x - 2000;
-            var tpz = Math.random() * 2000 + player.z - 2000;
-            Commands.call("playsound minecraft:block.portal.travel block @p ~ ~ ~ 0.15 2", player, world, false, true);
-            Commands.call("tp @p " + tpx + " 140 " + tpz, player, world, false, true);
-            Commands.call("effect @p resistance 12 0", player, world, false, true);
-            Commands.call("effect @p regeneration 12 0", player, world, false, true);
-            player.sendRichTextMessage(ITextComponent.fromTranslation("tpgem.tep.tpsuccess"));
-            player.update(pdata + {"cd_time": 2400});
-            item.shrink(1);
-            return "success";
         }
+        var tpx = Math.random() * 2000 + player.x - 2000;
+        var tpz = Math.random() * 2000 + player.z - 2000;
+        Commands.call("tp @p " + tpx + " 140 " + tpz, player, world, false, true);
+        Commands.call("playsound botania:altarcraft ambient @p ~ ~ ~ 1.5 1.2", player, world, false, true);
+        player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(240, 0));
+        player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(240, 0));
+        player.sendRichTextMessage(ITextComponent.fromTranslation("tpgem.tep.tpsuccess"));
+        player.update(pdata + {"cd_time": 2400});
+        item.shrink(1);
         return "success";
     }
     return "pass";
@@ -61,6 +53,9 @@ pe.itemRightClick = function(item, world, player, hand) {
     var health = player.health;
     if (!world.remote) {
         if (!player.isFake() && health > 4) {
+            player.addPotionEffect(<potion:minecraft:weakness>.makePotionEffect(200, 0));
+            player.addPotionEffect(<potion:minecraft:slowness>.makePotionEffect(100, 0));
+            player.addPotionEffect(<potion:minecraft:blindness>.makePotionEffect(60, 0));
             Commands.call("effect @p weakness 10 0", player, world, false, true);
             Commands.call("effect @p slowness 5 0", player, world, false, true);
             Commands.call("effect @p blindness 3 0", player, world, false, true);
@@ -73,8 +68,10 @@ pe.itemRightClick = function(item, world, player, hand) {
         else {
             player.sendRichTextMessage(ITextComponent.fromTranslation("pipe.tep.dbfail"));
             return "fail";
-        }   return "pass";
-    }   return "pass";
+        }
+        return "pass";
+    }
+    return "pass";
 };
 pe.register();
 
@@ -98,8 +95,10 @@ pb.itemRightClick = function(item, world, player, hand) {
         else {
             player.sendRichTextMessage(ITextComponent.fromTranslation("pipe.tep.injectfail"));
             return "fail";
-        }   return "pass";
-    }   return "pass";
+        }
+        return "pass";
+    }
+    return "pass";
 };
 pb.register();
 
@@ -123,9 +122,10 @@ mb.itemRightClick = function(item, world, player, hand) {
         } else {
             player.sendRichTextMessage(ITextComponent.fromTranslation("healing.tep.mfail"));
             return "fail";
-        }   return "pass";
+        }
+        return "pass";
     }
-     return "pass";
+    return "pass";
 };
 mb.register();
 
@@ -152,9 +152,10 @@ mp.itemRightClick = function(item, world, player, hand) {
         } else {
             player.sendRichTextMessage(ITextComponent.fromTranslation("healing.tep.mpfail"));
             return "fail";
-        }   return "pass";
+        }
+        return "pass";
     }
-     return "pass";
+    return "pass";
 };
 mp.register();
 

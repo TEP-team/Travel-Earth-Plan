@@ -32,8 +32,8 @@ brain.onItemFoodEaten = function(stack, world, player) {
     if (!world.remote && !player.isFake()) {
         player.addPotionEffect(<potion:minecraft:hunger>.makePotionEffect(2400, 0));
         player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(140, 0));
+        player.addPotionEffect(<potion:minecraft:nausea>.makePotionEffect(260, 0));
         player.sendRichTextMessage(fromTranslation("brain.tep.eat"));
-        player.health -= 1;
     }
 };
 brain.register();
