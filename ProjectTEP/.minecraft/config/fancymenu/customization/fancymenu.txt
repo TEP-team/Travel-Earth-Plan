@@ -420,7 +420,7 @@ customization {
   y = 5
   scale = 1.0
   alignment = left
-  value = §a本服务器为 §b科技 §8| §d魔法 §8| §6战争 §8| §c魔改 §a型服务器.
+  value = §a本服务器为 §b科技 §8| §d魔法 §8| §6魔改 §a型服务器.
 }
 
 customization {

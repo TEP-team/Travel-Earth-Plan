@@ -11,7 +11,7 @@
 !ProjectTEP/Backstory.txt
 !ProjectTEP/manifest.json
 !ProjectTEP/modlist.html
-!ProjectTEP/priority
+!ProjectTEP/priority.md
 
 #minecraft
 !ProjectTEP/.minecraft/Title.txt
@@ -28,6 +28,7 @@ ProjectTEP/.minecraft/config/environmentaltech/multiblocks/void_miner/ore/tier_6
 ProjectTEP/.minecraft/resources/contenttweaker/models/
 ProjectTEP/.minecraft/resources/contenttweaker/blockstates/
 ProjectTEP/.minecraft/resources/pack.mcmeta
+ProjectTEP/.minecraft/scripts/.zsrc
 
 #whitelist
 !ProjectTEP/.minecraft/config/aroma1997/aromabackup.cfg
