@@ -8,119 +8,55 @@
 #priority 70002
 #loader contenttweaker
 import mods.contenttweaker.MaterialSystem;
-import mods.contenttweaker.Material;
-import mods.contenttweaker.Part;
+import mods.contenttweaker.MaterialPart;
 
-//Bearing
-val bearing as Part = MaterialSystem.getPartBuilder().
-setName("bearing").
-setPartType(MaterialSystem.getPartType("item")).
-build();
+//part
+MaterialSystem.getPartBuilder().setName("bearing").setPartType(MaterialSystem.getPartType("item")).build();
 
-val Normal as string[] = 
-[
-    "Bearing","beam","bolt","casing","clump",
-    "crystal","crushed_ore","dense_plate",
-    "dirty_dust","dust","gear","ingot",
-    "nugget","plate","rod","shard",
-    "block"
-];
+//materials
+val register as int[string] = {
+    "bium" : 0xd03700,
+    "mium" : 0x8B0000,
+    "aium" : 0x8B008B,
+    "graphite" : 0x343434,
+    "uranium" : 0x2b6921,
+    "plutonium" : 0x3b4e00,
+    "lithium" : 0xf7f7f7,
+    "phosphorus" : 0x4497e9,
+    "platinum" : 0xced5d6,
+    "mercury" : 0xd7f4ec,
+    "nickel" : 0xfff5cc,
+    "silver" : 0xdff9ff,
+    "lead" : 0x454e71
+};
 
-val Blocks as string[] = ["block","ore"];
-
-//BasicIum
-val BasicIum = MaterialSystem.getMaterialBuilder().
-setName("bium").
-setColor(0xd03700).
-build().
-registerParts(Normal as string[]);
-
-//MiddleIum
-val MiddleIum = MaterialSystem.getMaterialBuilder().
-setName("mium").
-setColor(0x8B0000).
-build().
-registerParts(Normal as string[]);
-
-//AdvancedIum
-val AdvancedIum = MaterialSystem.getMaterialBuilder().
-setName("aium").
-setColor(0x8B008B).
-build().
-registerParts(Normal as string[]);
-
-//graphite
-val graphite = MaterialSystem.getMaterialBuilder().
-setName("graphite").
-setColor(0x343434).
-build().
-registerParts(Normal as string[]);
-
-//uranium
-val uranium = MaterialSystem.getMaterialBuilder().
-setName("uranium").
-setColor(0x2b6921).
-build().
-registerParts(Normal as string[]);
-
-//plutonium
-val plutonium = MaterialSystem.getMaterialBuilder().
-setName("plutonium").
-setColor(0x3b4e00).
-build().
-registerParts(Normal as string[]);
-
-//lithium
-val lithium = MaterialSystem.getMaterialBuilder().
-setName("lithium").
-setColor(0xf7f7f7).
-build().
-registerParts(Normal as string[]);
-
-//phosphorus
-val phosphorus = MaterialSystem.getMaterialBuilder().
-setName("phosphorus").
-setColor(0x4497e9).
-build().
-registerParts(Normal as string[]);
-
-//platinum
-val platinum = MaterialSystem.getMaterialBuilder().
-setName("platinum").
-setColor(0xced5d6).
-build().
-registerParts(Normal as string[]);
-
-//mercury
-val mercury = MaterialSystem.getMaterialBuilder().
-setName("mercury").
-setColor(0xd7f4ec).
-build().
-registerParts(Normal as string[]);
-
-//nickel
-val nickel = MaterialSystem.getMaterialBuilder().
-setName("nickel").
-setColor(0xfff5cc).
-build().
-registerParts(Normal as string[]);
-
-//silver
-val silver = MaterialSystem.getMaterialBuilder().
-setName("silver").
-setColor(0xdff9ff).
-build().
-registerParts(Normal as string[]);
-
-//lead
-val lead = MaterialSystem.getMaterialBuilder().
-setName("lead").
-setColor(0x454e71).
-build().
-registerParts(Normal as string[]);
+for name, color in register {
+    val Normal as string[] =
+    [
+        "bearing","beam","bolt","casing","clump",
+        "crystal","crushed_ore","dense_plate",
+        "dirty_dust","dust","gear","ingot",
+        "nugget","plate","rod","shard",
+        "block","ore","dense_ore","poor_ore"
+    ];
+    MaterialSystem.getMaterialBuilder().setName(name).setColor(color).build().registerParts(Normal as string[]);
+}
 
 //===============================================================
 
+function oreBuilder(obj as MaterialPart[], hardness as string, harvestLevel as string) {
+    for Obj in obj {
+        var data = Obj.getData();
+        data.addDataValue("hardness", hardness);
+        data.addDataValue("harvestLevel", harvestLevel);
+    }
+}
+
+/* 使用二维MaterialPart组套出材料，接着用for遍历，遍历内写入打包好的 oreBuilder 函数，即可完成构造.
+ * 加油！
+ */
+
+val bium = [<materialpart:bium:ore>,<materialpart:bium:dense_ore>,<materialpart:bium:poor_ore>];
 //uranium_ore
 val uranium_ore = MaterialSystem.getMaterialBuilder().
 setName("uranium").
