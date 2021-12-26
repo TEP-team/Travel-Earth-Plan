@@ -108,6 +108,3 @@ base.material.mercury=汞
 base.material.nickel=镍
 base.material.silver=银
 base.material.lead=铅
-
-#parts
-contenttweaker.part.bearing=%s轴承
