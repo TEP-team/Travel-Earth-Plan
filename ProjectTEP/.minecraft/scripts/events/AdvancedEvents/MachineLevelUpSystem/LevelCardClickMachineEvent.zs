@@ -4,7 +4,7 @@
     But you can't copy and paste these scripts to your Modpack.
     Thanks a lot!
 */
-
+#norun
 #priority 51000
 import scripts.events.AdvancedEvents.MachineLevelUpSystem.lib.levelUper;
 

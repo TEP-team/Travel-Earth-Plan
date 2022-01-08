@@ -12,32 +12,15 @@ import crafttweaker.item.IItemStack;
 
 var iron = <minecraft:iron_ingot>;
 
-function oneBuilder(name as string, tick as int, perenergy as int, input as IItemStack, output as IItemStack) {
-    RecipeBuilder.newBuilder(name, "packer", tick).
-    addEnergyPerTickInput(perenergy).
-    addItemInput(input).
-    addItemOutput(output).
-    build();
-}
-
-function twoBuilder(name as string, tick as int, perenergy as int, input1 as IItemStack, input2 as IItemStack, output as IItemStack) {
-    RecipeBuilder.newBuilder(name, "packer", tick).
-    addEnergyPerTickInput(perenergy).
-    addItemInput(input1).
-    addItemInput(input2).
-    addItemOutput(output).
-    build();
-}
-
-function threeBuilder(
-    name as string, tick as int, perenergy as int, input1 as IItemStack, input2 as IItemStack, input3 as IItemStack, output as IItemStack) {
-    RecipeBuilder.newBuilder(name, "packer", tick).
-    addEnergyPerTickInput(perenergy).
-    addItemInput(input1).
-    addItemInput(input2).
-    addItemInput(input3).
-    addItemOutput(output).
-    build();
+function PackerRecipeBuilder(name as string, tick as int, perenergy as int, input as IItemStack[], output as IItemStack[]) {
+    var recipe = RecipeBuilder.newBuilder(name, "packer", tick);
+    recipe.addEnergyPerTickInput(perenergy);
+    for Input in input {
+        recipe.addItemInput(Input);
+    } for Output in output {
+        recipe.addItemOutput(Output);
+    }
+    recipe.build();
 }
 
 //add recipes
@@ -93,32 +76,13 @@ for r, RodInt in rodInt {
     oneBuilder("packer:7_" ~ r, 40, 25, nuggets*3, rods);
 }
 
-//printed_circuit_board
-threeBuilder("packer:8", 200, 400, <pneumaticcraft:unassembled_pcb>, <pneumaticcraft:transistor>*2, <pneumaticcraft:capacitor>*2, <pneumaticcraft:printed_circuit_board>);
-
-//compressed_iron_gear
-twoBuilder("packer:9", 100, 400, <pneumaticcraft:ingot_iron_compressed>*4, iron, <pneumaticcraft:compressed_iron_gear>);
-
-//singlechip
-threeBuilder("packer:10", 400, 1200, <contenttweaker:material_part:58>*4, <contenttweaker:pin>*2, <contenttweaker:huge_driver>, <contenttweaker:singlechip>);
-
-//exe
-threeBuilder("packer:11", 300, 2000, <contenttweaker:material_part:149>*2, <mekanism:controlcircuit:3>, <contenttweaker:pin>, <contenttweaker:exe>);
-
-//pin
-threeBuilder("packer:12", 100, 2000, <contenttweaker:material_part:139>*4, <contenttweaker:material_part:136>*2, <contenttweaker:paper_ee>, <contenttweaker:pin>);
-
-//motor
-twoBuilder("packer:13", 200, 1200, <contenttweaker:material_part:139>*8, <contenttweaker:material_part:138>*4, <contenttweaker:motor>);
-
-//mediuim_driver
-threeBuilder("pack:14", 600, 480, <contenttweaker:mini_driver>, <contenttweaker:ram>, <contenttweaker:test_unit>, <contenttweaker:mediuim_driver>);
-
-//huge_driver
-threeBuilder("pack:15", 700, 560, <contenttweaker:mediuim_driver>, <contenttweaker:rom>, <contenttweaker:temperature_monitor>, <contenttweaker:huge_driver>);
-
-//mixin_tank
-threeBuilder("pack:16", 1200, 100, <minecraft:paper>, <ironchest:iron_chest:6>*2, <mekanism:machineblock2:11>.withTag({tier: 3})*2, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mixin_tank"}));
-
-//rom
-threeBuilder("pack:17", 200, 1200, <contenttweaker:ram>, <contenttweaker:papers>*8, <contenttweaker:tin_solder_dust>*8, <contenttweaker:rom>);
+PackerRecipeBuilder("packer:8", 200, 400, [<pneumaticcraft:unassembled_pcb>, <pneumaticcraft:transistor>*2, <pneumaticcraft:capacitor>*2], [<pneumaticcraft:printed_circuit_board>]);
+PackerRecipeBuilder("packer:9", 100, 400, [<pneumaticcraft:ingot_iron_compressed>*4, iron], [<pneumaticcraft:compressed_iron_gear>]);
+PackerRecipeBuilder("packer:10", 400, 1200, [<contenttweaker:material_part:58>*4, <contenttweaker:pin>*2, <contenttweaker:huge_driver>], [<contenttweaker:singlechip>]);
+PackerRecipeBuilder("packer:11", 300, 2000, [<contenttweaker:material_part:149>*2, <mekanism:controlcircuit:3>, <contenttweaker:pin>], [<contenttweaker:exe>]);
+PackerRecipeBuilder("packer:12", 100, 2000, [<contenttweaker:material_part:139>*4, <contenttweaker:material_part:136>*2, <contenttweaker:paper_ee>], [<contenttweaker:pin>]);
+PackerRecipeBuilder("packer:13", 200, 1200, [<contenttweaker:material_part:139>*8, <contenttweaker:material_part:138>*4], [<contenttweaker:motor>]);
+PackerRecipeBuilder("pack:14", 600, 480, [<contenttweaker:mini_driver>, <contenttweaker:ram>, <contenttweaker:test_unit>], [<contenttweaker:mediuim_driver>]);
+PackerRecipeBuilder("pack:15", 700, 560, [<contenttweaker:mediuim_driver>, <contenttweaker:rom>, <contenttweaker:temperature_monitor>], [<contenttweaker:huge_driver>]);
+PackerRecipeBuilder("pack:16", 1200, 100, [<minecraft:paper>, <ironchest:iron_chest:6>*2, <mekanism:machineblock2:11>.withTag({tier: 3})*2], [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mixin_tank"})]);
+PackerRecipeBuilder("pack:17", 200, 1200, [<contenttweaker:ram>, <contenttweaker:papers>*8, <contenttweaker:tin_solder_dust>*8], [<contenttweaker:rom>]);

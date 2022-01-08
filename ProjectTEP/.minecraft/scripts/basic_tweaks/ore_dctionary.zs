@@ -26,4 +26,3 @@ val harvestcraft_gardens as IItemStack[] =
 <ore:doubleflowers>.add(<botania:doubleflower1:*>);
 <ore:mushrooms>.add(<botania:mushroom:*>);
 <ore:botaniaGoodItems>.add(<botania:keepivy>,<botania:blacklotus:1>);
-<ore:dustLithium>.add(<contenttweaker:material_part:111>);

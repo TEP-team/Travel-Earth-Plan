@@ -3,7 +3,7 @@
     "version": "1.12.2",
     "modLoaders": [
       {
-        "id": "forge-14.23.5.2858",
+        "id": "forge-14.23.5.2859",
         "primary": true
       }
     ]
@@ -11,14 +11,9 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Travel Earth Plan",
-  "version": "Beta Edition - v1.0.0.",
+  "version": "v1.0.",
   "author": "TEP-team",
   "files": [
-    {
-      "projectID": 554478,
-      "fileID": 3559331,
-      "required": true
-    },
     {
       "projectID": 224472,
       "fileID": 2969118,
@@ -101,7 +96,7 @@
     },
     {
       "projectID": 514170,
-      "fileID": 3521196,
+      "fileID": 3590754,
       "required": true
     },
     {
@@ -120,13 +115,13 @@
       "required": true
     },
     {
-      "projectID": 367706,
-      "fileID": 3538828,
+      "projectID": 268560,
+      "fileID": 2835175,
       "required": true
     },
     {
-      "projectID": 268560,
-      "fileID": 2835175,
+      "projectID": 367706,
+      "fileID": 3538828,
       "required": true
     },
     {
@@ -180,13 +175,13 @@
       "required": true
     },
     {
-      "projectID": 309830,
-      "fileID": 2736827,
+      "projectID": 401178,
+      "fileID": 3598337,
       "required": true
     },
     {
-      "projectID": 401178,
-      "fileID": 3534953,
+      "projectID": 309830,
+      "fileID": 2736827,
       "required": true
     },
     {
@@ -331,7 +326,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3523955,
+      "fileID": 3587830,
       "required": true
     },
     {
@@ -342,6 +337,11 @@
     {
       "projectID": 233071,
       "fileID": 2562139,
+      "required": true
+    },
+    {
+      "projectID": 554478,
+      "fileID": 3566316,
       "required": true
     },
     {
@@ -495,13 +495,13 @@
       "required": true
     },
     {
-      "projectID": 246010,
-      "fileID": 2694397,
+      "projectID": 245453,
+      "fileID": 2691536,
       "required": true
     },
     {
-      "projectID": 245453,
-      "fileID": 2691536,
+      "projectID": 246010,
+      "fileID": 2694397,
       "required": true
     },
     {
@@ -540,13 +540,13 @@
       "required": true
     },
     {
-      "projectID": 245480,
-      "fileID": 2691542,
+      "projectID": 360779,
+      "fileID": 3548175,
       "required": true
     },
     {
-      "projectID": 360779,
-      "fileID": 3235195,
+      "projectID": 245480,
+      "fileID": 2691542,
       "required": true
     },
     {
