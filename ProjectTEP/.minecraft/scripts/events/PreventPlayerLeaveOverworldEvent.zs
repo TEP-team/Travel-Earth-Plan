@@ -5,12 +5,12 @@
     Thanks a lot!
 */
 
-#priority 57000
+#priority 70000
 #loader crafttweaker reloadableevents
 import crafttweaker.world.IWorld;
 import crafttweaker.player.IPlayer;
 import crafttweaker.entity.IEntity;
-import crafttweaker.text.ITextComponent.fromTranslation;
+import crafttweaker.text.ITextComponent;
 import crafttweaker.event.EntityTravelToDimensionEvent;
 
 events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent) {
@@ -23,7 +23,7 @@ events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent)
 
         if (dimension == 1 || dimension == -1) {
             event.cancel();
-            player.sendRichTextMessage(fromTranslation("dimension.tep.ban"));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("dimension.tep.ban"));
         }
     }
 });

@@ -5,8 +5,6 @@
     Thanks a lot!
 */
 
-#priority 70000
-import crafttweaker.player.IPlayer;
-import crafttweaker.world.IWorld;
+#priority 90000
+#loader contenttweaker
 
-//TODO......

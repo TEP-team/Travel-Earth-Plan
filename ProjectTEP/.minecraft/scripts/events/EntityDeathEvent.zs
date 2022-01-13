@@ -5,5 +5,5 @@
     Thanks a lot!
 */
 
-#priority 57000
+#priority 70000
 #loader crafttweaker reloadableevents

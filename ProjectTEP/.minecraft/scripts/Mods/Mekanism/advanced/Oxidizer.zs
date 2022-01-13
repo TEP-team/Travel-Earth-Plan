@@ -5,8 +5,8 @@
     Thanks a lot!
 */
 
-#priority 70000
-import crafttweaker.player.IPlayer;
-import crafttweaker.world.IWorld;
+#priority 60000
+import mods.mekanism.chemical.oxidizer;
 
-//TODO......
+//add
+mods.mekanism.chemical.oxidizer.addRecipe(<ore:dustLithium>,<gas:lithium>*100);

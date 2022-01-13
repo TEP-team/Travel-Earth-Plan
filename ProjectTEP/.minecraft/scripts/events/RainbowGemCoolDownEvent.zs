@@ -5,12 +5,12 @@
     Thanks a lot!
 */
 
-#priority 57000
+#priority 70000
 #loader crafttweaker reloadableevents
 import crafttweaker.player.IPlayer;
 import crafttweaker.world.IWorld;
 import crafttweaker.data.IData;
-import crafttweaker.text.ITextComponent.fromTranslation;
+import crafttweaker.text.ITextComponent;
 import crafttweaker.event.PlayerTickEvent;
 
 events.onPlayerTick(function(event as PlayerTickEvent) {
@@ -24,7 +24,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
 
             if (rbg == 1) {
                 player.give(<contenttweaker:world_core>);
-                player.sendRichTextMessage(fromTranslation("gem.tep.give"));
+                player.sendRichTextMessage(ITextComponent.fromTranslation("gem.tep.give"));
                 player.update({"rainbowGem": rbg - 1});
             } else if (rbg > 0) {
                 player.update({"rainbowGem": rbg - 1});

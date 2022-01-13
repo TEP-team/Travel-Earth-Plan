@@ -5,13 +5,13 @@
     Thanks a lot!
 */
 
-#priority 57000
+#priority 70000
 #loader crafttweaker reloadableevents
 import crafttweaker.data.IData;
 import crafttweaker.world.IWorld;
 import crafttweaker.player.IPlayer;
 import crafttweaker.entity.IEntityLivingBase;
-import crafttweaker.text.ITextComponent.fromTranslation;
+import crafttweaker.text.ITextComponent;
 import crafttweaker.event.EntityLivingFallEvent;
 import crafttweaker.event.EntityLivingHurtEvent;
 
@@ -42,7 +42,7 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
             var Fractured as bool = living.isPotionActive(<potion:contenttweaker:fractured>);
             if (!Fractured) {
                 player.addPotionEffect(<potion:contenttweaker:fractured>.makePotionEffect(99999999999, 0));
-                player.sendRichTextMessage(fromTranslation("fractured.tep.fsuccess"));
+                player.sendRichTextMessage(ITextComponent.fromTranslation("fractured.tep.fsuccess"));
             }
         }
     }
