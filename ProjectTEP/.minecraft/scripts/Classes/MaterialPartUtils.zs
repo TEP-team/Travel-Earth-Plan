@@ -17,31 +17,10 @@ import mods.contenttweaker.MaterialPartData;
 zenClass MaterialPartUtils {
 
     zenConstructor(arg as string) {
-        name = arg;
+        this.id = arg;
     }
-
-    zenConstructor(arg as string, arg1 as string) {
-        name = arg;
-        name1 = arg1;
-    }
-
-    zenConstructor(arg as string, arg1 as string, arg2 as string) {
-        name = arg;
-        key = arg1;
-        key1 = arg2;
-    }
-
-    zenConstructor(arg as MaterialPart, arg1 as string, arg2 as string) {
-        value = arg;
-        key = arg1;
-        key1 = arg2;
-    }
-
-    var name as string;
-    var name1 as string;
-    var key as string;
-    var key1 as string;
-    var value as MaterialPart;
+    
+    val id as string;
 
     function getMaterial(name as string) as Material {
         return MaterialSystem.getMaterial(name);
@@ -56,20 +35,20 @@ zenClass MaterialPartUtils {
     }
 
     function getMaretialPartData(name as string) as MaterialPartData {
-        return this.getMaretialPart(name as string).getData();
+        return this.getMaretialPart(name).getData();
+    }
+
+    function registeMaterial(name as string, color as int) as Material {
+        var builder = MaterialSystem.getMaterialBuilder();
+        return builder.setName(name).setColor(color).build();
     }
 
     function registeMaterialPart(name as string, name1 as string) as MaterialPart {
-        return this.getMaterial(name).registerPart(this.getPart(name1));
+        return this.getMaterial(name).registerPart(name1);
     }
 
-    function addDataByName(name as string, key as string, key1 as string) as MaterialPart {
-        var data = this.getMaretialPartData(name as string);
-        return data.addDataValue(key, key1);
-    }
-
-    function addDataByMaterialPart(value as MaterialPart, key as string, key1 as string) as MaterialPart {
-        return value.getData().addDataValue(key, key1);
+    function addData(value as MaterialPart, key as string, key1 as string) {
+        value.getData().addDataValue(key, key1);
     }
 
     function getItemStack() as IItemStack[] {
@@ -80,7 +59,7 @@ zenClass MaterialPartUtils {
         return Items;
     }
 
-    function getItems(name as string) as IItemStack {
+    function getConditionalItems(name as string) as IItemStack[] {
         var Items = [] as IItemStack[];
         for items in this.getItemStack() {
             if (items.name has name) {

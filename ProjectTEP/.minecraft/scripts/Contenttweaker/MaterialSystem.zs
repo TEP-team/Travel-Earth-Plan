@@ -7,9 +7,9 @@
 
 #priority 90000
 #loader contenttweaker
-import mods.contenttweaker.MaterialSystem as System;
-import scripts.Classes.MaterialPartUtils as MPUtils;
+import scripts.Classes.MaterialPartUtils.MaterialPartUtils;
 
+val MPUtils as MaterialPartUtils = MaterialPartUtils("Instanced");
 val materials as int[string] = {
     "Iron" : 0xf5f6f9,
     "Copper" : 0xd57635,
@@ -23,35 +23,23 @@ val materials as int[string] = {
 };
 
 val part as string[] = [
-    "bolt","casing","crushed_ore",
-    "dense_plate","dirty_dust","dust",
-    "gear","ingot","nugget","plate","rod"
+    "ingot","crushed_ore","dust","dirty_dust","nugget",
+    "plate","dense_plate","casing","rod","bolt","gear"
 ];
 
 for name, color in materials {
-    var Builder = System.getMaterialBuilder();
-    var Material = Builder.setName(name).setColor(color).build();
+    var Material = MPUtils.registeMaterial(name, color);
     for Part in part {
-
-
-
-        var name = Material.registerPart(Part).getName();
-        print(name);
-
-
-
+        MPUtils.registeMaterialPart(Material.getName(), Part);
     }
 }
 
-for Materials in ["Lithium","Platinum","Graphite"] {
-    for Blocks in ["ore","block"] {
+var material as string[] = ["Lithium","Platinum","Graphite"];
+var blocks as string[] = ["ore","block"];
+for Materials in material {
+    for Blocks in blocks {
         var MaterialPart = MPUtils.registeMaterialPart(Materials, Blocks);
-        var map as string[string] = {
-            "hardness" : "6",
-            "harvestLevel" : "2"
-        };
-        for Hardness, HarvestLevel in map {
-            MPUtils.addDataByMaterialPart(MaterialPart, Hardness, HarvestLevel);
-        }
+        MPUtils.addData(MaterialPart, "hardness", "6");
+        MPUtils.addData(MaterialPart, "harvestLevel", "2");
     }
 }

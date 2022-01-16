@@ -8,43 +8,27 @@
 #priority 90000
 #loader contenttweaker
 import crafttweaker.world.IWorld;
-import mods.contenttweaker.VanillaFactory;
+import crafttweaker.text.ITextComponent;
 import mods.contenttweaker.Player;
 import mods.contenttweaker.Commands;
 import mods.randomtweaker.cote.IPotion;
-import crafttweaker.text.ITextComponent;
+import scripts.Classes.ContentUtils.ContentUtils;
 
-function potionBuilder(name as string, color as int) {
-	var potion as IPotion = VanillaFactory.createPotion(name, color);
-	potion.badEffectIn = true;
-	potion.shouldRenderHUD = true;
-	potion.shouldRender = true;
-	potion.beneficial = false;
-	potion.instant = false;
-	potion.register();
-}
-
-//fullmoon and bloodmoon
-var potions as string[] = ["fullmoon","bloodmoon"];
-var colors as int[] = [0xfff5d8,0x750005];
-for i, Potions in potions {
-	potionBuilder(Potions, colors[i]);
-}
-
-//bleeding
-var bl as IPotion = VanillaFactory.createPotion("bleeding", 0xB4011E);
-bl.badEffectIn = true;
-bl.shouldRenderHUD = true;
-bl.shouldRender = true;
-bl.beneficial = false;
-bl.instant = false;
-bl.isReady = function(duration, amplifier) {
-	if (duration % 60 == 0) {
-		return true;
-	}
-    return false;
+val CUtils as ContentUtils = ContentUtils("Instanced");
+val map as int[string] = {
+	"fullmoon" : 0xfff5d8,
+	"bloodmoon" : 0x750005
 };
-bl.performEffect = function(living, amplifier) {
+
+for name, color in map {
+	CUtils.potionBuilder(name, color, true, false).register();
+}
+
+var bleeding = CUtils.potionBuilder("bleeding", 0xB4011E, true, false) as IPotion;
+bleeding.isReady = function(duration, amplifier) {
+	return duration % 60 == 0 ? true : false;
+};
+bleeding.performEffect = function(living, amplifier) {
     var world as IWorld = living.world;
  	if(!world.remote && living instanceof Player) {
 		var player as Player = living;
@@ -52,27 +36,17 @@ bl.performEffect = function(living, amplifier) {
         Commands.call("playsound entity.player.hurt player @p ~ ~ ~ 1 1", player, world ,false, true);
 	}
 }; 
-bl.register();
+bleeding.register();
 
-//fractured
-var fr as IPotion = VanillaFactory.createPotion("fractured", 0xdad4b1);
-fr.badEffectIn = true;
-fr.shouldRenderHUD = true;
-fr.shouldRender = true;
-fr.beneficial = false;
-fr.instant = false;
-fr.isReady = function(duration, amplifier) {
-	if (duration % 5 == 0) {
-		return true;
-	}
-    return false;
-};
-fr.performEffect = function(living, amplifier) {
+var fractured = CUtils.potionBuilder("fractured", 0xdad4b1, true, false) as IPotion;
+fractured.performEffect = function(living, amplifier) {
     var world as IWorld = living.world;
-	var sprinting = living.isSprinting;
- 	if(!world.remote && living instanceof Player && sprinting) {
+ 	if(!world.remote && living instanceof Player) {
 		var player as Player = living;
-		player.addPotionEffect(<potion:minecraft:long_slowness>.makePotionEffect(25, 2));
+		var isSlowness = player.isPotionActive(<potion:contenttweaker:slowness>);
+		if (!isSlowness) {
+			player.addPotionEffect(<potion:minecraft:slowness>.makePotionEffect(99999999999, 4));
+		}
 	}
 }; 
-fr.register();
+fractured.register();
