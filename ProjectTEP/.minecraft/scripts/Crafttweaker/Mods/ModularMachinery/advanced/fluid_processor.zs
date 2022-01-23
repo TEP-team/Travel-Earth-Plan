@@ -6,47 +6,28 @@
 */
 
 #priority 60000
-import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipePrimer;
-import crafttweaker.item.IItemStack;
+import scripts.Classes.ModularUtils.ModularUtils;
 
-//liquid - electrolyte
-RecipeBuilder.newBuilder("fluid_0", "fluid_processor",40).
-addItemInput(<mekanism:dust:4>).
-addFluidInput(<liquid:liquidlithium>*10).
-addFluidInput(<liquid:sulfuricacid>*10).
-addEnergyPerTickInput(100).
-addFluidOutput(<liquid:electrolyte>*10).
-build();
+val ModularUtils as ModularUtils = ModularUtils("Instanced");
+val machine as string = "fluid_processor";
 
-//cell_empty to cell_electrolyte
-RecipeBuilder.newBuilder("fluid_1", "fluid_processor", 20).
-addEnergyPerTickInput(250).
-addItemInput(<contenttweaker:cell_empty>).
-addFluidInput(<liquid:electrolyte>*250).
-addItemOutput(<contenttweaker:cell_electrolyte>).
-build();
+var recipe0 = ModularUtils.fluidRecipeBuilder(machine + 0, machine, 40, 100, [<liquid:liquidlithium>*10, <liquid:sulfuricacid>*10], [<liquid:electrolyte>*10], true, true) as RecipePrimer;
+    recipe0.addItemInput(<mekanism:dust:4>);
+    recipe0.build();
 
-//cell_electrolyte to cell_empty
-RecipeBuilder.newBuilder("fluid_2", "fluid_processor", 20).
-addEnergyPerTickInput(250).
-addItemInput(<contenttweaker:cell_electrolyte>).
-addFluidOutput(<liquid:electrolyte>*250).
-addItemOutput(<contenttweaker:cell_empty>).
-build();
+var recipe1 = ModularUtils.itemRecipeBuilder(machine + 1, machine, 20, 250, [<contenttweaker:cell_empty>], [<contenttweaker:cell_electrolyte>], true, true) as RecipePrimer;
+    recipe1.addFluidInput(<liquid:electrolyte>*250);
+    recipe1.build();
 
-//cell_empty to cell_dt
-RecipeBuilder.newBuilder("fluid_3", "fluid_processor", 20).
-addEnergyPerTickInput(250).
-addItemInput(<contenttweaker:cell_empty>).
-addFluidInput(<liquid:deuterium>*250).
-addItemOutput(<contenttweaker:cell_dt>).
-build();
+var recipe2 = ModularUtils.itemRecipeBuilder(machine + 2, machine, 20, 250, [<contenttweaker:cell_electrolyte>], [<contenttweaker:cell_empty>], true, true) as RecipePrimer;
+    recipe2.addFluidOutput(<liquid:electrolyte>*250);
+    recipe2.build();
 
-//cell_dt to cell_empty
-RecipeBuilder.newBuilder("fluid_4", "fluid_processor", 200).
-addEnergyPerTickInput(250).
-addItemInput(<contenttweaker:cell_dt>).
-addFluidOutput(<liquid:deuterium>*250).
-addItemOutput(<contenttweaker:cell_empty>).
-build();
+var recipe3 = ModularUtils.itemRecipeBuilder(machine + 3, machine, 20, 250, [<contenttweaker:cell_empty>], [<contenttweaker:cell_dt>], true, true) as RecipePrimer;
+    recipe3.addFluidInput(<liquid:deuterium>*250);
+    recipe3.build();
+
+var recipe4 = ModularUtils.itemRecipeBuilder(machine + 4, machine, 200, 250, [<contenttweaker:cell_dt>], [<contenttweaker:cell_empty>], true, true) as RecipePrimer;
+    recipe4.addFluidOutput(<liquid:deuterium>*250);
+    recipe4.build();

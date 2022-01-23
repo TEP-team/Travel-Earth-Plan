@@ -23,7 +23,7 @@ events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent)
 
         if (dimension == 1 || dimension == -1) {
             event.cancel();
-            player.sendRichTextMessage(ITextComponent.fromTranslation("dimension.tep.ban"));
+            player.sendRichTextStatusMessage(ITextComponent.fromTranslation("dimension.tep.ban"));
         }
     }
 });

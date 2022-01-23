@@ -7,36 +7,25 @@
             "type": "spotlight",
             "item": "minecraft:paper",
             "title": "Description",
-            "text": "Food has become increasingly scarce as the planet cools, and you can't grow crops without $(6) Greenhouse $(). $(br2) You will need to rely on such items to replenish your satiety level when it drops."
-        },
-        {
-            "type": "text",
-            "title": "Content Changes",
-            "text": "$(3) Apple Skin/Core $() The mod paints the material of satiety in detail and adds a yellow border for saturation. $(br2) And adds a mesh bar after the satiety level to indicate the level of satiety consumption. $(br2)And $(3) Spice of Life $() mod restrict the behavior of the same food to be eaten all the time."
-        },
-        {
-            "type": "spotlight",
-            "item": "minecraft:bread",
-            "title": "Access To Food",
-            "text": "So is there no way to get food or not? $(br2) Don't worry, read on."
+            "text": "Some ways to get food."
         },
         {
             "type": "spotlight",
             "item": "harvestcraft:frostgarden",
             "title": "Gardens",
-            "text": "Occasionally, you may come across small or large patches of $(6) vegetable gardens $() in the field. $(br2)$(2)Shift+left-click $() to take down the crop and $(2)Shift+right-click $() to take down the vegetable garden. $(br2) These are just the basic ingredients, they only restore $(c)1 $() points of satiety, you can create some cooking utensils and use these ingredients to cook delicious food."
+            "text": "Occasionally, you may come across small or large patches of $(6)vegetable gardens $()in the field.$(br2)$(2)Shift+left-click $()to take down the crop and $(2)Shift+right-click $()to take down the vegetable garden.$(br2)You can use these ingredients to cook delicious food."
         },
         {
             "type": "spotlight",
             "item": "environmentaltech:void_botanic_miner_cont_1",
             "title": "Void Mining",
-            "text": "First you need to prepare a $(6) Void Botanic Miner $(). $(br2) It can collect $(6)Botania Flowers $() in addition to the vanilla $(6) Seeds $() and other items. $(br2) This is also the only way to get the original crop $(c) (now breaking the grass won't drop anything) $()."
+            "text": "First you need to prepare a $(6)Void Botanic Miner$().$(br2)It can collect $(6)Botania Flowers $()in addition to the vanilla $(6) Seeds $() and other items."
         },
         {
             "type": "spotlight",
             "item": "minecraft:rabbit",
             "title": "Hunting",
-            "text": "Although it is very cold outside, there are still a few animals out and about, such as the $(d)rabbit $(). $(br2) They are fast moving and you can use long-range weapons such as $(6) bow and arrow $() or $(6) gun $() to capture them. $(br2) Of course, $(d)rabbits $() are not the only ones that can spawn, other animals have a very small chance of spawning as well."
+            "text": "Although it's very cold, there are still a few animals out and about, such as the $(d)rabbit$().$(br2)They are fast moving and you can use long-range weapons such as $(6)bow and arrow $() or $(6)to capture them."
         }
     ]
 }

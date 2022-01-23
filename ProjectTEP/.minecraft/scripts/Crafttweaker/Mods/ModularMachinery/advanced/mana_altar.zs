@@ -6,28 +6,21 @@
 */
 
 #priority 60000
-import mods.modularmachinery.RecipeBuilder;
-import mods.modularmachinery.RecipePrimer;
-import crafttweaker.item.IItemStack;
+import scripts.Classes.ModularUtils.ModularUtils;
 
-function manaItemsBuilder(name as string, tick as int, mana as int, input1 as IItemStack, input2 as IItemStack, output as IItemStack) {
-    RecipeBuilder.newBuilder(name, "mana_altar", tick).
-    addManaInput(mana).
-    addItemInput(input1).
-    addItemInput(input2).
-    addItemOutput(output).
+val ModularUtils as ModularUtils = ModularUtils("Instanced");
+val machine as string = "mana_altar";
+
+ModularUtils.emptyRecipeBuilder(machine + 0, machine, 10).
+    addItemInput(<minecraft:snowball>).
+    addFluidOutput(<liquid:water>).
+    addManaOutput(50).
     build();
-}
 
-//snow_ball_mana
-RecipeBuilder.newBuilder("snow_ball_mana", "mana_altar", 10).
-addItemInput(<minecraft:snowball>).
-addFluidOutput(<liquid:water>).
-addManaOutput(50).
-build();
+ModularUtils.itemRecipeBuilder(machine + 1, machine, 300, 10000,
+    [<botania:pylon>, <botania:manaresource:4>],
+    [<botania:pylon:1>], true, false).build();
 
-//natura pylon
-manaItemsBuilder("item:0", 300, 10000, <botania:pylon>, <botania:manaresource:4>, <botania:pylon:1>);
-
-//gaia pylon
-manaItemsBuilder("item:1", 400, 15000, <botania:pylon:1>, <botania:manaresource:7>, <botania:pylon:2>);
+ModularUtils.itemRecipeBuilder(machine + 2, machine, 400, 15000,
+    [<botania:pylon:1>, <botania:manaresource:7>],
+    [<botania:pylon:2>], true, false).build();

@@ -11,7 +11,6 @@ import crafttweaker.item.IItemStack;
 var iron = <ore:ingotIron>;
 var redstone = <minecraft:redstone>;
 
-//mods hide
 val mods as string[] = ["sereneseasons","armorunder"];
 for Mods in mods {
     val remove = loadedMods[Mods].items;

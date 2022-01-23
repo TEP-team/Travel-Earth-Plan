@@ -1,7 +1,7 @@
 {
     "registryname": "mana_altar",
-    "localizedname": "魔力祭坛",
-    "requires-blueprint": true,
+    "localizedname": "modularmachinery.mana_altar",
+    "requires-blueprint": false,
     "color": "DFE1D3",
     "parts": [
         {

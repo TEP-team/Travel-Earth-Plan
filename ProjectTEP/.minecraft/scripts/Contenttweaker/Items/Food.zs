@@ -12,9 +12,9 @@ import mods.contenttweaker.ItemFood;
 import mods.contenttweaker.IItemFoodEaten;
 import scripts.Classes.ContentUtils.ContentUtils;
 
-val CUtils as ContentUtils = ContentUtils("Instanced");
+val ContentUtils as ContentUtils = ContentUtils("Instanced");
 
-var brain = CUtils.foodBuilder("brain", 2, 0.5, false) as ItemFood;
+var brain = ContentUtils.foodBuilder("brain", 2, 0.5, false) as ItemFood;
 brain.onItemFoodEaten = function(stack, world, player) {
     if (!world.remote && !player.isFake()) {
         player.addPotionEffect(<potion:minecraft:hunger>.makePotionEffect(2400, 0));

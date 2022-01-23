@@ -7,6 +7,7 @@
 
 #priority 80000
 import crafttweaker.item.IItemStack;
+import mods.initialinventory.InvHandler;
 
 val starting as IItemStack[] = 
 [
@@ -19,5 +20,5 @@ val starting as IItemStack[] =
 ];
 
 for StartingItems in starting {
-    mods.initialinventory.InvHandler.addStartingItem(StartingItems);
+    InvHandler.addStartingItem(StartingItems);
 }

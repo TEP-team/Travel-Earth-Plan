@@ -1,7 +1,7 @@
 {
     "registryname": "mixin_tank",
-    "localizedname": "混合仓",
-    "requires-blueprint": true,
+    "localizedname": "modularmachinery.mixin_tank",
+    "requires-blueprint": false,
     "color": "fff98b",
     "parts": [
         {

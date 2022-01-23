@@ -24,7 +24,7 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
             var bleeding as bool = living.isPotionActive(<potion:contenttweaker:bleeding>);
             if (!bleeding) {
                 player.addPotionEffect(<potion:contenttweaker:bleeding>.makePotionEffect(6000, 0));
-                player.sendRichTextMessage(ITextComponent.fromTranslation("bleeding.tep.bsuccess"));
+                player.sendRichTextStatusMessage(ITextComponent.fromTranslation("bleeding.tep.bsuccess"));
             }
         }
     }

@@ -3,7 +3,7 @@
     "version": "1.12.2",
     "modLoaders": [
       {
-        "id": "forge-14.23.5.2859",
+        "id": "forge-14.23.5.2860",
         "primary": true
       }
     ]
@@ -14,6 +14,16 @@
   "version": "v1.0.",
   "author": "TEP-team",
   "files": [
+    {
+      "projectID": 419286,
+      "fileID": 3614716,
+      "required": true
+    },
+    {
+      "projectID": 525389,
+      "fileID": 3613219,
+      "required": true
+    },
     {
       "projectID": 224472,
       "fileID": 2969118,
@@ -75,11 +85,6 @@
       "required": true
     },
     {
-      "projectID": 225608,
-      "fileID": 2941712,
-      "required": true
-    },
-    {
       "projectID": 301924,
       "fileID": 2866504,
       "required": true
@@ -107,11 +112,6 @@
     {
       "projectID": 283589,
       "fileID": 2708030,
-      "required": true
-    },
-    {
-      "projectID": 327592,
-      "fileID": 2853556,
       "required": true
     },
     {
@@ -215,11 +215,6 @@
       "required": true
     },
     {
-      "projectID": 227408,
-      "fileID": 2569924,
-      "required": true
-    },
-    {
       "projectID": 248020,
       "fileID": 3178199,
       "required": true
@@ -242,11 +237,6 @@
     {
       "projectID": 226321,
       "fileID": 2537917,
-      "required": true
-    },
-    {
-      "projectID": 224663,
-      "fileID": 3466431,
       "required": true
     },
     {
@@ -460,11 +450,6 @@
       "required": true
     },
     {
-      "projectID": 254334,
-      "fileID": 3466259,
-      "required": true
-    },
-    {
       "projectID": 410295,
       "fileID": 3467878,
       "required": true
@@ -632,11 +617,6 @@
     {
       "projectID": 256717,
       "fileID": 2666198,
-      "required": true
-    },
-    {
-      "projectID": 315773,
-      "fileID": 3341793,
       "required": true
     },
     {

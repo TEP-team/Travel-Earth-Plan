@@ -7,12 +7,9 @@
 
 #priority 100000
 #loader contenttweaker
-import crafttweaker.item.IItemStack;
 import mods.contenttweaker.MaterialSystem;
 import mods.contenttweaker.Material;
-import mods.contenttweaker.Part;
 import mods.contenttweaker.MaterialPart;
-import mods.contenttweaker.MaterialPartData;
 
 zenClass MaterialPartUtils {
 
@@ -22,51 +19,17 @@ zenClass MaterialPartUtils {
     
     val id as string;
 
-    function getMaterial(name as string) as Material {
-        return MaterialSystem.getMaterial(name);
-    }
-
-    function getPart(name as string) as Part {
-        return MaterialSystem.getPart(name);
-    }
-
-    function getMaretialPart(name as string) as MaterialPart {
-        return MaterialSystem.getMaterialPart(name);
-    }
-
-    function getMaretialPartData(name as string) as MaterialPartData {
-        return this.getMaretialPart(name).getData();
-    }
-
     function registeMaterial(name as string, color as int) as Material {
-        var builder = MaterialSystem.getMaterialBuilder();
+        val builder = MaterialSystem.getMaterialBuilder();
         return builder.setName(name).setColor(color).build();
     }
 
     function registeMaterialPart(name as string, name1 as string) as MaterialPart {
-        return this.getMaterial(name).registerPart(name1);
+        return MaterialSystem.getMaterial(name).registerPart(name1);
     }
 
-    function addData(value as MaterialPart, key as string, key1 as string) {
-        value.getData().addDataValue(key, key1);
-    }
-
-    function getItemStack() as IItemStack[] {
-        var Items = [] as IItemStack[];
-        for name, materialPart in MaterialSystem.getMaterialParts() {
-            Items += materialPart.getItemStack();
-        }
-        return Items;
-    }
-
-    function getConditionalItems(name as string) as IItemStack[] {
-        var Items = [] as IItemStack[];
-        for items in this.getItemStack() {
-            if (items.name has name) {
-                Items += items;
-            }
-        }
-        return Items;
+    function addData(object as MaterialPart, category as string, value as string) {
+        object.getData().addDataValue(category, value);
     }
 }
 

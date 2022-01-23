@@ -9,14 +9,14 @@
 #loader contenttweaker
 import scripts.Classes.ContentUtils.ContentUtils;
 
-val CUtils as ContentUtils = ContentUtils("Instanced");
+val ContentUtils as ContentUtils = ContentUtils("Instanced");
 val light as string[] = ["litherite_light","erodium_light","kyronite_light","pladium_light"];
 val machine as string[] = ["structure_block","gc_core","gc_bearing","ft_core","working_box"];
 
 for Light in light {
-    CUtils.blockBuilder(Light, <blockmaterial:rock>, <soundtype:stone>, 2, 4, 0, false).register();
+    ContentUtils.blockBuilder(Light, <blockmaterial:rock>, <soundtype:stone>, 2, 4, 0, false).register();
 }
 
 for Machine in machine {
-    CUtils.blockBuilder(Machine, <blockmaterial:iron>, <soundtype:metal>, 4, 0, 2, false).register();
+    ContentUtils.blockBuilder(Machine, <blockmaterial:iron>, <soundtype:metal>, 4, 0, 2, false).register();
 }

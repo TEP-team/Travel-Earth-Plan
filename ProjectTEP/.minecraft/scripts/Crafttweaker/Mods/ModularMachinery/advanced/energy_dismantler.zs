@@ -6,12 +6,11 @@
 */
 
 #priority 60000
-import mods.modularmachinery.RecipeBuilder;
-import mods.modularmachinery.RecipePrimer;
-import crafttweaker.item.IItemStack;
+import scripts.Classes.ModularUtils.ModularUtils;
 
-RecipeBuilder.newBuilder("energy_0", "energy_dismantler", 2400).
-addItemInput(<contenttweaker:shinystar_matter>).
-addEnergyPerTickInput(4000).
-addItemOutput(<contenttweaker:shinystar_ingot>).
-build();
+val ModularUtils as ModularUtils = ModularUtils("Instanced");
+val machine as string = "energy_dismantler";
+
+ModularUtils.itemRecipeBuilder(machine + 0, machine, 2400, 4000,
+    [<contenttweaker:shinystar_matter>],
+    [<contenttweaker:shinystar_ingot>], true, true).build();

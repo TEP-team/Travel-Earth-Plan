@@ -7,37 +7,37 @@
             "type": "spotlight",
             "item": "minecraft:paper",
             "title": "Description",
-            "text": "Temperature is just as important as diet, but in these extremely cold conditions you just need to focus on staying warm."
+            "text": "In these extremely cold conditions, you also need to focus on staying warm."
         },
         {
             "type": "spotlight",
             "item": "simpledifficulty:campfire",
             "title": "Campfire",
-            "text": "$(6) Campfire $() was mentioned earlier, it provides a small amount of warmth and is good for warming up outside at night. $(br2) But you have to be careful when others find you, sitting by the campfire in the dark is no different from a live target."
+            "text": "$(6)Campfire $()was mentioned earlier, it provides a small amount of warmth and is good for warming up outside."
         },
         {
             "type": "spotlight",
             "item": "simpledifficulty:heater",
             "title": "Heater",
-            "text": "$(6) Heater $() is the best heating device, it can provide unlimited warmth, but note that it is only effective when indoors, not recommended to carry it outside. $(br2)$(3) Give it a redstone signal to turn on the heating mode."
+            "text": "$(6)Heater $()is the best heating device, it can provide great warmth, but note that it is only effective when indoors, not recommended to carry it outside.$(br2)Give it a redstone signal to turn on the heating mode."
         },
         {
             "type": "spotlight",
             "item": "simpledifficulty:wool_helmet",
             "title": "Wotton Clothing",
-            "text": "The $(6) wool suit $() will provide you with better warmth, though it is less durable and not as effective as the $(6) thermal liner $(), but you must wear this suit when out exploring in pre-development $(br2) In addition, the suits of other mods may provide some warmth $(4) (note that it is possible)."
+            "text": "The $(6)wool suit $()will provide you with good warmth, and it's a great choice in pre-development."
         },
         {
             "type": "spotlight",
             "item": "armorunder:warm_helmet_liner",
             "title": "Warm Liner",
-            "text": "$(6) Warm Liner $() is the most advanced heating set that can be combined with $(6) armors $() to provide you with warmth by wearing it. $(br2)$(4) Note that it cannot be combined with $(6) wool suit $()."
+            "text": "$(6)Warm Liner $()is an advanced heating set that can be combined with $(6)armors $()to provide you with warmth by wearing it.$(br2)$(4)Note that it cannot be combined with $(6)wool suit$()."
         },
         {
             "type": "spotlight",
             "item": "armorunder:goopak_heat",
             "title": "Goopak Heat",
-            "text": "The $(6) Goopak Heat $() provides a time-limited warming effect after the $(2) right click $() has been used, which is best used if you do not have the $(6) warming clothes$()."
+            "text": "The $(6)Goopak Heat $()provides a time-limited warming effect after the $(2)right-click $()has been used."
         }
     ]
 }

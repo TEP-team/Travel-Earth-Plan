@@ -1,7 +1,7 @@
 {
     "registryname": "packer",
-    "localizedname": "机床",
-    "requires-blueprint": true,
+    "localizedname": "modularmachinery.packer",
+    "requires-blueprint": false,
     "color": "d4a107",
     "parts": [
         {

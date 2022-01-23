@@ -27,6 +27,7 @@ ProjectTEP/.minecraft/config/environmentaltech/multiblocks/void_miner/ore/tier_5
 ProjectTEP/.minecraft/config/environmentaltech/multiblocks/void_miner/ore/tier_6.json
 ProjectTEP/.minecraft/resources/contenttweaker/models/
 ProjectTEP/.minecraft/resources/contenttweaker/blockstates/
+ProjectTEP/.minecraft/resources/modularcontroller/blockstates/
 ProjectTEP/.minecraft/resources/pack.mcmeta
 ProjectTEP/.minecraft/scripts/.zsrc
 
@@ -56,12 +57,15 @@ ProjectTEP/.minecraft/scripts/.zsrc
 !ProjectTEP/.minecraft/config/dmgcontrol.cfg
 !ProjectTEP/.minecraft/config/enhancedvisuals.json
 !ProjectTEP/.minecraft/config/mapwriter.cfg
-!ProjectTEP/.minecraft/config/monsterswarm.cfg
+!ProjectTEP/.minecraft/config/mekanism.cfg
 !ProjectTEP/.minecraft/config/openblocks.cfg
 !ProjectTEP/.minecraft/config/shouldersurfing.cfg
 !ProjectTEP/.minecraft/config/simpledifficulty.cfg
 !ProjectTEP/.minecraft/config/tips.cfg
 !ProjectTEP/.minecraft/config/toastcontrol.cfg
+!ProjectTEP/.minecraft/config/triumph/machinery/
+
+#models
 !ProjectTEP/.minecraft/resources/contenttweaker/models/item/electric_iron.json
 !ProjectTEP/.minecraft/resources/contenttweaker/models/item/hammer_plate.json
 !ProjectTEP/.minecraft/resources/contenttweaker/models/item/handsaw_wood.json

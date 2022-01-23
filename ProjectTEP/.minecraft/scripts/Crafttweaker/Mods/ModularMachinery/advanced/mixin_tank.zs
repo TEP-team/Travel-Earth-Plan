@@ -6,20 +6,12 @@
 */
 
 #priority 60000
-import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipePrimer;
-import crafttweaker.item.IItemStack;
-import crafttweaker.liquid.ILiquidStack;
+import scripts.Classes.ModularUtils.ModularUtils;
 
-//custom_function
-function mixintankBuilder(name as string, tick as int, perenergy as int, input1 as IItemStack, input2 as ILiquidStack, output as ILiquidStack) {
-    RecipeBuilder.newBuilder(name, "mixin_tank", tick).
-    addEnergyPerTickInput(perenergy).
-    addItemInput(input1).
-    addFluidInput(input2).
-    addFluidOutput(output).
-    build();
-}
+val ModularUtils as ModularUtils = ModularUtils("Instanced");
+val machine as string = "mixin_tank";
 
-//liquid - fluoride
-mixintankBuilder("tank_0", 40, 50, <minecraft:glowstone_dust>, <liquid:sulfuricacid>*10, <liquid:fluoride>*10);
+var recipe0 = ModularUtils.fluidRecipeBuilder(machine + 0, machine, 40, 50, [<liquid:sulfuricacid>*10], [<liquid:fluoride>*10], true, true) as RecipePrimer;
+    recipe0.addItemInput(<minecraft:glowstone_dust>);
+    recipe0.build();

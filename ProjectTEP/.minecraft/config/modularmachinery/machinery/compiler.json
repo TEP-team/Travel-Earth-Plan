@@ -1,7 +1,7 @@
 {
     "registryname": "compiler",
-    "localizedname": "脚本编译机",
-    "requires-blueprint": true,
+    "localizedname": "modularmachinery.compiler",
+    "requires-blueprint": false,
     "color": "696969",
     "parts": [
         {

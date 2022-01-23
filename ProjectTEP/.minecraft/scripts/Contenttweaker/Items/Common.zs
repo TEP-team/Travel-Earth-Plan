@@ -9,11 +9,11 @@
 #loader contenttweaker
 import scripts.Classes.ContentUtils.ContentUtils;
 
-val CUtils as ContentUtils = ContentUtils("Instanced");
+val ContentUtils as ContentUtils = ContentUtils("Instanced");
 
-CUtils.itemBuilder("snow_tool", "uncommon", 120, 1, false).register();
-CUtils.itemBuilder("conversion_core", "uncommon", -1, 64, true).register();
-CUtils.itemBuilder("rainbow_rune", "epic", -1, 64, true).register();
+ContentUtils.itemBuilder("snow_tool", "uncommon", 120, 1, false).register();
+ContentUtils.itemBuilder("conversion_core", "uncommon", -1, 64, true).register();
+ContentUtils.itemBuilder("rainbow_rune", "epic", -1, 64, true).register();
 
 var epic as string[] = 
 [
@@ -31,21 +31,20 @@ var tools as string[] = [
 var materials as string[] = [
     "iron_with_nickel", "tin_solder_dust", "ingot_is", "ingot_in",
     "papers", "paper_ee", "cell_electrolyte", "cell_empty", "cell_cold",
-    "cell_dt", "wood_residue", "metal_stick",
-    "cloth_string", "motor", "pc", "ram", "rom", "cpu", "ft_exe",
-    "exe", "pcb", "pin", "temperature_monitor", "test_unit",
-    "mini_driver", "mediuim_driver", "huge_driver", "singlechip",
-    "gc_exe", "gc_singlechip", "ft_singlechip", "hot_water", "electric_iron"
+    "cell_dt", "wood_residue", "metal_stick","cloth_string", "motor",
+    "pc", "ram", "rom", "cpu", "ft_exe","exe", "pcb", "pin", "electric_iron",
+    "temperature_monitor", "test_unit", "mini_driver", "mediuim_driver",
+    "huge_driver", "singlechip", "gc_exe", "gc_singlechip", "ft_singlechip"
 ];
 
 for Epic in epic {
-    CUtils.itemBuilder(Epic, "epic", -1, 64, true).register();
+    ContentUtils.itemBuilder(Epic, "epic", -1, 64, true).register();
 }
 
 for Tools in tools {
-    CUtils.itemBuilder(Tools, "uncommon", 90, 1, false).register();
+    ContentUtils.itemBuilder(Tools, "uncommon", 90, 1, false).register();
 }
 
 for Materials in materials {
-    CUtils.itemBuilder(Materials, "common", -1, 64, false).register();
+    ContentUtils.itemBuilder(Materials, "common", -1, 64, false).register();
 }

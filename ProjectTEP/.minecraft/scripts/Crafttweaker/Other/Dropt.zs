@@ -9,17 +9,6 @@
 import crafttweaker.item.IItemStack;
 import mods.dropt.Dropt;
 
-//function
-function droper(dropName as string, objBlock as IItemStack, dropItem as IItemStack) {
-    Dropt.list(dropName)
-        .add(Dropt.rule()
-            .matchDrops([objBlock])
-            .addDrop(Dropt.drop()
-            .items([dropItem])
-        )
-    );
-}
-
 //0
 var blocks0Int as int[] = [12,5,6,4,3,2];
 var dirtydust0Int as int[] = [76,178,195,110,161,144];

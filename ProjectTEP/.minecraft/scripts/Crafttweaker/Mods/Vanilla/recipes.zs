@@ -8,9 +8,13 @@
 #priority 50000
 import crafttweaker.item.IIngredient;
 
-//all recipes (log --> plank)
 var plank = <ore:plankWood>;
 var log = <ore:logWood>;
+var glass = <ore:blockGlass>;
+var pane = <ore:paneGlass>;
+var iron = <ore:ingotIron>;
+
+//all recipes (log --> plank)
 var handsaw = <contenttweaker:handsaw_wood>.anyDamage().transformDamage();
 for Plank in plank.items {
     var recipe = recipes.getRecipesFor(Plank);
@@ -29,8 +33,6 @@ for Plank in plank.items {
 }
 
 //all recipes (glass --> pane)
-var glass = <ore:blockGlass>;
-var pane = <ore:paneGlass>;
 for Pane in pane.items {
     var recipe = recipes.getRecipesFor(Pane);
     for rec in recipe {
@@ -52,6 +54,27 @@ recipes.addShaped(<minecraft:stick>*2,
     [[plank],
 	 [plank],
 	 [plank]]);
+
+recipes.remove(<bonsaitrees:bonsaipot>);
+recipes.addShaped(<bonsaitrees:bonsaipot>,
+    [[iron,null,iron],
+	 [iron,iron,iron]]);
+
+recipes.remove(<spiceoflife:bookfoodjournal>);
+recipes.addShapeless(<spiceoflife:bookfoodjournal>,
+    [<minecraft:book>,<minecraft:wheat>]);
+
+recipes.remove(<spiceoflife:lunchbag>);
+recipes.addShaped(<spiceoflife:lunchbag>,
+    [[null,<contenttweaker:cloth_string>,null],
+	 [<contenttweaker:cloth_string>,<spiceoflife:bookfoodjournal>,<contenttweaker:cloth_string>],
+	 [null,<contenttweaker:cloth_string>,null]]);
+
+recipes.remove(<spiceoflife:lunchbox>);
+recipes.addShaped(<spiceoflife:lunchbox>,
+    [[null,iron,null],
+	 [iron,<spiceoflife:lunchbag>,iron],
+	 [null,iron,null]]);
 
 recipes.addShapeless(<minecraft:dye:15>*4,
     [<minecraft:dye:15>,<cropdusting:poop>]);

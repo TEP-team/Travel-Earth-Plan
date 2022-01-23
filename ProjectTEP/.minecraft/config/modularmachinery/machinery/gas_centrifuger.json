@@ -1,7 +1,7 @@
 {
     "registryname": "gas_centrifuger",
-    "localizedname": "气体离心机",
-    "requires-blueprint": true,
+    "localizedname": "modularmachinery.gas_centrifuger",
+    "requires-blueprint": false,
     "color": "e3db4d",
     "parts": [
         {

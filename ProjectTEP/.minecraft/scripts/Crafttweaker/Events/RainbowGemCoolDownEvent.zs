@@ -22,7 +22,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
             var rbg as int = pdata.memberGet("rainbowGem").asInt();
             if (rbg == 1) {
                 player.give(<contenttweaker:world_core>);
-                player.sendRichTextMessage(ITextComponent.fromTranslation("gem.tep.give"));
+                player.sendRichTextStatusMessage(ITextComponent.fromTranslation("gem.tep.give"));
                 player.update({"rainbowGem": rbg - 1});
             } else if (rbg > 0) {
                 player.update({"rainbowGem": rbg - 1});

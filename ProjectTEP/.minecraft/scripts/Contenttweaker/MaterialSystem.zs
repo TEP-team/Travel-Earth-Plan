@@ -9,7 +9,7 @@
 #loader contenttweaker
 import scripts.Classes.MaterialPartUtils.MaterialPartUtils;
 
-val MPUtils as MaterialPartUtils = MaterialPartUtils("Instanced");
+val MaterialPartUtils as MaterialPartUtils = MaterialPartUtils("Instanced");
 val materials as int[string] = {
     "Iron" : 0xf5f6f9,
     "Copper" : 0xd57635,
@@ -22,15 +22,15 @@ val materials as int[string] = {
     "Lead" : 0x454e71
 };
 
-val part as string[] = [
+val parts as string[] = [
     "ingot","crushed_ore","dust","dirty_dust","nugget",
     "plate","dense_plate","casing","rod","bolt","gear"
 ];
 
 for name, color in materials {
-    var Material = MPUtils.registeMaterial(name, color);
-    for Part in part {
-        MPUtils.registeMaterialPart(Material.getName(), Part);
+    var Material = MaterialPartUtils.registeMaterial(name, color);
+    for part in parts {
+        val MaterialPart = MaterialPartUtils.registeMaterialPart(Material.getName(), part);
     }
 }
 
@@ -38,8 +38,8 @@ var material as string[] = ["Lithium","Platinum","Graphite"];
 var blocks as string[] = ["ore","block"];
 for Materials in material {
     for Blocks in blocks {
-        var MaterialPart = MPUtils.registeMaterialPart(Materials, Blocks);
-        MPUtils.addData(MaterialPart, "hardness", "6");
-        MPUtils.addData(MaterialPart, "harvestLevel", "2");
+        var MaterialPart = MaterialPartUtils.registeMaterialPart(Materials, Blocks);
+        MaterialPartUtils.addData(MaterialPart, "hardness", "6");
+        MaterialPartUtils.addData(MaterialPart, "harvestLevel", "2");
     }
 }

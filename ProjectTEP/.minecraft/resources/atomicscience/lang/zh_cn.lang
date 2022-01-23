@@ -1,0 +1,311 @@
+## Creative Tabs
+itemGroup.atomicscience=原子科学
+itemGroup.fluid.cells=[Dev] 流体单元
+
+## Blocks
+tile.atomicscience:ore.uranium.name=铀矿石
+
+## Sensor
+tile.atomicscience:sensor.thermal.redstone.name=热红石传感器
+gui.atomicscience:sensor.thermal.redstone.button.set=设置
+gui.atomicscience:sensor.thermal.redstone.button.get=测量
+gui.atomicscience:sensor.thermal.redstone.label.title=热红石传感器
+gui.atomicscience:sensor.thermal.redstone.label.min=最小
+gui.atomicscience:sensor.thermal.redstone.label.max=最大
+gui.atomicscience:sensor.thermal.redstone.label.heat.value=热量：
+gui.atomicscience:sensor.thermal.redstone.label.heat.none=热量：点击“测量”以获取
+gui.atomicscience:sensor.thermal.redstone.label.error=§c错误：
+gui.atomicscience:sensor.thermal.redstone.label.info=信息：
+gui.atomicscience:sensor.thermal.redstone.label.redstone=红石：
+
+## Machines
+tile.atomicscience:reactor.cell.name=反应堆芯
+tile.atomicscience:reactor.controller.name=反应堆控制器
+
+tile.atomicscience:particle.detector.name=粒子检测器
+tile.atomicscience:particle.detector.info=检测和控制粒子的运动.
+
+tile.atomicscience:steam.funnel.name=蒸汽漏斗
+tile.atomicscience:steam.funnel.info=收集从它下方通过的蒸汽.
+
+tile.atomicscience:steam.generator.name=蒸汽轮机
+tile.atomicscience:steam.generator.0.name=UE 蒸汽轮机
+tile.atomicscience:steam.generator.1.name=RF 蒸汽轮机
+tile.atomicscience:steam.generator.2.name=EU 蒸汽轮机
+tile.atomicscience:steam.generator.info=利用蒸汽发电.
+
+tile.atomicscience:chem.centrifuge.name=化学离心机
+tile.atomicscience:chem.centrifuge.gui=化学离心机
+
+tile.atomicscience:chem.boiler.name=化学锅炉
+tile.atomicscience:chem.boiler.gui=化学锅炉
+
+tile.atomicscience:chem.extractor.name=化学提取机
+tile.atomicscience:chem.extractor.gui=化学提取机
+
+tile.atomicscience:pipe.rod.name=输送器
+tile.atomicscience:pipe.rod.info=需要放置在反应堆芯上方.,可以提供燃料棒的输送.,内部不能储存燃料棒.
+
+tile.atomicscience:pipe.rod.inv.name=漏斗输送器
+tile.atomicscience:pipe.rod.inv.info=类似于漏斗一样的输送器.,只能储存单一物品.
+
+tile.atomicscience:cap.relay.name=连接继电器
+tile.atomicscience:cap.relay.info=Relays pipe connections to front face
+
+tile.atomicscience:magnet.name=电磁铁
+tile.atomicscience:magnet.info=一种用于制造机器的材料.
+
+tile.atomicscience:accelerator.tube.name=Accelerator Tube
+tile.atomicscience:accelerator.tube.info=Vacuum sealed tube for accelerating particles, Supports power connections for magnets, Can be configured as directional & junction tube
+
+tile.atomicscience:accelerator.tube.error.normal.conversion=Can only convert normal connection tubes to and from powered state
+
+tile.atomicscience:laser.emitter.name=Laser Emitter
+tile.atomicscience:laser.emitter.info=Emits a laser for use, in other process such as, pushing particles
+tile.atomicscience:laser.emitter.laser.mode.set.field=Laser Upgraded to field projector mode
+
+tile.atomicscience:laser.booster.name=Laser Booster
+tile.atomicscience:laser.booster.info=Used to power the laser emitter, stack to increase power
+
+tile.atomicscience:item.container.name=Item Holder
+tile.atomicscience:item.container.info=Used to hold items, used with entry and exit tubes
+
+tile.atomicscience:accelerator.gun.name=Accelerator Entry
+tile.atomicscience:accelerator.gun.info=Allows particles to enter, the accelerator without damage
+
+tile.atomicscience:accelerator.exit.name=Accelerator Exit
+tile.atomicscience:accelerator.exit.info=Allows particles to exit, the accelerator without damage
+
+## Items
+item.atomicscience:hazmat.mask.name=M1A 防化面罩
+item.atomicscience:hazmat.body.name=M1A 防化服
+item.atomicscience:hazmat.leggings.name=M1A 防化护腿
+item.atomicscience:hazmat.boots.name=M1A 防化靴
+
+item.atomicscience:hazmat.mask.color.name=M1B 防化面罩
+item.atomicscience:hazmat.body.color.name=M1B 防化服
+item.atomicscience:hazmat.leggings.color.name=M1B 防化护腿
+item.atomicscience:hazmat.boots.color.name=M1B 防化靴
+
+item.atomicscience:hazmat.color.info=可以使用染料进行染色
+
+item.atomicscience:cell.fluid.name=流体单元
+item.atomicscience:cell.fluid.water.name=水单元
+item.atomicscience:cell.fluid.deuterium.name=氘单元
+
+item.atomicscience:cell.powered.name=能量单元
+item.atomicscience:cell.powered.antimatter.name=反物质单元
+item.atomicscience:cell.powered.strange_matter.name=奇异物质单元
+
+item.atomicscience:cell.fuel.fissile.name=燃料棒
+item.atomicscience:cell.fuel.fissile.info.fuel=Fuel: -time- / -maxTime-
+
+item.atomicscience:cell.fuel.breeder.name=增殖燃料棒
+item.atomicscience:cell.fuel.breeder.info.fuel=Fuel: -time- / -maxTime-
+
+item.atomicscience:cell.empty.name=空单元
+
+item.atomicscience:cake.yellow.name=黄铀粉末
+item.atomicscience:cake.yellow.info=一种铀粉., 可以加工成六氟化铀.
+
+item.atomicscience:uranium.234.name=铀 234
+item.atomicscience:uranium.234.info=铀的同位素.
+
+item.atomicscience:uranium.235.name=铀 235
+item.atomicscience:uranium.235.info=铀的同位素.,可以作为裂变反应的燃料.
+
+item.atomicscience:uranium.238.name=铀 238
+item.atomicscience:uranium.238.info=铀的同位素.
+
+item.atomicscience:processing.waste.name=矿物废料
+item.atomicscience:processing.waste.info=含有少许其它物质.
+
+item.atomicscience:toxic.waste.name=毒废料
+item.atomicscience:toxic.waste.info=铀使用后产生的固体废料.
+
+## Tools
+item.atomicscience:heat.probe.name=热量探测器
+item.atomicscience:heat.probe.info=§b右键§f 以探测方块热量.
+
+## Fluids
+fluid.atomicscience:antimatter=反物质
+fluid.atomicscience:strange_matter=奇异物质
+fluid.atomicscience:deuterium=氘
+fluid.atomicscience:steam=蒸汽
+fluid.atomicscience:reactor_waste=核废料
+fluid.atomicscience:mineral_waste=污染矿物泥
+fluid.atomicscience:contaminated_mineral_water=污染矿物溶液
+fluid.atomicscience:contaminated_water=污水
+fluid.atomicscience:uranium_hexafluoride=六氟化铀
+
+## Wrench
+item.atomicscience:wrench.name=调整器
+item.atomicscience:wrench.rotation.name=旋转调整器
+item.atomicscience:wrench.item.name=物品调整器
+item.atomicscience:wrench.fluid.name=流体调整器
+item.atomicscience:wrench.redstone.name=红石调整器
+
+item.atomicscience:wrench.rotation.green.name=§a绿色 §1旋转 §f调整器
+item.atomicscience:wrench.rotation.yellow.name=§e黄色 §1旋转 §f调整器
+item.atomicscience:wrench.rotation.red.name=§c红色 §1旋转 §f调整器
+item.atomicscience:wrench.rotation.blue.name=§9蓝色 §1旋转 §f调整器
+item.atomicscience:wrench.rotation.purple.name=§5紫色 §1旋转 §f调整器
+item.atomicscience:wrench.rotation.orange.name=§6橙色 §1旋转 §f调整器
+
+item.atomicscience:wrench.item.green.name=§a绿色 §2物品 §f调整器
+item.atomicscience:wrench.item.yellow.name=§e黄色 §2物品 §f调整器
+item.atomicscience:wrench.item.red.name=§c红色 §2物品 §f调整器
+item.atomicscience:wrench.item.blue.name=§9蓝色 §2物品 §f调整器
+item.atomicscience:wrench.item.purple.name=§5紫色 §2物品 §f调整器
+item.atomicscience:wrench.item.orange.name=§6橙色 §2物品 §f调整器
+
+item.atomicscience:wrench.fluid.green.name=§a绿色 §3流体 §f调整器
+item.atomicscience:wrench.fluid.yellow.name=§e黄色 §3流体 §f调整器
+item.atomicscience:wrench.fluid.red.name=§c红色 §3流体 §f调整器
+item.atomicscience:wrench.fluid.blue.name=§9蓝色 §3流体 §f调整器
+item.atomicscience:wrench.fluid.purple.name=§5紫色 §3流体 §f调整器
+item.atomicscience:wrench.fluid.orange.name=§6橙色 §3流体 §f调整器
+
+item.atomicscience:wrench.redstone.green.name=§a绿色 §4红石 §f调整器
+item.atomicscience:wrench.redstone.yellow.name=§e黄色 §4红石 §f调整器
+item.atomicscience:wrench.redstone.red.name=§c红色 §4红石 §f调整器
+item.atomicscience:wrench.redstone.blue.name=§9蓝色 §4红石 §f调整器
+item.atomicscience:wrench.redstone.purple.name=§5紫色 §4红石 §f调整器
+item.atomicscience:wrench.redstone.orange.name=§6橙色 §4红石 §f调整器
+
+## Wrench Info
+item.atomicscience:wrench.mode.rotation.info=模式: §1旋转
+item.atomicscience:wrench.mode.item.info=模式: §2物品
+item.atomicscience:wrench.mode.fluid.info=模式: §3流体
+item.atomicscience:wrench.mode.redstone.info=模式: §4红石
+
+item.atomicscience:wrench.color.green.info=颜色: §a绿色
+item.atomicscience:wrench.color.yellow.info=颜色: §e黄色
+item.atomicscience:wrench.color.red.info=颜色: §c红色
+item.atomicscience:wrench.color.blue.info=颜色: §9蓝色
+item.atomicscience:wrench.color.purple.info=颜色: §5紫色
+item.atomicscience:wrench.color.orange.info=颜色: §6橙色
+
+item.atomicscience:wrench.more.info=按住 §bSHIFT §f查看更多
+
+item.atomicscience:wrench.info=旋转设置
+item.atomicscience:wrench.use.info=§5内容如下:
+item.atomicscience:wrench.ctrl.info=§bCtrl + 鼠标滚轮 §f以切换模式
+item.atomicscience:wrench.wheel.info=§bShift + 鼠标滚轮 §5以切换颜色
+
+## Gui
+gui.tank.tooltip=-fluid-;-vol-/-cap-
+gui.tank.tooltip.empty=空
+
+gui.tooltip.slot.tank.input.blue=蓝色输入仓
+
+gui.tooltip.slot.tank.output.green=绿色输出仓
+gui.tooltip.slot.tank.output.yellow=黄色输出仓
+
+gui.tooltip.slot.energy.input=能量
+
+gui.tooltip.slot.input=输入
+gui.tooltip.slot.output=输出
+
+## Info
+tile.atomicscience:reactor.controller.error.state=Controller has errored, this is likely caused by too many CPUs in core stack. Only 1 controller can be connected to a stack of cores in the y axis. If you wish to have several stacks in the Y axis separate each stack by a spacer. If you wish to maintain inventory connection use a hopper or pipe between stack layers.
+tile.atomicscience:reactor.controller.cell.count=Controller is currently managing %s reactor cell(s)
+
+## Death
+death.attack.radiation=% 因辐射致死.
+
+## Misc
+error.translation.empty=翻译错误： §c' %s '
+error.translation.null=翻译错误：§ckey 为空！
+
+## Config
+
+#### Content
+config.atomicscience:content.title=内容
+
+###### Uranium Ore
+config.atomicscience:content.ore.uranium.title=铀矿石
+config.atomicscience:content.ore.uranium.enable.title=是否启用
+config.atomicscience:content.ore.uranium.min.title=最小生成高度
+config.atomicscience:content.ore.uranium.max.title=最大生成高度
+config.atomicscience:content.ore.uranium.count.title=单区块铀的最大数量
+config.atomicscience:content.ore.uranium.branch.title=单矿脉铀的最大数量
+config.atomicscience:content.ore.uranium.harvest.title=挖掘等级
+
+###### Power Usage
+config.atomicscience:content.power.usage.title=电量消耗
+config.atomicscience:content.power.usage.enable.title=是否启用
+config.atomicscience:content.power.usage.boiler.title=化学锅炉
+config.atomicscience:content.power.usage.extractor.title=化学提取机
+config.atomicscience:content.power.usage.centrifuge.title=化学离心机
+config.atomicscience:content.power.usage.particle.capture.title=粒子捕获
+config.atomicscience:content.power.usage.particle.contain.title=粒子控制
+
+###### Reactor
+config.atomicscience:content.reactor.title=反应堆
+config.atomicscience:content.reactor.fuel.rod.time.title=燃料棒燃烧时间
+config.atomicscience:content.reactor.breeder.rod.time.title=增殖燃料棒燃烧时间
+config.atomicscience:content.reactor.fuel.rod.heat.title=燃料棒热生成量
+config.atomicscience:content.reactor.breeder.rod.heat.title=燃料棒热生成量
+
+###### Laser
+config.atomicscience:content.laser.booster.count.title=Max Boosters
+config.atomicscience:content.laser.fire.cost.single.title=Energy Cost Burst
+config.atomicscience:content.laser.fire.cost.constant.title=Energy Cost Constant
+config.atomicscience:content.laser.field.output.title=Field Energy Output
+config.atomicscience:content.laser.booster.buffer.title=Booster Energy Capacity
+config.atomicscience:content.laser.cooldown.title=Burst Cooldown
+config.atomicscience:content.laser.firing.delay.title=Burst Delay
+
+#### Logic
+config.atomicscience:logic.title=逻辑
+
+###### Steam
+config.atomicscience:thermal.steam.title=蒸汽
+config.atomicscience:thermal.steam.energy.title=能量汇率
+config.atomicscience:thermal.steam.water.vapor.title=水源液化率
+config.atomicscience:thermal.steam.water.flowing.vapor.title=水流液化率
+config.atomicscience:thermal.steam.water.max.vapor.title=最大液化率
+
+#### Server
+config.atomicscience:server.title=服务器
+config.atomicscience:server.network.title=网络
+config.atomicscience:server.network.boiling.title=是否启用沸腾效果
+config.atomicscience:server.network.steam.title=是否启用蒸汽效果
+
+#### Client
+config.atomicscience:client.title=客户端
+
+###### Particles
+config.atomicscience:client.particles.title=粒子效果
+config.atomicscience:client.particles.boiling.title=沸腾
+config.atomicscience:client.particles.machine.complete.title=机器工作完成
+config.atomicscience:client.particles.machine.running.title=机器工作
+config.atomicscience:client.particles.reactor.running.title=核裂变
+config.atomicscience:client.particles.steam.title=蒸汽
+
+###### Radiation Display
+config.atomicscience:client.radiation.display.title=HUD (辐射)
+config.atomicscience:client.radiation.display.enable.title=是否启用
+
+#### Mods
+config.atomicscience:mods.title=Mods
+
+###### IC2
+config.atomicscience:mods.ic2.title=Industrial Craft 2
+config.atomicscience:mods.ic2.power.title=是否启用能量消耗
+config.atomicscience:mods.ic2.fe_per_eu.title=FE -> EU 汇率 
+config.atomicscience:mods.ic2.recipes.title=是否启用配方
+
+###### Buildcraft
+config.atomicscience:mods.buildcraft.title=Build Craft
+config.atomicscience:mods.buildcraft.fe_per_mj.title=FE -> MJ 汇率
+config.atomicscience:mods.buildcraft.power.title=是否启用能量消耗
+
+###### Actually Additions
+config.atomicscience:mods.actually.additions.title=Actually Additions
+config.atomicscience:mods.actually.additions.recipes.title=是否启用配方
+
+###### Thermal Expansion
+config.atomicscience:mods.thermal.expansion.title=Thermal Expansion
+config.atomicscience:mods.thermal.expansion.recipes.title=是否启用配方

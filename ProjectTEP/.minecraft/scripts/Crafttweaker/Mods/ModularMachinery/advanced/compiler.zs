@@ -6,46 +6,27 @@
 */
 
 #priority 60000
-import mods.modularmachinery.RecipeBuilder;
-import mods.modularmachinery.RecipePrimer;
-import crafttweaker.item.IItemStack;
+import scripts.Classes.ModularUtils.ModularUtils;
 
-//custom function
-function blueprintBuilder(name as string, tick as int, perenergy as int, empty as IItemStack, input as IItemStack, output as IItemStack) {
-    RecipeBuilder.newBuilder(name, "compiler", tick).
-    addEnergyPerTickInput(perenergy).
-    addItemInput(empty).
-    addItemInput(input).
-    addItemOutput(output).
-    build();
-}
+val ModularUtils as ModularUtils = ModularUtils("Instanced");
+val machine as string = "compiler";
 
-//gas_centrifuger
-RecipeBuilder.newBuilder("machinery_blueprint:0", "compiler", 800).
-addEnergyPerTickInput(750).
-addItemInput(<minecraft:paper>).
-addItemInput(<contenttweaker:gc_exe>).
-addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:gas_centrifuger"})).
-addItemOutput(<contenttweaker:exe>).
-build();
+ModularUtils.itemRecipeBuilder(machine + 0, machine, 800, 750,
+    [<minecraft:paper>, <contenttweaker:gc_exe>],
+    [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:gas_centrifuger"}), <contenttweaker:exe>], true, true).build();
 
-//reactor
-RecipeBuilder.newBuilder("machinery_blueprint:1", "compiler", 1200).
-addEnergyPerTickInput(1000).
-addItemInput(<minecraft:paper>).
-addItemInput(<contenttweaker:ft_exe>).
-addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:reactor"})).
-addItemOutput(<contenttweaker:exe>).
-build();
+ModularUtils.itemRecipeBuilder(machine + 1, machine, 1200, 1000,
+    [<minecraft:paper>, <contenttweaker:ft_exe>],
+    [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:reactor"}), <contenttweaker:exe>], true, true).build();
 
-//assembly_program
-blueprintBuilder("common_blueprint:1", 400, 200, <pneumaticcraft:empty_pcb>, <minecraft:diamond>, <pneumaticcraft:assembly_program>
-);
+ModularUtils.itemRecipeBuilder(machine + 2, machine, 400, 200,
+    [<pneumaticcraft:empty_pcb>, <minecraft:diamond>],
+    [<pneumaticcraft:assembly_program>], true, true).build();
 
-//assembly_program:1
-blueprintBuilder("common_blueprint:2", 400, 200, <pneumaticcraft:empty_pcb>, <minecraft:ender_pearl>, <pneumaticcraft:assembly_program:1>
-);
+ModularUtils.itemRecipeBuilder(machine + 3, machine, 400, 200,
+    [<pneumaticcraft:empty_pcb>, <minecraft:ender_pearl>],
+    [<pneumaticcraft:assembly_program:1>], true, true).build();
 
-//assembly_program:2
-blueprintBuilder("common_blueprint:3", 400, 200, <pneumaticcraft:assembly_program>, <pneumaticcraft:assembly_program:1>, <pneumaticcraft:assembly_program:2>
-);
+ModularUtils.itemRecipeBuilder(machine + 4, machine, 400, 200,
+    [<pneumaticcraft:assembly_program>, <pneumaticcraft:assembly_program:1>],
+    [<pneumaticcraft:assembly_program:2>], true, true).build();

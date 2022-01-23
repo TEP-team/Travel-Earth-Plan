@@ -19,6 +19,11 @@ tip.tep.14=你可以使用精灵门来跟精灵们进行一些特殊的交易.
 tip.tep.15=玩家之间交易必须遵守基本道德，不能欺骗他人.
 tip.tep.16=服务器会陆续加入更多主线内容与趣味玩法...
 
+#Patchouli
+tep.patchouli.title=求生者指南
+tep.patchouli.landing_text=这本书总结了科技，魔法等等相关的知识，并且它将引导求生者们如何在这片寒冷废土上活下去...
+tep.patchouli.subtitle=Made By Dark2932
+
 #Custom Main Menu for TEP
 menu.tep.ctserver=加入服务器
 menu.tep.options=选项设置
@@ -31,29 +36,29 @@ menu.tep.quit=退出游戏
 link.tep.afdian=爱发电
 
 #Localization
-tpgem.tep.tpsuccess=§a随机传送成功！
-tpgem.tep.tpfail=§c随机传送失败，请等待冷却完成后再次尝试！
-bleeding.tep.bsuccess=§c你流血了！
-fractured.tep.fsuccess=§c你骨折了！
-healing.tep.msuccess=§a伤口包扎成功！
-healing.tep.bsuccess=§a你恢复了 §e2 §a点HP！
-healing.tep.mfail=§c包扎失败，你没有流血！
-healing.tep.mpsuccess=§a医疗包使用成功！
-healing.tep.psuccess=§a你恢复了 §e6 §a点HP！
-healing.tep.mpfail=§c医疗包使用失败，你的血量必须低于 §e20 §c！
-healing.tep.ssuccess=§a治疗成功！
-healing.tep.sfail=§c治疗失败，你没有骨折！
-gem.tep.use=§a彩虹的气息在你的四周蔓延开来...
-gem.tep.give=§d你受到了来自彩虹的庇佑祈祷！
-dimension.tep.ban=§c已禁用下界&末地，无法前往！
-exe.tep.get=§a读取成功！
-exe.tep.clear=§a清除成功！
+tpgem.tep.tpsuccess=§a§l随机传送成功！
+tpgem.tep.tpfail=§c§l随机传送失败，请等待冷却完成后再次尝试！
+bleeding.tep.bsuccess=§c§l你流血了！
+fractured.tep.fsuccess=§c§l你骨折了！
+healing.tep.msuccess=§a§l伤口包扎成功！
+healing.tep.bsuccess=§a§l你恢复了 §e§l2 §a§l点HP！
+healing.tep.mfail=§c§l包扎失败，你没有流血！
+healing.tep.mpsuccess=§a§l医疗包使用成功！
+healing.tep.psuccess=§a§l你恢复了 §e§l6 §a§l点HP！
+healing.tep.mpfail=§c§l医疗包使用失败，你的血量必须低于 §e§l20 §c§l！
+healing.tep.ssuccess=§a§l治疗成功！
+healing.tep.sfail=§c§l治疗失败，你没有骨折！
+gem.tep.use=§a§l彩虹的气息在你的四周蔓延开来...
+gem.tep.give=§d§l你受到了来自彩虹的庇佑祈祷！
+dimension.tep.ban=§c§l已禁用下界&末地！
+exe.tep.get=§a§l读取成功！
+exe.tep.clear=§a§l清除成功！
 logged.tep.send1=§9§l欢迎游玩 §dTravel Earth Plan §9§l服务器！
 logged.tep.send2=§b本服基于 §aMinecraft 1.12.2 §b开发，采用多种魔改技术构建而成.
 logged.tep.send3=§c因服主QQ有时过于繁忙，故 §eBUG §c请尽量提交至 §eGitHub Issues §c.
 logged.tep.send4=§a祝您游戏愉快 :-) ！
 prevent.tep.cmd=§c禁止使用该指令！
-brain.tep.eat=§c呕！太恶心了！
+brain.tep.eat=§c§l呕！太恶心了！
 
 #Tool Tips
 tooltip.tep.0=§b高度的酸性，锂与硫酸反应的产物.
@@ -85,7 +90,7 @@ tooltip.tep.25=§b目前耐久不满，请在 §e紫外光灯线 §b中进行紫
 tooltip.tep.26=§b目前耐久为零，可直接放入 §6装配室 §b中进行激光印刷！
 tooltip.tep.27=§b它可以食用.
 tooltip.tep.28=§a没错你就是老八的传人！
-tooltip.tep.29=§a请认真阅读 §b材料栏 §a获取完整的所需材料.
+tooltip.tep.29=§a右键以查看搭建机器所需材料.
 tooltip.tep.30=§c注意：§e魔法水晶 §c因结构渲染问题未显示.
 //tooltip.tep.31=§b空白蓝图，或许可以制成机器蓝图.
 //tooltip.tep.32=§a热腾腾的泡面，味道会怎么样呢！

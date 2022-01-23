@@ -1,7 +1,7 @@
 {
     "registryname": "reactor",
-    "localizedname": "聚变反应堆",
-    "requires-blueprint": true,
+    "localizedname": "modularmachinery.reactor",
+    "requires-blueprint": false,
     "color": "005117",
     "parts": [
         {

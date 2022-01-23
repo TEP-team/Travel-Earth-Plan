@@ -1,7 +1,7 @@
 {
     "registryname": "fluid_processor",
-    "localizedname": "流体处理机",
-    "requires-blueprint": true,
+    "localizedname": "modularmachinery.fluid_processor",
+    "requires-blueprint": false,
     "color": "386563",
     "parts": [
         {

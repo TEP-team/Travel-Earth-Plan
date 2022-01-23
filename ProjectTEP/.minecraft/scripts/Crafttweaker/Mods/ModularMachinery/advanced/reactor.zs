@@ -4,32 +4,26 @@
     But you can't copy and paste these scripts to your Modpack.
     Thanks a lot!
 */
-#norun
+
 #priority 60000
-import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipePrimer;
-import crafttweaker.item.IItemStack;
+import scripts.Classes.ModularUtils.ModularUtils;
 
-//shinystar_matter and generate power - 1
-RecipeBuilder.newBuilder("reactor_0", "reactor",20).
-addFluidInput(<liquid:deuterium>*1).
-addEnergyPerTickOutput(5000).
-addItemOutput(<contenttweaker:shinystar_matter>).setChance(0.01).
-addItemOutput(<contenttweaker:material_part:94>).setChance(0.2).
-build();
+val ModularUtils as ModularUtils = ModularUtils("Instanced");
+val machine as string = "reactor";
 
-//shinystar_matter and generate power - 2
-RecipeBuilder.newBuilder("reactor_1", "reactor",5000).
-addItemInput(<contenttweaker:cell_dt>).
-addEnergyPerTickOutput(5000).
-addItemOutput(<contenttweaker:shinystar_matter>).setChance(0.03).
-addItemOutput(<contenttweaker:material_part:94>*8).
-addItemOutput(<contenttweaker:cell_empty>).
-build();
+var recipe0 = ModularUtils.emptyRecipeBuilder(machine + 0, machine, 20) as RecipePrimer;
+    recipe0.addEnergyPerTickOutput(5000);
+    recipe0.addFluidInput(<liquid:deuterium>);
+    recipe0.addItemOutput(<contenttweaker:shinystar_matter>).setChance(0.01);
+    recipe0.build();
 
-//shinystar_ingot generate power
-RecipeBuilder.newBuilder("reactor_2", "reactor",20000).
-addItemInput(<contenttweaker:shinystar_ingot>).
-addEnergyPerTickOutput(5000).
-addItemOutput(<minecraft:nether_star>).setChance(0.05).
-build();
+var recipe1 = ModularUtils.itemRecipeBuilder(machine + 1, machine, 5000, 5000, [<contenttweaker:cell_dt>], [<contenttweaker:cell_empty>], false, true) as RecipePrimer;
+    recipe1.addItemOutput(<contenttweaker:shinystar_matter>).setChance(0.03);
+    recipe1.build();
+
+var recipe2 = ModularUtils.emptyRecipeBuilder(machine + 2, machine, 20000) as RecipePrimer;
+    recipe2.addEnergyPerTickOutput(5000);
+    recipe2.addItemInput(<contenttweaker:shinystar_ingot>);
+    recipe2.addItemOutput(<minecraft:nether_star>).setChance(0.05);
+    recipe2.build();

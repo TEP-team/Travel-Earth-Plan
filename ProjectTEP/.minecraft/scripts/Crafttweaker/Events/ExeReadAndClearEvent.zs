@@ -22,7 +22,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
         if (<contenttweaker:ft_exe>.matches(item) || <contenttweaker:gc_exe>.matches(item)) {
             item.mutable().shrink(1);
             player.give(<contenttweaker:exe>);
-            player.sendRichTextMessage(ITextComponent.fromTranslation("exe.tep.clear"));
+            player.sendRichTextStatusMessage(ITextComponent.fromTranslation("exe.tep.clear"));
         }
     }
 });
@@ -37,7 +37,7 @@ function exeGetter(blockObject as IItemStack, itemObject as IItemStack, exeCard 
                 if (itemObject.matches(item)) {
                     player.give(exeCard);
                     item.mutable().shrink(1);
-                    player.sendRichTextMessage(ITextComponent.fromTranslation("exe.tep.get"));
+                    player.sendRichTextStatusMessage(ITextComponent.fromTranslation("exe.tep.get"));
                 }
             }
         }

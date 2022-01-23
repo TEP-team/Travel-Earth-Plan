@@ -19,13 +19,10 @@ events.onEntityLivingFall(function(event as EntityLivingFallEvent) {
     var living as IEntityLivingBase = event.entityLivingBase;
     var distance as float = event.distance;
     var world as IWorld = living.world;
-
     var resistance as bool = living.isPotionActive(<potion:minecraft:resistance>);
     var regeneration as bool = living.isPotionActive(<potion:minecraft:regeneration>);
-
     if (!world.remote && living instanceof IPlayer) {
         var player as IPlayer = living;
-
         if(!resistance && !regeneration) {
             player.update({PlayerPersisted: {fractured: distance}});
         }
@@ -42,7 +39,7 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
             var Fractured as bool = living.isPotionActive(<potion:contenttweaker:fractured>);
             if (!Fractured) {
                 player.addPotionEffect(<potion:contenttweaker:fractured>.makePotionEffect(99999999999, 0));
-                player.sendRichTextMessage(ITextComponent.fromTranslation("fractured.tep.fsuccess"));
+                player.sendRichTextStatusMessage(ITextComponent.fromTranslation("fractured.tep.fsuccess"));
             }
         }
     }
