@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <lines at="topleft">
+        <line>
+            <str>Time: {aqua}{mctime24} {gray}/ {aqua}{rltime24}</str>
+        </line>
+
+        <line>
+            <str>Memory: </str>
+            <operation>
+                <str>GE</str>
+                <round>
+                    <pct>
+                        <var>memused</var>
+                        <var>memmax</var>
+                    </pct>
+                    <num>0</num>
+                </round>
+                <num>0</num>
+                <num>50</num>
+                <num>70</num>
+                <num>90</num>
+                <var>green</var>
+                <var>yellow</var>
+                <var>gold</var>
+                <var>darkred</var>
+            </operation>
+            <round>
+                <pct>
+                    <var>memused</var>
+                    <var>memmax</var>
+                </pct>
+                <num>0</num>
+            </round>
+            <str>%</str>
+        </line>
+
+        <line>
+            <operation>
+                <str>GE</str>
+                <var>fps</var>
+                <num>80</num>
+                <num>50</num>
+                <num>25</num>
+                <num>0</num>
+                <str>FPS: {green}{fps}</str>
+                <str>FPS: {yellow}{fps}</str>
+                <str>FPS: {gold}{fps}</str>
+                <str>FPS: {darkred}{fps}</str>
+            </operation>
+        </line>
+
+        <line>
+            <str>Direction: {yellow}{direction} {abrfinedirection}</str>
+        </line>
+    </lines>
+
+    <lines at="bottomleft">
+        <line>
+            <str>{helmetlargeicon}</str>
+            <str>{chestplatelargeicon}</str>
+            <str>{leggingslargeicon}</str>
+            <str>{bootslargeicon}</str>
+            <str>{mainhandlargeicon}</str>
+        </line>
+    </lines>
+</config>

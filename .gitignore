@@ -1,23 +1,26 @@
-#.gitignore
-/*
-!/ProjectTEP
-/ProjectTEP/*
-!/ProjectTEP/.minecraft
-/ProjectTEP/.minecraft/*
-
 #basic
+/*
 !.gitignore
 !README.md
+!/ProjectTEP/
+ProjectTEP/*
 !ProjectTEP/manifest.json
 !ProjectTEP/modlist.html
 !ProjectTEP/priority.md
 
 #minecraft
+!/ProjectTEP/.minecraft/
+ProjectTEP/.minecraft/*
 !ProjectTEP/.minecraft/Title.txt
-!ProjectTEP/.minecraft/scripts/
-!ProjectTEP/.minecraft/resources/
 !ProjectTEP/.minecraft/mods/teputils-1.0.1.jar
-!ProjectTEP/.minecraft/patchouli_books/
+!/ProjectTEP/.minecraft/config/
+ProjectTEP/.minecraft/config/*
+!/ProjectTEP/.minecraft/scripts/
+ProjectTEP/.minecraft/scripts/*
+!/ProjectTEP/.minecraft/resources/
+ProjectTEP/.minecraft/resources/*
+!/ProjectTEP/.minecraft/patchouli_books/
+ProjectTEP/.minecraft/patchouli_books/*
 
 #blacklist
 ProjectTEP/.minecraft/config/environmentaltech/multiblocks/void_miner/botanic/tier_5.json
@@ -31,8 +34,6 @@ ProjectTEP/.minecraft/resources/pack.mcmeta
 ProjectTEP/.minecraft/scripts/.zsrc
 
 #whitelist [config]
-!ProjectTEP/.minecraft/config/InGameInfo.xml
-!ProjectTEP/.minecraft/config/ingameinfoxml.cfg
 !ProjectTEP/.minecraft/config/aroma1997/aromabackup.cfg
 !ProjectTEP/.minecraft/config/betteradvancements/
 !ProjectTEP/.minecraft/config/compactmachines3/recipes/
@@ -42,6 +43,8 @@ ProjectTEP/.minecraft/scripts/.zsrc
 !ProjectTEP/.minecraft/config/fancymenu/config.txt
 !ProjectTEP/.minecraft/config/fancymenu/customizablemenus.txt
 !ProjectTEP/.minecraft/config/GeographiCraft/
+!ProjectTEP/.minecraft/config/InGameInfo.xml
+!ProjectTEP/.minecraft/config/ingameinfoxml.cfg
 !ProjectTEP/.minecraft/config/itlt/
 !ProjectTEP/.minecraft/config/loadingscreens/
 !ProjectTEP/.minecraft/config/modularmachinery/machinery/
