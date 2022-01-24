@@ -8,7 +8,6 @@
 #basic
 !.gitignore
 !README.md
-!ProjectTEP/Backstory.txt
 !ProjectTEP/manifest.json
 !ProjectTEP/modlist.html
 !ProjectTEP/priority.md
@@ -31,7 +30,9 @@ ProjectTEP/.minecraft/resources/modularcontroller/blockstates/
 ProjectTEP/.minecraft/resources/pack.mcmeta
 ProjectTEP/.minecraft/scripts/.zsrc
 
-#whitelist
+#whitelist [config]
+!ProjectTEP/.minecraft/config/InGameInfo.xml
+!ProjectTEP/.minecraft/config/ingameinfoxml.cfg
 !ProjectTEP/.minecraft/config/aroma1997/aromabackup.cfg
 !ProjectTEP/.minecraft/config/betteradvancements/
 !ProjectTEP/.minecraft/config/compactmachines3/recipes/
@@ -63,9 +64,9 @@ ProjectTEP/.minecraft/scripts/.zsrc
 !ProjectTEP/.minecraft/config/simpledifficulty.cfg
 !ProjectTEP/.minecraft/config/tips.cfg
 !ProjectTEP/.minecraft/config/toastcontrol.cfg
-!ProjectTEP/.minecraft/config/triumph/machinery/
+!ProjectTEP/.minecraft/config/triumph/
 
-#models
+#whitelist [resources]
 !ProjectTEP/.minecraft/resources/contenttweaker/models/item/electric_iron.json
 !ProjectTEP/.minecraft/resources/contenttweaker/models/item/hammer_plate.json
 !ProjectTEP/.minecraft/resources/contenttweaker/models/item/handsaw_wood.json
