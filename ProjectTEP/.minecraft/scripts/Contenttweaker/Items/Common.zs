@@ -7,13 +7,17 @@
 
 #priority 90000
 #loader contenttweaker
+import mods.zenutils.cotx.Item;
 import scripts.Classes.ContentUtils.ContentUtils;
 
 val ContentUtils as ContentUtils = ContentUtils("Instanced");
 
-ContentUtils.itemBuilder("snow_tool", "uncommon", 120, 1, false).register();
 ContentUtils.itemBuilder("conversion_core", "uncommon", -1, 64, true).register();
 ContentUtils.itemBuilder("rainbow_rune", "epic", -1, 64, true).register();
+val hammer = ContentUtils.itemBuilder("hammer_flint", "uncommon", 2, 1, false) as Item;
+    hammer.toolClass = "pickaxe";
+    hammer.toolLevel = 0;
+    hammer.register();
 
 var epic as string[] = 
 [
@@ -24,17 +28,17 @@ var epic as string[] =
 ];
 
 var tools as string[] = [
-    "sieve_string", "handsaw_wood", "hammer_plate",
-    "capacitance_pack", "resistance_pack", "nano_pack"
+    "handsaw_wood", "hammer_plate", "nano_pack",
+    "capacitance_pack", "resistance_pack", "electric_iron"
 ];
 
 var materials as string[] = [
     "iron_with_nickel", "tin_solder_dust", "ingot_is", "ingot_in",
     "papers", "paper_ee", "cell_electrolyte", "cell_empty", "cell_cold",
     "cell_dt", "wood_residue", "metal_stick","cloth_string", "motor",
-    "pc", "ram", "rom", "cpu", "ft_exe","exe", "pcb", "pin", "electric_iron",
-    "temperature_monitor", "test_unit", "mini_driver", "mediuim_driver",
-    "huge_driver", "singlechip", "gc_exe", "gc_singlechip", "ft_singlechip"
+    "pc", "ram", "rom", "cpu", "ft_exe","exe", "pcb", "pin", "test_unit",
+    "temperature_monitor", "mini_driver", "mediuim_driver", "gc_exe",
+    "huge_driver", "singlechip", "ft_singlechip", "gc_singlechip"
 ];
 
 for Epic in epic {

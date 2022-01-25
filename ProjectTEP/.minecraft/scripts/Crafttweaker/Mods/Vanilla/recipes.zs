@@ -48,12 +48,9 @@ for Pane in pane.items {
     }
 }
 
-//other recipes
-recipes.remove(<minecraft:stick>);
-recipes.addShaped(<minecraft:stick>*2,
-    [[plank],
-	 [plank],
-	 [plank]]);
+recipes.addShaped(<minecraft:stick>,
+    [[<contenttweaker:wood_residue>],
+	 [<contenttweaker:wood_residue>]]);
 
 recipes.remove(<bonsaitrees:bonsaipot>);
 recipes.addShaped(<bonsaitrees:bonsaipot>,

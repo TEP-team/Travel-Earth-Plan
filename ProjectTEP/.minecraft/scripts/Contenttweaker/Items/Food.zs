@@ -13,14 +13,3 @@ import mods.contenttweaker.IItemFoodEaten;
 import scripts.Classes.ContentUtils.ContentUtils;
 
 val ContentUtils as ContentUtils = ContentUtils("Instanced");
-
-var brain = ContentUtils.foodBuilder("brain", 2, 0.5, false) as ItemFood;
-brain.onItemFoodEaten = function(stack, world, player) {
-    if (!world.remote && !player.isFake()) {
-        player.addPotionEffect(<potion:minecraft:hunger>.makePotionEffect(2400, 0));
-        player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(140, 0));
-        player.addPotionEffect(<potion:minecraft:nausea>.makePotionEffect(260, 0));
-        player.sendRichTextMessage(ITextComponent.fromTranslation("brain.tep.eat"));
-    }
-};
-brain.register();

@@ -6,21 +6,20 @@
 */
 
 #priority 50000
-import crafttweaker.item.IItemStack;
 
-var iron = <ore:ingotIron>;
-var redstone = <minecraft:redstone>;
-var crystal1 = <environmentaltech:litherite_crystal>;
-var crystal2 = <environmentaltech:erodium_crystal>;
-var crystal3 = <environmentaltech:kyronite_crystal>;
-var crystal4 = <environmentaltech:pladium_crystal>;
-var lcrystal = <environmentaltech:lonsdaleite_crystal>;
-var interconnect = <environmentaltech:interconnect>;
-var structure = <environmentaltech:structure_panel>;
-var structure1 = <environmentaltech:structure_frame_1>;
-var structure2 = <environmentaltech:structure_frame_2>;
-var structure3 = <environmentaltech:structure_frame_3>;
-var structure4 = <environmentaltech:structure_frame_4>;
+val iron = <ore:ingotIron>;
+val redstone = <minecraft:redstone>;
+val crystal1 = <environmentaltech:litherite_crystal>;
+val crystal2 = <environmentaltech:erodium_crystal>;
+val crystal3 = <environmentaltech:kyronite_crystal>;
+val crystal4 = <environmentaltech:pladium_crystal>;
+val lcrystal = <environmentaltech:lonsdaleite_crystal>;
+val interconnect = <environmentaltech:interconnect>;
+val structure = <environmentaltech:structure_panel>;
+val structure1 = <environmentaltech:structure_frame_1>;
+val structure2 = <environmentaltech:structure_frame_2>;
+val structure3 = <environmentaltech:structure_frame_3>;
+val structure4 = <environmentaltech:structure_frame_4>;
 
 recipes.remove(crystal1);
 recipes.addShapeless(crystal1*9,

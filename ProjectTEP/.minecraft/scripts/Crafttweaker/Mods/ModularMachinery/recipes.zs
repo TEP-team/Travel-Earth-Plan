@@ -15,11 +15,6 @@ var plate = <contenttweaker:material_part:13>;
 var casing = <modularmachinery:blockcasing>;
 
 //add
-recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:compiler"}),
-    [[rs,rs,rs],
-	 [rs,<minecraft:paper>,rs],
-	 [rs,rs,rs]]);
-
 recipes.remove(casing);
 recipes.addShaped(casing*8,
     [[plate,plate,plate],

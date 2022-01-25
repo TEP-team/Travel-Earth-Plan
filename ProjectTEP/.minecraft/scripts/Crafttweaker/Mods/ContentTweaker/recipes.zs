@@ -13,22 +13,9 @@ var iron = <ore:ingotIron>;
 var redstone = <minecraft:redstone>;
 
 //contenttweaker
-recipes.addShaped(<contenttweaker:sieve_string>,
-    [[<minecraft:stick>,<minecraft:stick>,<minecraft:stick>],
-	 [<minecraft:stick>,<minecraft:string>,<minecraft:stick>],
-	 [<minecraft:stick>,<minecraft:stick>,<minecraft:stick>]]);
-
-recipes.addShaped(<contenttweaker:snow_tool>,
-    [[null,null,<minecraft:dye:4>],
-	 [null,iron,null],
-	 [redstone,null,null]]);
-
-recipes.addShapeless(<contenttweaker:wood_residue>,
-    [<contenttweaker:sieve_string>.anyDamage().transformDamage(),<minecraft:snowball>]);
-
-var wr = <contenttweaker:wood_residue>;
-recipes.addShapeless(<minecraft:log>,
-    [<contenttweaker:snow_tool>.anyDamage().transformDamage(2),wr,wr,wr,wr,wr,wr,wr,wr]);
+recipes.addShaped(<contenttweaker:hammer_flint>,
+	[[<minecraft:flint>,null],
+	 [<minecraft:stick>,<minecraft:flint>]]);
 
 recipes.addShaped(<contenttweaker:conversion_core>,
     [[redstone,redstone,redstone],
@@ -55,11 +42,6 @@ recipes.addShaped(<contenttweaker:metal_stick>*4,
 	 [iron],
 	 [iron]]);
 
-recipes.addShaped(<contenttweaker:pipe_empty>,
-    [[null,null,<contenttweaker:metal_stick>],
-	 [null,iron,null],
-	 [<contenttweaker:metal_stick>,null,null]]);
-
 recipes.addShapeless(<contenttweaker:cloth_string>,
     [<minecraft:string>,<minecraft:string>,<minecraft:string>]);
 
@@ -76,9 +58,6 @@ recipes.addShaped(<contenttweaker:hammer_plate>,
 	 [null,<minecraft:stick>,iron],
 	 [<minecraft:stick>,null,null]]);
 
-recipes.addShapeless(<contenttweaker:blueprint_empty>,
-	[paper,<ore:dyeLightBlue>,<ore:dyeLightBlue>,<ore:dyeLightBlue>]);
-
 recipes.addShaped(<contenttweaker:structure_block>*6,
     [[<mekanism:controlcircuit:2>,<ore:ingotGold>,<mekanism:controlcircuit:2>],
 	 [<ore:ingotGold>,<modularmachinery:blockcasing>,<ore:ingotGold>],
@@ -91,11 +70,6 @@ recipes.addShaped(<contenttweaker:electric_iron>,
 
 recipes.addShapeless(<contenttweaker:iron_with_nickel>,
 	[<ore:dustIron>,<contenttweaker:material_part:179>]);
-
-recipes.addShaped(<contenttweaker:material_part:8>*4,
-	[[<ore:dustRedstone>,<ore:dustDirtyGold>,<ore:dustRedstone>],
-	 [<ore:dustDirtyGold>,<ore:dustDirtyIron>,<ore:dustDirtyGold>],
-	 [<ore:dustRedstone>,<ore:dustDirtyGold>,<ore:dustRedstone>]]);
 
 recipes.addShaped(<contenttweaker:pc>,
 	[[<contenttweaker:material_part:143>,<contenttweaker:pcb>,<contenttweaker:material_part:143>],
@@ -142,11 +116,6 @@ recipes.addShaped(<contenttweaker:gc_bearing>*4,
 	 [<contenttweaker:structure_block>,<contenttweaker:material_part:153>,<contenttweaker:structure_block>],
 	 [<botania:storage:3>,<contenttweaker:structure_block>,<botania:storage:3>]]);
 
-recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fluid_processor"}),
-	[[<minecraft:ender_pearl>,<minecraft:bucket>,<minecraft:ender_pearl>],
-	 [<minecraft:bucket>,<minecraft:paper>,<minecraft:bucket>],
-	 [<minecraft:ender_pearl>,<minecraft:bucket>,<minecraft:ender_pearl>]]);
-
 recipes.addShapeless(<contenttweaker:noodles_bubbled>,
 	[<contenttweaker:noodles>,<contenttweaker:hot_water>.giveBack(<minecraft:bucket>)]);
 
@@ -154,16 +123,6 @@ recipes.addShaped(<contenttweaker:heaven_core>,
 	[[<contenttweaker:smart_core>,<contenttweaker:sky_core>,<contenttweaker:life_core>],
 	 [<contenttweaker:machinery_core>,<contenttweaker:world_core>,<contenttweaker:mana_core>],
 	 [<contenttweaker:seasons_core>,<contenttweaker:ground_core>,<contenttweaker:shiny_core>]]);
-
-recipes.addShaped(<contenttweaker:blueprint_machine>.withTag({display: {Lore: "§aVoid Botanic Miner"}}),
-	[[<ore:logWood>,<minecraft:dirt>,<ore:logWood>],
-	 [<minecraft:dirt>,<contenttweaker:blueprint_empty>,<minecraft:dirt>],
-	 [<ore:logWood>,<minecraft:dirt>,<ore:logWood>]]);
-
-recipes.addShaped(<contenttweaker:blueprint_machine>.withTag({display: {Lore: "§aVoid Ore Miner"}}),
-	[[<ore:coals>,<ore:ingotIron>,<ore:coals>],
-	 [<ore:ingotIron>,<contenttweaker:blueprint_empty>,<ore:ingotIron>],
-	 [<ore:coals>,<ore:ingotIron>,<ore:coals>]]);
 
 //===============================================================
 var hammer = <contenttweaker:hammer_plate>;

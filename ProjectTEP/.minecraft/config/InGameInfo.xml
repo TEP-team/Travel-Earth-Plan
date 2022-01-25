@@ -2,13 +2,35 @@
 <config>
     <lines at="topleft">
         <line>
+            <str>{blue}{bold}Travel Earth Plan</str>
+        </line>
+
+        <line>
             <str>Time: {aqua}{mctime24} {gray}/ {aqua}{rltime24}</str>
         </line>
 
         <line>
-            <str>Memory: </str>
+            <str>Name: {lightpurple}{username}</str>
+        </line>
+
+        <line>
+            <str>FPS: </str>
             <operation>
                 <str>GE</str>
+                <var>fps</var>
+                <num>80</num>
+                <num>50</num>
+                <num>25</num>
+                <num>0</num>
+                <var>green</var>
+                <var>yellow</var>
+                <var>gold</var>
+                <var>darkred</var>
+            </operation>
+            <str>{fps} {white}</str>
+            <str>Memory: </str>
+            <operation>
+                <str>LE</str>                  
                 <round>
                     <pct>
                         <var>memused</var>
@@ -16,10 +38,10 @@
                     </pct>
                     <num>0</num>
                 </round>
-                <num>0</num>
                 <num>50</num>
-                <num>70</num>
+                <num>75</num>
                 <num>90</num>
+                <num>100</num>
                 <var>green</var>
                 <var>yellow</var>
                 <var>gold</var>
@@ -36,21 +58,6 @@
         </line>
 
         <line>
-            <operation>
-                <str>GE</str>
-                <var>fps</var>
-                <num>80</num>
-                <num>50</num>
-                <num>25</num>
-                <num>0</num>
-                <str>FPS: {green}{fps}</str>
-                <str>FPS: {yellow}{fps}</str>
-                <str>FPS: {gold}{fps}</str>
-                <str>FPS: {darkred}{fps}</str>
-            </operation>
-        </line>
-
-        <line>
             <str>Direction: {yellow}{direction} {abrfinedirection}</str>
         </line>
     </lines>
@@ -62,6 +69,25 @@
             <str>{leggingslargeicon}</str>
             <str>{bootslargeicon}</str>
             <str>{mainhandlargeicon}</str>
+        </line>
+    </lines>
+
+    <lines at="bottomcenter">
+        <line>
+            <str>Ping: </str>
+            <operation>
+                <str>GE</str>
+                <var>ping</var>
+                <num>0</num>
+                <num>60</num>
+                <num>80</num>
+                <num>100</num>
+                <var>green</var>
+                <var>yellow</var>
+                <var>gold</var>
+                <var>darkred</var>
+            </operation>
+            <str>{ping}</str>
         </line>
     </lines>
 </config>

@@ -9,9 +9,10 @@
 
 //seeds
 vanilla.seeds.removeSeed(<minecraft:wheat_seeds>);
+vanilla.seeds.removeSeed(<immersiveengineering:seed>);
 
 //furnace
-furnace.setFuel(<contenttweaker:wood_residue>,38);
+furnace.setFuel(<contenttweaker:wood_residue>, 75);
 
 furnace.remove(<pneumaticcraft:empty_pcb:100>);
 furnace.remove(<forge:bucketfilled>.withTag({FluidName: "purifiedwater", Amount: 1000}));

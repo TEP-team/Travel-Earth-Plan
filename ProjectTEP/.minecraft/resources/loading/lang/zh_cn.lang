@@ -1,12 +1,9 @@
-#Mod Changes
-tile.compactmachines3.fieldprojector.name=投影仪
-
 #Custom Tips for TEP
-tip.tep.1=你的第一台发电设备为 "简易燃烧发电机" .
+tip.tep.1=TEP一开始其实非常硬核！
 tip.tep.2=服务器的冬季机制是永久的，你需要时刻注意保暖！
-tip.tep.3=加热器是个不错的室内取暖方式！
+tip.tep.3=TEP在早期是个战争服！
 tip.tep.4=你可以制造 "虚空矿物采掘机" 以省去挖矿的时间.
-tip.tep.5=当血月出现时，怪物们会变得躁动不安，更加狂暴！
+tip.tep.5=当血月出现时，怪物们会变得更加狂暴！
 tip.tep.6="求生者指南" 中包含了许多的求生与科学知识.
 tip.tep.7="模块化炮塔" 可以帮助你防御敌怪的侵袭.
 tip.tep.8=如果键位感到不适，可以进行自行调整.
@@ -57,14 +54,12 @@ logged.tep.send1=§9§l欢迎游玩 §dTravel Earth Plan §9§l服务器！
 logged.tep.send2=§b本服基于 §aMinecraft 1.12.2 §b开发，采用多种魔改技术构建而成.
 logged.tep.send3=§c因服主QQ有时过于繁忙，故 §eBUG §c请尽量提交至 §eGitHub Issues §c.
 logged.tep.send4=§a祝您游戏愉快 :-) ！
-prevent.tep.cmd=§c禁止使用该指令！
-brain.tep.eat=§c§l呕！太恶心了！
 
 #Tool Tips
 tooltip.tep.0=§b高度的酸性，锂与硫酸反应的产物.
-tooltip.tep.1=§b可以筛出雪中含有的杂物.
+//tooltip.tep.1=§b可以筛出雪中含有的杂物.
 tooltip.tep.2=§b可以将原木锯出更多的木板.
-tooltip.tep.3=§b可以将木渣聚合.
+//tooltip.tep.3=§b可以将木渣聚合.
 tooltip.tep.4=§6闪烁迷离，震荡不定.
 tooltip.tep.5=§6无穷无尽，璀璨耀眼.
 tooltip.tep.6=§b程序代码与红石构成的高级芯片.
@@ -73,15 +68,15 @@ tooltip.tep.8=§a可以在主世界进行随机传送!
 //tooltip.tep.9=§a右键以抽出 §e4 §a点生命值!
 //tooltip.tep.10=§a右击以恢复 §e4 §a点生命值!
 //tooltip.tep.11=§c生命值低于 §e20 §c时才可以使用!
-tooltip.tep.12=§a右击以恢复 §e2 §a点生命值!
+tooltip.tep.12=§a长按以恢复 §e2 §a点生命值!
 tooltip.tep.13=§a可以治疗 §e流血 §a!
 tooltip.tep.14=§c流血时才可以使用!
-tooltip.tep.15=§a右击以恢复 §e6 §a点生命值!
+tooltip.tep.15=§a长按以恢复 §e6 §a点生命值!
 tooltip.tep.16=§a可以治疗 §e骨折 §a与 §e流血 §a!
 tooltip.tep.17=§c生命值低于 §e20 §c时才可以使用!
 tooltip.tep.18=§a可以治疗 §e骨折 §a!
 tooltip.tep.19=§c骨折时才可以使用!
-tooltip.tep.20=§a右击以恢复 §e3 §a点生命值!
+tooltip.tep.20=§a长按以恢复 §e3 §a点生命值!
 tooltip.tep.21=§b科学, §5魔法, §c生命 §a三大之力在此聚集.
 tooltip.tep.22=§a右键以获得 §9彩§e虹 §a的庇佑!
 tooltip.tep.23=§b可以将金属锭锻造为金属板材.
@@ -95,4 +90,3 @@ tooltip.tep.30=§c注意：§e魔法水晶 §c因结构渲染问题未显示.
 //tooltip.tep.31=§b空白蓝图，或许可以制成机器蓝图.
 //tooltip.tep.32=§a热腾腾的泡面，味道会怎么样呢！
 //tooltip.tep.33=§b里面装了一块面饼和一些调味包.
-tooltip.tep.34=§c闻起来糟糕透了...

@@ -15,9 +15,7 @@ function tooltipAdder(key as string, item as IItemStack) {
 
 //ToolTips
 tooltipAdder("tooltip.tep.0", <forge:bucketfilled>.withTag({FluidName: "electrolyte", Amount: 1000}));
-tooltipAdder("tooltip.tep.1", <contenttweaker:sieve_string:*>);
 tooltipAdder("tooltip.tep.2", <contenttweaker:handsaw_wood:*>);
-tooltipAdder("tooltip.tep.3", <contenttweaker:snow_tool:*>);
 tooltipAdder("tooltip.tep.4", <contenttweaker:shinystar_ingot>);
 tooltipAdder("tooltip.tep.5", <contenttweaker:shinystar_matter>);
 tooltipAdder("tooltip.tep.6", <contenttweaker:conversion_core>);
@@ -44,4 +42,3 @@ tooltipAdder("tooltip.tep.27", <cropdusting:poop>);
 tooltipAdder("tooltip.tep.28", <cropdusting:poop>);
 tooltipAdder("tooltip.tep.29", <modularmachinery:itemblueprint>);
 tooltipAdder("tooltip.tep.30", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mana_altar"}));
-tooltipAdder("tooltip.tep.34", <contenttweaker:brain>);

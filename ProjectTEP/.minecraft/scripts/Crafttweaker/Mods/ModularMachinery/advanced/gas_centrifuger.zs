@@ -4,7 +4,7 @@
     But you can't copy and paste these scripts to your Modpack.
     Thanks a lot!
 */
-
+#norun
 #priority 60000
 import mods.modularmachinery.RecipePrimer;
 import scripts.Classes.ModularUtils.ModularUtils;
