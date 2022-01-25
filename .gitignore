@@ -4,10 +4,12 @@
 !README.md
 
 #folder
-!/ProjectTEP/
+!ProjectTEP/
 ProjectTEP/*
-!/ProjectTEP/.minecraft/
+!ProjectTEP/.minecraft/
 ProjectTEP/.minecraft/*
+!ProjectTEP/.minecraft/mods/
+ProjectTEP/.minecraft/mods/*
 ProjectTEP/.minecraft/config/*
 !/ProjectTEP/.minecraft/scripts/
 !/ProjectTEP/.minecraft/oresources/
