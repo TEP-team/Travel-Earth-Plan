@@ -7,20 +7,16 @@
 
 #priority 70000
 #loader crafttweaker reloadableevents
-import crafttweaker.world.IWorld;
 import crafttweaker.player.IPlayer;
-import crafttweaker.entity.IEntity;
 import crafttweaker.text.ITextComponent;
 import crafttweaker.event.EntityTravelToDimensionEvent;
 
 events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent) {
-    var living as IEntity = event.entity;
-    var world as IWorld = living.world;
-    var dimension as int = event.dimension;
-
+    val living = event.entity;
+    val world = living.world;
+    val dimension = event.dimension;
     if (!world.remote && living instanceof IPlayer) {
-        var player as IPlayer = living;
-
+        val player as IPlayer = living;
         if (dimension == 1 || dimension == -1) {
             event.cancel();
             player.sendRichTextStatusMessage(ITextComponent.fromTranslation("dimension.tep.ban"));

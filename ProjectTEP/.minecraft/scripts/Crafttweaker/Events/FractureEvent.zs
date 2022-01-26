@@ -7,37 +7,37 @@
 
 #priority 70000
 #loader crafttweaker reloadableevents
-import crafttweaker.data.IData;
-import crafttweaker.world.IWorld;
 import crafttweaker.player.IPlayer;
-import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.text.ITextComponent;
+import crafttweaker.event.PlayerTickEvent;
 import crafttweaker.event.EntityLivingFallEvent;
 import crafttweaker.event.EntityLivingHurtEvent;
 
+//save the distance
 events.onEntityLivingFall(function(event as EntityLivingFallEvent) {
-    var living as IEntityLivingBase = event.entityLivingBase;
-    var distance as float = event.distance;
-    var world as IWorld = living.world;
-    var resistance as bool = living.isPotionActive(<potion:minecraft:resistance>);
-    var regeneration as bool = living.isPotionActive(<potion:minecraft:regeneration>);
+    val living = event.entityLivingBase;
+    val world = living.world;
     if (!world.remote && living instanceof IPlayer) {
-        var player as IPlayer = living;
+        val player as IPlayer = living;
+        val resistance = player.isPotionActive(<potion:minecraft:resistance>);
+        val regeneration = player.isPotionActive(<potion:minecraft:regeneration>);
         if(!resistance && !regeneration) {
+            val distance = event.distance;
             player.update({PlayerPersisted: {fractured: distance}});
         }
     }
 });
 
+//trigger the fractured
 events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
-    var living as IEntityLivingBase = event.entityLivingBase;
-    var world as IWorld = living.world;
+    val living = event.entityLivingBase;
+    val world = living.world;
     if (!world.remote && living instanceof IPlayer) {
-        var player as IPlayer = living;
-        var data as IData = player.data.PlayerPersisted;
+        val player as IPlayer = living;
+        var data = player.data.PlayerPersisted;
         if (!isNull(data) && !isNull(data.fractured) && data.fractured.asFloat() >= 7.0f) {
-            var Fractured as bool = living.isPotionActive(<potion:contenttweaker:fractured>);
-            if (!Fractured) {
+            val fractured = player.isPotionActive(<potion:contenttweaker:fractured>);
+            if (!fractured) {
                 player.addPotionEffect(<potion:contenttweaker:fractured>.makePotionEffect(99999999999, 0));
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("fractured.tep.fsuccess"));
             }
@@ -45,15 +45,18 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
     }
 });
 
-events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
-    var living as IEntityLivingBase = event.entityLivingBase;
-    var world as IWorld = living.world;
-    if (!world.remote) {
-        var type as string = event.damageSource.damageType;
-        var Fractured as bool = living.isPotionActive(<potion:contenttweaker:fractured>);
-        if (type == "fall" && Fractured) {
-            var player as IPlayer = living;
-            player.health -= 2;
+//remove the slowness effect
+events.onPlayerTick(function(event as PlayerTickEvent) {
+    val fractured = player.isPotionActive(<potion:contenttweaker:fractured>);
+    val slowness = player.isPotionActive(<potion:minecraft:slowness>);
+    var pdata = player.data;
+    if (!player.world.remote && !player.isFake()) {
+        if (pdata has "slowness") {
+            var slowness = pdata.memberGet("slowness").asInt();
+            if (slowness == 1 && !fractured && slowness) {
+                player.removePotionEffect(<potion:minecraft:slowness>);
+                pdata.memberSet("slowness", 0);
+            }
         }
     }
 });

@@ -21,6 +21,7 @@ tp_gem.itemRightClick = function(stack, world, player, hand) {
     if (!world.remote && !player.isFake() && world.dimension == 0) {
         val x = Math.random() * 3000 + player.x;
         val z = Math.random() * 3000 + player.z;
+        val pdata = player.data;
         Commands.call("tp @p " + x + " 140 " + z, player, world, false, true);
         Commands.call("playsound minecraft:block.portal.travel ambient @p ~ ~ ~ 0.8 2", player, world, false, true);
         player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(240, 0));
@@ -32,20 +33,6 @@ tp_gem.itemRightClick = function(stack, world, player, hand) {
     return "success";
 };
 tp_gem.register();
-
-val rainbow_gem = ContentUtils.itemBuilder("rainbow_gem", "epic", -1, 64, true) as Item;
-rainbow_gem.itemRightClick = function(stack, world, player, hand) {
-    if (!world.remote && !player.isFake()) {
-        var pdata = player.data;
-        player.update(pdata + {"rainbowGem" : 101});
-        player.sendRichTextStatusMessage(ITextComponent.fromTranslation("gem.tep.use"));
-        Commands.call("playsound botania:blacklotus ambient @p ~ ~ ~ 1 1", player, world, false, true);
-        stack.shrink(1);
-        return "success";
-    }   
-    return "pass";
-};
-rainbow_gem.register();
 
 val medical_bandage = ContentUtils.itemBuilder("medical_bandage", "uncommon", -1, 4, false) as Item;
 ContentUtils.durationBuilder(medical_bandage, 30);
@@ -75,10 +62,12 @@ medical_pack.onItemUseFinish = function(stack, world, entity) {
     if (!world.remote && entity instanceof Player) {
         val player as Player = entity;
         if (!player.isFake()) {
-            val health = player.health;
-            if (health < 20) {
+            if (player.health < 20) {
+                if (player.isPotionActive(<potion:contenttweaker:fractured>)) {
+                    player.removePotionEffect(<potion:contenttweaker:fractured>);
+                    player.update(player.data + {"slowness" : 1});
+                }
                 player.removePotionEffect(<potion:contenttweaker:bleeding>);
-                player.removePotionEffect(<potion:contenttweaker:fractured>);
                 player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(200, 0));
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.mpsuccess"));
                 player.health += 6;
@@ -101,9 +90,8 @@ medical_splint.onItemUseFinish = function(stack, world, entity) {
             val fractured = player.isPotionActive(<potion:contenttweaker:fractured>);
             if (fractured) {
                 player.removePotionEffect(<potion:contenttweaker:fractured>);
-                player.removePotionEffect(<potion:minecraft:slowness>);
-                player.addPotionEffect(<potion:minecraft:slowness>.makePotionEffect(100, 4));
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.ssuccess"));
+                player.update(player.data + {"slowness" : 1});
                 stack.shrink(1);
             } else {
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.sfail"));
@@ -123,9 +111,9 @@ medical_metal_splint.onItemUseFinish = function(stack, world, entity) {
             val fractured = player.isPotionActive(<potion:contenttweaker:fractured>);
             if (fractured) {
                 player.removePotionEffect(<potion:contenttweaker:fractured>);
-                player.removePotionEffect(<potion:minecraft:slowness>);
                 player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(200, 0));
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.ssuccess"));
+                player.update(player.data + {"slowness" : 1});
                 player.health += 2;
                 stack.shrink(1);
             } else {
@@ -137,43 +125,14 @@ medical_metal_splint.onItemUseFinish = function(stack, world, entity) {
 };
 medical_metal_splint.register();
 
-/*
-//TODO...
-val team_book = ContentUtils.itemBuilder("team_book", "uncommon", -1, 1, false) as Item;
-team_book.itemInteractionForEntity = function(stack, player, target, hand) {
-    if (!world.remote && player.isFake() && target instanceof Player) {
-        val player1 as Player = target;
-        if (player.isSneaking) {
-            val name1 = player1.name;
-            if (hand == "MAIN_HAND") {
-                Commands.call("tf invite " ~ name1, player, world, false, true);
-                player1.update(player1.data + {"invite" : 1});
-                player1.update({PlayerPersisted : {name : name1}});
-                return true;
-            } else {
-                Commands.call("tf kick " ~ name1, player, world, false, true);
-                return true;
-            }
+for exes in ["gc_exe", "ft_exe"] {
+    val exe = ContentUtils.itemBuilder(exes, "common", -1, 64, false) as Item;
+    exe.itemRightClick = function(stack, world, player, hand) {
+        if (!world.remote && !player.isFake() && player.isSneaking) {
+            stack.shrink(1);
+            player.give(<contenttweaker:exe>);
+            player.sendRichTextStatusMessage(ITextComponent.fromTranslation("exe.tep.clear"));
         }
-    }
-    return false;
-};
-team_book.itemRightClick = function(stack, world, player, hand) {
-    if (!world.remote && player.isFake()) {
-        var pdata = player.data;
-        var persisted = pdata.PlayerPersisted;
-        if (pdata has "invite") {
-            var invite = pdata.memberGet("invite").asInt();
-            if (invite == 1 && !isNull(persisted) && !isNull(persisted.name)) {
-                player1.update({"invite" : invite - 1});
-                if (hand == "MAIN_HAND") {
-                    Commands.call("tf accept " ~ persisted.name, player, world, false, true);
-                } else {
-                    Commands.call("tf decline " ~ persisted.name, player, world, false, true);
-                }
-            }
-        }
-    }
-};
-team_book.register();
-*/
+    };
+    exe.register();
+}

@@ -15,12 +15,10 @@ events.onBlockBreak(function(event as BlockBreakEvent) {
         val item = player.currentItem;
         if (!isNull(item) && <contenttweaker:hammer_flint:*>.matches(item)) {
             for i in 0 to 9 {
-                val hotbar = player.getHotbarStack(i);
-                if (item.matches(hotbar)) {
+                if (item.matches(player.getHotbarStack(i))) {
                     player.replaceItemInInventory(i, item.withDamage(item.damage + 1));
                     if (item.damage >= 2) {
                         player.replaceItemInInventory(i, null);
-                        player.playSound("item.shield.break", 1, 1);
                     }
                 }
             }

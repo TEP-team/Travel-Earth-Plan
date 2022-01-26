@@ -5,7 +5,7 @@
     Thanks a lot!
 */
 
-#priority 90000
+#priority 90001
 #loader contenttweaker
 import mods.zenutils.cotx.Item;
 import scripts.Classes.ContentUtils.ContentUtils;
@@ -24,7 +24,7 @@ var epic as string[] =
     "shinystar_ingot", "shinystar_matter", "super_coil",
     "world_core", "sky_core", "ground_core", "mana_core",
     "machinery_core", "life_core", "shiny_core", "smart_core",
-    "seasons_core", "heaven_core"
+    "seasons_core", "heaven_core", "rainbow_gem"
 ];
 
 var tools as string[] = [
@@ -36,8 +36,8 @@ var materials as string[] = [
     "iron_with_nickel", "tin_solder_dust", "ingot_is", "ingot_in",
     "papers", "paper_ee", "cell_electrolyte", "cell_empty", "cell_cold",
     "cell_dt", "wood_residue", "metal_stick","cloth_string", "motor",
-    "pc", "ram", "rom", "cpu", "ft_exe","exe", "pcb", "pin", "test_unit",
-    "temperature_monitor", "mini_driver", "mediuim_driver", "gc_exe",
+    "pc", "ram", "rom", "cpu", "exe", "pcb", "pin", "test_unit",
+    "temperature_monitor", "mini_driver", "mediuim_driver",
     "huge_driver", "singlechip", "ft_singlechip", "gc_singlechip"
 ];
 

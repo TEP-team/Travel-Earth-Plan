@@ -7,16 +7,14 @@
 
 #priority 70000
 #loader crafttweaker reloadableevents
-import crafttweaker.player.IPlayer;
 import crafttweaker.text.ITextComponent;
 import crafttweaker.event.PlayerLoggedInEvent;
 
 events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent) {
-    var player as IPlayer = event.player;
-
+    val player = event.player;
     if (!player.world.remote && !player.isFake()) {
         /*
-        var cmds as string[] = ["gamerule naturalRegeneration false", "gamerule keepInventory true", "gamerule maxEntityCramming 16", "gamerule mobGriefing false"];
+        val cmds as string[] = ["gamerule naturalRegeneration false", "gamerule keepInventory true", "gamerule maxEntityCramming 16", "gamerule mobGriefing false"];
         for cmd in cmds {
             server.commandManager.executeCommandSilent(server, cmd);
         }

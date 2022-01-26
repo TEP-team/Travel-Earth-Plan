@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Travel Earth Plan",
-  "version": "v1.0.",
+  "version": "v1.0.0.",
   "author": "TEP-team",
   "files": [
     {
@@ -177,11 +177,6 @@
     {
       "projectID": 401178,
       "fileID": 3598337,
-      "required": true
-    },
-    {
-      "projectID": 309830,
-      "fileID": 2736827,
       "required": true
     },
     {
