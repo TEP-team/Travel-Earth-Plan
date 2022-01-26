@@ -20,7 +20,7 @@
       "identity": {
         "metadata": -1
       },
-      "temperature": 2.0
+      "temperature": 2.5
     }
   ],
   "simpledifficulty:ice_boots": [
@@ -36,7 +36,7 @@
       "identity": {
         "metadata": -1
       },
-      "temperature": 2.0
+      "temperature": 2.5
     }
   ],
   "baubles:ring": [
@@ -52,7 +52,7 @@
       "identity": {
         "metadata": -1
       },
-      "temperature": 2.0
+      "temperature": 2.5
     }
   ],
   "simpledifficulty:wool_chestplate": [
@@ -60,7 +60,7 @@
       "identity": {
         "metadata": -1
       },
-      "temperature": 2.0
+      "temperature": 2.5
     }
   ],
   "simpledifficulty:ice_leggings": [

@@ -31,6 +31,14 @@
       "temperature": 1.0
     }
   ],
+  "contenttweaker:warm_paste": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 4.0
+    }
+  ],
   "harvestcraft:candledeco9": [
     {
       "identity": {

@@ -24,7 +24,7 @@ var epic as string[] =
     "shinystar_ingot", "shinystar_matter", "super_coil",
     "world_core", "sky_core", "ground_core", "mana_core",
     "machinery_core", "life_core", "shiny_core", "smart_core",
-    "seasons_core", "heaven_core", "rainbow_gem"
+    "seasons_core", "heaven_core", "rainbow_gem", "warm_paste"
 ];
 
 var tools as string[] = [

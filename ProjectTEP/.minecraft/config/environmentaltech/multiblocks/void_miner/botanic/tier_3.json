@@ -33,7 +33,7 @@
     {
       "target": "food",
       "weight": 4,
-      "id": "<minecraft:dye:3>"
+      "id": "minecraft:dye:3"
     },
     {
       "target": "food",

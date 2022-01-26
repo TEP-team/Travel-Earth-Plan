@@ -11,34 +11,14 @@
       "id": "minecraft:iron_ore"
     },
     {
-      "target": "light_blue",
-      "weight": 25,
-      "id": "contenttweaker:sub_block_holder_1:3"
-    },
-    {
       "target": "red",
       "weight": 22,
       "id": "minecraft:redstone"
     },
     {
-      "target": "gray",
-      "weight": 20,
-      "id": "contenttweaker:sub_block_holder_1"
-    },
-    {
-      "target": "green",
-      "weight": 18,
-      "id": "contenttweaker:sub_block_holder_0:12"
-    },
-    {
       "target": "white",
-      "weight": 20,
-      "id": "contenttweaker:sub_block_holder_0:6"
-    },
-    {
-      "target": "yellow",
-      "weight": 16,
-      "id": "contenttweaker:sub_block_holder_0:5"
+      "weight": 18,
+      "id": "contenttweaker:sub_block_holder_0:4"
     },
     {
       "target": "blue",

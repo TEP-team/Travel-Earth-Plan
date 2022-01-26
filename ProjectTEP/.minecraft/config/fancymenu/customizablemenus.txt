@@ -1,5 +1,2 @@
 type = customizablemenus
 
-net.minecraft.client.gui.GuiIngameMenu {
-}
-

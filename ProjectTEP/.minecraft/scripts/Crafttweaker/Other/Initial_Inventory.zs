@@ -11,11 +11,12 @@ import mods.initialinventory.InvHandler;
 
 val items as IItemStack[] = [
     <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:tep_guide"}),
+    <patchouli:guide_book>.withTag({"patchouli:book": "pneumaticcraft:book"}),
+    <harvestcraft:crispyricepuffbarsitem>*3, <harvestcraft:energydrinkitem>*3,
+    <botania:lexicon>.withTag({}), <contenttweaker:medical_pack>*4,
+    <immersiveengineering:tool:3>, <akashictome:tome>, <xnet:xnet_manual>,
     <simpledifficulty:wool_helmet>, <simpledifficulty:wool_chestplate>,
-    <simpledifficulty:wool_leggings>, <simpledifficulty:wool_boots>,
-    <contenttweaker:medical_pack>*4, <botania:lexicon>.withTag({}),
-    <minecraft:stone_shovel:120>,<immersiveengineering:tool:3>,
-    <akashictome:tome>
+    <simpledifficulty:wool_leggings>, <simpledifficulty:wool_boots>
 ];
 
 for item in items {

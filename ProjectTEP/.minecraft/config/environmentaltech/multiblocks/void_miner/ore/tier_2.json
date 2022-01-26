@@ -11,11 +11,6 @@
       "id": "minecraft:iron_ore"
     },
     {
-      "target": "light_blue",
-      "weight": 25,
-      "id": "contenttweaker:sub_block_holder_1:3"
-    },
-    {
       "target": "red",
       "weight": 22,
       "id": "minecraft:redstone"
@@ -23,7 +18,7 @@
     {
       "target": "gray",
       "weight": 20,
-      "id": "contenttweaker:sub_block_holder_1"
+      "id": "contenttweaker:sub_block_holder_0:1"
     },
     {
       "target": "blue",

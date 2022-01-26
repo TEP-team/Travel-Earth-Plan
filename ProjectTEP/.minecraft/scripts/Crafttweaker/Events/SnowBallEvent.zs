@@ -29,5 +29,10 @@ events.onProjectileImpactThrowable(function(event as ProjectileImpactThrowableEv
         getRandomAndSpawnEntity(10, 12, world, pos, <minecraft:clay_ball>);
         getRandomAndSpawnEntity(12, 15, world, pos, <minecraft:dye:15>);
         getRandomAndSpawnEntity(15, 18, world, pos, <minecraft:string>);
+        getRandomAndSpawnEntity(18, 19, world, pos, <minecraft:wheat_seeds>);
+        getRandomAndSpawnEntity(19, 20, world, pos, <minecraft:melon_seeds>);
+        getRandomAndSpawnEntity(20, 21, world, pos, <minecraft:pumpkin_seeds>);
+        getRandomAndSpawnEntity(21, 22, world, pos, <minecraft:beetroot_seeds>);
+        getRandomAndSpawnEntity(22, 23, world, pos, <immersiveengineering:seed>);
     }
 });
