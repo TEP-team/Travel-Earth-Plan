@@ -16,8 +16,8 @@ import scripts.Classes.ContentUtils.ContentUtils;
 
 val ContentUtils as ContentUtils = ContentUtils("Instanced");
 
-val tp_gem = ContentUtils.itemBuilder("tp_gem", "epic", -1, 64, true) as Item;
-tp_gem.itemRightClick = function(stack, world, player, hand) {
+val item1 = ContentUtils.itemBuilder("tp_gem", "epic", -1, 64, true) as Item;
+item1.itemRightClick = function(stack, world, player, hand) {
     if (!world.remote && !player.isFake() && world.dimension == 0) {
         val x = Math.random() * 3000 + player.x;
         val z = Math.random() * 3000 + player.z;
@@ -32,11 +32,11 @@ tp_gem.itemRightClick = function(stack, world, player, hand) {
     }
     return "success";
 };
-tp_gem.register();
+item1.register();
 
-val medical_bandage = ContentUtils.itemBuilder("medical_bandage", "uncommon", -1, 4, false) as Item;
-ContentUtils.durationBuilder(medical_bandage, 30);
-medical_bandage.onItemUseFinish = function(stack, world, entity) {
+val item2 = ContentUtils.itemBuilder("medical_bandage", "uncommon", -1, 4, false) as Item;
+ContentUtils.durationBuilder(item2, 30);
+item2.onItemUseFinish = function(stack, world, entity) {
     if (!world.remote && entity instanceof Player) {
         val player as Player = entity;
         if (!player.isFake()) {
@@ -54,11 +54,11 @@ medical_bandage.onItemUseFinish = function(stack, world, entity) {
     }
     return stack;
 };
-medical_bandage.register();
+item2.register();
 
-val medical_pack = ContentUtils.itemBuilder("medical_pack", "uncommon", -1, 4, false) as Item;
-ContentUtils.durationBuilder(medical_pack, 60);
-medical_pack.onItemUseFinish = function(stack, world, entity) {
+val item3 = ContentUtils.itemBuilder("medical_pack", "uncommon", -1, 4, false) as Item;
+ContentUtils.durationBuilder(item3, 60);
+item3.onItemUseFinish = function(stack, world, entity) {
     if (!world.remote && entity instanceof Player) {
         val player as Player = entity;
         if (!player.isFake()) {
@@ -79,11 +79,11 @@ medical_pack.onItemUseFinish = function(stack, world, entity) {
     }
     return stack;
 };
-medical_pack.register();
+item3.register();
 
-val medical_splint = ContentUtils.itemBuilder("medical_splint", "uncommon", -1, 4, false) as Item;
-ContentUtils.durationBuilder(medical_splint, 45);
-medical_splint.onItemUseFinish = function(stack, world, entity) {
+val item4 = ContentUtils.itemBuilder("medical_splint", "uncommon", -1, 4, false) as Item;
+ContentUtils.durationBuilder(item4, 45);
+item4.onItemUseFinish = function(stack, world, entity) {
     if (!world.remote && entity instanceof Player) {
         val player as Player = entity;
         if (!player.isFake()) {
@@ -100,11 +100,11 @@ medical_splint.onItemUseFinish = function(stack, world, entity) {
     }
     return stack;
 };
-medical_splint.register();
+item4.register();
 
-val medical_metal_splint = ContentUtils.itemBuilder("medical_metal_splint", "uncommon", -1, 4, false) as Item;
-ContentUtils.durationBuilder(medical_metal_splint, 45);
-medical_metal_splint.onItemUseFinish = function(stack, world, entity) {
+val item5 = ContentUtils.itemBuilder("medical_metal_splint", "uncommon", -1, 4, false) as Item;
+ContentUtils.durationBuilder(item5, 45);
+item5.onItemUseFinish = function(stack, world, entity) {
     if (!world.remote && entity instanceof Player) {
         val player as Player = entity;
         if (!player.isFake()) {
@@ -123,4 +123,4 @@ medical_metal_splint.onItemUseFinish = function(stack, world, entity) {
     }
     return stack;
 };
-medical_metal_splint.register();
+item5.register();
