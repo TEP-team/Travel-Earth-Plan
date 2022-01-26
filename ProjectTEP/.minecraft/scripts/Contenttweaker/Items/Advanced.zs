@@ -124,15 +124,3 @@ medical_metal_splint.onItemUseFinish = function(stack, world, entity) {
     return stack;
 };
 medical_metal_splint.register();
-
-for exes in ["gc_exe", "ft_exe"] {
-    val exe = ContentUtils.itemBuilder(exes, "common", -1, 64, false) as Item;
-    exe.itemRightClick = function(stack, world, player, hand) {
-        if (!world.remote && !player.isFake() && player.isSneaking) {
-            stack.shrink(1);
-            player.give(<contenttweaker:exe>);
-            player.sendRichTextStatusMessage(ITextComponent.fromTranslation("exe.tep.clear"));
-        }
-    };
-    exe.register();
-}

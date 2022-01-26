@@ -5,7 +5,7 @@
     Thanks a lot!
 */
 
-#priority 90001
+#priority 90000
 #loader contenttweaker
 import mods.zenutils.cotx.Item;
 import scripts.Classes.ContentUtils.ContentUtils;
@@ -36,8 +36,8 @@ var materials as string[] = [
     "iron_with_nickel", "tin_solder_dust", "ingot_is", "ingot_in",
     "papers", "paper_ee", "cell_electrolyte", "cell_empty", "cell_cold",
     "cell_dt", "wood_residue", "metal_stick","cloth_string", "motor",
-    "pc", "ram", "rom", "cpu", "exe", "pcb", "pin", "test_unit",
-    "temperature_monitor", "mini_driver", "mediuim_driver",
+    "pc", "ram", "rom", "cpu", "exe", "gc_exe", "ft_exe", "pcb", "pin",
+    "test_unit", "temperature_monitor", "mini_driver", "mediuim_driver",
     "huge_driver", "singlechip", "ft_singlechip", "gc_singlechip"
 ];
 

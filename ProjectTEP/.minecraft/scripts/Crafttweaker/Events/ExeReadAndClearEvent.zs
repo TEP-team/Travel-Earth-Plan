@@ -10,7 +10,9 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.text.ITextComponent;
 import crafttweaker.event.PlayerInteractBlockEvent;
+import crafttweaker.event.PlayerRightClickItemEvent;
 
+//get the exe object
 function getExe(isCore as bool, condition as bool) as IItemStack {
     if (isCore) {
         return condition ? <contenttweaker:ft_core> : <contenttweaker:gc_core>;
@@ -19,6 +21,7 @@ function getExe(isCore as bool, condition as bool) as IItemStack {
     }
 }
 
+//read
 events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     val player = event.player;
     if (!player.world.remote && !player.isFake()) {   
@@ -32,6 +35,19 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
             }
             item.mutable().shrink(1);
             player.sendRichTextStatusMessage(ITextComponent.fromTranslation("exe.tep.get"));
+        }
+    }
+});
+
+//clear
+events.onPlayerRightClickItem(function(event as PlayerRightClickItemEvent) {
+    val player = event.player;
+    if (!player.world.remote && !player.isFake() && player.isSneaking) {
+        val item = event.item;
+        if (getExe(false, true).matches(item) || getExe(false, false).matches(item)) {
+            item.mutable().shrink(1);
+            player.give(<contenttweaker:exe>);
+            player.sendRichTextStatusMessage(ITextComponent.fromTranslation("exe.tep.clear"));
         }
     }
 });

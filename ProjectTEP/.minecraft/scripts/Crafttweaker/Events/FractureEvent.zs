@@ -47,6 +47,7 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
 
 //remove the slowness effect
 events.onPlayerTick(function(event as PlayerTickEvent) {
+    val player = event.player;
     val fractured = player.isPotionActive(<potion:contenttweaker:fractured>);
     val slowness = player.isPotionActive(<potion:minecraft:slowness>);
     var pdata = player.data;
@@ -55,7 +56,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
             var slowness = pdata.memberGet("slowness").asInt();
             if (slowness == 1 && !fractured && slowness) {
                 player.removePotionEffect(<potion:minecraft:slowness>);
-                pdata.memberSet("slowness", 0);
+                player.update(pdata + {"slowness" : 0});
             }
         }
     }
