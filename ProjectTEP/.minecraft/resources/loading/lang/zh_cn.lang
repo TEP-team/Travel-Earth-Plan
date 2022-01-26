@@ -1,9 +1,9 @@
 #Custom Tips for TEP
-tip.tep.1=TEP一开始其实非常硬核！
-tip.tep.2=服务器的冬季机制是永久的，你需要时刻注意保暖！
+tip.tep.1=TEP其实一开始策划的是硬核玩法！
+tip.tep.2=一摆一寄，早晚都寄 :-)
 tip.tep.3=TEP在早期是个战争服！
-tip.tep.4=你可以制造 "虚空矿物采掘机" 以省去挖矿的时间.
-tip.tep.5=当血月出现时，怪物们会变得更加狂暴！
+tip.tep.4=//当你看到这行文字，表明这行文字已被注释.
+tip.tep.5=你可以制造 "虚空矿物采掘机" 以省去挖矿的时间.
 tip.tep.6="求生者指南" 中包含了许多的求生与科学知识.
 tip.tep.7="模块化炮塔" 可以帮助你防御敌怪的侵袭.
 tip.tep.8=如果键位感到不适，可以进行自行调整.
@@ -38,10 +38,8 @@ tpgem.tep.tpfail=§c§l随机传送失败，请等待冷却完成后再次尝试
 bleeding.tep.bsuccess=§c§l你流血了！
 fractured.tep.fsuccess=§c§l你骨折了！
 healing.tep.msuccess=§a§l伤口包扎成功！
-healing.tep.bsuccess=§a§l你恢复了 §e§l2 §a§l点HP！
 healing.tep.mfail=§c§l包扎失败，你没有流血！
 healing.tep.mpsuccess=§a§l医疗包使用成功！
-healing.tep.psuccess=§a§l你恢复了 §e§l6 §a§l点HP！
 healing.tep.mpfail=§c§l医疗包使用失败，你的血量必须低于 §e§l20 §c§l！
 healing.tep.ssuccess=§a§l治疗成功！
 healing.tep.sfail=§c§l治疗失败，你没有骨折！

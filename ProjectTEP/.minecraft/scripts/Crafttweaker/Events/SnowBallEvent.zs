@@ -14,7 +14,7 @@ import crafttweaker.world.IWorld;
 import crafttweaker.event.ProjectileImpactThrowableEvent;
 
 function getRandomAndSpawnEntity(num1 as int, num2 as int, world as IWorld, pos as Position3f, item as IItemStack) {
-    val random = world.random.nextInt(1, 100);
+    val random = world.random.nextInt(1, 200);
     if (random >= num1 && random < num2) {
         world.spawnEntity(item.createEntityItem(world, pos));
     }

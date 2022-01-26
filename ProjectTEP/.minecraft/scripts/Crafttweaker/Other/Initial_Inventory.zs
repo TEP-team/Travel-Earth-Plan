@@ -15,7 +15,7 @@ val items as IItemStack[] = [
     <simpledifficulty:wool_leggings>, <simpledifficulty:wool_boots>,
     <contenttweaker:medical_pack>*4, <botania:lexicon>.withTag({}),
     <minecraft:stone_shovel:120>,<immersiveengineering:tool:3>,
-    <akashictome:tome>,
+    <akashictome:tome>
 ];
 
 for item in items {

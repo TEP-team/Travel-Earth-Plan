@@ -15,10 +15,12 @@ events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent) {
     var player as IPlayer = event.player;
 
     if (!player.world.remote && !player.isFake()) {
+        /*
         var cmds as string[] = ["gamerule naturalRegeneration false", "gamerule keepInventory true", "gamerule maxEntityCramming 16", "gamerule mobGriefing false"];
         for cmd in cmds {
             server.commandManager.executeCommandSilent(server, cmd);
         }
+        */
         for i in 1 to 5 {
             player.sendRichTextMessage(ITextComponent.fromTranslation("logged.tep.send" + i));
         }

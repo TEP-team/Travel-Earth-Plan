@@ -20,14 +20,23 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     if (!player.isFake() && player.isSneaking) {
         val block = event.block;
         val item = event.item;
-        if (block.definition.id == "mekanism:basicblock" && block.meta == 13 && <contenttweaker:electric_iron>.matches(item)) {
+        if (block.definition.id == "mekanism:basicblock" && block.meta == 13 && <contenttweaker:electric_iron:*>.matches(item)) {
             val pos = event.position;
             val pos3f = pos.asPosition3f();
             if (!world.remote) {
                 val tsd = <contenttweaker:tin_solder_dust>;
                 val stack = player.currentItem;
                 if (!isNull(stack)) {
-                    stack.withDamage(stack.damage - 1);
+                    for k in 0 to 9 {
+                        val hotbar = player.getHotbarStack(k);
+                        if (stack.matches(hotbar)) {
+                            player.replaceItemInInventory(k, stack.withDamage(stack.damage + 1));
+                            if (stack.damage >= 90) {
+                                player.replaceItemInInventory(k, null);
+                                player.playSound("item.shield.break", 1, 1);
+                            }
+                        }
+                    }
                 }
                 world.setBlockState(<blockstate:minecraft:air>, pos);
                 for i in 0 to 3 {
