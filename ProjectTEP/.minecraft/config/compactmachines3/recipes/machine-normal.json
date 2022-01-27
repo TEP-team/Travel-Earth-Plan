@@ -3,11 +3,8 @@
   "target-item": "compactmachines3:machine",
   "target-meta": 2,
   "target-count": 1,
-  "disabled": true,
   "duration": 480,
-
   "catalyst": "minecraft:ender_pearl",
-
   "input-types": {
     "w": { "id": "compactmachines3:wallbreakable" },
     "g": { "id": "minecraft:gold_block"}
@@ -16,19 +13,39 @@
   "symmetrical": true,
   "shape": [
     [
-      ["w","w","w"],
-      ["w","w","w"],
-      ["w","w","w"]
+      ["w","w","w","w","w"],
+      ["w","w","w","w","w"],
+      ["w","w","w","w","w"],
+      ["w","w","w","w","w"],
+      ["w","w","w","w","w"]
     ],
     [
-      ["w","w","w"],
-      ["w","g","w"],
-      ["w","w","w"]
+      ["w","w","w","w","w"],
+      ["w","_","_","_","w"],
+      ["w","_","_","_","w"],
+      ["w","_","_","_","w"],
+      ["w","w","w","w","w"]
     ],
     [
-      ["w","w","w"],
-      ["w","w","w"],
-      ["w","w","w"]
+      ["w","w","w","w","w"],
+      ["w","_","_","_","w"],
+      ["w","_","g","_","w"],
+      ["w","_","_","_","w"],
+      ["w","w","w","w","w"]
+    ],
+    [
+      ["w","w","w","w","w"],
+      ["w","_","_","_","w"],
+      ["w","_","_","_","w"],
+      ["w","_","_","_","w"],
+      ["w","w","w","w","w"]
+    ],
+    [
+      ["w","w","w","w","w"],
+      ["w","w","w","w","w"],
+      ["w","w","w","w","w"],
+      ["w","w","w","w","w"],
+      ["w","w","w","w","w"]
     ]
   ]
 }

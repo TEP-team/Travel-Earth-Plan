@@ -3,12 +3,8 @@
   "target-item": "compactmachines3:machine",
   "target-meta": 1,
   "target-count": 1,
-  "disabled": true,
-
   "duration": 440,
-
   "catalyst": "minecraft:ender_pearl",
-
   "input-types": {
     "w": { "id": "compactmachines3:wallbreakable" },
     "i": { "id": "minecraft:iron_block"}

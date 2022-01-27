@@ -13,13 +13,13 @@ import crafttweaker.text.ITextComponent;
 import crafttweaker.event.EntityLivingHurtEvent;
 
 events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
-    var living = event.entityLivingBase;
-    var world = living.world;
+    val living = event.entityLivingBase;
+    val world = living.world;
     if(!world.remote && living instanceof IPlayer && world.random.nextInt(100) <= 8) {
-        var player as IPlayer = living;
-        var attacker = event.damageSource.trueSource;
+        val player as IPlayer = living;
+        val attacker = event.damageSource.trueSource;
         if(!isNull(attacker) && !attacker instanceof IPlayer && attacker instanceof IEntityLivingBase) {
-            var bleeding as bool = living.isPotionActive(<potion:contenttweaker:bleeding>);
+            val bleeding = living.isPotionActive(<potion:contenttweaker:bleeding>);
             if (!bleeding) {
                 player.addPotionEffect(<potion:contenttweaker:bleeding>.makePotionEffect(6000, 0));
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("bleeding.tep.bsuccess"));

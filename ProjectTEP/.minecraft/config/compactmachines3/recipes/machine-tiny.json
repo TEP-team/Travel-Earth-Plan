@@ -3,14 +3,11 @@
   "target-item": "compactmachines3:machine",
   "target-meta": 0,
   "target-count": 1,
-  "disabled": true,
-
   "duration": 400,
-
   "catalyst": "minecraft:ender_pearl",
-
   "input-types": {
-    "w": { "id": "compactmachines3:wallbreakable" }
+    "w": { "id": "compactmachines3:wallbreakable" },
+    "p": { "id": "minecraft:planks" }
   },
 
   "symmetrical": true,
@@ -22,7 +19,7 @@
     ],
     [
       ["w","w","w"],
-      ["w","_","w"],
+      ["w","p","w"],
       ["w","w","w"]
     ],
     [

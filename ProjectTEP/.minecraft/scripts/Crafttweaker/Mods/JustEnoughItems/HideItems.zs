@@ -7,18 +7,16 @@
 
 #priority 60000
 import crafttweaker.item.IItemStack;
-import mods.jei.JEI.removeAndHide;
-
-//mods hide
+import mods.jei.JEI;
 val mods as string[] = ["variedcommodities","scalinghealth","botania_tweaks"];
 for Mods in mods {
-    val hides = loadedMods[Mods].items;
-    for Hide in hides {
-        removeAndHide(Hide);
+    val hide as IItemStack[] = loadedMods[Mods].items;
+    for Hide in hide {
+        JEI.removeAndHide(Hide);
+        furnace.remove(Hide);
     }
 }
 
-//items
 val hides as IItemStack[] = 
 [
     <minecraft:golden_rail>,<minecraft:detector_rail>,<minecraft:rail>,
@@ -53,6 +51,7 @@ val hides as IItemStack[] =
     <mekanism:jetpack>,<mekanism:armoredjetpack>,<mekanism:electricbow>
 ];
 for Hide in hides {
-    removeAndHide(Hide);
+    JEI.removeAndHide(Hide);
+    furnace.remove(Hide);
 }
 

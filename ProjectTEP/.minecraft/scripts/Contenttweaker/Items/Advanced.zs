@@ -8,8 +8,8 @@
 #priority 90000
 #loader contenttweaker
 import crafttweaker.text.ITextComponent;
-import mods.contenttweaker.Player;
 import mods.contenttweaker.Commands;
+import mods.contenttweaker.Player;
 import mods.ctutils.utils.Math;
 import mods.zenutils.cotx.Item;
 import scripts.Classes.ContentUtils.ContentUtils;
@@ -46,7 +46,7 @@ item2.onItemUseFinish = function(stack, world, entity) {
                 player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(40, 0));
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.msuccess"));
                 player.health += 2;
-                stack.shrink(1);
+                player.update(player.data + {"shrink" : 1});
             } else {
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.mfail"));
             }
@@ -62,16 +62,17 @@ item3.onItemUseFinish = function(stack, world, entity) {
     if (!world.remote && entity instanceof Player) {
         val player as Player = entity;
         if (!player.isFake()) {
+            var pdata = player.data;
             if (player.health < 20) {
                 if (player.isPotionActive(<potion:contenttweaker:fractured>)) {
                     player.removePotionEffect(<potion:contenttweaker:fractured>);
-                    player.update(player.data + {"slowness" : 1});
+                    player.update(pdata + {"slowness" : 1});
                 }
                 player.removePotionEffect(<potion:contenttweaker:bleeding>);
                 player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(200, 0));
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.mpsuccess"));
                 player.health += 6;
-                stack.shrink(1);
+                player.update(pdata + {"shrink" : 1});
             } else {
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.mpfail"));
             }
@@ -89,10 +90,11 @@ item4.onItemUseFinish = function(stack, world, entity) {
         if (!player.isFake()) {
             val fractured = player.isPotionActive(<potion:contenttweaker:fractured>);
             if (fractured) {
+                var pdata = player.data;
                 player.removePotionEffect(<potion:contenttweaker:fractured>);
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.ssuccess"));
-                player.update(player.data + {"slowness" : 1});
-                stack.shrink(1);
+                player.update(pdata + {"slowness" : 1});
+                player.update(pdata + {"shrink" : 1});
             } else {
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.sfail"));
             }
@@ -110,12 +112,13 @@ item5.onItemUseFinish = function(stack, world, entity) {
         if (!player.isFake()) {
             val fractured = player.isPotionActive(<potion:contenttweaker:fractured>);
             if (fractured) {
+                var pdata = player.data;
                 player.removePotionEffect(<potion:contenttweaker:fractured>);
                 player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(200, 0));
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.ssuccess"));
-                player.update(player.data + {"slowness" : 1});
                 player.health += 2;
-                stack.shrink(1);
+                player.update(pdata + {"slowness" : 1});
+                player.update(pdata + {"shrink" : 1});
             } else {
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.sfail"));
             }

@@ -58,6 +58,7 @@ item.contenttweaker.exe.name=未配置的程序读取片
 item.contenttweaker.gc_exe.name=气体离心机程序读取片
 item.contenttweaker.ft_exe.name=聚变反应堆程序读取片
 item.contenttweaker.rainbow_rune.name=彩虹符文
+item.contenttweaker.warm_paste.name=无限暖贴
 
 #blocks
 tile.contenttweaker.litherite_light.name=§a荧光莱泽尔石

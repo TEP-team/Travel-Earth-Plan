@@ -3,7 +3,6 @@
   "target-item": "compactmachines3:redstonetunneltool",
   "target-count": 2,
   "disabled": true,
-
   "duration": 200,
 
   "input-types": {

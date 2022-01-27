@@ -8,8 +8,8 @@
 #priority 50000
 import crafttweaker.item.IItemStack;
 
-var iron = <ore:ingotIron>;
-var redstone = <minecraft:redstone>;
+val iron = <ore:ingotIron>;
+val redstone = <minecraft:redstone>;
 
 val mods as string[] = ["sereneseasons","armorunder"];
 for Mods in mods {
@@ -19,7 +19,7 @@ for Mods in mods {
     }
 }
 
-var fas = <minecraft:flint_and_steel>;
+val fas = <minecraft:flint_and_steel>;
 fas.maxDamage = 4;
 recipes.remove(fas);
 recipes.addShapeless(fas,
@@ -29,11 +29,6 @@ recipes.addShaped(<armorunder:goopak_heat>*4,
     [[null,<contenttweaker:cloth_string>,null],
      [<contenttweaker:cloth_string>,<armorunder:heating_goo>,<contenttweaker:cloth_string>],
      [null,<contenttweaker:cloth_string>,null]]);
-
-recipes.addShaped(<armorunder:warm_liner_material>,
-    [[null,<minecraft:string>,null],
-     [<minecraft:string>,<armorunder:heating_goo>,<minecraft:string>],
-     [null,<minecraft:string>,null]]);
 
 recipes.addShapeless(<armorunder:heating_goo>,
     [<minecraft:flint_and_steel>.anyDamage().transformDamage(),<minecraft:slime_ball>]);
