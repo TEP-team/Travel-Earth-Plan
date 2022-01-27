@@ -81,5 +81,7 @@ ProjectTEP/.minecraft/scripts/.zsrc
 !ProjectTEP/manifest.json
 !ProjectTEP/modlist.html
 !ProjectTEP/priority.md
+!ProjectTEP/.minecraft/options.txt
+!ProjectTEP/.minecraft/optionsof.txt
 !ProjectTEP/.minecraft/Title.txt
 !ProjectTEP/.minecraft/mods/teputils*.jar
