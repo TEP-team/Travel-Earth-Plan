@@ -14,8 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Run build.sh
-        run: bash build.sh
+      - name: Run run/music.sh
+        run: bash run/music.sh
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2
