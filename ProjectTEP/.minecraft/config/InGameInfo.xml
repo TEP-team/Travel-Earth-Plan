@@ -71,23 +71,4 @@
             <str>{mainhandlargeicon}</str>
         </line>
     </lines>
-
-    <lines at="bottomcenter">
-        <line>
-            <str>Ping: </str>
-            <operation>
-                <str>GE</str>
-                <var>ping</var>
-                <num>0</num>
-                <num>60</num>
-                <num>80</num>
-                <num>100</num>
-                <var>green</var>
-                <var>yellow</var>
-                <var>gold</var>
-                <var>darkred</var>
-            </operation>
-            <str>{ping}</str>
-        </line>
-    </lines>
 </config>
