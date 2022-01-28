@@ -1,0 +1,24 @@
+name: Pack
+on:
+  push:
+    branches: [lib]
+  workflow_dispatch:
+env:
+  BUILD: TEP's Music Package
+  VERSION: 1
+
+
+jobs:
+  CreateCursePack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run build.sh
+        run: bash build.sh
+
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }}
+          path: artifacts
