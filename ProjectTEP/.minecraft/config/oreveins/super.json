@@ -8,27 +8,27 @@
             "weight": 30
         },
         {
+            "ore": "oreGraphite",
+            "weight": 20
+        },
+        {
             "ore": "oreIron",
             "weight": 24
         },
         {
-            "ore": "orephosphorus",
-            "weight": 20
-        },
-        {
-            "ore": "orelead",
+            "ore": "oreLead",
             "weight": 18
         },
         {
-            "ore": "oreuranium",
+            "ore": "oreUranium",
             "weight": 16
         },
         {
-            "ore": "orenickel",
+            "ore": "oreNickel",
             "weight": 12
         },
         {
-            "ore": "oresilver",
+            "ore": "oreSilver",
             "weight": 16
         },
         {
@@ -44,15 +44,11 @@
             "weight": 18
         },
         {
-            "ore": "oremercury",
-            "weight": 10
-        },
-        {
-            "ore": "oreplatinum",
+            "ore": "orePlatinum",
             "weight": 8
         },
         {
-            "ore": "orelithium",
+            "ore": "oreLithium",
             "weight": 10
         },
         {
@@ -72,11 +68,11 @@
             "weight": 4
         }
       ],
-      "rarity": 200,
+      "rarity": 152,
       "min_y": 2,
-      "max_y": 30,
-      "density": 400,
-      "vertical_size": 5,
-      "horizontal_size": 5
+      "max_y": 32,
+      "density": 256,
+      "vertical_size": 7,
+      "horizontal_size": 7
     }
 }

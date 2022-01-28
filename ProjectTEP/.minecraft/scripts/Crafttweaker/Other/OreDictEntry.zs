@@ -8,6 +8,11 @@
 #priority 80000
 
 <ore:etLaserLens>.remove(<environmentaltech:laser_lens_crystal>);
+<ore:oreCopper>.remove(<immersiveengineering:ore>);
+<ore:oreUranium>.remove(<atomicscience:uranium_ore>);
+<ore:ingotIron>.remove(<contenttweaker:material_part:66>);
+<ore:ingotCopper>.remove(<contenttweaker:material_part:88>);
+<ore:ingotTin>.remove(<contenttweaker:material_part:33>);
 
 <ore:normalflowers>.add(<botania:flower:*>);
 <ore:mushrooms>.add(<botania:mushroom:*>);

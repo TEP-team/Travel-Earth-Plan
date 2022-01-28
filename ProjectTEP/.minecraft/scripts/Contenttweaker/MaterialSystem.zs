@@ -11,7 +11,7 @@ import scripts.Classes.MaterialPartUtils.MaterialPartUtils;
 
 val MaterialPartUtils as MaterialPartUtils = MaterialPartUtils("Instanced");
 val materials as int[string] = {
-    "Iron" : 0xf5f6f9,
+    "Iron" : 0xfbe5d6,
     "Copper" : 0xd57635,
     "Tin" : 0xffffff,
     "Graphite" : 0x343434,

@@ -20,6 +20,11 @@ customization {
 }
 
 customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
   identifier = %id=400322%
   action = hidebutton
 }
@@ -29,7 +34,7 @@ customization {
   orientation = mid-right
   x = -121
   action = movebutton
-  y = 24
+  y = 44
 }
 
 customization {
@@ -47,14 +52,16 @@ customization {
 
 customization {
   identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources/fancymenu/images/settings.png
-  backgroundnormal = resources/fancymenu/images/settingsandmods.png
+  backgroundhovered = resources\fancymenu\images\settings.png
+  backgroundnormal = resources\fancymenu\images\settingsandmods.png
 }
 
 customization {
   identifier = %id=400382%
-  path = resources/fancymenu/sounds/keyboarda.wav
+  path = resources\fancymenu\sounds\keyboarda.wav
   action = addhoversound
 }
 
@@ -79,14 +86,14 @@ customization {
 customization {
   identifier = %id=502382%
   orientation = mid-right
-  x = -95
+  x = -93
   action = movebutton
-  y = 53
+  y = 70
 }
 
 customization {
   identifier = %id=502382%
-  width = 82
+  width = 80
   action = resizebutton
   height = 20
 }
@@ -99,14 +106,16 @@ customization {
 
 customization {
   identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources/fancymenu/images/quitb.png
-  backgroundnormal = resources/fancymenu/images/quita.png
+  backgroundhovered = resources\fancymenu\images\quitb.png
+  backgroundnormal = resources\fancymenu\images\quita.png
 }
 
 customization {
   identifier = %id=502382%
-  path = resources/fancymenu/sounds/keyboardb.wav
+  path = resources\fancymenu\sounds\keyboardb.wav
   action = addhoversound
 }
 
@@ -133,19 +142,28 @@ customization {
   orientation = mid-right
   x = -121
   action = movebutton
-  y = 53
+  y = 70
 }
 
 customization {
   identifier = %id=376382%
+  width = 19
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources/fancymenu/images/languageb.png
-  backgroundnormal = resources/fancymenu/images/languagea.png
+  backgroundhovered = resources\fancymenu\images\languageb.png
+  backgroundnormal = resources\fancymenu\images\languagea.png
 }
 
 customization {
   identifier = %id=376382%
-  path = resources/fancymenu/sounds/papera.wav
+  path = resources\fancymenu\sounds\papera.wav
   action = addhoversound
 }
 
@@ -163,7 +181,44 @@ customization {
 
 customization {
   identifier = %id=400298%
-  action = hidebutton
+  orientation = mid-right
+  x = -121
+  action = movebutton
+  y = 17
+}
+
+customization {
+  identifier = %id=400298%
+  width = 108
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\fancymenu\images\singleplayerb.png
+  backgroundnormal = resources\fancymenu\images\singleplayera.png
+}
+
+customization {
+  identifier = %id=400298%
+  path = resources\fancymenu\sounds\keyboardb.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=400298%
+  path = resources/fancymenu/sounds/keyboardc.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttondescription
+  description = Singleplayer
 }
 
 customization {
@@ -171,7 +226,7 @@ customization {
   orientation = mid-right
   x = -64
   action = movebutton
-  y = 24
+  y = 44
 }
 
 customization {
@@ -183,20 +238,16 @@ customization {
 
 customization {
   identifier = %id=400346%
-  action = setbuttonlabel
-  value = Mods
-}
-
-customization {
-  identifier = %id=400346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources/fancymenu/images/mods.png
-  backgroundnormal = resources/fancymenu/images/settingsandmods.png
+  backgroundhovered = resources\fancymenu\images\mods.png
+  backgroundnormal = resources\fancymenu\images\settingsandmods.png
 }
 
 customization {
   identifier = %id=400346%
-  path = resources/fancymenu/sounds/keyboarda.wav
+  path = resources\fancymenu\sounds\keyboarda.wav
   action = addhoversound
 }
 
@@ -220,31 +271,33 @@ customization {
 customization {
   path = resources/fancymenu/images/logo.png
   orientation = top-left
-  x = 16
+  x = 7
   width = 259
   actionid = 61cf2768-bff1-4ffd-a38c-68f126fbd3501628554642869
   action = addtexture
-  y = 15
+  y = 16
   height = 55
 }
 
 customization {
   hoversound = resources/fancymenu/sounds/join.wav
   orientation = mid-right
+  restartbackgroundanimations = true
   buttonaction = joinserver
-  backgroundhovered = resources/fancymenu/images/joinb.png
+  backgroundhovered = resources\fancymenu\images\joinb.png
   description = &9Travel Earth Plan
   label = §aJoin Server
   clicksound = resources/fancymenu/sounds/bell.wav
+  loopbackgroundanimations = true
   hoverlabel = §ePlay Now !
   x = -121
   width = 108
   actionid = 04be621b-5387-44ec-95f6-4f71554ad3521631435630543
   action = addbutton
-  y = -26
-  backgroundnormal = resources/fancymenu/images/joina.png
-  value = crlskyblock.club:27777
-  height = 40
+  y = -33
+  backgroundnormal = resources\fancymenu\images\joina.png
+  value = mushang-furong.top:25565
+  height = 43
 }
 
 customization {
@@ -277,10 +330,10 @@ customization {
   shadow = true
   splashfilepath = resources\fancymenu\splash.txt
   rotation = -15.0
-  x = 239
+  x = 227
   actionid = ade5f768-ced1-487a-9d8d-c2d9d58831991628555509847
   action = addsplash
-  y = 64
+  y = 65
   scale = 1.0
   refresh = false
   bouncing = true
@@ -337,17 +390,19 @@ customization {
 customization {
   hoversound = resources/fancymenu/sounds/keyboardd.wav
   orientation = mid-left
+  restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = resources/fancymenu/images/links/afdian.png
+  backgroundhovered = resources\fancymenu\images\links\afdian.png
   description = 支持我们?
   label = 
   clicksound = resources/fancymenu/sounds/keyboarde.wav
+  loopbackgroundanimations = true
   x = 147
   width = 36
   actionid = 307abdf2-8d41-4967-aa91-252a87ff87d91631435630544
   action = addbutton
   y = 28
-  backgroundnormal = resources/fancymenu/images/links/afdian.png
+  backgroundnormal = resources\fancymenu\images\links\afdian.png
   value = https://afdian.net/@anye2932
   height = 36
 }
@@ -355,17 +410,19 @@ customization {
 customization {
   hoversound = resources/fancymenu/sounds/keyboardd.wav
   orientation = mid-left
+  restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = resources/fancymenu/images/links/mcbbs.png
+  backgroundhovered = resources\fancymenu\images\links\mcbbs.png
   description = 查看服务器宣传帖?
   label = 
   clicksound = resources/fancymenu/sounds/keyboarde.wav
+  loopbackgroundanimations = true
   x = 17
   width = 87
   actionid = da9d6b9a-7726-4b6e-beaa-2c5c490ab84d1631435630544
   action = addbutton
   y = 28
-  backgroundnormal = resources/fancymenu/images/links/mcbbs.png
+  backgroundnormal = resources\fancymenu\images\links\mcbbs.png
   value = https://www.mcbbs.net/thread-1220809-1-1.html
   height = 35
 }
@@ -373,17 +430,19 @@ customization {
 customization {
   hoversound = resources/fancymenu/sounds/keyboardd.wav
   orientation = mid-left
+  restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = resources/fancymenu/images/links/github.png
+  backgroundhovered = resources\fancymenu\images\links\github.png
   description = 翻阅源码?
   label = 
   clicksound = resources/fancymenu/sounds/keyboarde.wav
+  loopbackgroundanimations = true
   x = 243
   width = 30
   actionid = b42d218d-fa96-46b3-b2aa-cf20fc345be41631435630545
   action = addbutton
   y = 30
-  backgroundnormal = resources/fancymenu/images/links/github.png
+  backgroundnormal = resources\fancymenu\images\links\github.png
   value = https://github.com/TEP-team/Travel-Earth-Plan
   height = 30
 }

@@ -24,11 +24,6 @@ ProjectTEP/.minecraft/config/environmentaltech/multiblocks/void_miner/botanic/ti
 ProjectTEP/.minecraft/config/environmentaltech/multiblocks/void_miner/botanic/tier_6.json
 ProjectTEP/.minecraft/config/environmentaltech/multiblocks/void_miner/ore/tier_5.json
 ProjectTEP/.minecraft/config/environmentaltech/multiblocks/void_miner/ore/tier_6.json
-ProjectTEP/.minecraft/config/sereneseasons/biome_info.json
-ProjectTEP/.minecraft/config/simpledifficulty/consumableThirst.json
-ProjectTEP/.minecraft/config/simpledifficulty/extraItems.json
-ProjectTEP/.minecraft/config/simpledifficulty/fluidTemperatures.json
-ProjectTEP/.minecraft/config/simpledifficulty/materialTemperature.json
 ProjectTEP/.minecraft/resources/contenttweaker/models/
 ProjectTEP/.minecraft/resources/contenttweaker/blockstates/
 ProjectTEP/.minecraft/resources/modularcontroller/blockstates/
@@ -48,7 +43,8 @@ ProjectTEP/.minecraft/scripts/.zsrc
 !ProjectTEP/.minecraft/config/oreveins/
 !ProjectTEP/.minecraft/config/RTG/
 !ProjectTEP/.minecraft/config/scalinghealth/
-!ProjectTEP/.minecraft/config/sereneseasons/
+!ProjectTEP/.minecraft/config/sereneseasons/cropfertility.cfg
+!ProjectTEP/.minecraft/config/sereneseasons/seasons.cfg
 !ProjectTEP/.minecraft/config/simpledifficulty/
 !ProjectTEP/.minecraft/config/triumph/
 !ProjectTEP/.minecraft/config/waila/

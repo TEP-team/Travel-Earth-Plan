@@ -10,22 +10,26 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.event.PlayerTickEvent;
 
-events.onPlayerTick(function(event as PlayerTickEvent) {
-    val player = event.player;
-    if (!player.world.remote && !player.isFake()) {
-        var pdata = player.data;
-        if (pdata has "shrink") {
-            var shrink = pdata.memberGet("shrink").asInt();
-            val item = player.currentItem;
-            if (!isNull(item) && shrink == 1) {
-                val items as IItemStack[] = [<contenttweaker:medical_bandage>, <contenttweaker:medical_pack>, <contenttweaker:medical_splint>, <contenttweaker:medical_metal_splint>];
-                for Items in items {
-                    if (Items.matches(item)) {
-                        item.mutable().shrink(1);
-                        player.update(pdata + {"shrink" : 0});
+function itemShrinker(Item as IItemStack[]) {
+    events.onPlayerTick(function(event as PlayerTickEvent) {
+        val player = event.player;
+        if (!player.world.remote && !player.isFake()) {
+            var pdata = player.data;
+            if (pdata has "shrink") {
+                val item = player.currentItem;
+                var shrink = pdata.memberGet("shrink").asInt();
+                if (!isNull(item) && shrink == 1) {
+                    val items as IItemStack[] = Item;
+                    for Items in items {
+                        if (Items.matches(item)) {
+                            item.mutable().shrink(1);
+                            player.update(pdata + {"shrink" : 0});
+                        }
                     }
                 }
             }
         }
-    }
-});
+    });
+}
+
+itemShrinker([<contenttweaker:medical_bandage>, <contenttweaker:medical_pack>, <contenttweaker:medical_splint>, <contenttweaker:medical_metal_splint>]);
