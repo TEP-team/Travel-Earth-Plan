@@ -4,8 +4,8 @@ on:
     branches: [lib]
   workflow_dispatch:
 env:
-  BUILD: Travel Earth Plan
-  VERSION: Build Edition v
+  BUILD: TEP's Music Package
+  VERSION: 1
 
 
 jobs:
@@ -14,8 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Run run/build.sh
-        run: bash run/build.sh
+      - name: Run run/music.sh
+        run: bash run/music.sh
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2
