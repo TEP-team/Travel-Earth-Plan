@@ -1,0 +1,128 @@
+{
+  "cyka_blyat": {
+    "sounds": [
+      {
+        "name": "contenttweaker:cyka_blyat",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.contenttweaker.cyka_blyat"
+  },
+  "nggyu": {
+    "sounds": [
+      {
+        "name": "contenttweaker:nggyu",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.contenttweaker.nggyu"
+  },
+  "buttercup": {
+    "sounds": [
+      {
+        "name": "contenttweaker:buttercup",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.contenttweaker.buttercup"
+  },
+  "beep": {
+    "sounds": [
+      {
+        "name": "contenttweaker:beep",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.contenttweaker.beep"
+  },
+  "kun": {
+    "sounds": [
+      {
+        "name": "contenttweaker:kun",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.contenttweaker.kun"
+  },
+  "astronomia": {
+    "sounds": [
+      {
+        "name": "contenttweaker:astronomia",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.contenttweaker.astronomia"
+  },
+  "brain_power": {
+    "sounds": [
+      {
+        "name": "contenttweaker:brain_power",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.contenttweaker.brain_power"
+  },
+  "humbuger": {
+    "sounds": [
+      {
+        "name": "contenttweaker:humbuger",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.contenttweaker.humbuger"
+  },
+  "unity": {
+    "sounds": [
+      {
+        "name": "contenttweaker:unity",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.contenttweaker.unity"
+  },
+  "dancin": {
+    "sounds": [
+      {
+        "name": "contenttweaker:dancin",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.contenttweaker.dancin"
+  },
+  "peppa_pig": {
+    "sounds": [
+      {
+        "name": "contenttweaker:peppa_pig",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.contenttweaker.peppa_pig"
+  },
+  "zbc": {
+    "sounds": [
+      {
+        "name": "contenttweaker:zbc",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.contenttweaker.zbc"
+  },
+  "jojo": {
+    "sounds": [
+      {
+        "name": "contenttweaker:jojo",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.contenttweaker.jojo"
+  },
+  "roundabout": {
+    "sounds": [
+      {
+        "name": "contenttweaker:roundabout",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.contenttweaker.roundabout"
+  }
+}

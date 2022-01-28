@@ -74,6 +74,8 @@ ProjectTEP/.minecraft/scripts/.zsrc
 !ProjectTEP/.minecraft/resources/contenttweaker/models/item/handsaw_wood.json
 
 #other stuff
+!run
+!ProjectTEP/music
 !ProjectTEP/manifest.json
 !ProjectTEP/modlist.html
 !ProjectTEP/priority.md

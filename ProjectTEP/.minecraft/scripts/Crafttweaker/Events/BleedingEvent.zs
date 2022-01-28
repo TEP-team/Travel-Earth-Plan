@@ -18,7 +18,7 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
     if(!world.remote && living instanceof IPlayer && world.random.nextInt(100) <= 8) {
         val player as IPlayer = living;
         val attacker = event.damageSource.trueSource;
-        if(!isNull(attacker) && !attacker instanceof IPlayer && attacker instanceof IEntityLivingBase) {
+        if(!isNull(attacker) && !(attacker instanceof IPlayer) && attacker instanceof IEntityLivingBase) {
             val bleeding = living.isPotionActive(<potion:contenttweaker:bleeding>);
             if (!bleeding) {
                 player.addPotionEffect(<potion:contenttweaker:bleeding>.makePotionEffect(6000, 0));

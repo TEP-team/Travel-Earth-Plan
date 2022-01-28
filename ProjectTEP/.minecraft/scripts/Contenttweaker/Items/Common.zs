@@ -28,15 +28,15 @@ var epic as string[] =
 ];
 
 var tools as string[] = [
-    "handsaw_wood", "hammer_plate", "nano_pack",
-    "capacitance_pack", "resistance_pack", "electric_iron"
+    "handsaw_wood", "hammer_plate", "electric_iron",
+    "nano_pack", "capacitance_pack", "resistance_pack",
 ];
 
 var materials as string[] = [
     "iron_with_nickel", "tin_solder_dust", "ingot_is", "ingot_in",
-    "papers", "paper_ee", "cell_electrolyte", "cell_empty", "cell_cold",
-    "cell_dt", "wood_residue", "metal_stick","cloth_string", "motor",
-    "pc", "ram", "rom", "cpu", "exe", "gc_exe", "ft_exe", "pcb", "pin",
+    "papers", "paper_ee", "cell_empty", "cell_electrolyte", "cell_cold",
+    "cell_dt", "wood_residue", "cloth_string", "metal_stick", "pc",
+    "motor","ram", "rom", "cpu", "exe", "pcb", "pin", "gc_exe", "ft_exe",
     "test_unit", "temperature_monitor", "mini_driver", "mediuim_driver",
     "huge_driver", "singlechip", "ft_singlechip", "gc_singlechip"
 ];

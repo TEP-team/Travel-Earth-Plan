@@ -1,0 +1,154 @@
+{
+  
+    "coal": {
+      "type": "sphere",
+      "stone": "minecraft:stone",
+      "ore": [
+        {
+          "ore": "oreCoal",
+          "weight": 7
+        },
+        {
+          "ore": "oreIron",
+          "weight": 3
+        }
+      ],
+      "rarity": 3,
+      "min_y": 2,
+      "max_y": 60,
+      "density": 400,
+      "vertical_size": 3,
+      "horizontal_size": 2
+    },
+
+    "graphite_uranium": {
+      "type": "sphere",
+      "stone": "minecraft:stone",
+      "ore": [
+        {
+          "ore": "oreGraphite",
+          "weight": 6
+        },
+        {
+          "ore": "oreUranium",
+          "weight": 4
+        }
+      ],
+      "rarity": 3,
+      "min_y": 2,
+      "max_y": 45,
+      "density": 256,
+      "vertical_size": 2,
+      "horizontal_size": 2
+    },
+
+    "tin_copper": {
+      "type": "sphere",
+      "stone": "minecraft:stone",
+      "ore": [
+        {
+          "ore": "oreTin",
+          "weight": 5
+        },
+        {
+          "ore": "oreCopper",
+          "weight": 5
+        }
+      ],
+      "rarity": 3,
+      "min_y": 2,
+      "max_y": 55,
+      "density": 300,
+      "vertical_size": 2,
+      "horizontal_size": 2
+    },
+
+    "gold_redstone_lapis": {
+      "type": "sphere",
+      "stone": "minecraft:stone",
+      "ore": [
+        {
+            "ore": "oreGold",
+            "weight": 7
+        },
+        {
+          "ore": "oreRedstone",
+          "weight": 2
+        },
+        {
+          "ore": "oreLapis",
+          "weight": 1
+        }
+      ],
+      "rarity": 3,
+      "min_y": 2,
+      "max_y": 42,
+      "density": 160,
+      "vertical_size": 2,
+      "horizontal_size": 2
+    },
+
+    "emerald_diamond": {
+        "type": "sphere",
+        "stone": "minecraft:stone",
+        "ore": [
+          {
+            "ore": "oreEmerald",
+            "weight": 2
+          },
+          {
+            "ore": "oreDiamond",
+            "weight": 8
+          }
+        ],
+        "rarity": 20,
+        "min_y": 2,
+        "max_y": 16,
+        "density": 70,
+        "vertical_size": 2,
+        "horizontal_size": 2
+    },
+
+    "lead_silver": {
+        "type": "sphere",
+        "stone": "minecraft:stone",
+        "ore": [
+          {
+            "ore": "oreLead",
+            "weight": 5
+          },
+          {
+            "ore": "oreSilver",
+            "weight": 5
+          }
+        ],
+        "rarity": 3,
+        "min_y": 2,
+        "max_y": 50,
+        "density": 200,
+        "vertical_size": 2,
+        "horizontal_size": 2
+      },
+
+      "lithium_platinum": {
+        "type": "sphere",
+        "stone": "minecraft:stone",
+        "ore": [
+          {
+            "ore": "oreLithium",
+            "weight": 7
+          },
+          {
+            "ore": "orePlatinum",
+            "weight": 3
+          }
+        ],
+        "rarity": 3,
+        "min_y": 2,
+        "max_y": 50,
+        "density": 200,
+        "vertical_size": 2,
+        "horizontal_size": 2
+      }
+
+}

@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:false
 ao:1
 renderClouds:false
-resourcePacks:["CustomNPCsFix.zip","Minecraft-Mod-Language-Package-2.2.89.zip"]
+resourcePacks:["Minecraft-Mod-Language-Modpack.zip","TEP\u0027s Music Package.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:false
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -167,8 +167,8 @@ key_Swap shoulder:157
 key_Toggle perspective:47
 key_NBTEdit Shortcut:0
 soundCategory_master:0.75827813
-soundCategory_music:0.3028169
-soundCategory_record:0.45070422
+soundCategory_music:0.0
+soundCategory_record:0.45774648
 soundCategory_weather:0.75352114
 soundCategory_block:0.70422536
 soundCategory_hostile:0.70422536

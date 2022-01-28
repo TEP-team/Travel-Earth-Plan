@@ -1,4 +1,35 @@
+#sounds
+item.record.cyka_blyat.desc=DJ Blyatman, Russian Village Boys - Cyka Blyat
+item.record.buttercup.desc=Jack Stauber - buttercup
+item.record.nggyu.desc=Rick Astley - Never Gonna Give You Up
+item.record.astronomia.desc=Vicetone, Tony Igy - Astronomia 2014 (Radio Edit)
+item.record.peppa_pig.desc=Hugekilla - Peppa Pig
+item.record.beep.desc=Owen Keith - Beep Beep Im A Sheep（Cover Lil Deuce Deuce）
+item.record.roundabout.desc=Yes - Roundabout
+item.record.brain_power.desc=NOMA - Brain Power Long Version
+item.record.dancin.desc=Aaron Smith - Dancin (Krono Extended Remix)
+item.record.jojo.desc=ハセガワダイスケ - canzoni preferite
+item.record.humbuger.desc=拼音师, 老八 - 老八秘制小汉堡2.0
+item.record.zbc.desc=拼音师 - 新二神曲
+item.record.unity.desc=TheFatRat - Unity
+item.record.kun.desc=SWIN - 只因你太美
+
 #items
+item.contenttweaker.cyka_blyat.name=§b音乐唱片
+item.contenttweaker.buttercup.name=§b音乐唱片
+item.contenttweaker.nggyu.name=§b音乐唱片
+item.contenttweaker.astronomia.name=§b音乐唱片
+item.contenttweaker.peppa_pig.name=§b音乐唱片
+item.contenttweaker.beep.name=§b音乐唱片
+item.contenttweaker.roundabout.name=§b音乐唱片
+item.contenttweaker.brain_power.name=§b音乐唱片
+item.contenttweaker.dancin.name=§b音乐唱片
+item.contenttweaker.jojo.name=§b音乐唱片
+item.contenttweaker.humbuger.name=§b音乐唱片
+item.contenttweaker.zbc.name=§b音乐唱片
+item.contenttweaker.unity.name=§b音乐唱片
+item.contenttweaker.kun.name=§b音乐唱片
+
 item.contenttweaker.shinystar_ingot.name=闪星锭
 item.contenttweaker.shinystar_matter.name=闪星物质
 item.contenttweaker.cell_empty.name=空单元
@@ -83,16 +114,6 @@ effect.contenttweaker.fullmoon=§e满月诅咒
 effect.contenttweaker.bloodmoon=§c血月诅咒
 
 #materials
-base.material.bium=基础合金
-base.material.mium=中级合金
-base.material.aium=高级合金
 base.material.graphite=石墨
-base.material.uranium=铀
-base.material.plutonium=钚
 base.material.lithium=锂
-base.material.phosphorus=磷
 base.material.platinum=铂
-base.material.mercury=汞
-base.material.nickel=镍
-base.material.silver=银
-base.material.lead=铅
