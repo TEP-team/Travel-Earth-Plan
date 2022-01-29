@@ -4,4 +4,4 @@
 [ "${PROJECT_DIR}" != "${PWD}" ] && cd "${PROJECT_DIR}"
 
 mkdir artifacts
-mv ProjectTEP/music artifacts
+mv ProjectTEP/music/* artifacts
