@@ -66,6 +66,10 @@
         {
             "ore": "oreDiamond",
             "weight": 4
+        },
+        {
+            "ore": "oreAluminum",
+            "weight": 20
         }
       ],
       "rarity": 50,

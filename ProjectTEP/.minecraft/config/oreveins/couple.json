@@ -63,6 +63,27 @@
       "horizontal_size": 2
     },
 
+    "osmium_aluminum": {
+      "type": "sphere",
+      "stone": "minecraft:stone",
+      "ore": [
+        {
+          "ore": "oreOsmium",
+          "weight": 5
+        },
+        {
+          "ore": "oreAluminum",
+          "weight": 5
+        }
+      ],
+      "rarity": 2,
+      "min_y": 2,
+      "max_y": 50,
+      "density": 180,
+      "vertical_size": 2,
+      "horizontal_size": 2
+    },
+
     "gold_redstone_lapis": {
       "type": "sphere",
       "stone": "minecraft:stone",

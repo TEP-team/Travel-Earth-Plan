@@ -7,9 +7,11 @@
 
 #priority 90000
 #loader contenttweaker
+import crafttweaker.item.IItemStack;
 import crafttweaker.text.ITextComponent;
 import mods.contenttweaker.Commands;
 import mods.contenttweaker.Player;
+import mods.contenttweaker.ActionResult;
 import mods.ctutils.utils.Math;
 import mods.zenutils.cotx.Item;
 import scripts.Classes.ContentUtils.ContentUtils;
@@ -127,3 +129,31 @@ item5.onItemUseFinish = function(stack, world, entity) {
     return stack;
 };
 item5.register();
+
+val item6 = ContentUtils.itemBuilder("ore_detector", "uncommon", -1, 1, false) as Item;
+item6.onItemUse = function(player, world, pos, hand, facing, blockHit) {
+    if (!world.remote && !player.isFake() && player.isSneaking) {
+        val ores as IItemStack[] = [
+            <minecraft:gold_ore>, <minecraft:iron_ore>, <minecraft:coal_ore>,
+            <minecraft:lapis_ore>, <minecraft:diamond_ore>, <minecraft:redstone_ore>,
+            <minecraft:emerald_ore>, <contenttweaker:sub_block_holder_0:1>,
+            <contenttweaker:sub_block_holder_0:3>, <contenttweaker:sub_block_holder_0:4>,
+            <immersiveengineering:ore:1>, <immersiveengineering:ore:2>,
+            <immersiveengineering:ore:3>, <immersiveengineering:ore:4>,
+            <immersiveengineering:ore:5>, <mekanism:oreblock>,
+            <mekanism:oreblock:1>, <mekanism:oreblock:2>];
+
+        for y in 0 to 256 {
+            val x = pos.x;
+            val z = pos.z;
+            val block = world.getBlock(x, y, z);
+            for ore in ores {
+                if (block.definition.id == ore.definition.id && block.meta == ore.asBlock().meta) {
+                    player.sendRichTextMessage(ITextComponent.fromTranslation("ore.tep.find"));
+                }
+            } 
+        }
+    }
+    return ActionResult.success();
+};
+item6.register();

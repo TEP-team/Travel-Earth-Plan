@@ -80,6 +80,39 @@
       "horizontal_size": 2
     },
 
+    "osmium": {
+      "type": "sphere",
+      "stone": "minecraft:stone",
+      "ore": [
+        {
+          "ore": "oreOsmium"
+        }
+      ],
+      "rarity": 2,
+      "min_y": 2,
+      "max_y": 150,
+      "density": 300,
+      "vertical_size": 2,
+      "horizontal_size": 2
+    },
+
+
+    "aluminum": {
+      "type": "sphere",
+      "stone": "minecraft:stone",
+      "ore": [
+        {
+          "ore": "oreAluminum"
+        }
+      ],
+      "rarity": 2,
+      "min_y": 2,
+      "max_y": 150,
+      "density": 300,
+      "vertical_size": 2,
+      "horizontal_size": 2
+    },
+
     "gold": {
         "type": "sphere",
         "stone": "minecraft:stone",

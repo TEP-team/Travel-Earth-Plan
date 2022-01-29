@@ -29,6 +29,7 @@ zenClass ContentUtils {
 
     function itemBuilder(name as string, rarity as string, maxDamage as int, maxStackSize as int, glowing as bool) as Item {
         var item as Item = VanillaFactory.createExpandItem(name);
+        item.creativeTab = <creativetab:tep>;
         item.rarity = rarity;
         item.maxDamage = maxDamage;
         item.maxStackSize = maxStackSize;
@@ -46,6 +47,7 @@ zenClass ContentUtils {
 
     function energyItemBuilder(name as string, rarity as string, capacity as int, maxReceive as int, maxExtract as int, glowing as bool) as EnergyItem {
         var energy as EnergyItem = VanillaFactory.createEnergyItem(name, capacity, maxReceive, maxExtract);
+        energy.creativeTab = <creativetab:tep>;
         energy.maxStackSize = 1;
         energy.rarity = rarity;
         energy.glowing = glowing;
@@ -54,6 +56,7 @@ zenClass ContentUtils {
 
     function blockBuilder(name as string, blockmaterial as BlockMaterial, sound as SoundType, hardness as int, lightValue as int, toolLevel as int, entitySpawnable as bool) as Block {
         var block as Block = VanillaFactory.createExpandBlock(name, blockmaterial);
+        block.creativeTab = <creativetab:tep>;
         block.blockSoundType = sound;
         block.entitySpawnable = entitySpawnable;
         block.blockHardness = hardness;
