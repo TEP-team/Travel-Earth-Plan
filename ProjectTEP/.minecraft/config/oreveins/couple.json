@@ -13,7 +13,7 @@
           "weight": 3
         }
       ],
-      "rarity": 3,
+      "rarity": 1,
       "min_y": 2,
       "max_y": 60,
       "density": 400,
@@ -34,7 +34,7 @@
           "weight": 4
         }
       ],
-      "rarity": 3,
+      "rarity": 1,
       "min_y": 2,
       "max_y": 45,
       "density": 256,
@@ -55,7 +55,7 @@
           "weight": 5
         }
       ],
-      "rarity": 3,
+      "rarity": 1,
       "min_y": 2,
       "max_y": 55,
       "density": 300,
@@ -76,7 +76,7 @@
           "weight": 5
         }
       ],
-      "rarity": 2,
+      "rarity": 1,
       "min_y": 2,
       "max_y": 50,
       "density": 180,
@@ -101,7 +101,7 @@
           "weight": 1
         }
       ],
-      "rarity": 3,
+      "rarity": 1,
       "min_y": 2,
       "max_y": 42,
       "density": 160,
@@ -122,7 +122,7 @@
             "weight": 8
           }
         ],
-        "rarity": 20,
+        "rarity": 15,
         "min_y": 2,
         "max_y": 16,
         "density": 70,
@@ -143,7 +143,7 @@
             "weight": 5
           }
         ],
-        "rarity": 3,
+        "rarity": 1,
         "min_y": 2,
         "max_y": 50,
         "density": 200,
@@ -164,10 +164,31 @@
             "weight": 3
           }
         ],
-        "rarity": 3,
+        "rarity": 1,
         "min_y": 2,
         "max_y": 50,
         "density": 200,
+        "vertical_size": 2,
+        "horizontal_size": 2
+      },
+
+      "certus_quartz_charge_uncharge": {
+        "type": "sphere",
+        "stone": "minecraft:stone",
+        "ore": [
+          {
+            "ore": "oreCertusQuartz",
+            "weight": 7
+          },
+          {
+            "ore": "oreChargedCertusQuartz",
+            "weight": 3
+          }
+        ],
+        "rarity": 1,
+        "min_y": 2,
+        "max_y": 50,
+        "density": 240,
         "vertical_size": 2,
         "horizontal_size": 2
       }

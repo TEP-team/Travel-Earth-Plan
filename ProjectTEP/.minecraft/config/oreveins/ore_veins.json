@@ -24,7 +24,7 @@
           "ore": "oreGraphite"
         }
       ],
-      "rarity": 3,
+      "rarity": 1,
       "min_y": 2,
       "max_y": 180,
       "density": 256,
@@ -40,7 +40,7 @@
           "ore": "oreIron"
         }
       ],
-      "rarity": 2,
+      "rarity": 1,
       "min_y": 2,
       "max_y": 180,
       "density": 300,
@@ -56,7 +56,7 @@
           "ore": "oreCopper"
         }
       ],
-      "rarity": 2,
+      "rarity": 1,
       "min_y": 2,
       "max_y": 180,
       "density": 300,
@@ -72,7 +72,7 @@
           "ore": "oreTin"
         }
       ],
-      "rarity": 2,
+      "rarity": 1,
       "min_y": 2,
       "max_y": 180,
       "density": 300,
@@ -88,7 +88,7 @@
           "ore": "oreOsmium"
         }
       ],
-      "rarity": 2,
+      "rarity": 1,
       "min_y": 2,
       "max_y": 150,
       "density": 300,
@@ -105,7 +105,7 @@
           "ore": "oreAluminum"
         }
       ],
-      "rarity": 2,
+      "rarity": 1,
       "min_y": 2,
       "max_y": 150,
       "density": 300,
@@ -121,7 +121,7 @@
             "ore": "oreGold"
           }
         ],
-        "rarity": 4,
+        "rarity": 1,
         "min_y": 2,
         "max_y": 40,
         "density": 280,
@@ -153,7 +153,7 @@
           "ore": "oreUranium"
         }
       ],
-      "rarity": 4,
+      "rarity": 1,
       "min_y": 2,
       "max_y": 180,
       "density": 220,
@@ -169,7 +169,7 @@
           "ore": "oreRedstone"
         }
       ],
-      "rarity": 2,
+      "rarity": 1,
       "min_y": 2,
       "max_y": 36,
       "density": 270,
@@ -185,7 +185,7 @@
           "ore": "oreLapis"
         }
       ],
-      "rarity": 4,
+      "rarity": 1,
       "min_y": 2,
       "max_y": 30,
       "density": 200,
@@ -201,7 +201,7 @@
           "ore": "oreDiamond"
         }
       ],
-      "rarity": 5,
+      "rarity": 1,
       "min_y": 2,
       "max_y": 16,
       "density": 120,
@@ -217,7 +217,7 @@
             "ore": "oreSilver"
           }
         ],
-        "rarity": 3,
+        "rarity": 1,
         "min_y": 2,
         "max_y": 120,
         "density": 200,
@@ -233,7 +233,7 @@
             "ore": "oreNickel"
           }
         ],
-        "rarity": 3,
+        "rarity": 1,
         "min_y": 2,
         "max_y": 100,
         "density": 180,
@@ -249,7 +249,7 @@
             "ore": "oreLead"
           }
         ],
-        "rarity": 3,
+        "rarity": 1,
         "min_y": 2,
         "max_y": 140,
         "density": 210,
@@ -265,7 +265,7 @@
             "ore": "oreLithium"
           }
         ],
-        "rarity": 3,
+        "rarity": 1,
         "min_y": 2,
         "max_y": 110,
         "density": 168,
@@ -281,10 +281,42 @@
             "ore": "orePlatinum"
           }
         ],
-        "rarity": 3,
+        "rarity": 1,
         "min_y": 2,
         "max_y": 36,
         "density": 152,
+        "vertical_size": 2,
+        "horizontal_size": 1
+      },
+
+      "certus_quartz": {
+        "type": "sphere",
+        "stone": "minecraft:stone",
+        "ore": [
+          {
+            "ore": "oreCertusQuartz"
+          }
+        ],
+        "rarity": 1,
+        "min_y": 2,
+        "max_y": 60,
+        "density": 200,
+        "vertical_size": 2,
+        "horizontal_size": 2
+      },
+
+      "charged_certus_quartz": {
+        "type": "sphere",
+        "stone": "minecraft:stone",
+        "ore": [
+          {
+            "ore": "oreChargedCertusQuartz"
+          }
+        ],
+        "rarity": 1,
+        "min_y": 2,
+        "max_y": 60,
+        "density": 200,
         "vertical_size": 2,
         "horizontal_size": 1
       }

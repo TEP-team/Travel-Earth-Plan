@@ -70,6 +70,14 @@
         {
             "ore": "oreAluminum",
             "weight": 20
+        },
+        {
+            "ore": "oreCertusQuartz",
+            "weight": 24
+        },
+        {
+            "ore": "oreChargedCertusQuartz",
+            "weight": 18
         }
       ],
       "rarity": 50,
