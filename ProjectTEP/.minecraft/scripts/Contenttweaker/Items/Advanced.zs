@@ -130,6 +130,7 @@ item5.onItemUseFinish = function(stack, world, entity) {
 };
 item5.register();
 
+/*
 val item6 = ContentUtils.itemBuilder("ore_detector", "uncommon", -1, 1, false) as Item;
 item6.onItemUse = function(player, world, pos, hand, facing, blockHit) {
     if (!world.remote && !player.isFake() && player.isSneaking) {
@@ -157,3 +158,4 @@ item6.onItemUse = function(player, world, pos, hand, facing, blockHit) {
     return ActionResult.success();
 };
 item6.register();
+*/
