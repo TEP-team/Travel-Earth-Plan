@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:240
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:false
 ao:1
 renderClouds:false
@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:false
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -167,7 +167,7 @@ key_Swap shoulder:157
 key_Toggle perspective:47
 key_NBTEdit Shortcut:0
 soundCategory_master:0.75827813
-soundCategory_music:0.0
+soundCategory_music:0.2535211
 soundCategory_record:0.45774648
 soundCategory_weather:0.75352114
 soundCategory_block:0.70422536
