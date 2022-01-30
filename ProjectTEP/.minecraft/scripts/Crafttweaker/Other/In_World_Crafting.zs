@@ -4,21 +4,19 @@
     But you can't copy and paste these scripts to your Modpack.
     Thanks a lot!
 */
-#norun
+
 #priority 80000
 import crafttweaker.item.IItemStack;
 import mods.inworldcrafting.FluidToItem;
+import scripts.Classes.BasicUtils.BasicUtils;
 
-//FluidToItem
-FluidToItem.transform(<contenttweaker:paper_ee>*8,<liquid:electrolyte>,[<contenttweaker:papers>],true);
+val BasicUtils as BasicUtils = BasicUtils("Instanced");
+val Items as IItemStack[][] = BasicUtils.getAllMaterialPartItem();
+val dirtyDust as IItemStack[] = Items[3] + <mekanism:dirtydust:1> + <mekanism:dirtydust:2>;
+val dust as IItemStack[] = Items[2] + <mekanism:dust:1> + <mekanism:dust:2>;
 
-//dusts
-for i, Dusts in dusts {
-    FluidToItem.transform(Dusts,<liquid:water>,[dirtydusts[i]],false);
+for i, dusts in dust {
+    FluidToItem.transform(dusts, <liquid:water>, [dirtyDust[i]], false);
 }
 
-for i, DustsInt in dustInt {
-    val basedusts = materials.makeStack(DustsInt);
-	val basedirtydusts = materials.makeStack(dirtydustInt[i]);
-    FluidToItem.transform(basedusts,<liquid:water>,[basedirtydusts],false);
-}
+FluidToItem.transform(<contenttweaker:paper_ee>*8, <liquid:electrolyte>, [<contenttweaker:papers>], true);

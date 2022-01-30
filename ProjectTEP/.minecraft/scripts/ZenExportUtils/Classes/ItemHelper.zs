@@ -11,7 +11,7 @@ zenClass ItemHelper {
     function getID(item as IItemStack) as string {
         val id = item.definition.id;
         val meta = item.metadata;
-        return (meta == 0) ? id : (id ~ meta);
+        return (meta == 0) ? id : (id ~ ":" ~ meta);
     }
 
     function getClass() as ItemHelper {

@@ -75,10 +75,10 @@ ProjectTEP/.minecraft/scripts/.zsrc
 
 #other stuff
 !run
-!ProjectTEP/music
 !ProjectTEP/manifest.json
 !ProjectTEP/modlist.html
 !ProjectTEP/priority.md
+!ProjectTEP/.minecraft/servers.dat
 !ProjectTEP/.minecraft/options.txt
 !ProjectTEP/.minecraft/optionsof.txt
 !ProjectTEP/.minecraft/Title.txt

@@ -32,7 +32,8 @@ events.onEntityLivingFall(function(event as EntityLivingFallEvent) {
 events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
     val living = event.entityLivingBase;
     val world = living.world;
-    if (!world.remote && living instanceof IPlayer) {
+    val damageType = event.damageSource.damageType;
+    if (!world.remote && living instanceof IPlayer && damageType == "FALL") {
         val player as IPlayer = living;
         var data = player.data.PlayerPersisted;
         if (!isNull(data) && !isNull(data.fractured) && data.fractured.asFloat() >= 7.0f) {
@@ -53,8 +54,8 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
     var pdata = player.data;
     if (!player.world.remote && !player.isFake()) {
         if (pdata has "slowness") {
-            var slowness = pdata.memberGet("slowness").asInt();
-            if (slowness == 1 && !fractured && slowness) {
+            var slownessData = pdata.memberGet("slowness").asInt();
+            if (slownessData == 1 && !fractured && slowness) {
                 player.removePotionEffect(<potion:minecraft:slowness>);
                 player.update(pdata + {"slowness" : 0});
             }

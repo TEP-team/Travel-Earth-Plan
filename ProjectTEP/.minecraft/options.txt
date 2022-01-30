@@ -4,7 +4,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:0.6056338
 saturation:0.0
-renderDistance:10
+renderDistance:8
 guiScale:0
 particles:1
 bobView:true
@@ -15,7 +15,7 @@ difficulty:0
 fancyGraphics:false
 ao:1
 renderClouds:false
-resourcePacks:["Minecraft-Mod-Language-Modpack.zip","TEP\u0027s Music Package.zip"]
+resourcePacks:["Minecraft-Mod-Language-Modpack.zip","TEP\u0027s Resource Package.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:false
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -130,7 +130,17 @@ key_key.jei.bookmark:0
 key_key.jei.toggleBookmarkOverlay:0
 key_WorldEdit Reference:0
 key_key.toggle_focus.desc:15
+key_keys.armourers_workshop.undo:44:CONTROL
+key_keys.armourers_workshop.open-wardrobe:25
 key_nei.options.keys.gui.botania_corporea_request:0
+key_key.car_forward:17
+key_key.car_back:31
+key_key.car_left:30
+key_key.car_right:32
+key_key.car_gui:23
+key_key.car_start:19
+key_key.car_horn:35
+key_key.center_car:57
 key_key.craftingtweaks.rotate:0
 key_key.craftingtweaks.rotate_counter_clockwise:0
 key_key.craftingtweaks.balance:0

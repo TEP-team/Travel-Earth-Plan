@@ -52,6 +52,16 @@ recipes.addShaped(<minecraft:stick>,
     [[<contenttweaker:wood_residue>],
 	 [<contenttweaker:wood_residue>]]);
 
+recipes.remove(<minecraft:crafting_table>);
+recipes.addShaped(<minecraft:crafting_table>,
+    [[<minecraft:brick_block>,<minecraft:brick_block>],
+	 [<minecraft:brick_block>,<minecraft:brick_block>]]);
+
+recipes.remove(<minecraft:furnace>);
+recipes.addShaped(<minecraft:furnace>,
+    [[<ore:cobblestone>,<ore:cobblestone>],
+	 [<ore:cobblestone>,<ore:cobblestone>]]);
+
 recipes.remove(<bonsaitrees:bonsaipot>);
 recipes.addShaped(<bonsaitrees:bonsaipot>,
     [[iron,null,iron],

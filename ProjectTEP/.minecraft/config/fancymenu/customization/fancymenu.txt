@@ -26,7 +26,44 @@ customization {
 
 customization {
   identifier = %id=400322%
-  action = hidebutton
+  orientation = mid-right
+  x = -121
+  action = movebutton
+  y = 1
+}
+
+customization {
+  identifier = %id=400322%
+  width = 108
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\fancymenu\images\multiplayer.png
+  backgroundnormal = resources\fancymenu\images\singleplayera.png
+}
+
+customization {
+  identifier = %id=400322%
+  path = resources\fancymenu\sounds\join.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=400322%
+  path = resources/fancymenu/sounds/choose.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttondescription
+  description = Multiplayer
 }
 
 customization {
@@ -34,7 +71,7 @@ customization {
   orientation = mid-right
   x = -121
   action = movebutton
-  y = 44
+  y = 27
 }
 
 customization {
@@ -88,7 +125,7 @@ customization {
   orientation = mid-right
   x = -93
   action = movebutton
-  y = 70
+  y = 53
 }
 
 customization {
@@ -142,7 +179,7 @@ customization {
   orientation = mid-right
   x = -121
   action = movebutton
-  y = 70
+  y = 53
 }
 
 customization {
@@ -184,7 +221,7 @@ customization {
   orientation = mid-right
   x = -121
   action = movebutton
-  y = 17
+  y = -25
 }
 
 customization {
@@ -205,13 +242,13 @@ customization {
 
 customization {
   identifier = %id=400298%
-  path = resources\fancymenu\sounds\keyboardb.wav
+  path = resources\fancymenu\sounds\join.wav
   action = addhoversound
 }
 
 customization {
   identifier = %id=400298%
-  path = resources/fancymenu/sounds/keyboardc.wav
+  path = resources/fancymenu/sounds/choose.wav
   action = setbuttonclicksound
 }
 
@@ -226,7 +263,7 @@ customization {
   orientation = mid-right
   x = -64
   action = movebutton
-  y = 44
+  y = 27
 }
 
 customization {
@@ -277,27 +314,6 @@ customization {
   action = addtexture
   y = 16
   height = 55
-}
-
-customization {
-  hoversound = resources/fancymenu/sounds/join.wav
-  orientation = mid-right
-  restartbackgroundanimations = true
-  buttonaction = joinserver
-  backgroundhovered = resources\fancymenu\images\joinb.png
-  description = &9Travel Earth Plan
-  label = §aJoin Server
-  clicksound = resources/fancymenu/sounds/bell.wav
-  loopbackgroundanimations = true
-  hoverlabel = §ePlay Now !
-  x = -121
-  width = 108
-  actionid = 04be621b-5387-44ec-95f6-4f71554ad3521631435630543
-  action = addbutton
-  y = -33
-  backgroundnormal = resources\fancymenu\images\joina.png
-  value = mushang-furong.top:25565
-  height = 43
 }
 
 customization {

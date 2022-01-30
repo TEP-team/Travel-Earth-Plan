@@ -4,30 +4,37 @@
     But you can't copy and paste these scripts to your Modpack.
     Thanks a lot!
 */
-#norun
+
 #priority 80000
 import crafttweaker.item.IItemStack;
 import mods.dropt.Dropt;
+import scripts.Classes.BasicUtils.BasicUtils;
 
-//0
-var blocks0Int as int[] = [12,5,6,4,3,2];
-var dirtydust0Int as int[] = [76,178,195,110,161,144];
-for i, Dirtydust0Int in dirtydust0Int {
-    val drop0 = materials.makeStack(Dirtydust0Int);
-    val blocks0 = blocks0def.makeStack(blocks0Int[i]);
-    droper("ore0_" ~ i, blocks0, drop0);
-} // - 1 -
+val BasicUtils as BasicUtils = BasicUtils("Instanced");
+val Items as IItemStack[][] = BasicUtils.getAllMaterialPartItem();
+val dirtyDust as IItemStack[] = Items[3] + <mekanism:dirtydust:1> + <mekanism:dirtydust:2>;
+val ore as IItemStack[] = [
+    <immersiveengineering:ore:3>, <contenttweaker:sub_block_holder_0:3>,
+    <contenttweaker:sub_block_holder_0:1>, <mekanism:oreblock:2>,
+    <immersiveengineering:ore:2>, <contenttweaker:sub_block_holder_0:4>,
+    <minecraft:iron_ore>, <immersiveengineering:ore:4>,
+    <mekanism:oreblock:1>, <minecraft:gold_ore>, <mekanism:oreblock:1>
+];
 
-//1
-var blocks1Int as int[] = [0,3];
-var dirtydust1Int as int[] = [212,127];
-for i, Dirtydust1Int in dirtydust1Int {
-    val drop1 = materials.makeStack(Dirtydust1Int);
-    val blocks1 = blocks1def.makeStack(blocks1Int[i]);
-    droper("ore1_" ~ i, blocks1, drop1);
-} // - 2 -
-
-//vanilla and mek
-for i, Dirtydusts in dirtydusts {
-    droper("ore_normal_" ~ i, ore[i], Dirtydusts);
+for i, dirtyDusts in dirtyDust {
+    Dropt.list("ore")
+        .add(Dropt.rule()
+            .matchBlocks([BlockHelper.getBlockID(ore[i].asBlock())])
+            .addDrop(Dropt.drop()
+                .items([dirtyDusts])));
 }
+
+Dropt.list("snow")
+    .add(Dropt.rule()
+        .matchBlocks(["minecraft:snow_layer"])
+        .addDrop(Dropt.drop()
+            .items([<minecraft:snowball>], Dropt.range(1, 2))))
+    .add(Dropt.rule()
+        .matchBlocks(["minecraft:snow"])
+        .addDrop(Dropt.drop()
+            .items([<minecraft:snowball>], Dropt.range(1, 4))));

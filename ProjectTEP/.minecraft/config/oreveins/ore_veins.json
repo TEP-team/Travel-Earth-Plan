@@ -185,11 +185,11 @@
           "ore": "oreLapis"
         }
       ],
-      "rarity": 1,
+      "rarity": 3,
       "min_y": 2,
       "max_y": 30,
-      "density": 200,
-      "vertical_size": 2,
+      "density": 120,
+      "vertical_size": 1,
       "horizontal_size": 2
     },
 
