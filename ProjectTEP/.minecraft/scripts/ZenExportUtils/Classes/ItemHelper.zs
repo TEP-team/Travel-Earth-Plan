@@ -8,7 +8,7 @@ import crafttweaker.item.IItemStack;
 
 zenClass ItemHelper {
 
-    function getID(item as IItemStack) as string {
+    function getItemID(item as IItemStack) as string {
         val id = item.definition.id;
         val meta = item.metadata;
         return (meta == 0) ? id : (id ~ ":" ~ meta);

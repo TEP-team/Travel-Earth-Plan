@@ -7,6 +7,12 @@
 
 zenClass ExportHelper {
 
+    val ID = "[ZenExportUtils]";
+
+    function printer(msg as string) {
+        print(ID ~ msg);
+    }
+
     function getClass() as ExportHelper {
         return this;
     }

@@ -24,7 +24,7 @@ val ore as IItemStack[] = [
 for i, dirtyDusts in dirtyDust {
     Dropt.list("ore")
         .add(Dropt.rule()
-            .matchBlocks([BlockHelper.getBlockID(ore[i].asBlock())])
+            .matchBlocks([ore[i].asBlock().definition.id ~ ore[i].asBlock().meta])
             .addDrop(Dropt.drop()
                 .items([dirtyDusts])));
 }

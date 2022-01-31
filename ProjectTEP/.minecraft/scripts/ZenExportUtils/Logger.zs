@@ -7,11 +7,7 @@
 
 zenClass Logger {
 
-    val ID = "[ZenExportUtils]" ~ " ";
-
-    function printer(msg as string) as string {
-        print(ID ~ msg);
-    }
+    val ID = "[ZenExportUtils]";
 
     function info(msg as string) {
         logger.logInfo(ID ~ msg);
