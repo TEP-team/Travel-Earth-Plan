@@ -17,7 +17,7 @@ events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent)
     val dimension = event.dimension;
     if (!world.remote && living instanceof IPlayer) {
         val player as IPlayer = living;
-        if (dimension == 1 || dimension == -1) {
+        if (dimension == (1 || -1)) {
             event.cancel();
             player.sendRichTextStatusMessage(ITextComponent.fromTranslation("dimension.tep.ban"));
         }

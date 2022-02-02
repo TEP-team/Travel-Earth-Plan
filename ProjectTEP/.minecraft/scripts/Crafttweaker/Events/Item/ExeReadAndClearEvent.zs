@@ -27,10 +27,12 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     if (!player.world.remote && !player.isFake()) {   
         val item = event.item;
         if (<contenttweaker:exe>.matches(item)) {
-            val block = event.block; 
-            if (getExe(true, true).definition.id == block.definition.id) {
+            val block = event.block;
+            val id = block.definition.id;
+            if (getExe(true, true).definition.id == id) {
                 player.give(getExe(false, true));
-            } else if (getExe(true, false).definition.id == block.definition.id) {
+            } 
+            if (getExe(true, false).definition.id == id) {
                 player.give(getExe(false, false));
             }
             item.mutable().shrink(1);

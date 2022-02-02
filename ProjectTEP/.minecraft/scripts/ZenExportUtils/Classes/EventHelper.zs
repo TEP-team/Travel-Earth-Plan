@@ -9,14 +9,16 @@ import crafttweaker.event.PlayerInteractBlockEvent;
 
 zenClass EventHelper {
 
+    zenConstructor(arg as string) {
+        this.id = arg;
+    }
+
+    val id as string;
+
     function getBlockDataString(block as IBlock) as string {
         return block.data.asString();
     }
 
-    function getClass() as EventHelper {
-        return this;
-    }
-
 }
 
-global EventHelper as EventHelper = EventHelper.getClass();
+global EventHelper as EventHelper = EventHelper("Instanced");

@@ -66,15 +66,12 @@ item3.onItemUseFinish = function(stack, world, entity) {
         if (!player.isFake()) {
             var pdata = player.data;
             if (player.health < 20) {
-                if (player.isPotionActive(<potion:contenttweaker:fractured>)) {
-                    player.removePotionEffect(<potion:contenttweaker:fractured>);
-                    player.update(pdata + {"slowness" : 1});
-                }
+                player.removePotionEffect(<potion:contenttweaker:fractured>);
                 player.removePotionEffect(<potion:contenttweaker:bleeding>);
                 player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(200, 0));
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.mpsuccess"));
                 player.health += 6;
-                player.update(pdata + {"shrink" : 1});
+                player.update(pdata + {"shrink" : 1, "slowness" : 1});
             } else {
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.mpfail"));
             }
@@ -95,8 +92,7 @@ item4.onItemUseFinish = function(stack, world, entity) {
                 var pdata = player.data;
                 player.removePotionEffect(<potion:contenttweaker:fractured>);
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.ssuccess"));
-                player.update(pdata + {"slowness" : 1});
-                player.update(pdata + {"shrink" : 1});
+                player.update(pdata + {"shrink" : 1, "slowness" : 1});
             } else {
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.sfail"));
             }
@@ -119,8 +115,7 @@ item5.onItemUseFinish = function(stack, world, entity) {
                 player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(200, 0));
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.ssuccess"));
                 player.health += 2;
-                player.update(pdata + {"slowness" : 1});
-                player.update(pdata + {"shrink" : 1});
+                player.update(pdata + {"shrink" : 1, "slowness" : 1});
             } else {
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.sfail"));
             }
@@ -129,33 +124,3 @@ item5.onItemUseFinish = function(stack, world, entity) {
     return stack;
 };
 item5.register();
-
-/*
-val item6 = ContentUtils.itemBuilder("ore_detector", "uncommon", -1, 1, false) as Item;
-item6.onItemUse = function(player, world, pos, hand, facing, blockHit) {
-    if (!world.remote && !player.isFake() && player.isSneaking) {
-        val ores as IItemStack[] = [
-            <minecraft:gold_ore>, <minecraft:iron_ore>, <minecraft:coal_ore>,
-            <minecraft:lapis_ore>, <minecraft:diamond_ore>, <minecraft:redstone_ore>,
-            <minecraft:emerald_ore>, <contenttweaker:sub_block_holder_0:1>,
-            <contenttweaker:sub_block_holder_0:3>, <contenttweaker:sub_block_holder_0:4>,
-            <immersiveengineering:ore:1>, <immersiveengineering:ore:2>,
-            <immersiveengineering:ore:3>, <immersiveengineering:ore:4>,
-            <immersiveengineering:ore:5>, <mekanism:oreblock>,
-            <mekanism:oreblock:1>, <mekanism:oreblock:2>];
-
-        for y in 0 to 256 {
-            val x = pos.x;
-            val z = pos.z;
-            val block = world.getBlock(x, y, z);
-            for ore in ores {
-                if (block.definition.id == ore.definition.id && block.meta == ore.asBlock().meta) {
-                    player.sendRichTextMessage(ITextComponent.fromTranslation("ore.tep.find"));
-                }
-            } 
-        }
-    }
-    return ActionResult.success();
-};
-item6.register();
-*/

@@ -31,11 +31,5 @@ zenClass MaterialPartUtils {
     function addData(object as MaterialPart, category as string, value as string) {
         object.getData().addDataValue(category, value);
     }
-}
 
-/*
-//ore_dusts
-global dirtydusts as IItemStack[] = [<mekanism:dirtydust>,<mekanism:dirtydust:1>,<mekanism:dirtydust:2>,<mekanism:dirtydust:3>,<mekanism:dirtydust:4>];
-global dusts as IItemStack[] = [<mekanism:dust>,<mekanism:dust:1>,<mekanism:dust:2>,<mekanism:dust:3>,<mekanism:dust:4>];
-global ore as IItemStack[] = [<minecraft:iron_ore>,<minecraft:gold_ore>,<mekanism:oreblock>,<mekanism:oreblock:1>,<mekanism:oreblock:2>];
-*/
+}

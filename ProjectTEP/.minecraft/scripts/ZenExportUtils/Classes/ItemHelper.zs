@@ -8,16 +8,18 @@ import crafttweaker.item.IItemStack;
 
 zenClass ItemHelper {
 
+    zenConstructor(arg as string) {
+        this.id = arg;
+    }
+
+    val id as string;
+
     function getItemID(item as IItemStack) as string {
         val id = item.definition.id;
         val meta = item.metadata;
         return (meta == 0) ? id : (id ~ ":" ~ meta);
     }
 
-    function getClass() as ItemHelper {
-        return this;
-    }
-
 }
 
-global ItemHelper as ItemHelper = ItemHelper.getClass();
+global ItemHelper as ItemHelper = ItemHelper("Instanced");

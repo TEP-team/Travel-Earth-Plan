@@ -21,7 +21,7 @@ events.onEntityLivingFall(function(event as EntityLivingFallEvent) {
         val player as IPlayer = living;
         val resistance = player.isPotionActive(<potion:minecraft:resistance>);
         val regeneration = player.isPotionActive(<potion:minecraft:regeneration>);
-        if(!resistance && !regeneration) {
+        if(!(resistance && regeneration)) {
             val distance = event.distance;
             player.update({PlayerPersisted: {fractured: distance}});
         }

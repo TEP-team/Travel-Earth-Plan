@@ -9,7 +9,7 @@ ofClouds:3
 ofCloudsHeight:1.0
 ofTrees:1
 ofDroppedItems:0
-ofRain:0
+ofRain:1
 ofAnimatedWater:0
 ofAnimatedLava:0
 ofAnimatedFire:true
@@ -40,7 +40,7 @@ ofVignette:0
 ofChunkUpdates:1
 ofChunkUpdatesDynamic:false
 ofTime:0
-ofClearWater:true
+ofClearWater:false
 ofAaLevel:0
 ofAfLevel:1
 ofProfiler:false
@@ -68,5 +68,5 @@ ofShowGlErrors:true
 ofFullscreenMode:Default
 ofFastMath:true
 ofFastRender:false
-ofTranslucentBlocks:2
+ofTranslucentBlocks:1
 key_of.key.zoom:46

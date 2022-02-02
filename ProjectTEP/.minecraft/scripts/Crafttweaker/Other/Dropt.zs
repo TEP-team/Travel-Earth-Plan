@@ -24,17 +24,7 @@ val ore as IItemStack[] = [
 for i, dirtyDusts in dirtyDust {
     Dropt.list("ore")
         .add(Dropt.rule()
-            .matchBlocks([ore[i].asBlock().definition.id ~ ore[i].asBlock().meta])
+            .matchBlocks([ItemHelper.getItemID(ore[i])])
             .addDrop(Dropt.drop()
                 .items([dirtyDusts])));
 }
-
-Dropt.list("snow")
-    .add(Dropt.rule()
-        .matchBlocks(["minecraft:snow_layer"])
-        .addDrop(Dropt.drop()
-            .items([<minecraft:snowball>], Dropt.range(1, 2))))
-    .add(Dropt.rule()
-        .matchBlocks(["minecraft:snow"])
-        .addDrop(Dropt.drop()
-            .items([<minecraft:snowball>], Dropt.range(1, 4))));
