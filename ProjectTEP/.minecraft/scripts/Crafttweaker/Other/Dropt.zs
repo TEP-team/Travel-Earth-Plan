@@ -12,7 +12,7 @@ import scripts.Classes.BasicUtils.BasicUtils;
 
 val BasicUtils as BasicUtils = BasicUtils("Instanced");
 val Items as IItemStack[][] = BasicUtils.getAllMaterialPartItem();
-val dirtyDust as IItemStack[] = Items[3] + <mekanism:dirtydust:1> + <mekanism:dirtydust:2>;
+val dust as IItemStack[] = Items[3] + <mekanism:dirtydust:1> + <mekanism:dirtydust:2>;
 val ore as IItemStack[] = [
     <immersiveengineering:ore:3>, <contenttweaker:sub_block_holder_0:3>,
     <contenttweaker:sub_block_holder_0:1>, <mekanism:oreblock:2>,
@@ -21,10 +21,10 @@ val ore as IItemStack[] = [
     <mekanism:oreblock:1>, <minecraft:gold_ore>, <mekanism:oreblock:1>
 ];
 
-for i, dirtyDusts in dirtyDust {
+for i, dusts in dust {
     Dropt.list("ore")
         .add(Dropt.rule()
-            .matchBlocks([ItemHelper.getItemID(ore[i])])
+            .matchBlocks([ItemHelper.getItemID(ore[i], true)])
             .addDrop(Dropt.drop()
-                .items([dirtyDusts])));
+                .items([dusts])));
 }

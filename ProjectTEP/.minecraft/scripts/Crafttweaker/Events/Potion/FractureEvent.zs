@@ -19,12 +19,8 @@ events.onEntityLivingFall(function(event as EntityLivingFallEvent) {
     val world = living.world;
     if (!world.remote && living instanceof IPlayer) {
         val player as IPlayer = living;
-        val resistance = player.isPotionActive(<potion:minecraft:resistance>);
-        val regeneration = player.isPotionActive(<potion:minecraft:regeneration>);
-        if(!(resistance && regeneration)) {
-            val distance = event.distance;
-            player.update({PlayerPersisted: {fractured: distance}});
-        }
+        val distance = event.distance;
+        player.update({fractured : distance});
     }
 });
 
@@ -33,14 +29,18 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
     val living = event.entityLivingBase;
     val world = living.world;
     val damageType = event.damageSource.damageType;
-    if (!world.remote && living instanceof IPlayer && damageType == "FALL") {
+    if (!world.remote && living instanceof IPlayer && damageType == "fall") {
         val player as IPlayer = living;
-        var data = player.data.PlayerPersisted;
-        if (!isNull(data) && !isNull(data.fractured) && data.fractured.asFloat() >= 7.0f) {
-            val fractured = player.isPotionActive(<potion:contenttweaker:fractured>);
-            if (!fractured) {
-                player.addPotionEffect(<potion:contenttweaker:fractured>.makePotionEffect(99999999999, 0));
-                player.sendRichTextStatusMessage(ITextComponent.fromTranslation("fractured.tep.fsuccess"));
+        var data = player.data;
+        var fracturedData = data.fractured;
+        if (data has "teleport") {
+            var teleportData = data.memberGet("teleport").asInt();
+            if (teleportData != 0 && !isNull(fracturedData) && fracturedData.asFloat() >= 7.0f) {
+                val isFractured = player.isPotionActive(<potion:contenttweaker:fractured>);
+                if (!isFractured) {
+                    player.addPotionEffect(<potion:contenttweaker:fractured>.makePotionEffect(99999999999, 0));
+                    player.sendRichTextStatusMessage(ITextComponent.fromTranslation("fractured.tep.fsuccess"));
+                }
             }
         }
     }
@@ -49,15 +49,15 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
 //remove the slowness effect
 events.onPlayerTick(function(event as PlayerTickEvent) {
     val player = event.player;
-    val fractured = player.isPotionActive(<potion:contenttweaker:fractured>);
-    val slowness = player.isPotionActive(<potion:minecraft:slowness>);
-    var pdata = player.data;
+    var data = player.data;
     if (!player.world.remote && !player.isFake()) {
-        if (pdata has "slowness") {
-            var slownessData = pdata.memberGet("slowness").asInt();
-            if (slownessData == 1 && !fractured && slowness) {
+        if (data has "slowness") {
+            var slownessData = data.memberGet("slowness").asInt();
+            val isFractured = player.isPotionActive(<potion:contenttweaker:fractured>);
+            val isSlowness = player.isPotionActive(<potion:minecraft:slowness>);
+            if (slownessData == 1 && !isFractured && isSlowness) {
                 player.removePotionEffect(<potion:minecraft:slowness>);
-                player.update(pdata + {"slowness" : 0});
+                player.update({"slowness" : 0});
             }
         }
     }

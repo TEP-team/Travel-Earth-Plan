@@ -4,17 +4,15 @@
     But you can't copy and paste these scripts to your Modpack.
     Thanks a lot!
 */
-#norun
+
 #priority 50000
 import crafttweaker.item.IItemStack;
 
-//variables
 var rs = <ore:dustRedstone>;
 var iron = <ore:ingotIron>;
 var plate = <contenttweaker:material_part:13>;
 var casing = <modularmachinery:blockcasing>;
 
-//add
 recipes.remove(casing);
 recipes.addShaped(casing*8,
     [[plate,plate,plate],
@@ -94,8 +92,6 @@ recipes.addShaped(<gugu-utils:sparkmanahatch:1>.withTag({}),
      [casing,<botania:pool>,casing],
      [casing,<botania:spark>,casing]]);
 
-//MachineBlocks
-//remove
 val remove as IItemStack[] = [<modularmachinery:blockinputbus:1>,<modularmachinery:blockoutputbus:1>,<modularmachinery:blockfluidinputhatch:1>,<modularmachinery:blockfluidoutputhatch:1>];
 for Remove in remove {
     recipes.remove(Remove);

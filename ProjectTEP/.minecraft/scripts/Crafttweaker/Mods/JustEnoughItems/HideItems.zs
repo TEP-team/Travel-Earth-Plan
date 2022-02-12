@@ -8,7 +8,7 @@
 #priority 60000
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
-val mods as string[] = ["variedcommodities","scalinghealth","botania_tweaks"];
+val mods as string[] = ["variedcommodities","botania_tweaks","car","vehicle"];
 for Mods in mods {
     val hide as IItemStack[] = loadedMods[Mods].items;
     for Hide in hide {

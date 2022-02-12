@@ -14,16 +14,16 @@ function itemShrinker(Item as IItemStack[]) {
     events.onPlayerTick(function(event as PlayerTickEvent) {
         val player = event.player;
         if (!player.world.remote && !player.isFake()) {
-            var pdata = player.data;
-            if (pdata has "shrink") {
+            var data = player.data;
+            if (data has "shrink") {
                 val item = player.currentItem;
-                var shrink = pdata.memberGet("shrink").asInt();
+                var shrink = data.memberGet("shrink").asInt();
                 if (!isNull(item) && shrink == 1) {
                     val items as IItemStack[] = Item;
                     for Items in items {
                         if (Items.matches(item)) {
                             item.mutable().shrink(1);
-                            player.update(pdata + {"shrink" : 0});
+                            player.update({"shrink" : 0});
                         }
                     }
                 }

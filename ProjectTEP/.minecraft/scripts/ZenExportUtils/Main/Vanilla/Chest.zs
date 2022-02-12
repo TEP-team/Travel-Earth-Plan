@@ -4,15 +4,176 @@
 */
 
 #priority 999998
+#loader crafttweaker reloadableevents
+import crafttweaker.block.IBlock;
+import crafttweaker.player.IPlayer;
+import crafttweaker.item.IItemStack;
+import crafttweaker.container.IContainer;
+import crafttweaker.event.PlayerOpenContainerEvent;
+import crafttweaker.event.PlayerCloseContainerEvent;
 import crafttweaker.event.PlayerInteractBlockEvent;
 
-events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
+zenClass Chest {
+
+    zenConstructor(arg as string) {
+        this.id = arg;
+    }
+
+    function getBlockID(block as IBlock) as string {
+        return BlockHelper.getBlockID(block, false);
+    }
+
+    function getItemID(item as IItemStack) as string {
+        return ItemHelper.getItemID(item, true);
+    }
+
+    function isDye(player as IPlayer) as bool {
+        return ItemHelper.matchCurrent(player);
+    }
+
+    function isEventDye(item as IItemStack) as bool {
+        return <minecraft:dye:0>.matches(item);
+    }
+
+    function isCreative(player as IPlayer) as bool {
+        return PlayerHelper.isCreative(player);
+    }
+
+    function isChest(container as IContainer) as bool {
+        return EventHelper.getContainerCondition(container, "chest");
+    }
+
+    function ignore(player as IPlayer) as bool {
+        return EventHelper.ignoreServer(player);
+    }
+
+    function createBracket(item as string) as string {
+        return "<" ~ item ~ ">";
+    }
+
+    val slotInput as int[][int] = {
+        1 : [0, 1, 2, 9, 10, 11, 18, 19, 20],
+        2 : [4, 5, 6, 13, 14, 15, 22, 23, 24]
+    };
+
+    val slotOutput as int[int] = {
+        1 : 12,
+        2 : 16
+    };
+
+    val id as string;
+    var stackInput as IItemStack[] = [];
+    var stackOutput as IItemStack[] = [];
+
+    function save() {
+        events.onPlayerCloseContainer(function(event as PlayerCloseContainerEvent) {
+            val player = event.player;
+            if (!this.ignore(player) && this.isCreative(player)) {
+                val container = event.container;
+                if (this.isChest(container) && this.isDye(player)) {
+                    var input as IItemStack[] = [];
+                    var output as IItemStack[] = [];
+
+                    //input
+                    for key in slotInput {
+                        for slot in slotInput[key] {
+                            val item = container.getStack(slot);
+                            if (!isNull(item)) {
+                                input += item;
+                            } else {
+                                input += null;
+                            }
+                            this.stackInput = input;
+                        }
+                    }
+
+                    //output
+                    for key in slotOutput {
+                        val item = container.getStack(slotOutput[key]);
+                        if (!isNull(item)) {
+                            output += item;
+                        } else {
+                            output += null;
+                        }
+                        this.stackOutput = output;
+                    }
+
+                }
+            }
+        });
+    }
+
+    function export() {
+        events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
+            val player = event.player;
+            val block = event.block;
+            val data = block.data;
+            val item = event.item;
+            if (!this.ignore(player) && this.isCreative(player) && this.isEventDye(item) && player.isSneaking && this.getBlockID(block) == "minecraft:chest") {
+
+                if (!(this.stackOutput has null)) {
+                    player.sendMessage("§a§l导出成功! 请在 §e'crafttweaker.log' §a§l最底部查看代码!");
+                } else {
+                    player.sendMessage("§c§l导出失败: 摆放格式不正确!");
+                }
+
+            }
+        });
+    }
+
+    function call() {
+        this.save();
+        this.export();
+    }
+
+}
+
+Chest("Instanced").call();
+
+/*
+val Items = data.memberGet("Items").asList();
+if (!isNull(Items)) {
+    for items in Items {
+        val slot = items.Slot.asByte();
+        for key in input {
+            for k in input[key] {
+                if ((slot == k)) {
+
+                    //ExportHelper.printer(getItemID());
+                    print(createBracket(items.id));
+
+                }
+            }
+        }
+    }
+}
+*/
+
+/*
+events.onPlayerOpenContainer(function(event as PlayerOpenContainerEvent) {
     val player = event.player;
-    if (!player.world.remote && player.isSneaking && player.creative) {
-        val block = event.block;
-        val item = event.item;
-        if (block.definition.id == "minecraft:chest" && ItemHelper.getItemID(item) == ItemHelper.getItemID(<minecraft:dye:0>)) {
-            print(EventHelper.getBlockDataString(block));
+    if (!ignore(player) && isCreative(player)) {
+        val container = event.container;
+        if (isChest(container) && isDye(player)) {
+            player.sendMessage("§6§l====================");
+            player.sendMessage("§c§l进入编辑模式!");
         }
     }
 });
+
+events.onPlayerCloseContainer(function(event as PlayerCloseContainerEvent) {
+    val player = event.player;
+    if (!ignore(player) && isCreative(player)) {
+        val container = event.container;
+        if (isChest(container) && isDye(player)) {
+            if (!isNull(container.getStack(26))) {
+                player.sendMessage("§l是否导出: §e是");
+                player.sendMessage("§a§l请拿着墨囊 §dShift+右键 §a§l箱子以导出配方!");
+            } else {
+                player.sendMessage("§l是否导出: §e否");
+            }
+
+        }
+    }
+});
+*/

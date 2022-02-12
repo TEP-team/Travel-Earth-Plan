@@ -1,13 +1,13 @@
 /*
     Author: Dark2932
-    Flie: BlockHelper.zs
+    Flie: BlockUtils.zs
 */
 
 #priority 1000000
 #loader crafttweaker reloadableevents
 import crafttweaker.block.IBlock;
 
-zenClass BlockHelper {
+zenClass BlockUtils {
 
     zenConstructor(arg as string) {
         this.id = arg;
@@ -23,4 +23,4 @@ zenClass BlockHelper {
 
 }
 
-global BlockHelper as BlockHelper = BlockHelper("Instanced");
+global BlockUtils as BlockUtils = BlockUtils("Instanced");

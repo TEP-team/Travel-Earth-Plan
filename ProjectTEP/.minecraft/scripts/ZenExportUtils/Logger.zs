@@ -3,28 +3,30 @@
     Flie: Logger.zs
 */
 
-#priority 1000000
+#priority 1000001
+#loader crafttweaker reloadableevents
 
 zenClass Logger {
 
-    val ID = "[ZenExportUtils]";
+    zenConstructor(arg as string) {
+        this.id = arg;
+    }
+
+    val id as string;
+    val ID as string = "[ZenExportUtils]";
 
     function info(msg as string) {
-        logger.logInfo(ID ~ msg);
+        logger.logInfo(ID ~ " " ~ msg);
     }
 
     function warning(msg as string) {
-        logger.logWarning(ID ~ msg);
+        logger.logWarning(ID ~ " " ~ msg);
     }
 
     function error(msg as string) {
-        logger.logError(ID ~ msg);
-    }
-
-    function getClass() as Logger {
-        return this;
+        logger.logError(ID ~ " " ~ msg);
     }
 
 }
 
-global Logger as Logger = Logger.getClass();
+global Logger as Logger = Logger("Instanced");

@@ -3,7 +3,8 @@
     Flie: ExportHelper.zs
 */
 
-#priority 999999
+#priority 1000000
+#loader crafttweaker reloadableevents
 
 zenClass ExportHelper {
 
@@ -12,10 +13,9 @@ zenClass ExportHelper {
     }
 
     val id as string;
-    val ID = "[ZenExportUtils]";
 
     function printer(msg as string) {
-        print(ID ~ msg);
+        Logger.info(msg);
     }
 
 }

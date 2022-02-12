@@ -23,12 +23,10 @@ item1.itemRightClick = function(stack, world, player, hand) {
     if (!world.remote && !player.isFake() && world.dimension == 0) {
         val x = Math.random() * 3000 + player.x;
         val z = Math.random() * 3000 + player.z;
-        val pdata = player.data;
         Commands.call("tp @p " + x + " 140 " + z, player, world, false, true);
         Commands.call("playsound minecraft:block.portal.travel ambient @p ~ ~ ~ 0.8 2", player, world, false, true);
-        player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(240, 0));
-        player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(240, 0));
         player.sendRichTextStatusMessage(ITextComponent.fromTranslation("tpgem.tep.tpsuccess"));
+        player.update({"teleport" : 1});
         player.setCooldown(stack, 2400);
         stack.shrink(1);
     }
@@ -42,13 +40,13 @@ item2.onItemUseFinish = function(stack, world, entity) {
     if (!world.remote && entity instanceof Player) {
         val player as Player = entity;
         if (!player.isFake()) {
-            val bleeding = player.isPotionActive(<potion:contenttweaker:bleeding>);
-            if (bleeding) {
+            val isBleeding = player.isPotionActive(<potion:contenttweaker:bleeding>);
+            if (isBleeding) {
                 player.removePotionEffect(<potion:contenttweaker:bleeding>);
                 player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(40, 0));
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.msuccess"));
                 player.health += 2;
-                player.update(player.data + {"shrink" : 1});
+                player.update({"shrink" : 1});
             } else {
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.mfail"));
             }
@@ -64,14 +62,15 @@ item3.onItemUseFinish = function(stack, world, entity) {
     if (!world.remote && entity instanceof Player) {
         val player as Player = entity;
         if (!player.isFake()) {
-            var pdata = player.data;
-            if (player.health < 20) {
+            val isBleeding = player.isPotionActive(<potion:contenttweaker:bleeding>);
+            val isFractured = player.isPotionActive(<potion:contenttweaker:fractured>);
+            if (player.health < 20 || isBleeding || isFractured) {
                 player.removePotionEffect(<potion:contenttweaker:fractured>);
                 player.removePotionEffect(<potion:contenttweaker:bleeding>);
                 player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(200, 0));
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.mpsuccess"));
                 player.health += 6;
-                player.update(pdata + {"shrink" : 1, "slowness" : 1});
+                player.update({"shrink" : 1, "slowness" : 1});
             } else {
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.mpfail"));
             }
@@ -87,12 +86,11 @@ item4.onItemUseFinish = function(stack, world, entity) {
     if (!world.remote && entity instanceof Player) {
         val player as Player = entity;
         if (!player.isFake()) {
-            val fractured = player.isPotionActive(<potion:contenttweaker:fractured>);
-            if (fractured) {
-                var pdata = player.data;
+            val isFractured = player.isPotionActive(<potion:contenttweaker:fractured>);
+            if (isFractured) {
                 player.removePotionEffect(<potion:contenttweaker:fractured>);
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.ssuccess"));
-                player.update(pdata + {"shrink" : 1, "slowness" : 1});
+                player.update({"shrink" : 1, "slowness" : 1});
             } else {
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.sfail"));
             }
@@ -108,14 +106,13 @@ item5.onItemUseFinish = function(stack, world, entity) {
     if (!world.remote && entity instanceof Player) {
         val player as Player = entity;
         if (!player.isFake()) {
-            val fractured = player.isPotionActive(<potion:contenttweaker:fractured>);
-            if (fractured) {
-                var pdata = player.data;
+            val isFractured = player.isPotionActive(<potion:contenttweaker:fractured>);
+            if (isFractured) {
                 player.removePotionEffect(<potion:contenttweaker:fractured>);
                 player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(200, 0));
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.ssuccess"));
                 player.health += 2;
-                player.update(pdata + {"shrink" : 1, "slowness" : 1});
+                player.update({"shrink" : 1, "slowness" : 1});
             } else {
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.sfail"));
             }

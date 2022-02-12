@@ -4,7 +4,7 @@
     But you can't copy and paste these scripts to your Modpack.
     Thanks a lot!
 */
-#norun
+
 #priority 50000
 import crafttweaker.item.IItemStack;
 
@@ -12,7 +12,6 @@ var paper = <minecraft:paper>;
 var iron = <ore:ingotIron>;
 var redstone = <minecraft:redstone>;
 
-//contenttweaker
 recipes.addShaped(<contenttweaker:hammer_flint>,
 	[[<minecraft:flint>,null],
 	 [<minecraft:stick>,<minecraft:flint>]]);
@@ -47,11 +46,6 @@ recipes.addShapeless(<contenttweaker:cloth_string>,
 
 recipes.addShapeless(<contenttweaker:medical_bandage>,
     [<contenttweaker:cloth_string>,<contenttweaker:cloth_string>,<contenttweaker:cloth_string>]);
-
-recipes.addShaped(<contenttweaker:medical_pack>,
-    [[<contenttweaker:cloth_string>,<contenttweaker:cloth_string>,<contenttweaker:cloth_string>],
-	 [<contenttweaker:medical_bandage>,<contenttweaker:pipe_blood>,<contenttweaker:medical_metal_splint>],
-	 [<contenttweaker:cloth_string>,<contenttweaker:cloth_string>,<contenttweaker:cloth_string>]]);
 
 recipes.addShaped(<contenttweaker:hammer_plate>,
     [[null,iron,null],
@@ -116,15 +110,14 @@ recipes.addShaped(<contenttweaker:gc_bearing>*4,
 	 [<contenttweaker:structure_block>,<contenttweaker:material_part:153>,<contenttweaker:structure_block>],
 	 [<botania:storage:3>,<contenttweaker:structure_block>,<botania:storage:3>]]);
 
-recipes.addShapeless(<contenttweaker:noodles_bubbled>,
-	[<contenttweaker:noodles>,<contenttweaker:hot_water>.giveBack(<minecraft:bucket>)]);
-
 recipes.addShaped(<contenttweaker:heaven_core>,
 	[[<contenttweaker:smart_core>,<contenttweaker:sky_core>,<contenttweaker:life_core>],
 	 [<contenttweaker:machinery_core>,<contenttweaker:world_core>,<contenttweaker:mana_core>],
 	 [<contenttweaker:seasons_core>,<contenttweaker:ground_core>,<contenttweaker:shiny_core>]]);
 
 //===============================================================
+
+/*
 var hammer = <contenttweaker:hammer_plate>;
 
 //add recipes
@@ -194,3 +187,4 @@ for r, BlockInt_1 in blockInt_1 {
 	val ingots = materials.makeStack(ingotsInt_1[r]);
 	recipes.addShaped(blocks, [[ingots,ingots,ingots],[ingots,ingots,ingots],[ingots,ingots,ingots]]);
 }
+*/

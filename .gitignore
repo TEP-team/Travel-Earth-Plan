@@ -35,6 +35,7 @@ ProjectTEP/.minecraft/scripts/.zsrc
 !ProjectTEP/.minecraft/config/atomicscience/
 !ProjectTEP/.minecraft/config/betteradvancements/
 !ProjectTEP/.minecraft/config/compactmachines3/
+!ProjectTEP/.minecraft/config/dsurround/
 !ProjectTEP/.minecraft/config/environmentaltech/
 !ProjectTEP/.minecraft/config/GeographiCraft/
 !ProjectTEP/.minecraft/config/itlt/
@@ -49,6 +50,7 @@ ProjectTEP/.minecraft/scripts/.zsrc
 !ProjectTEP/.minecraft/config/waila/
 !ProjectTEP/.minecraft/config/aroma1997/aromabackup.cfg
 !ProjectTEP/.minecraft/config/bloodmoon.cfg
+!ProjectTEP/.minecraft/config/cfm.cfg
 !ProjectTEP/.minecraft/config/customloadingscreen.cfg
 !ProjectTEP/.minecraft/config/dmgcontrol.cfg
 !ProjectTEP/.minecraft/config/enhancedvisuals.json

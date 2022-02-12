@@ -113,8 +113,6 @@ key_key.mw_underground_mode:0
 key_openblocks.keybind.vario_switch:35
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
-key_Difficulty Meter - Show:0
-key_Difficulty Meter - Show Always:0
 key_key.toastcontrol.clear:73
 key_key.vehicle.horn:48
 key_key.vehicle.cycle_seats:184
@@ -188,7 +186,7 @@ key_Toggle perspective:47
 key_WorldEdit Reference:0
 key_NBTEdit Shortcut:0
 soundCategory_master:0.75165564
-soundCategory_music:0.0
+soundCategory_music:0.2535211
 soundCategory_record:0.45774648
 soundCategory_weather:0.75352114
 soundCategory_block:0.70422536

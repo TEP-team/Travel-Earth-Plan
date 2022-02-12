@@ -3,9 +3,10 @@
     Flie: EventHelper.zs
 */
 
-#priority 999999
-import crafttweaker.block.IBlock;
-import crafttweaker.event.PlayerInteractBlockEvent;
+#priority 1000000
+#loader crafttweaker reloadableevents
+import crafttweaker.player.IPlayer;
+import crafttweaker.container.IContainer;
 
 zenClass EventHelper {
 
@@ -15,8 +16,14 @@ zenClass EventHelper {
 
     val id as string;
 
-    function getBlockDataString(block as IBlock) as string {
-        return block.data.asString();
+    function ignoreServer(player as IPlayer) as bool {
+        return player.world.remote;
+    }
+
+    function getContainerCondition(container as IContainer, type as string) as bool {
+        val name = container.asString();
+        if (type == "chest") return (name has "Chest");
+        if (type == "player") return (name has "Player");
     }
 
 }

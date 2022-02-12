@@ -18,11 +18,9 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
         if (block.definition.id == "mekanism:basicblock" && block.meta == 13 && <contenttweaker:electric_iron:*>.matches(item)) {
             if (!world.remote) {
                 val pos = event.position;
-                world.setBlockState(<blockstate:minecraft:air>, pos);
-                for i in 0 to 3 {
-                    world.spawnEntity(<contenttweaker:tin_solder_dust>.createEntityItem(world, pos.up()));
-                }
                 val stack = player.currentItem;
+                world.setBlockState(<blockstate:minecraft:air>, pos);
+                world.spawnEntity(<contenttweaker:tin_solder_dust>.withAmount(world.random.nextInt(1, 4)).createEntityItem(world, pos.up()));
                 if (!isNull(stack)) {
                     for k in 0 to 9 {
                         if (stack.matches(player.getHotbarStack(k))) {
