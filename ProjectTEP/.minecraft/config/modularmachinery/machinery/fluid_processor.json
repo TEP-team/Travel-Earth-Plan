@@ -2,7 +2,7 @@
     "registryname": "fluid_processor",
     "localizedname": "modularmachinery.fluid_processor",
     "requires-blueprint": false,
-    "color": "386563",
+    "color": "cfcfcf",
     "parts": [
         {
             "x": 0,
@@ -13,11 +13,35 @@
             ]
         },
         {
-            "x": 2,
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
             "y": 2,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@9"
             ]
         },
         {
@@ -25,267 +49,499 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@1"
+                "minecraft:water@0"
             ]
         },
         {
             "x": 0,
             "y": 2,
             "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockenergyinputhatch@3"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 0,
             "elements": [
                 "modularmachinery:blockfluidinputhatch@3"
             ]
         },
         {
-            "x": 0,
-            "y": 1,
+            "x": 2,
+            "y": 2,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@1"
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:water@0"
             ]
         },
         {
             "x": 2,
             "y": 1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:piston@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:piston@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:piston@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
             "z": 0,
             "elements": [
                 "modularmachinery:blockinputbus@3"
             ]
         },
         {
-            "x": 0,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
+            "x": 1,
+            "y": 3,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "immersiveengineering:sheetmetal@9"
             ]
         },
         {
-            "x": 0,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 3,
+            "x": -2,
             "y": 1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@1"
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:water@0"
             ]
         },
         {
             "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 0,
             "y": 1,
             "z": 3,
             "elements": [
@@ -293,59 +549,91 @@
             ]
         },
         {
-            "x": 3,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
             "x": 2,
             "y": 1,
-            "z": 3,
+            "z": 1,
             "elements": [
-                "modularmachinery:blockoutputbus@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@0"
+                "immersiveengineering:sheetmetal@9"
             ]
         },
         {
             "x": 1,
-            "y": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "immersiveengineering:sheetmetal_slab@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:piston@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:piston@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:piston@0"
             ]
         },
         {
@@ -353,7 +641,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "minecraft:water@0"
             ]
         }
     ]}

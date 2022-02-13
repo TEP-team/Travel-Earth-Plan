@@ -2,7 +2,7 @@
     "registryname": "mixin_tank",
     "localizedname": "modularmachinery.mixin_tank",
     "requires-blueprint": false,
-    "color": "fff98b",
+    "color": "3f4349",
     "parts": [
         {
             "x": 0,
@@ -17,7 +17,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -25,7 +25,7 @@
             "y": 2,
             "z": -1,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@2"
             ]
         },
         {
@@ -33,7 +33,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -41,15 +41,7 @@
             "y": 2,
             "z": -1,
             "elements": [
-                "contenttweaker:structure_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "contenttweaker:working_box@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -57,7 +49,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@2"
             ]
         },
         {
@@ -65,7 +57,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -73,15 +65,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "contenttweaker:structure_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "contenttweaker:working_box@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -89,7 +73,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -97,7 +81,7 @@
             "y": 2,
             "z": -1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -105,7 +89,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -113,7 +97,7 @@
             "y": 2,
             "z": -1,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@2"
             ]
         },
         {
@@ -121,7 +105,7 @@
             "y": 2,
             "z": -1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -129,7 +113,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@2"
             ]
         },
         {
@@ -137,7 +121,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -145,7 +129,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@2"
             ]
         },
         {
@@ -153,15 +137,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "contenttweaker:working_box@0"
+                "immersiveengineering:storage@2"
             ]
         },
         {
@@ -169,7 +145,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -177,7 +153,7 @@
             "y": 1,
             "z": -1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -193,7 +169,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@2"
             ]
         },
         {
@@ -201,7 +177,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -209,7 +185,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@2"
             ]
         },
         {
@@ -217,7 +193,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@2"
             ]
         },
         {
@@ -225,7 +201,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -233,15 +209,7 @@
             "y": 1,
             "z": -1,
             "elements": [
-                "contenttweaker:structure_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "contenttweaker:working_box@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -249,7 +217,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -257,7 +225,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@2"
             ]
         },
         {
@@ -265,7 +233,7 @@
             "y": 1,
             "z": -1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -273,7 +241,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -281,7 +249,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -297,7 +265,7 @@
             "y": 1,
             "z": -1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -305,7 +273,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@2"
             ]
         },
         {
@@ -313,7 +281,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -321,7 +289,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@2"
             ]
         },
         {
@@ -329,7 +297,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@2"
             ]
         },
         {
@@ -337,7 +305,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@2"
             ]
         },
         {
@@ -345,7 +313,7 @@
             "y": 0,
             "z": -1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -361,7 +329,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -369,7 +337,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -377,7 +345,7 @@
             "y": 0,
             "z": -1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -385,7 +353,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@2"
             ]
         },
         {
@@ -393,7 +361,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@2"
             ]
         },
         {
@@ -401,7 +369,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -409,7 +377,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@2"
             ]
         },
         {
@@ -417,7 +385,7 @@
             "y": 0,
             "z": -1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -433,7 +401,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -441,7 +409,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -449,7 +417,7 @@
             "y": 0,
             "z": -1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -457,7 +425,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -465,7 +433,7 @@
             "y": -1,
             "z": -1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -473,7 +441,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -481,7 +449,7 @@
             "y": -1,
             "z": -1,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@2"
             ]
         },
         {
@@ -489,7 +457,7 @@
             "y": -1,
             "z": -1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -497,7 +465,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -505,7 +473,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -513,7 +481,7 @@
             "y": -1,
             "z": -1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -521,7 +489,7 @@
             "y": -1,
             "z": -1,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@2"
             ]
         },
         {
@@ -529,7 +497,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -537,7 +505,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -545,7 +513,7 @@
             "y": -1,
             "z": -1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -553,7 +521,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -561,7 +529,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -569,7 +537,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@2"
             ]
         },
         {
@@ -577,7 +545,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         },
         {
@@ -585,7 +553,7 @@
             "y": 2,
             "z": -1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@2"
             ]
         }
     ]}

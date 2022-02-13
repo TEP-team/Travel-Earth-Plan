@@ -1,0 +1,130 @@
+{
+  "name": "minecraft:shulker_shell",
+  "target-item": "minecraft:shulker_shell",
+  "target-count": 1,
+  "duration": 100,
+  "catalyst": "minecraft:chorus_fruit",
+  "input-types": {
+    "a": {
+      "id": "minecraft:purpur_block",
+      "meta": 0
+    },
+    "b": {
+      "id": "minecraft:purpur_slab",
+      "meta": 8
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "b",
+        "_",
+        "_",
+        "_",
+        "b"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "_",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "_",
+        "a",
+        "a"
+      ]
+    ]
+  ]
+}

@@ -2,7 +2,7 @@
     "registryname": "gas_centrifuger",
     "localizedname": "modularmachinery.gas_centrifuger",
     "requires-blueprint": false,
-    "color": "e3db4d",
+    "color": "fdf091",
     "parts": [
         {
             "x": 0,
@@ -17,71 +17,111 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@7"
             ]
         },
         {
-            "x": 1,
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:storage@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:storage@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@7"
+            ]
+        },
+        {
+            "x": 2,
             "y": 2,
             "z": 1,
             "elements": [
-                "contenttweaker:working_box@0"
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:storage@7"
             ]
         },
         {
             "x": -2,
             "y": 0,
-            "z": 0,
+            "z": 4,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:storage@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
             ]
         },
         {
             "x": 2,
             "y": 2,
-            "z": 1,
+            "z": 5,
             "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "contenttweaker:structure_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:structure_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@0"
+                "appliedenergistics2:quartz_glass@0"
             ]
         },
         {
@@ -89,7 +129,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:sheetmetal@7"
             ]
         },
         {
@@ -97,595 +137,635 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "immersiveengineering:sheetmetal@7"
             ]
         },
         {
-            "x": -2,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "contenttweaker:structure_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "contenttweaker:gc_core@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "botania:storage@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "contenttweaker:structure_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "contenttweaker:structure_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "botania:storage@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
+            "x": 3,
+            "y": 0,
             "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "botania:storage@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:structure_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:structure_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:gc_core@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "botania:storage@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:structure_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 3,
             "elements": [
                 "modularmachinery:blockfluidinputhatch@3"
             ]
         },
         {
             "x": -2,
-            "y": 2,
-            "z": 0,
+            "y": 3,
+            "z": 1,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "appliedenergistics2:quartz_glass@0"
             ]
         },
         {
             "x": -1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "contenttweaker:structure_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "contenttweaker:structure_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:working_box@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:working_box@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "contenttweaker:structure_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:working_box@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -2,
             "y": 1,
-            "z": 3,
+            "z": 0,
             "elements": [
-                "botania:storage@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@0"
+                "appliedenergistics2:quartz_glass@0"
             ]
         },
         {
             "x": 0,
-            "y": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "appliedenergistics2:quartz_glass@0"
             ]
         },
         {
             "x": -2,
-            "y": -1,
-            "z": 2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:gc_core@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:storage@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:storage@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:storage@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
             "elements": [
                 "modularmachinery:blockfluidoutputhatch@3"
             ]
         },
         {
             "x": -1,
-            "y": 1,
-            "z": 3,
+            "y": 4,
+            "z": 5,
             "elements": [
-                "contenttweaker:working_box@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@0"
+                "immersiveengineering:sheetmetal@7"
             ]
         },
         {
             "x": 0,
-            "y": 1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
             "z": 3,
             "elements": [
-                "contenttweaker:working_box@0"
+                "immersiveengineering:sheetmetal@7"
             ]
         },
         {
             "x": -1,
-            "y": -1,
-            "z": 2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
             "elements": [
                 "contenttweaker:gc_core@0"
             ]
         },
         {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
             "x": 0,
-            "y": -1,
-            "z": 2,
+            "y": 0,
+            "z": 3,
             "elements": [
                 "contenttweaker:gc_bearing@0"
             ]
         },
         {
             "x": 2,
-            "y": 3,
-            "z": 4,
+            "y": 4,
+            "z": 5,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "immersiveengineering:storage@7"
             ]
         },
         {
             "x": 1,
-            "y": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
             "z": 3,
             "elements": [
-                "contenttweaker:working_box@0"
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
             ]
         },
         {
             "x": 2,
-            "y": 1,
+            "y": 0,
             "z": 3,
             "elements": [
-                "botania:storage@0"
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
             ]
         },
         {
             "x": 1,
-            "y": -1,
-            "z": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
             "elements": [
                 "contenttweaker:gc_core@0"
             ]
         },
         {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:gc_core@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:gc_bearing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:gc_core@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:storage@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:gc_core@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:gc_bearing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
             "x": 2,
-            "y": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:gc_core@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:storage@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
             "z": 2,
             "elements": [
                 "modularmachinery:blockinputbus@3"
             ]
         },
         {
-            "x": -2,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "contenttweaker:working_box@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "contenttweaker:working_box@0"
-            ]
-        },
-        {
             "x": -1,
             "y": 0,
-            "z": 2,
+            "z": 6,
             "elements": [
-                "contenttweaker:working_box@0"
+                "immersiveengineering:storage@7"
             ]
         },
         {
             "x": 0,
             "y": 0,
-            "z": 2,
+            "z": 6,
             "elements": [
-                "contenttweaker:gc_bearing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "contenttweaker:working_box@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@7"
             ]
         },
         {
             "x": 1,
             "y": 0,
-            "z": 2,
+            "z": 6,
             "elements": [
-                "contenttweaker:working_box@0"
+                "immersiveengineering:storage@7"
             ]
         },
         {
-            "x": 2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -2,
+            "x": -3,
             "y": 3,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "appliedenergistics2:quartz_glass@0"
             ]
         },
         {
-            "x": -2,
+            "x": -3,
             "y": 1,
             "z": 2,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "appliedenergistics2:quartz_glass@0"
             ]
         },
         {
             "x": -1,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "contenttweaker:structure_block@0"
-            ]
-        },
-        {
-            "x": 0,
             "y": 3,
             "z": 3,
             "elements": [
@@ -693,27 +773,27 @@
             ]
         },
         {
-            "x": -2,
-            "y": -1,
-            "z": 1,
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:gc_bearing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
             "elements": [
                 "modularmachinery:blockcasing@5"
             ]
         },
         {
-            "x": -1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:working_box@0"
-            ]
-        },
-        {
             "x": 1,
             "y": 3,
             "z": 3,
             "elements": [
-                "contenttweaker:structure_block@0"
+                "contenttweaker:gc_core@0"
             ]
         },
         {
@@ -721,71 +801,95 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "contenttweaker:gc_bearing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:structure_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 1,
-            "elements": [
                 "contenttweaker:gc_core@0"
             ]
         },
         {
-            "x": 2,
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 3,
             "y": 3,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
             ]
         },
         {
             "x": 1,
             "y": 1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:storage@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
             "z": 2,
             "elements": [
-                "contenttweaker:working_box@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:structure_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:structure_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockenergyinputhatch@3"
+                "appliedenergistics2:quartz_glass@0"
             ]
         },
         {
             "x": -2,
-            "y": 2,
-            "z": 2,
+            "y": 4,
+            "z": 3,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
             ]
         },
         {
@@ -793,7 +897,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@7"
             ]
         },
         {
@@ -801,7 +905,15 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "contenttweaker:working_box@0"
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
             ]
         },
         {
@@ -809,7 +921,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "contenttweaker:gc_bearing@0"
+                "contenttweaker:gc_core@0"
             ]
         },
         {
@@ -817,7 +929,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "contenttweaker:working_box@0"
+                "immersiveengineering:sheetmetal@7"
             ]
         },
         {
@@ -825,7 +937,15 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "contenttweaker:working_box@0"
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
             ]
         },
         {
@@ -833,15 +953,15 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "contenttweaker:working_box@0"
+                "modularmachinery:blockcasing@3"
             ]
         },
         {
-            "x": 2,
-            "y": 2,
-            "z": 2,
+            "x": 3,
+            "y": 4,
+            "z": 3,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "immersiveengineering:storage@7"
             ]
         },
         {
@@ -849,7 +969,15 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "contenttweaker:working_box@0"
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
             ]
         },
         {
@@ -857,15 +985,79 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "immersiveengineering:storage@7"
             ]
         },
         {
             "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:storage@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:storage@7"
+            ]
+        },
+        {
+            "x": -3,
             "y": 3,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "appliedenergistics2:quartz_glass@0"
             ]
         },
         {
@@ -873,11 +1065,19 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "botania:storage@0"
+                "appliedenergistics2:quartz_glass@0"
             ]
         },
         {
             "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
             "y": 3,
             "z": 2,
             "elements": [
@@ -885,99 +1085,83 @@
             ]
         },
         {
-            "x": 0,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "contenttweaker:gc_bearing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:working_box@0"
-            ]
-        },
-        {
             "x": 1,
             "y": 3,
             "z": 2,
             "elements": [
-                "contenttweaker:gc_core@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:working_box@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:working_box@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "botania:storage@0"
+                "modularmachinery:blockcasing@1"
             ]
         },
         {
             "x": -2,
-            "y": -1,
-            "z": 4,
+            "y": 1,
+            "z": 5,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "appliedenergistics2:quartz_glass@0"
             ]
         },
         {
             "x": -1,
-            "y": -1,
-            "z": 4,
+            "y": 3,
+            "z": 6,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "appliedenergistics2:quartz_glass@0"
             ]
         },
         {
-            "x": 0,
-            "y": -1,
-            "z": 4,
+            "x": 3,
+            "y": 3,
+            "z": 2,
             "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@0"
+                "appliedenergistics2:quartz_glass@0"
             ]
         },
         {
             "x": 2,
-            "y": -1,
-            "z": 4,
+            "y": 1,
+            "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
             ]
         },
         {
@@ -985,23 +1169,31 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "appliedenergistics2:quartz_glass@0"
             ]
         },
         {
             "x": -1,
-            "y": 2,
-            "z": 1,
+            "y": 4,
+            "z": 2,
             "elements": [
-                "contenttweaker:working_box@0"
+                "immersiveengineering:sheetmetal@7"
             ]
         },
         {
             "x": 0,
-            "y": 2,
-            "z": 1,
+            "y": 4,
+            "z": 2,
             "elements": [
-                "contenttweaker:working_box@0"
+                "immersiveengineering:sheetmetal@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@7"
             ]
         }
     ]}

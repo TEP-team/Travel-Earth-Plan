@@ -1,6 +1,6 @@
-modularmachinery.compiler=编译机
+modularmachinery.compiler=编译站
 modularmachinery.energy_dismantler=电解机
-modularmachinery.fluid_processor=流体处理机
+modularmachinery.fluid_processor=流体加压机
 modularmachinery.gas_centrifuger=气体离心机
 modularmachinery.mana_altar=魔法祭坛
 modularmachinery.mixin_tank=混合仓
