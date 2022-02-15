@@ -7,9 +7,7 @@
 
 #priority 60000
 import mods.modularmachinery.RecipePrimer;
-import scripts.Classes.ModularUtils.ModularUtils;
 
-val ModularUtils as ModularUtils = ModularUtils("Instanced");
 val machine as string = "reactor";
 
 var recipe0 = ModularUtils.emptyRecipeBuilder(machine + 0, machine, 20) as RecipePrimer;

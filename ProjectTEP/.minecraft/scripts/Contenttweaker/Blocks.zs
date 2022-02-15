@@ -7,9 +7,7 @@
 
 #priority 90000
 #loader contenttweaker
-import scripts.Classes.ContentUtils.ContentUtils;
 
-val ContentUtils as ContentUtils = ContentUtils("Instanced");
 val light as string[] = ["litherite_light","erodium_light","kyronite_light","pladium_light"];
 val machine as string[] = ["structure_block","gc_core","gc_bearing","ft_core","working_box"];
 

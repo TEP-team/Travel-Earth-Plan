@@ -6,10 +6,9 @@
 */
 
 #priority 50000
+import crafttweaker.item.IItemStack;
 
-//seeds
-vanilla.seeds.removeSeed(<minecraft:wheat_seeds>);
-vanilla.seeds.removeSeed(<immersiveengineering:seed>);
+val Items as IItemStack[][] = BasicUtils.getAllMaterialPartItem();
 
 //furnace
 furnace.setFuel(<contenttweaker:wood_residue>, 75);
@@ -21,3 +20,17 @@ furnace.remove(<simpledifficulty:purified_water_bottle>);
 furnace.addRecipe(<minecraft:leather>, <minecraft:rotten_flesh>, 0.1);
 furnace.addRecipe(<contenttweaker:ingot_is>, <contenttweaker:tin_solder_dust>, 1);
 furnace.addRecipe(<contenttweaker:ingot_in>, <contenttweaker:iron_with_nickel>, 1);
+furnace.addRecipe(<contenttweaker:material_part:22>, <contenttweaker:sub_block_holder_0:1>, 1);
+furnace.addRecipe(<contenttweaker:material_part:11>, <contenttweaker:sub_block_holder_0:3>, 1);
+furnace.addRecipe(<contenttweaker:material_part:55>, <contenttweaker:sub_block_holder_0:4>, 1);
+
+for i in 0 to Items[0].length {
+    furnace.addRecipe(Items[0][i], Items[2][i], 1); 
+}
+
+//seeds
+vanilla.seeds.removeSeed(<minecraft:wheat_seeds>);
+vanilla.seeds.removeSeed(<immersiveengineering:seed>);
+
+//other
+<minecraft:flint_and_steel>.maxDamage = 4;

@@ -8,91 +8,49 @@
 #priority 50000
 import crafttweaker.item.IItemStack;
 
-var rs = <ore:dustRedstone>;
-var iron = <ore:ingotIron>;
-var plate = <contenttweaker:material_part:13>;
-var casing = <modularmachinery:blockcasing>;
+var level0 as IItemStack[] = [];
+var level1 as IItemStack[] = [];
+var level2 as IItemStack[] = [];
+var level3 as IItemStack[] = [];
+var level4 as IItemStack[] = [];
+var level5 as IItemStack[] = [];
+var level6 as IItemStack[] = [];
 
-recipes.remove(casing);
-recipes.addShaped(casing*8,
-    [[plate,plate,plate],
-     [plate,null,plate],
-     [plate,plate,plate]]);
-
-recipes.addShaped(<modularmachinery:blockcasing:5>*2,
-    [[casing,iron,casing],
-     [iron,<minecraft:redstone_block>,iron],
-     [casing,iron,casing]]);
-
-recipes.remove(<modularmachinery:blockcontroller>);
-recipes.addShaped(<modularmachinery:blockcontroller>,
-    [[casing,<minecraft:diamond>,casing],
-     [iron,<modularmachinery:blockcasing:5>,iron],
-     [casing,<minecraft:gold_ingot>,casing]]);
-
-recipes.addShaped(<modularmachinery:blockcasing:1> * 2,
-    [[casing,<minecraft:iron_bars>,casing],
-     [<minecraft:iron_bars>,null,<minecraft:iron_bars>],
-     [casing,<minecraft:iron_bars>,casing]]);
-
-recipes.remove(<modularmachinery:blockcasing:2>);
-recipes.addShaped(<modularmachinery:blockcasing:2> * 2,
-    [[casing,<minecraft:flint>,casing],
-     [<minecraft:flint>,<ore:gunpowder>,<minecraft:flint>],
-     [casing,<minecraft:flint>,casing]]);
-
-recipes.addShaped(<modularmachinery:blockcasing:3> * 2,
-    [[casing,rs,casing],
-     [rs,<contenttweaker:material_part>,rs],
-     [casing,rs,casing]]);
-
-recipes.remove(<modularmachinery:blockinputbus>);
-recipes.addShaped(<modularmachinery:blockinputbus>,
-    [[casing,<minecraft:hopper>,casing],
-     [iron,<minecraft:chest>,iron],
-     [casing,iron,casing]]);
-
-recipes.remove(<modularmachinery:blockoutputbus>);
-recipes.addShaped(<modularmachinery:blockoutputbus>,
-    [[casing,iron,casing],
-     [iron,<minecraft:chest>,iron],
-     [casing,<minecraft:hopper>,casing]]);
-
-recipes.remove(<modularmachinery:blockfluidinputhatch>);
-recipes.addShaped(<modularmachinery:blockfluidinputhatch>,
-    [[casing,<minecraft:bucket>,casing],
-     [iron,<minecraft:chest>,iron],
-     [casing,iron,casing]]);
-
-recipes.remove(<modularmachinery:blockfluidoutputhatch>);
-recipes.addShaped(<modularmachinery:blockfluidoutputhatch>,
-    [[casing,iron,casing],
-     [iron,<minecraft:chest>,iron],
-     [casing,<minecraft:bucket>,casing]]);
-
-recipes.remove(<modularmachinery:blockenergyinputhatch>);
-recipes.addShaped(<modularmachinery:blockenergyinputhatch>,
-    [[casing,rs,casing],
-     [iron,<minecraft:chest>,iron],
-     [casing,iron,casing]]);
-
-recipes.remove(<modularmachinery:blockenergyoutputhatch>);
-recipes.addShaped(<modularmachinery:blockenergyoutputhatch>,
-    [[casing,iron,casing],
-     [iron,<minecraft:chest>,iron],
-     [casing,rs,casing]]);
-
-recipes.addShaped(<gugu-utils:sparkmanahatch>.withTag({}),
-    [[casing,<botania:spark>,casing],
-     [casing,<botania:pool>,casing],
-     [casing,casing,casing]]);
-
-recipes.addShaped(<gugu-utils:sparkmanahatch:1>.withTag({}),
-    [[casing,casing,casing],
-     [casing,<botania:pool>,casing],
-     [casing,<botania:spark>,casing]]);
-
-val remove as IItemStack[] = [<modularmachinery:blockinputbus:1>,<modularmachinery:blockoutputbus:1>,<modularmachinery:blockfluidinputhatch:1>,<modularmachinery:blockfluidoutputhatch:1>];
-for Remove in remove {
-    recipes.remove(Remove);
+for item in loadedMods["modularmachinery"].items {
+    val id = ItemHelper.getItemID(item, false);
+    if (!(id has "blockcasing")) {
+        if (id has "0") level0 += item;
+        if (id has "1") level1 += item;
+        if (id has "2") level2 += item;
+        if (id has "3") level3 += item;
+        if (id has "4") level4 += item;
+        if (id has "5") level5 += item;
+        if (id has "6") level6 += item;
+    }
 }
+
+for i, level in level1 {
+    RecipeUtils.recipeCenterCornerSide(level, <modularmachinery:blockcasing>, <ore:dustRedstone>, level0[i], true);
+}
+
+for i, level in level2 {
+    RecipeUtils.recipeCenterCornerSide(level, <modularmachinery:blockcasing>, <mekanism:enrichedalloy>, level1[i], true);
+}
+
+for i, level in level3 {
+    RecipeUtils.recipeCenterCornerTwoSide(level, <modularmachinery:blockcasing>, <mekanism:reinforcedalloy>, <mekanism:enrichedalloy>, level2[i], true);
+}
+
+for i, level in level4 {
+    RecipeUtils.recipeCenterCornerSide(level, <modularmachinery:blockcasing>, <mekanism:reinforcedalloy>, level3[i], true);
+}
+
+for i, level in level5 {
+    RecipeUtils.recipeCenterCornerTwoSide(level, <modularmachinery:blockcasing>, <mekanism:atomicalloy>, <mekanism:reinforcedalloy>, level4[i], true);
+}
+
+for i, level in level6 {
+    RecipeUtils.recipeCenterCornerSide(level, <modularmachinery:blockcasing>, <mekanism:reinforcedalloy>, level5[i], true);
+}
+
+RecipeUtils.recipeAround(<modularmachinery:blockcasing>, <ore:plateCopper>, null, true);

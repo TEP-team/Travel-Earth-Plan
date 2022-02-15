@@ -13,18 +13,17 @@ zenClass Logger {
     }
 
     val id as string;
-    val ID as string = "[ZenExportUtils]";
 
     function info(msg as string) {
-        logger.logInfo(ID ~ " " ~ msg);
+        logger.logInfo("[ZenExportUtils] " ~ msg);
     }
 
     function warning(msg as string) {
-        logger.logWarning(ID ~ " " ~ msg);
+        logger.logWarning(" " ~ msg);
     }
 
     function error(msg as string) {
-        logger.logError(ID ~ " " ~ msg);
+        logger.logError(" " ~ msg);
     }
 
 }

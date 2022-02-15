@@ -7,11 +7,9 @@
 
 #priority 90000
 #loader contenttweaker
-import scripts.Classes.MaterialPartUtils.MaterialPartUtils;
 
-val MaterialPartUtils as MaterialPartUtils = MaterialPartUtils("Instanced");
 val materials as int[string] = {
-    "Iron" : 0xfbe5d6,
+    "Iron" : 0xd8d8d8,
     "Copper" : 0xd57635,
     "Tin" : 0xffffff,
     "Graphite" : 0x343434,

@@ -8,12 +8,11 @@
 #priority 90000
 #loader contenttweaker
 import mods.zenutils.cotx.Item;
-import scripts.Classes.ContentUtils.ContentUtils;
-
-val ContentUtils as ContentUtils = ContentUtils("Instanced");
 
 ContentUtils.itemBuilder("conversion_core", "uncommon", -1, 64, true).register();
 ContentUtils.itemBuilder("rainbow_rune", "epic", -1, 64, true).register();
+ContentUtils.itemBuilder("pc", "rare", -1, 1, false).register();
+
 val hammer = ContentUtils.itemBuilder("hammer_flint", "uncommon", 2, 1, false) as Item;
     hammer.toolClass = "pickaxe";
     hammer.toolLevel = 0;
@@ -35,8 +34,8 @@ var tools as string[] = [
 var materials as string[] = [
     "iron_with_nickel", "tin_solder_dust", "ingot_is", "ingot_in",
     "papers", "paper_ee", "cell_empty", "cell_electrolyte", "cell_cold",
-    "cell_dt", "wood_residue", "cloth_string", "metal_stick", "pc",
-    "motor","ram", "rom", "cpu", "exe", "pcb", "pin", "gc_exe", "ft_exe",
+    "cell_dt", "wood_residue", "cloth_string", "motor",
+    "ram", "rom", "cpu", "exe", "pcb", "pin", "gc_exe", "ft_exe",
     "test_unit", "temperature_monitor", "mini_driver", "mediuim_driver",
     "huge_driver", "singlechip", "ft_singlechip", "gc_singlechip"
 ];

@@ -10,8 +10,9 @@ import crafttweaker.item.IItemStack;
 
 val iron = <ore:ingotIron>;
 val redstone = <minecraft:redstone>;
+val warmLiner = <armorunder:warm_liner_material>;
 
-val mods as string[] = ["sereneseasons","armorunder"];
+val mods as string[] = ["sereneseasons", "armorunder"];
 for Mods in mods {
     val remove = loadedMods[Mods].items;
     for Remove in remove {
@@ -19,13 +20,7 @@ for Mods in mods {
     }
 }
 
-val fas = <minecraft:flint_and_steel>;
-fas.maxDamage = 4;
-recipes.remove(fas);
-recipes.addShapeless(fas,
-    [<minecraft:cobblestone>,<minecraft:flint>]);
-
-recipes.addShaped(<armorunder:goopak_heat>*4,
+recipes.addShaped(<armorunder:goopak_heat>,
     [[null,<contenttweaker:cloth_string>,null],
      [<contenttweaker:cloth_string>,<armorunder:heating_goo>,<contenttweaker:cloth_string>],
      [null,<contenttweaker:cloth_string>,null]]);
@@ -41,22 +36,22 @@ recipes.addShaped(<armorunder:liner_snips>,
      [null,<ore:ingotIron>]]);
 
 recipes.addShaped(<armorunder:warm_helmet_liner>,
-    [[<armorunder:warm_liner_material>,<armorunder:warm_liner_material>,<armorunder:warm_liner_material>],
-     [<armorunder:warm_liner_material>,null,<armorunder:warm_liner_material>]]);
+    [[warmLiner,warmLiner,warmLiner],
+     [warmLiner,null,warmLiner]]);
 
 recipes.addShaped(<armorunder:warm_chestplate_liner>,
-    [[<armorunder:warm_liner_material>,null,<armorunder:warm_liner_material>],
-     [<armorunder:warm_liner_material>,<armorunder:warm_liner_material>,<armorunder:warm_liner_material>],
-     [<armorunder:warm_liner_material>,<armorunder:warm_liner_material>,<armorunder:warm_liner_material>]]);
+    [[warmLiner,null,warmLiner],
+     [warmLiner,warmLiner,warmLiner],
+     [warmLiner,warmLiner,warmLiner]]);
 
 recipes.addShaped(<armorunder:warm_leggings_liner>,
-    [[<armorunder:warm_liner_material>,<armorunder:warm_liner_material>,<armorunder:warm_liner_material>],
-     [<armorunder:warm_liner_material>,null,<armorunder:warm_liner_material>],
-     [<armorunder:warm_liner_material>,null,<armorunder:warm_liner_material>]]);
+    [[warmLiner,warmLiner,warmLiner],
+     [warmLiner,null,warmLiner],
+     [warmLiner,null,warmLiner]]);
 
 recipes.addShaped(<armorunder:warm_boots_liner>,
-    [[<armorunder:warm_liner_material>,null,<armorunder:warm_liner_material>],
-     [<armorunder:warm_liner_material>,null,<armorunder:warm_liner_material>]]);
+    [[warmLiner,null,warmLiner],
+     [warmLiner,null,warmLiner]]);
 
 recipes.addShaped(<sereneseasons:greenhouse_glass>*4,
     [[<ore:dyeCyan>,<minecraft:glass>,<ore:dyeCyan>],

@@ -6,11 +6,13 @@
 */
 
 #priority 60000
-import scripts.Classes.ModularUtils.ModularUtils;
 
-val ModularUtils as ModularUtils = ModularUtils("Instanced");
 val machine as string = "energy_dismantler";
 
 ModularUtils.itemRecipeBuilder(machine + 0, machine, 2400, 4000,
     [<contenttweaker:shinystar_matter>],
     [<contenttweaker:shinystar_ingot>], true, true).build();
+
+ModularUtils.itemRecipeBuilder(machine + 1, machine, 600, 100,
+    [<minecraft:skull:1>*3, <minecraft:soul_sand>*4, <minecraft:glowstone>*2, <minecraft:ender_pearl>*2, <minecraft:lit_pumpkin>, <botania:manaresource:4>, <botania:rune:8>],
+    [<minecraft:nether_star>], true, true).build();

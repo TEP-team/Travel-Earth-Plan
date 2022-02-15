@@ -1,6 +1,7 @@
 {   
     "registryname": "compiler",
     "localizedname": "modularmachinery.compiler",
+    "activated_sound": "contenttweaker:machine_0",
     "requires-blueprint": false,
     "color": "d9ecea",
     "parts": [

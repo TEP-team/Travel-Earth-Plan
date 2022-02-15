@@ -41,7 +41,6 @@ pressurechamber.addRecipe(
 pressurechamber.addRecipe(
     [<pneumaticcraft:pressure_tube>*8, <pneumaticcraft:plastic:4>*2], 2.0, [<pneumaticcraft:advanced_pressure_tube>*8]);
 
-//contenttweaker
 pressurechamber.addRecipe(
     [<minecraft:glass>,<mekanism:ingot:6>*4], 1.5, [<contenttweaker:cell_empty>]);
 

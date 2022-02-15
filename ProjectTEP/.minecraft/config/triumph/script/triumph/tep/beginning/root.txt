@@ -1,0 +1,15 @@
+setIcon(<minecraft:snow>)
+setPos(0,0)
+
+setTranslatedTitle("advancement.tep.beginning.root")
+setTranslatedDescription("advancement.tep.beginning.root.doc")
+
+setShowToast(true)
+setAnnounceToChat(true)
+
+setCompletedIconColor(#6aff6a)
+setCompletedTitleColor(#00b100)
+setUncompletedIconColor(#a0a0a0)
+setFrameType("CHALLENGE")
+
+addCriteria("location", "minecraft:location")

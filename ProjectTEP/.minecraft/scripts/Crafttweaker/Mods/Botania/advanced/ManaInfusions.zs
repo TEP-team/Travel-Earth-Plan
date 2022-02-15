@@ -9,16 +9,13 @@
 import crafttweaker.item.IIngredient;
 import mods.botania.ManaInfusion;
 
-//remove
 val remove as IIngredient[] = 
 [
     <botania:manabottle>,<botania:manacookie>,<minecraft:wheat_seeds>,
     <minecraft:carrot>,<minecraft:pumpkin_seeds>,<minecraft:melon_seeds>,
     <minecraft:potato>,<minecraft:beetroot_seeds>,<minecraft:dye:3>
 ];
+
 for Remove in remove {
     ManaInfusion.removeRecipe(Remove);
 }
-
-//infusion
-ManaInfusion.addInfusion(<botania:felpumpkin>,<minecraft:pumpkin>,20000);

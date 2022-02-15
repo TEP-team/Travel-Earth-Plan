@@ -1,6 +1,7 @@
 {
     "registryname": "packer",
     "localizedname": "modularmachinery.packer",
+    "activated_sound": "contenttweaker:machine_2",
     "requires-blueprint": false,
     "color": "525252",
     "parts": [

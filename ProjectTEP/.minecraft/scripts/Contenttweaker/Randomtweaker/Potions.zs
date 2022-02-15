@@ -11,19 +11,17 @@ import crafttweaker.text.ITextComponent;
 import mods.contenttweaker.Player;
 import mods.contenttweaker.Commands;
 import mods.randomtweaker.cote.IPotion;
-import scripts.Classes.ContentUtils.ContentUtils;
 
-val CUtils as ContentUtils = ContentUtils("Instanced");
 val map as int[string] = {
 	"fullmoon" : 0xfff5d8,
 	"bloodmoon" : 0x750005
 };
 
 for name, color in map {
-	CUtils.potionBuilder(name, color, true, false).register();
+	ContentUtils.potionBuilder(name, color, true, false).register();
 }
 
-val bleeding = CUtils.potionBuilder("bleeding", 0xB4011E, true, false) as IPotion;
+val bleeding = ContentUtils.potionBuilder("bleeding", 0xB4011E, true, false) as IPotion;
 bleeding.isReady = function(duration, amplifier) {
 	return duration % 60 == 0 ? true : false;
 };
@@ -37,7 +35,7 @@ bleeding.performEffect = function(living, amplifier) {
 }; 
 bleeding.register();
 
-val fractured = CUtils.potionBuilder("fractured", 0xdad4b1, true, false) as IPotion;
+val fractured = ContentUtils.potionBuilder("fractured", 0xdad4b1, true, false) as IPotion;
 fractured.performEffect = function(living, amplifier) {
     val world = living.world;
  	if(!world.remote && living instanceof Player) {

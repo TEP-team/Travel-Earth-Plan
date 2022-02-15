@@ -53,3 +53,5 @@ zenClass ModularUtils {
     }
     
 }
+
+global ModularUtils as ModularUtils = ModularUtils("Instanced");

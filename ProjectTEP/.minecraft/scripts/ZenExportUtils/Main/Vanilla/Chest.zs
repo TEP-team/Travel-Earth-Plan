@@ -12,6 +12,7 @@ import crafttweaker.container.IContainer;
 import crafttweaker.event.PlayerOpenContainerEvent;
 import crafttweaker.event.PlayerCloseContainerEvent;
 import crafttweaker.event.PlayerInteractBlockEvent;
+import mods.zenutils.StringList;
 
 zenClass Chest {
 
@@ -62,30 +63,34 @@ zenClass Chest {
     };
 
     val id as string;
-    var stackInput as IItemStack[] = [];
+    var stackInput as IItemStack[][] = [];
     var stackOutput as IItemStack[] = [];
 
-    function save() {
+    function call() {
+
+        //save
         events.onPlayerCloseContainer(function(event as PlayerCloseContainerEvent) {
             val player = event.player;
             if (!this.ignore(player) && this.isCreative(player)) {
                 val container = event.container;
                 if (this.isChest(container) && this.isDye(player)) {
-                    var input as IItemStack[] = [];
+                    var input as IItemStack[][] = [];
                     var output as IItemStack[] = [];
 
                     //input
                     for key in slotInput {
+                        var items as IItemStack[] = [];
                         for slot in slotInput[key] {
                             val item = container.getStack(slot);
                             if (!isNull(item)) {
-                                input += item;
+                                items += item;
                             } else {
-                                input += null;
+                                items += null;
                             }
-                            this.stackInput = input;
                         }
+                        input += items;
                     }
+                    this.stackInput = input;
 
                     //output
                     for key in slotOutput {
@@ -95,35 +100,50 @@ zenClass Chest {
                         } else {
                             output += null;
                         }
-                        this.stackOutput = output;
                     }
+                    this.stackOutput = output;
 
+                    player.sendMessage("§a§l箱子内物品已保存完毕, 请使用墨囊 §eShift+右键 §a§l导出配方!");
                 }
             }
         });
-    }
 
-    function export() {
+        //export
         events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
             val player = event.player;
             val block = event.block;
             val data = block.data;
             val item = event.item;
             if (!this.ignore(player) && this.isCreative(player) && this.isEventDye(item) && player.isSneaking && this.getBlockID(block) == "minecraft:chest") {
+                val output = this.stackOutput;
+                val input = this.stackInput;
+                var m as int = 0;
 
-                if (!(this.stackOutput has null)) {
-                    player.sendMessage("§a§l导出成功! 请在 §e'crafttweaker.log' §a§l最底部查看代码!");
-                } else {
-                    player.sendMessage("§c§l导出失败: 摆放格式不正确!");
+                for i, out in output {
+                    
+                    if ((!(input[i] has null) && isNull(out)) || ((input[i] has null) && !isNull(out))) {
+                        player.sendMessage("§l导出失败: §c摆放格式不正确!");
+                        Logger.error("An error happened when you exported the recipe(s)!");
+                        break;
+                    }
+                    
+                    else if (((input[i] has null) && isNull(out))) {
+                        return;
+                    }
+                    
+                    else {
+                        val inputs = toString(input[i][0]) ~ ", " ~ toString(input[i][1]) ~ ", " ~ toString(input[i][2]) ~ ", " ~ toString(input[i][3]) ~ ", " ~ toString(input[i][4]) ~ ", " ~ toString(input[i][5]) ~ ", " ~ toString(input[i][6]) ~ ", " ~ toString(input[i][7]) ~ ", " ~ toString(input[i][8]);
+                        print("recipes.addShapeless(" ~ toString(out) ~ ", [" ~ inputs ~ "]);");
+                        m = 1;
+                    }
+
                 }
 
+                if (m == 1) {
+                    player.sendMessage("§l导出成功: §a请在 §e'crafttweaker.log' §a§l最底部查看代码!");
+                }
             }
         });
-    }
-
-    function call() {
-        this.save();
-        this.export();
     }
 
 }

@@ -1,6 +1,7 @@
 {
     "registryname": "fluid_processor",
     "localizedname": "modularmachinery.fluid_processor",
+    "activated_sound": "contenttweaker:machine_1",
     "requires-blueprint": false,
     "color": "cfcfcf",
     "parts": [

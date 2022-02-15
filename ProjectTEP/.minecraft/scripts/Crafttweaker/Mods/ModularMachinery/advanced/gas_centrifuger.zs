@@ -7,9 +7,7 @@
 
 #priority 60000
 import mods.modularmachinery.RecipePrimer;
-import scripts.Classes.ModularUtils.ModularUtils;
 
-val ModularUtils as ModularUtils = ModularUtils("Instanced");
 val machine as string = "gas_centrifuger";
 
 var recipe0 = ModularUtils.fluidRecipeBuilder(machine + 0, machine, 5, 150, [<liquid:fluoride>*5, <liquid:electrolyte>], [<liquid:deuterium>], true, true) as RecipePrimer;

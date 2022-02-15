@@ -7,54 +7,43 @@
 
 #priority 50000
 
-var redstone = <minecraft:redstone>;
+RecipeUtils.recipeCenterCornerSide(<mekanism:controlcircuit>, <mekanism:enrichedalloy>, <mekanism:ingot:1>, <contenttweaker:papers>, true);
+RecipeUtils.recipeCenterCornerSide(<mekanism:controlcircuit:1>, <botania:manaresource>, <mekanism:enrichedalloy>, <mekanism:controlcircuit>, true);
+RecipeUtils.recipeCenterCornerSide(<mekanism:controlcircuit:2>, <botania:manaresource:7>, <mekanism:reinforcedalloy>, <mekanism:controlcircuit:1>, true);
+RecipeUtils.recipeCenterCornerSide(<mekanism:controlcircuit:3>, <botania:manaresource:14>, <mekanism:atomicalloy>, <mekanism:controlcircuit:2>, true);
 
-//add
-recipes.remove(<mekanism:atomicdisassembler>);
-recipes.addShaped(<mekanism:atomicdisassembler>,
+RecipeUtils.recipeCenterCornerTwoSide(<mekanism:machineblock>, <ore:dustRedstone>, <mekanism:controlcircuit>, <mekanism:enrichedalloy>, <mekanism:basicblock:8>, true);
+RecipeUtils.recipeCenterCornerTwoSide(<mekanism:machineblock:3>, <ore:dustRedstone>, <mekanism:controlcircuit>, <appliedenergistics2:grindstone>, <mekanism:basicblock:8>, true);
+RecipeUtils.recipeCenterCornerTwoSide(<mekanism:machineblock:10>, <ore:dustRedstone>, <mekanism:controlcircuit>, <ore:stickIron>, <mekanism:basicblock:8>, true);
+RecipeUtils.recipeCenterCornerTwoSide(<mekanism:machineblock:2>, <ore:ingotSteel>, <mekanism:controlcircuit:1>, <minecraft:piston>, <mekanism:basicblock:8>, true);
+RecipeUtils.recipeCenterCornerTwoSide(<mekanism:machineblock:8>, <ore:ingotSteel>, <mekanism:ingot:1>, <ore:dustRedstone>, <minecraft:furnace>, true);
+RecipeUtils.recipeCenterCornerTwoSide(<mekanism:machineblock2:5>, <ore:ingotSteel>, <mekanism:enrichedalloy>, <contenttweaker:handsaw_wood>, <mekanism:basicblock:8>, true);
+
+RecipeUtils.recipeShaped(<mekanism:atomicdisassembler>,
     [[<mekanism:controlcircuit:3>,<mekanism:energycube>.withTag({tier: 3}),<mekanism:controlcircuit:3>],
      [<mekanism:atomicalloy>,<mekanism:ingot>,<mekanism:atomicalloy>],
-     [null,<mekanism:ingot>,null]]);
+     [null,<mekanism:ingot>,null]], true);
 
-recipes.addShaped(<mekanism:controlcircuit>,
-    [[redstone,<mekanism:ingot:1>.withTag({tier: 3}),redstone],
-     [<mekanism:ingot:1>,<contenttweaker:papers>,<mekanism:ingot:1>],
-     [redstone,<mekanism:ingot:1>,redstone]]);
+RecipeUtils.recipeShaped(<mekanismgenerators:generator>,
+    [[<ore:ingotSteel>,<mekanism:ingot:1>,<ore:ingotSteel>],
+     [<minecraft:iron_bars>,<mekanism:basicblock:8>,<minecraft:iron_bars>],
+     [<ore:dustRedstone>,<minecraft:furnace>,<ore:dustRedstone>]], true);
 
-recipes.remove(<mekanism:controlcircuit:1>);
-recipes.addShaped(<mekanism:controlcircuit:1>,
-    [[<mekanism:energytablet>,<mekanism:enrichedalloy>,<mekanism:energytablet>],
-     [<mekanism:enrichedalloy>,<mekanism:controlcircuit>,<mekanism:enrichedalloy>],
-     [<mekanism:energytablet>,<mekanism:enrichedalloy>,<mekanism:energytablet>]]);
+RecipeUtils.recipeShaped(<mekanismgenerators:solarpanel>,
+    [[<ore:paneGlass>,<ore:paneGlass>,<ore:paneGlass>],
+     [<ore:dustRedstone>,<mekanism:enrichedalloy>,<ore:dustRedstone>],
+     [<mekanism:ingot:1>,<ore:ingotCopper>,<mekanism:ingot:1>]], true);
 
-recipes.remove(<mekanism:controlcircuit:2>);
-recipes.addShaped(<mekanism:controlcircuit:2>,
-    [[<botania:manaresource:2>,<mekanism:reinforcedalloy>,<botania:manaresource:2>],
-     [<mekanism:reinforcedalloy>,<mekanism:controlcircuit:1>,<mekanism:reinforcedalloy>],
-     [<botania:manaresource:2>,<mekanism:reinforcedalloy>,<botania:manaresource:2>]]);
+RecipeUtils.recipeShaped(<mekanismgenerators:generator:1>,
+    [[<mekanismgenerators:solarpanel>,<mekanismgenerators:solarpanel>,<mekanismgenerators:solarpanel>],
+     [<mekanism:enrichedalloy>,<ore:ingotSteel>,<mekanism:enrichedalloy>],
+     [<mekanism:energytablet>,<mekanism:controlcircuit>,<mekanism:energytablet>]], true);
 
-recipes.remove(<mekanism:controlcircuit:3>);
-recipes.addShaped(<mekanism:controlcircuit:3>,
-    [[<botania:manaresource:9>,<mekanism:atomicalloy>,<botania:manaresource:9>],
-     [<mekanism:atomicalloy>,<mekanism:controlcircuit:2>,<mekanism:atomicalloy>],
-     [<botania:manaresource:9>,<mekanism:atomicalloy>,<botania:manaresource:9>]]);
+RecipeUtils.recipeShaped(<mekanism:machineblock2:9>,
+    [[<mekanism:enrichedalloy>,<mekanism:basicblock:8>,<mekanism:enrichedalloy>],
+     [<mekanism:controlcircuit:1>,<minecraft:piston>,<mekanism:controlcircuit:1>],
+     [<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>]], true);
 
-recipes.addShaped(<mekanism:basicblock:6>.withTag({tier: 0}),
-    [[<mekanism:compressedobsidian>,<mekanism:controlcircuit>,<mekanism:compressedobsidian>],
-     [<minecraft:obsidian>,<minecraft:chest>,<minecraft:obsidian>],
-     [<minecraft:cobblestone>,<minecraft:obsidian>,<minecraft:cobblestone>]]);
-
-recipes.addShaped(<mekanism:basicblock:6>.withTag({tier: 1}),
-    [[<botania:manaresource:7>,<mekanism:controlcircuit:1>,<botania:manaresource:7>],
-     [<minecraft:obsidian>,<mekanism:basicblock:6>.withTag({tier: 0}),<minecraft:obsidian>],
-     [<minecraft:cobblestone>,<minecraft:obsidian>,<minecraft:cobblestone>]]);
-
-recipes.addShaped(<mekanism:basicblock:6>.withTag({tier: 2}),
-    [[<botania:manaresource:9>,<mekanism:controlcircuit:2>,<botania:manaresource:9>],
-     [<minecraft:obsidian>,<mekanism:basicblock:6>.withTag({tier: 1}),<minecraft:obsidian>],
-     [<minecraft:cobblestone>,<minecraft:obsidian>,<minecraft:cobblestone>]]);
-
-recipes.addShaped(<mekanism:basicblock:6>.withTag({tier: 3}),
-    [[<botania:manaresource:8>,<mekanism:controlcircuit:3>,<botania:manaresource:8>],
-     [<minecraft:obsidian>,<mekanism:basicblock:6>.withTag({tier: 2}),<minecraft:obsidian>],
-     [<minecraft:cobblestone>,<minecraft:obsidian>,<minecraft:cobblestone>]]);
+RecipeUtils.recipeShaped(<mekanism:machineblock:14>,
+    [[<ore:ingotSteel>,<minecraft:stone_pressure_plate>,<ore:ingotSteel>],
+     [<mekanism:energytablet>,<mekanism:controlcircuit:1>,<mekanism:energytablet>]], true);

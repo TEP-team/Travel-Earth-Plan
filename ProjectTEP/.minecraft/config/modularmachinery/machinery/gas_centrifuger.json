@@ -1,6 +1,7 @@
 {
     "registryname": "gas_centrifuger",
     "localizedname": "modularmachinery.gas_centrifuger",
+    "activated_sound": "contenttweaker:machine_3",
     "requires-blueprint": false,
     "color": "fdf091",
     "parts": [

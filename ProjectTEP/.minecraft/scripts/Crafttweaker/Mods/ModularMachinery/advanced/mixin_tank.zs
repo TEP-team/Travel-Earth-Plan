@@ -7,9 +7,7 @@
 
 #priority 60000
 import mods.modularmachinery.RecipePrimer;
-import scripts.Classes.ModularUtils.ModularUtils;
 
-val ModularUtils as ModularUtils = ModularUtils("Instanced");
 val machine as string = "mixin_tank";
 
 var recipe0 = ModularUtils.fluidRecipeBuilder(machine + 0, machine, 40, 50, [<liquid:sulfuricacid>*10], [<liquid:fluoride>*10], true, true) as RecipePrimer;

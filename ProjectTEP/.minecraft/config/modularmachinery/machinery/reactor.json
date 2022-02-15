@@ -1,6 +1,7 @@
 {
     "registryname": "reactor",
     "localizedname": "modularmachinery.reactor",
+    "activated_sound": "contenttweaker:machine_4",
     "requires-blueprint": false,
     "color": "005117",
     "parts": [

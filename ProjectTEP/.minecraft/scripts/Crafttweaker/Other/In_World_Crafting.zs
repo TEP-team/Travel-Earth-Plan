@@ -8,9 +8,7 @@
 #priority 80000
 import crafttweaker.item.IItemStack;
 import mods.inworldcrafting.FluidToItem;
-import scripts.Classes.BasicUtils.BasicUtils;
 
-val BasicUtils as BasicUtils = BasicUtils("Instanced");
 val Items as IItemStack[][] = BasicUtils.getAllMaterialPartItem();
 val dirtyDust as IItemStack[] = Items[3] + <mekanism:dirtydust:1> + <mekanism:dirtydust:2>;
 val dust as IItemStack[] = Items[2] + <mekanism:dust:1> + <mekanism:dust:2>;

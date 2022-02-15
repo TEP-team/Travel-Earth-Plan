@@ -24,8 +24,8 @@ for Plank in plank.items {
             for input in inputs[0].items {
                 if (log.matches(input)) {
                     recipes.removeByRecipeName(rec.fullResourceDomain);
-                    recipes.addShapeless(rec.output*2, inputs);
-                    recipes.addShapeless(rec.output*4, inputs += handsaw);
+                    RecipeUtils.recipeShapeless(rec.output*2, inputs, false);
+                    RecipeUtils.recipeShapeless(rec.output*4, inputs += handsaw, false);
                 }
             }
         }
@@ -41,47 +41,47 @@ for Pane in pane.items {
             for input in inputs[0][0].items {
                 if (glass.matches(input)) {
                     recipes.removeByRecipeName(rec.fullResourceDomain);
-                    recipes.addShapeless(rec.output*6, [inputs[0][0]]);
+                    RecipeUtils.recipeShapeless(rec.output*6, [inputs[0][0]], false);
                 }
             }
         }
     }
 }
 
-recipes.addShaped(<minecraft:stick>,
+RecipeUtils.recipeShaped(<minecraft:stick>,
     [[<contenttweaker:wood_residue>],
-	 [<contenttweaker:wood_residue>]]);
+	 [<contenttweaker:wood_residue>]], false);
 
-recipes.remove(<minecraft:crafting_table>);
-recipes.addShaped(<minecraft:crafting_table>,
+RecipeUtils.recipeShaped(<minecraft:crafting_table>,
     [[<minecraft:brick_block>,<minecraft:brick_block>],
-	 [<minecraft:brick_block>,<minecraft:brick_block>]]);
+	 [<minecraft:brick_block>,<minecraft:brick_block>]], true);
 
-recipes.remove(<minecraft:furnace>);
-recipes.addShaped(<minecraft:furnace>,
+RecipeUtils.recipeShaped(<minecraft:furnace>,
     [[<ore:cobblestone>,<ore:cobblestone>],
-	 [<ore:cobblestone>,<ore:cobblestone>]]);
+	 [<ore:cobblestone>,<ore:cobblestone>]], true);
 
-recipes.remove(<bonsaitrees:bonsaipot>);
-recipes.addShaped(<bonsaitrees:bonsaipot>,
+RecipeUtils.recipeShaped(<bonsaitrees:bonsaipot>,
     [[iron,null,iron],
-	 [iron,iron,iron]]);
+	 [iron,iron,iron]], true);
 
-recipes.remove(<spiceoflife:bookfoodjournal>);
-recipes.addShapeless(<spiceoflife:bookfoodjournal>,
-    [<minecraft:book>,<minecraft:wheat>]);
-
-recipes.remove(<spiceoflife:lunchbag>);
-recipes.addShaped(<spiceoflife:lunchbag>,
+RecipeUtils.recipeShaped(<spiceoflife:lunchbag>,
     [[null,<contenttweaker:cloth_string>,null],
 	 [<contenttweaker:cloth_string>,<spiceoflife:bookfoodjournal>,<contenttweaker:cloth_string>],
-	 [null,<contenttweaker:cloth_string>,null]]);
+	 [null,<contenttweaker:cloth_string>,null]], true);
 
-recipes.remove(<spiceoflife:lunchbox>);
-recipes.addShaped(<spiceoflife:lunchbox>,
+RecipeUtils.recipeShaped(<spiceoflife:lunchbox>,
     [[null,iron,null],
 	 [iron,<spiceoflife:lunchbag>,iron],
-	 [null,iron,null]]);
+	 [null,iron,null]], true);
 
-recipes.addShapeless(<minecraft:dye:15>*4,
-    [<minecraft:dye:15>,<cropdusting:poop>]);
+RecipeUtils.recipeShapeless(<minecraft:flint_and_steel>,
+    [<minecraft:cobblestone>,<minecraft:flint>], true);
+
+RecipeUtils.recipeShapeless(<spiceoflife:bookfoodjournal>,
+    [<minecraft:book>,<minecraft:wheat>], true);
+
+RecipeUtils.recipeShapeless(<minecraft:blaze_powder>*5,
+    [<minecraft:blaze_rod>], true);
+
+RecipeUtils.recipeShapeless(<minecraft:dye:15>*4,
+    [<minecraft:dye:15>,<cropdusting:poop>], false);

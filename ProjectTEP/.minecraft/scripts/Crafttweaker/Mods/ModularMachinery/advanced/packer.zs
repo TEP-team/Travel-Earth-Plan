@@ -8,13 +8,9 @@
 #priority 60000
 import crafttweaker.item.IItemStack;
 import mods.modularmachinery.RecipePrimer;
-import scripts.Classes.BasicUtils.BasicUtils;
-import scripts.Classes.ModularUtils.ModularUtils;
 
-val ModularUtils as ModularUtils = ModularUtils("Instanced");
-val BasicUtils as BasicUtils = BasicUtils("Instanced");
 val machine as string = "packer";
-val Items = BasicUtils.getAllMaterialPartItem() as IItemStack[][];
+val Items as IItemStack[][] = BasicUtils.getAllMaterialPartItem();
 
 for i, blots in Items[9] {
     ModularUtils.itemRecipeBuilder(machine + 0 + i, machine, 40, 15, [Items[4][i]*4, Items[8][i]], [blots*2], true, true).build();
@@ -45,6 +41,8 @@ ModularUtils.itemRecipeBuilder(machine + 6 + 1, machine, 40, 15, [<pneumaticcraf
 ModularUtils.itemRecipeBuilder(machine + 6 + 2, machine, 480, 50, [<contenttweaker:mini_driver>, <contenttweaker:ram>, <contenttweaker:test_unit>], [<contenttweaker:mediuim_driver>], true, true).build();
 ModularUtils.itemRecipeBuilder(machine + 6 + 3, machine, 600, 50, [<contenttweaker:mediuim_driver>, <contenttweaker:rom>, <contenttweaker:temperature_monitor>], [<contenttweaker:huge_driver>], true, true).build();
 ModularUtils.itemRecipeBuilder(machine + 6 + 4, machine, 200, 20, [<contenttweaker:ram>, <contenttweaker:papers>*8, <contenttweaker:tin_solder_dust>*8], [<contenttweaker:rom>], true, true).build();
+ModularUtils.itemRecipeBuilder(machine + 6 + 5, machine, 40, 15, [<ore:plateIron>.firstItem*4, <ore:stickIron>.firstItem], [<immersiveengineering:material:8>], true, true).build();
+ModularUtils.itemRecipeBuilder(machine + 6 + 6, machine, 40, 15, [<ore:plateSteel>.firstItem*4, <ore:stickSteel>.firstItem], [<immersiveengineering:material:9>], true, true).build();
 
 /*
 ModularUtils.itemRecipeBuilder(machine + 6 + 5, machine, 400, 1200, [<contenttweaker:material_part:58>*4, <contenttweaker:pin>*2, <contenttweaker:huge_driver>], [<contenttweaker:singlechip>], true, true).build();

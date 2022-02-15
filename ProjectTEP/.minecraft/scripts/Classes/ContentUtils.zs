@@ -93,3 +93,5 @@ zenClass ContentUtils {
     }
     
 }
+
+global ContentUtils as ContentUtils = ContentUtils("Instanced");

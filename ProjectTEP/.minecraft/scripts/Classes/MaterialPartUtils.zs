@@ -33,3 +33,5 @@ zenClass MaterialPartUtils {
     }
 
 }
+
+global MaterialPartUtils as MaterialPartUtils = MaterialPartUtils("Instanced");

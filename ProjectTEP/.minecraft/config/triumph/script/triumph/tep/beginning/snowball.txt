@@ -1,0 +1,11 @@
+setIcon(<minecraft:snowball>)
+setPos(0,6)
+
+setTranslatedTitle("advancedment.tep.snowball")
+setTranslatedDescription("advancedment.tep.snowball.doc")
+
+setShowToast(true)
+setAnnounceToChat(false)
+
+criteria = addCriteria("snowball", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:snowball>)

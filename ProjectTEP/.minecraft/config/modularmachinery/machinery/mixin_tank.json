@@ -1,6 +1,7 @@
 {
     "registryname": "mixin_tank",
     "localizedname": "modularmachinery.mixin_tank",
+    "activated_sound": "modularcontroller:machine_activated_steam",
     "requires-blueprint": false,
     "color": "3f4349",
     "parts": [

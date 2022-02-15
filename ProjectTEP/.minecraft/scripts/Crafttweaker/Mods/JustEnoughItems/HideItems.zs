@@ -38,7 +38,8 @@ val hides as IItemStack[] =
     <environmentaltech:void_botanic_miner_cont_5>,<environmentaltech:void_botanic_miner_cont_6>,
     <pneumaticcraft:printed_circuit_board>,<pneumaticcraft:electrostatic_compressor>,
     <pneumaticcraft:compressed_iron_gear>,<pneumaticcraft:amadron_tablet>,
-    <pneumaticcraft:vortex_cannon>,<modularmachinery:itemmodularium>,
+    <pneumaticcraft:vortex_cannon>,<modularmachinery:itemmodularium>
+    /*
     <mekanismgenerators:generator>,<mekanismgenerators:generator:3>,<mekanismgenerators:reactor>,
     <mekanismgenerators:reactor:1>,<mekanismgenerators:reactor:2>,<mekanismgenerators:reactor:3>,
     <mekanismgenerators:reactorglass>,<mekanismgenerators:reactorglass:1>,<mekanismgenerators:generator:10>,
@@ -49,9 +50,9 @@ val hides as IItemStack[] =
     <mekanism:anchorupgrade>,<mekanism:portableteleporter>,<mekanism:flamethrower>,<mekanism:teleportationcore>,
     <mekanism:machineblock2:13>,<mekanism:machineblock2:14>,<mekanism:machineblock2:15>,<mekanism:freerunners>,
     <mekanism:jetpack>,<mekanism:armoredjetpack>,<mekanism:electricbow>
+    */
 ];
 for Hide in hides {
     JEI.removeAndHide(Hide);
     furnace.remove(Hide);
 }
-

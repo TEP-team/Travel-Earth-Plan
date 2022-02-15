@@ -6,9 +6,7 @@
 */
 
 #priority 60000
-import scripts.Classes.ModularUtils.ModularUtils;
 
-val ModularUtils as ModularUtils = ModularUtils("Instanced");
 val machine as string = "compiler";
 
 ModularUtils.itemRecipeBuilder(machine + 0, machine, 800, 750,

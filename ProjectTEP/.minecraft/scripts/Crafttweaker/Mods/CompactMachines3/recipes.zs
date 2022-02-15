@@ -15,7 +15,7 @@ recipes.addShaped(<compactmachines3:fieldprojector>,
      [null,<contenttweaker:conversion_core>,null],
      [iron,iron,iron]]);
 
-recipes.addShaped(<compactmachines3:fieldprojector>,
+recipes.addShaped(<compactmachines3:psd>,
     [[iron,<ore:blockGlass>,iron],
      [<ore:gemLapis>,<contenttweaker:tp_gem>,<ore:dustRedstone>],
      [iron,iron,iron]]);

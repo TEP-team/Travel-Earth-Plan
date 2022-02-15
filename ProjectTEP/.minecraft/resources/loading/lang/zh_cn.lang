@@ -50,13 +50,12 @@ healing.tep.sfail=§c§l治疗失败，你没有骨折！
 dimension.tep.ban=§c§l已禁用下界&末地！
 exe.tep.get=§a§l读取成功！
 exe.tep.clear=§a§l清除成功！
+item.tep.prevent=§c§l此物品禁止使用！
 place.tep.prevent=§c§l此方块禁止在压缩空间内使用！
 logged.tep.send1=§9§l欢迎游玩 §dTravel Earth Plan §9§l服务器！
 logged.tep.send2=§b本服基于 §aMinecraft 1.12.2 §b开发，采用多种魔改技术构建而成.
 logged.tep.send3=§c因服主QQ有时过于繁忙，故 §eBUG §c请尽量提交至 §eGitHub Issues §c.
 logged.tep.send4=§a祝您游戏愉快 :-) ！
-ore.tep.find=在此垂线上发现矿脉！
-ore.tep.no=§c这条垂直线没有任何矿脉.
 
 #Tool Tips
 tooltip.tep.0=§b高度的酸性，锂与硫酸反应的产物.
@@ -89,7 +88,7 @@ tooltip.tep.26=§b目前耐久为零，可直接放入 §6装配室 §b中进行
 tooltip.tep.27=§b它可以食用.
 tooltip.tep.28=§a没错你就是老八的传人！
 tooltip.tep.29=§a右键以查看搭建机器所需材料.
-tooltip.tep.30=§c注意：§e魔法水晶 §c因结构渲染问题未显示.
+tooltip.tep.30=
 tooltip.tep.31=§d不停地闪烁，似乎是某种镶嵌在活石中的宝石？
 tooltip.tep.32=§b电容工具.
 tooltip.tep.33=§b电阻工具.
@@ -98,10 +97,16 @@ tooltip.tep.35=§b帮助你快速组装机械.
 tooltip.tep.36=§d蕴含着地球的神秘力量
 tooltip.tep.37=§d蕴含着天空的神秘力量.
 tooltip.tep.38=§d蕴含着地底的神秘力量.
-tooltip.tep.39=§d蕴含着魔法的神秘力量.
+tooltip.tep.39=§d蕴含着魔力的神秘力量.
 tooltip.tep.40=§d蕴含着机械的神秘力量.
 tooltip.tep.41=§d蕴含着生命的神秘力量.
-tooltip.tep.42=§d蕴含着智慧的神秘力量.
-tooltip.tep.43=§d蕴含着四季的神秘力量.
+tooltip.tep.42=§d蕴含着闪耀的神秘力量.
+tooltip.tep.43=§d蕴含着智慧的神秘力量.
 tooltip.tep.44=§d蕴含着四季的神秘力量.
 tooltip.tep.45=§d掌控世间万物的核心.
+
+#advancements
+advancement.tep.beginning.root=苏醒！
+advancement.tep.beginning.root.doc=你被刺骨的寒风吹醒，望着周围白茫茫的一片，你不知道你在哪......
+advancedment.tep.snowball=就地取雪
+advancedment.tep.snowball.doc=你望向脚下，认为雪中或许会有些有用的东西，并决定徒手弄一些。 [获得雪球]

@@ -14,9 +14,6 @@ import mods.contenttweaker.Player;
 import mods.contenttweaker.ActionResult;
 import mods.ctutils.utils.Math;
 import mods.zenutils.cotx.Item;
-import scripts.Classes.ContentUtils.ContentUtils;
-
-val ContentUtils as ContentUtils = ContentUtils("Instanced");
 
 val item1 = ContentUtils.itemBuilder("tp_gem", "epic", -1, 64, true) as Item;
 item1.itemRightClick = function(stack, world, player, hand) {

@@ -7,9 +7,6 @@
 
 #priority 90000
 #loader contenttweaker
-import scripts.Classes.ContentUtils.ContentUtils;
-
-val ContentUtils as ContentUtils = ContentUtils("Instanced");
 
 ContentUtils.fluidBuilder("electrolyte", "electrolyte_still", "electrolyte_flow", 500, 650).register();
 ContentUtils.fluidBuilder("deuterium", "deuterium_still", "deuterium_flow", 100, 760).register();
