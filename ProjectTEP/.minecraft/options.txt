@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:240
 fboEnable:true
-difficulty:0
+difficulty:1
 fancyGraphics:false
 ao:1
 renderClouds:false
@@ -94,7 +94,6 @@ key_Scene2 start/pause:0
 key_Scene3 start/pause:0
 key_Scene reset:0
 key_Quest Log:0
-key_key.mclib.dashboard:11
 key_key.fart.desc:0
 key_pneumaticcraft.armor.options:22
 key_pneumaticcraft.helmet.hack:68
@@ -154,16 +153,6 @@ key_key.craftingtweaks.decompressStack:0
 key_key.craftingtweaks.decompressAll:0
 key_key.craftingtweaks.refill_last:15
 key_key.craftingtweaks.refill_last_stack:15
-key_emoticons.keys.random:0
-key_emoticons.keys.emote1:79
-key_emoticons.keys.emote2:80
-key_emoticons.keys.emote3:81
-key_emoticons.keys.emote4:75
-key_emoticons.keys.emote5:76
-key_emoticons.keys.emote6:77
-key_emoticons.keys.emotes:12
-key_emoticons.keys.stop_emote:0
-key_emoticons.keys.reload_emotes:0
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:83
 key_waila.keybind.liquid:0
@@ -175,6 +164,8 @@ key_mekanism.key.mode:211
 key_mekanism.key.armorMode:210
 key_mekanism.key.feetMode:199
 key_mekanism.key.voice:0
+key_Mo' Bends Menu:34
+key_Refresh Animations:68
 key_Camera left:203
 key_Camera right:205
 key_Camera closer:26

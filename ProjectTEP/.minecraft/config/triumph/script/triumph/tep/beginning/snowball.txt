@@ -7,5 +7,6 @@ setTranslatedDescription("advancedment.tep.snowball.doc")
 setShowToast(true)
 setAnnounceToChat(false)
 
+addParent("triumph:tep/beginning/root")
 criteria = addCriteria("snowball", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:snowball>)
