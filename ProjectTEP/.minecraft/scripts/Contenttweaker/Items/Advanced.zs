@@ -118,3 +118,15 @@ item5.onItemUseFinish = function(stack, world, entity) {
     return stack;
 };
 item5.register();
+
+val item6 = ContentUtils.itemBuilder("hammer_flint", "uncommon", 11, 1, false) as Item;
+item6.toolClass = "pickaxe";
+item6.toolLevel = 0;
+item6.itemDestroyedBlock = function(stack, world, blockState, pos, entity) {
+    if (!world.remote && entity instanceof Player) {
+        val player as Player = entity;
+        stack.damage(1, player);
+    }
+    return true;
+};
+item6.register();

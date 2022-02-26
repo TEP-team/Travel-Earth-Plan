@@ -8,7 +8,6 @@
 #priority 50000
 import crafttweaker.item.IItemStack;
 
-//remove
 var remove as IItemStack[] = 
 [
     <botania:manaresource:14>,<botania:felpumpkin>,<botania:pylon>,<botania:pylon:1>,
@@ -18,22 +17,25 @@ for Remove in remove {
     recipes.remove(Remove);
 }
 
-//add
-recipes.remove(<botania:fertilizer>);
-recipes.addShapeless(<botania:fertilizer>,
-    [<minecraft:dye:15>,<botania:dye:*>,<botania:dye:*>,<botania:dye:*>,<botania:dye:*>]);
+RecipeUtils.recipeCenterSide(<botania:livingwood:5>*4, <botania:livingwood>, <mekanism:ingot:3>, true);
 
-recipes.addShapeless(<botania:fertilizer>*2,
-    [<botania:fertilizer>,<cropdusting:poop>]);
+RecipeUtils.recipeShapeless(<botania:fertilizer>,
+    [<minecraft:dye:15>,<botania:dye:*>,<botania:dye:*>,<botania:dye:*>,<botania:dye:*>], true);
 
-recipes.remove(<botania:terraplate>);
-recipes.addShaped(<botania:terraplate>,
+RecipeUtils.recipeShapeless(<botania:fertilizer>*2,
+    [<botania:fertilizer>,<cropdusting:poop>], true);
+
+RecipeUtils.recipeShaped(<botania:terraplate>,
     [[<pneumaticcraft:plastic:4>,<botania:manatablet>.withTag({mana: 500000}),<pneumaticcraft:plastic:4>],
      [<botania:storage>,<botania:rune:8>,<botania:storage>],
-     [<pneumaticcraft:plastic:4>,<minecraft:lapis_block>,<pneumaticcraft:plastic:4>]]);
+     [<pneumaticcraft:plastic:4>,<minecraft:lapis_block>,<pneumaticcraft:plastic:4>]], true);
 
-recipes.remove(<botania:alfheimportal>);
-recipes.addShaped(<botania:alfheimportal>,
+RecipeUtils.recipeShaped(<botania:alfheimportal>,
     [[<botania:livingwood>,<botania:manaresource:18>,<botania:livingwood>],
      [<botania:manaresource:18>,<botania:livingwood:5>,<botania:manaresource:18>],
-     [<botania:livingwood>,<botania:manaresource:18>,<botania:livingwood>]]);
+     [<botania:livingwood>,<botania:manaresource:18>,<botania:livingwood>]], true);
+
+RecipeUtils.recipeShaped(<botania:terraplate>,
+    [[<mekanism:compresseddiamond>,<botania:manatablet>.withTag({mana: 500000}),<mekanism:compresseddiamond>],
+     [<botania:storage>,<botania:rune:8>,<botania:storage>],
+     [<pneumaticcraft:plastic:4>,<minecraft:lapis_block>,<pneumaticcraft:plastic:4>]], true);

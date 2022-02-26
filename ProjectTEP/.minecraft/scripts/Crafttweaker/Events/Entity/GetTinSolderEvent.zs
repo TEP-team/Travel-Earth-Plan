@@ -15,22 +15,12 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     if (!player.isFake() && player.isSneaking) {
         val block = event.block;
         val item = event.item;
-        if (block.definition.id == "mekanism:basicblock" && block.meta == 13 && <contenttweaker:electric_iron:*>.matches(item)) {
+        if (BlockHelper.getBlockID(block, true) == "mekanism:basicblock:13" && <contenttweaker:electric_iron:*>.matches(item)) {
             if (!world.remote) {
                 val pos = event.position;
-                val stack = player.currentItem;
+                item.mutable().attemptDamageItem(1);
                 world.setBlockState(<blockstate:minecraft:air>, pos);
                 world.spawnEntity(<contenttweaker:tin_solder_dust>.withAmount(world.random.nextInt(1, 4)).createEntityItem(world, pos.up()));
-                if (!isNull(stack)) {
-                    for k in 0 to 9 {
-                        if (stack.matches(player.getHotbarStack(k))) {
-                            player.replaceItemInInventory(k, stack.withDamage(stack.damage + 1));
-                            if (stack.damage >= 90) {
-                                player.replaceItemInInventory(k, null);
-                            }
-                        }
-                    }
-                }
             } else {
                 player.playSound("entity.generic.explode", 0.5, 1.5);
             }

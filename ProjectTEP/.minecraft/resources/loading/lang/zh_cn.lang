@@ -106,7 +106,7 @@ tooltip.tep.44=§d蕴含着四季的神秘力量.
 tooltip.tep.45=§d掌控世间万物的核心.
 
 #advancements
-advancement.tep.beginning.root=苏醒！
-advancement.tep.beginning.root.doc=你被刺骨的寒风吹醒，望着周围白茫茫的一片，你不知道你在哪......
+advancement.tep.beginning.root=寒冷与希望
+advancement.tep.beginning.root.doc=你被刺骨的寒风吹醒，望着周围白茫茫的一片，你不知道你在哪...... 但你明白，如何在这片寒冷废土上活下去更重要。
 advancedment.tep.snowball=就地取雪
 advancedment.tep.snowball.doc=你望向脚下，认为雪中或许会有些有用的东西，并决定徒手弄一些。 [获得雪球]

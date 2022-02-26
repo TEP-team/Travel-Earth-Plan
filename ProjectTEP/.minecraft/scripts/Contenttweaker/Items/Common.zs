@@ -11,12 +11,7 @@ import mods.zenutils.cotx.Item;
 
 ContentUtils.itemBuilder("conversion_core", "uncommon", -1, 64, true).register();
 ContentUtils.itemBuilder("rainbow_rune", "epic", -1, 64, true).register();
-ContentUtils.itemBuilder("pc", "rare", -1, 1, false).register();
-
-val hammer = ContentUtils.itemBuilder("hammer_flint", "uncommon", 2, 1, false) as Item;
-    hammer.toolClass = "pickaxe";
-    hammer.toolLevel = 0;
-    hammer.register();
+ContentUtils.itemBuilder("pc", "uncommon", -1, 1, false).register();
 
 var epic as string[] = 
 [

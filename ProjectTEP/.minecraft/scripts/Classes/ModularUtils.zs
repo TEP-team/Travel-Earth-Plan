@@ -6,6 +6,7 @@
 */
 
 #priority 100000
+#loader crafttweaker reloadableevents
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import mods.modularmachinery.RecipeBuilder;

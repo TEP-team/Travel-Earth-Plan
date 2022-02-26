@@ -18,5 +18,5 @@ for i, dusts in dust {
         .add(Dropt.rule()
             .matchBlocks([ItemHelper.getItemID(ore[i], true)])
             .addDrop(Dropt.drop()
-                .items([dusts])));
+                .items([dusts], Dropt.range(1, 2))));
 }

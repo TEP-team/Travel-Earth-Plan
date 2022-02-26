@@ -17,7 +17,7 @@ var level5 as IItemStack[] = [];
 var level6 as IItemStack[] = [];
 
 for item in loadedMods["modularmachinery"].items {
-    val id = ItemHelper.getItemID(item, false);
+    val id = ItemHelper.getItemID(item, true);
     if (!(id has "blockcasing")) {
         if (id has "0") level0 += item;
         if (id has "1") level1 += item;
@@ -54,3 +54,23 @@ for i, level in level6 {
 }
 
 RecipeUtils.recipeAround(<modularmachinery:blockcasing>, <ore:plateCopper>, null, true);
+
+RecipeUtils.recipeShaped(<modularmachinery:blockoutputbus>,
+    [[<modularmachinery:blockcasing>,<ore:dustRedstone>,<modularmachinery:blockcasing>],
+     [<ore:dustRedstone>,<minecraft:chest>,<ore:dustRedstone>],
+     [<modularmachinery:blockcasing>,<minecraft:hopper>,<modularmachinery:blockcasing>]], true);
+
+RecipeUtils.recipeShaped(<modularmachinery:blockcontroller>,
+    [[<modularmachinery:blockcasing:4>,<ore:paneGlass>,<modularmachinery:blockcasing:4>],
+     [<modularmachinery:blockcasing:3>,<modularmachinery:blockcasing:5>,<modularmachinery:blockcasing:3>],
+     [<modularmachinery:blockcasing:4>,<mekanism:controlcircuit:1>,<modularmachinery:blockcasing:4>]], true);
+
+RecipeUtils.recipeShaped(<gugu-utils:sparkmanahatch>,
+    [[<modularmachinery:blockcasing>,<botania:spark>,<modularmachinery:blockcasing>],
+     [<mekanism:reinforcedalloy>,<botania:spreader>,<botania:pool>],
+     [<modularmachinery:blockcasing>,<mekanism:reinforcedalloy>,<modularmachinery:blockcasing>]], true);
+
+RecipeUtils.recipeShaped(<gugu-utils:sparkmanahatch:1>,
+    [[<modularmachinery:blockcasing>,<botania:spark>,<modularmachinery:blockcasing>],
+     [<mekanism:reinforcedalloy>,<botania:pool>,<botania:spreader>],
+     [<modularmachinery:blockcasing>,<mekanism:reinforcedalloy>,<modularmachinery:blockcasing>]], true);

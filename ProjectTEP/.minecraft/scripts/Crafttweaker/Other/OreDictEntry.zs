@@ -14,7 +14,7 @@ val remove as IItemStack[][IOreDictEntry] = {
 
     <ore:oreCopper> : [<immersiveengineering:ore>],
 
-    <ore:stickIron> : [<immersiveengineering:metal:1>, <car:iron_stick>],
+    <ore:stickIron> : [<immersiveengineering:material:1>, <car:iron_stick>],
 
     <ore:ingotIron> : [<contenttweaker:material_part:66>],
     <ore:ingotCopper> : [<contenttweaker:material_part:88>, <mekanism:ingot:5>],
@@ -25,7 +25,9 @@ val remove as IItemStack[][IOreDictEntry] = {
     <ore:ingotNickel> : [<contenttweaker:material_part:77>],
     <ore:ingotBronze> : [<variedcommodities:ingot_bronze>],
 
+    <ore:dustIron> : [<immersiveengineering:metal:18>, <mekanism:dust>, <appliedenergistics2:material:49>],
     <ore:dustCopper> : [<immersiveengineering:metal:9>, <mekanism:dust:3>],
+    <ore:dustGold> : [<immersiveengineering:metal:19>, <appliedenergistics2:material:51>],
     <ore:dustTin> : [<mekanism:dust:4>],
     <ore:dustSteel> : [<mekanism:otherdust:1>],
     <ore:dustLead> : [<immersiveengineering:metal:11>, <mekanism:dust:6>],

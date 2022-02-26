@@ -11,5 +11,5 @@ import mods.modularmachinery.RecipePrimer;
 val machine as string = "gas_centrifuger";
 
 var recipe0 = ModularUtils.fluidRecipeBuilder(machine + 0, machine, 5, 150, [<liquid:fluoride>*5, <liquid:electrolyte>], [<liquid:deuterium>], true, true) as RecipePrimer;
-    recipe0.addItemInput(<contenttweaker:material_part:77>);
+    recipe0.addItemInput(<immersiveengineering:metal:14>*2);
     recipe0.build();
