@@ -16,6 +16,10 @@ RecipeUtils.recipeCenterCornerSide(<mekanism:controlcircuit:1>, <botania:manares
 RecipeUtils.recipeCenterCornerSide(<mekanism:controlcircuit:2>, <botania:manaresource:7>, <mekanism:reinforcedalloy>, <mekanism:controlcircuit:1>, true);
 RecipeUtils.recipeCenterCornerSide(<mekanism:controlcircuit:3>, <botania:manaresource:14>, <mekanism:atomicalloy>, <mekanism:controlcircuit:2>, true);
 RecipeUtils.recipeCenterCornerSide(<mekanism:basicblock2:7>, <ore:ingotIron>, <ore:ingotSteel>, <ore:ingotCopper>, true);
+RecipeUtils.recipeCenterCornerSide(<mekanismgenerators:generator:10>*2, <ore:ingotIron>, <ore:ingotSteel>, <ore:ingotIron>, true);
+RecipeUtils.recipeCenterCornerSide(<mekanismgenerators:generator:9>, <ore:ingotSteel>, <immersiveengineering:metal_decoration0:2>, <contenttweaker:super_coil>, true);
+RecipeUtils.recipeCenterCornerSide(<mekanismgenerators:generator:11>, <mekanism:reinforcedalloy>, <mekanismgenerators:generator:10>, <mekanism:controlcircuit:3>, true);
+RecipeUtils.recipeCenterCornerSide(<mekanismgenerators:generator:12>, <ore:ingotSteel>, <mekanismgenerators:generator:10>, <mekanism:transmitter:2>.withTag({tier: 2}), true);
 
 RecipeUtils.recipeCenterCornerTwoSide(<mekanism:mufflingupgrade>, null, <mekanism:enrichedalloy>, <ore:blockGlass>, <minecraft:wool:*>, true);
 RecipeUtils.recipeCenterCornerTwoSide(<mekanism:machineblock:15>, null, <mekanism:enrichedalloy>, <mekanism:transmitter:3>.withTag({tier: 0}), <mekanism:controlcircuit:1>, true);
@@ -32,6 +36,8 @@ RecipeUtils.recipeCenterCornerTwoSide(<mekanism:energycube>.withTag({tier: 0}), 
 RecipeUtils.recipeCenterCornerTwoSide(<mekanism:energycube>.withTag({tier: 1}), <mekanism:enrichedalloy>, <mekanism:energytablet>, <mekanism:controlcircuit:1>, <mekanism:energycube>.withTag({tier: 0}), true);
 RecipeUtils.recipeCenterCornerTwoSide(<mekanism:energycube>.withTag({tier: 2}), <mekanism:reinforcedalloy>, <mekanism:energytablet>, <mekanism:controlcircuit:2>, <mekanism:energycube>.withTag({tier: 1}), true);
 RecipeUtils.recipeCenterCornerTwoSide(<mekanism:energycube>.withTag({tier: 3}), <mekanism:atomicalloy>, <mekanism:energytablet>, <mekanism:controlcircuit:3>, <mekanism:energycube>.withTag({tier: 2}), true);
+RecipeUtils.recipeCenterCornerTwoSide(<mekanism:machineblock2:8>, <mekanism:reinforcedalloy>, <mekanism:controlcircuit:3>, <mekanism:machineblock2:11>.withTag({tier: 2}), <mekanism:basicblock:8>, true);
+RecipeUtils.recipeCenterCornerTwoSide(<mekanismgenerators:generator:13>, <mekanism:enrichedalloy>, <mekanismgenerators:generator:10>, <mekanism:transmitter:2>.withTag({tier: 2}), <mekanism:gastank>.withTag({tier: 1}), true);
 
 recipes.addShapedMirrored(<mekanism:electricbow>,
     [[null,<mekanism:ingot>,<mekanism:transmitter>.withTag({tier: 1})],
@@ -131,6 +137,16 @@ RecipeUtils.recipeShaped(<mekanism:jetpack>,
     [[<mekanism:enrichedalloy>,<mekanism:controlcircuit:1>,<mekanism:enrichedalloy>],
      [<mekanism:enrichedalloy>,<mekanism:gastank>.withTag({tier: 1}),<mekanism:enrichedalloy>],
      [<mekanism:transmitter:2>.withTag({tier: 1}),<mekanism:energytablet>,<mekanism:transmitter:2>.withTag({tier: 1})]], true);
+
+RecipeUtils.recipeShaped(<mekanism:machineblock2:7>,
+    [[<mekanism:atomicalloy>,<minecraft:bucket>,<mekanism:atomicalloy>],
+     [<mekanism:controlcircuit:3>,<mekanism:basicblock:8>,<mekanism:controlcircuit:3>],
+     [<mekanism:atomicalloy>,<mekanism:gastank>.withTag({tier: 2}),<mekanism:atomicalloy>]], true);
+
+RecipeUtils.recipeShaped(<mekanism:machineblock2:6>,
+    [[<mekanism:atomicalloy>,<mekanism:controlcircuit:3>,<mekanism:atomicalloy>],
+     [<mekanism:gastank>.withTag({tier: 2}),<mekanism:basicblock:8>,<mekanism:gastank>.withTag({tier: 2})],
+     [<mekanism:atomicalloy>,<mekanism:machineblock2:11>.withTag({tier: 2}),<mekanism:atomicalloy>]], true);
 
 /*
 RecipeUtils.recipeShaped(,

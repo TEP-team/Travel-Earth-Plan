@@ -18,295 +18,295 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 12,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 12,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 12,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 12,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 12,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 12,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 12,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 12,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 11,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 12,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 11,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 12,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 11,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 12,
-            "elements": [
                 "modularmachinery:blockfluidinputhatch@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockinputbus@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyoutputhatch@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockoutputbus@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -2066,7 +2066,7 @@
             "y": 0,
             "z": 6,
             "elements": [
-                "modularmachinery:blockenergyoutputhatch@7"
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -2234,7 +2234,7 @@
             "y": 0,
             "z": 6,
             "elements": [
-                "modularmachinery:blockoutputbus@6"
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
