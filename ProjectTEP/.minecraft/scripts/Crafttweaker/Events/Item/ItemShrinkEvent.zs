@@ -23,7 +23,7 @@ function itemShrinker(Item as IItemStack[]) {
                     for Items in items {
                         if (Items.matches(item)) {
                             item.mutable().shrink(1);
-                            player.update({"shrink" : 0});
+                            player.update(data + {"shrink" : 0});
                         }
                     }
                 }

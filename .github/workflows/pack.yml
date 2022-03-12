@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 env:
   BUILD: Travel Earth Plan
-  VERSION: Build Edition v
+  VERSION: Build Edition
 
 
 jobs:
@@ -14,11 +14,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Run run/build.sh
-        run: bash run/build.sh
+      - name: Run runner/build.sh
+        run: bash runner/build.sh
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2
         with:
-          name: ${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }}
+          name: ${{ env.BUILD }} - ${{ env.VERSION }} v${{ github.run_number }}
           path: artifacts
