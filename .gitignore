@@ -20,6 +20,7 @@ ProjectTEP/.minecraft/config/AppliedEnergistics2/*
 #blacklist
 ProjectTEP/.minecraft/config/compactmachines3/schemas
 ProjectTEP/.minecraft/config/RTG/biomes/
+ProjectTEP/.minecraft/config/cofh/thermalfoundation/lexicon-whitelist.cfg
 ProjectTEP/.minecraft/config/environmentaltech/multiblocks/void_miner/botanic/tier_5.json
 ProjectTEP/.minecraft/config/environmentaltech/multiblocks/void_miner/botanic/tier_6.json
 ProjectTEP/.minecraft/config/environmentaltech/multiblocks/void_miner/ore/tier_5.json
@@ -32,7 +33,7 @@ ProjectTEP/.minecraft/scripts/.zsrc
 
 #config
 !ProjectTEP/.minecraft/config/AppliedEnergistics2/AppliedEnergistics2.cfg
-!ProjectTEP/.minecraft/config/atomicscience/
+!ProjectTEP/.minecraft/config/cofh/
 !ProjectTEP/.minecraft/config/betteradvancements/
 !ProjectTEP/.minecraft/config/compactmachines3/
 !ProjectTEP/.minecraft/config/dsurround/
@@ -56,7 +57,9 @@ ProjectTEP/.minecraft/scripts/.zsrc
 !ProjectTEP/.minecraft/config/enhancedvisuals.json
 !ProjectTEP/.minecraft/config/fancymenu/config.txt
 !ProjectTEP/.minecraft/config/fancymenu/customization/fancymenu.txt
+!ProjectTEP/.minecraft/config/gugu-utils.cfg
 !ProjectTEP/.minecraft/config/immersiveengineering.cfg
+!ProjectTEP/.minecraft/config/integrateddynamics.cfg
 !ProjectTEP/.minecraft/config/InGameInfo.xml
 !ProjectTEP/.minecraft/config/ingameinfoxml.cfg
 !ProjectTEP/.minecraft/config/littletiles-client.json

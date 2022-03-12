@@ -458,7 +458,7 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "modularmachinery:blockinputbus@3"
+                "modularmachinery:blockfluidoutputhatch@3"
             ]
         },
         {
@@ -546,7 +546,7 @@
             "y": 1,
             "z": 3,
             "elements": [
-                "modularmachinery:blockfluidoutputhatch@3"
+                "modularmachinery:blockinputbus@3"
             ]
         },
         {
