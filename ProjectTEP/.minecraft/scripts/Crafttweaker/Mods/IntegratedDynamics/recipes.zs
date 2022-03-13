@@ -9,14 +9,9 @@
 import crafttweaker.item.IItemStack;
 
 val remove as IItemStack[] = [
-    <appliedenergistics2:material:40>
+    <integrateddynamics:coal_generator>
 ];
 
 for Remove in remove {
     recipes.remove(Remove);
 }
-
-RecipeUtils.recipeShaped(<appliedenergistics2:inscriber>,
-    [[<ore:ingotIron>, <minecraft:sticky_piston>, <ore:ingotIron>],
-     [<botania:manaresource:4>, null, <ore:ingotIron>],
-     [<ore:ingotIron>, <minecraft:sticky_piston>, <ore:ingotIron>]], true);
