@@ -19,10 +19,9 @@ furnace.remove(<simpledifficulty:purified_water_bottle>);
 
 furnace.addRecipe(<minecraft:leather>, <minecraft:rotten_flesh>, 0.1);
 furnace.addRecipe(<contenttweaker:ingot_is>, <contenttweaker:tin_solder_dust>, 1);
-furnace.addRecipe(<contenttweaker:ingot_in>, <contenttweaker:iron_with_nickel>, 1);
-furnace.addRecipe(<contenttweaker:material_part:22>, <contenttweaker:sub_block_holder_0:1>, 1);
+furnace.addRecipe(<contenttweaker:material_part:24>, <contenttweaker:sub_block_holder_0:1>, 1);
 furnace.addRecipe(<contenttweaker:material_part:11>, <contenttweaker:sub_block_holder_0:3>, 1);
-furnace.addRecipe(<contenttweaker:material_part:55>, <contenttweaker:sub_block_holder_0:4>, 1);
+furnace.addRecipe(<contenttweaker:material_part:59>, <contenttweaker:sub_block_holder_0:4>, 1);
 
 for i in 0 to Items[0].length {
     furnace.addRecipe(Items[0][i], Items[2][i], 1); 

@@ -9,6 +9,9 @@
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
 
+//21 --> 2
+//32 --> 4
+//65 --> 6
 val remove as IItemStack[][IOreDictEntry] = {
     <ore:etLaserLens> : [<environmentaltech:laser_lens_crystal>],
 
@@ -16,13 +19,13 @@ val remove as IItemStack[][IOreDictEntry] = {
 
     <ore:stickIron> : [<immersiveengineering:material:1>, <car:iron_stick>],
 
-    <ore:ingotIron> : [<contenttweaker:material_part:66>],
-    <ore:ingotCopper> : [<contenttweaker:material_part:88>, <mekanism:ingot:5>],
-    <ore:ingotTin> : [<contenttweaker:material_part:33>],
+    <ore:ingotIron> : [<contenttweaker:material_part:72>],
+    <ore:ingotCopper> : [<contenttweaker:material_part:94>, <mekanism:ingot:5>],
+    <ore:ingotTin> : [<contenttweaker:material_part:37>],
     <ore:ingotSteel> : [<variedcommodities:ingot_steel>, <mekanism:ingot:4>],
-    <ore:ingotLead> : [<contenttweaker:material_part:44>],
+    <ore:ingotLead> : [<contenttweaker:material_part:48>],
     <ore:ingotSilver> : [<contenttweaker:material_part>],
-    <ore:ingotNickel> : [<contenttweaker:material_part:77>],
+    <ore:ingotNickel> : [<contenttweaker:material_part:83>],
     <ore:ingotBronze> : [<variedcommodities:ingot_bronze>],
 
     <ore:dustIron> : [<immersiveengineering:metal:18>, <mekanism:dust>, <appliedenergistics2:material:49>],

@@ -7,7 +7,6 @@
 
 #priority 90000
 #loader contenttweaker
-import crafttweaker.item.IItemStack;
 import crafttweaker.text.ITextComponent;
 import mods.contenttweaker.Commands;
 import mods.contenttweaker.Player;
@@ -21,16 +20,13 @@ item1.itemRightClick = function(stack, world, player, hand) {
         if (!world.remote) {
             val x = Math.random() * 3000 + player.x;
             val z = Math.random() * 3000 + player.z;
-            player.teleport(Position3f.create(x, 140, z));
-            //Commands.call("tp @p " + x + " 140 " + z, player, world, false, true);
-            //Commands.call("playsound minecraft:block.portal.travel ambient @p ~ ~ ~ 0.8 2", player, world, false, true);
+            Commands.call("tp @p " + x + " 140 " + z, player, world, false, true);
             player.sendRichTextStatusMessage(ITextComponent.fromTranslation("tpgem.tep.tpsuccess"));
             player.update(player.data + {"teleport" : 1});
             player.setCooldown(stack, 2400);
             stack.shrink(1);
-        } else {
-            player.playSound("block.portal.travel", 0.8, 2);
         }
+        player.playSound("block.portal.travel", 0.8, 2);
     }
     return "success";
 };

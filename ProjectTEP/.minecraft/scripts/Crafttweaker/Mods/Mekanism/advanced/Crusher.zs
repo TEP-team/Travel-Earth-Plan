@@ -11,4 +11,3 @@ import mods.mekanism.crusher;
 crusher.removeRecipe(<mekanism:biofuel>);
 
 crusher.addRecipe(<contenttweaker:ingot_is>, <contenttweaker:tin_solder_dust>);
-crusher.addRecipe(<contenttweaker:ingot_in>, <contenttweaker:iron_with_nickel>);

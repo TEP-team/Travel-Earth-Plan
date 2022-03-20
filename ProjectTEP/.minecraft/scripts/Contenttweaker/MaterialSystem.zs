@@ -26,14 +26,14 @@ val parts as string[] = [
 ];
 
 for name, color in materials {
-    var Material = MaterialPartUtils.registeMaterial(name, color);
+    val Material = MaterialPartUtils.registeMaterial(name, color);
     for part in parts {
         val MaterialPart = MaterialPartUtils.registeMaterialPart(Material.getName(), part);
     }
 }
 
-var material as string[] = ["Lithium","Platinum","Graphite"];
-var blocks as string[] = ["ore","block"];
+val material as string[] = ["Lithium","Platinum","Graphite"];
+val blocks as string[] = ["ore","block"];
 for Materials in material {
     for Blocks in blocks {
         var MaterialPart = MaterialPartUtils.registeMaterialPart(Materials, Blocks);

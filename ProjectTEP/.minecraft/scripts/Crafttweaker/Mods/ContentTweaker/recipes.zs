@@ -19,8 +19,8 @@ for i in 0 to Items[0].length {
 }
 
 RecipeUtils.recipeBlock(<contenttweaker:sub_block_holder_0>, <contenttweaker:material_part:11>, false);
-RecipeUtils.recipeBlock(<contenttweaker:sub_block_holder_0:2>, <contenttweaker:material_part:22>, false);
-RecipeUtils.recipeBlock(<contenttweaker:sub_block_holder_0:5>, <contenttweaker:material_part:55>, false);
+RecipeUtils.recipeBlock(<contenttweaker:sub_block_holder_0:2>, <contenttweaker:material_part:24>, false);
+RecipeUtils.recipeBlock(<contenttweaker:sub_block_holder_0:5>, <contenttweaker:material_part:59>, false);
 
 RecipeUtils.recipeCenterCornerSide(<contenttweaker:ft_core>, <modularmachinery:blockcasing:4>, <mekanismgenerators:reactor:1>, <mekanism:controlcircuit:3>, false);
 RecipeUtils.recipeCenterCornerSide(<contenttweaker:structure_block>, <modularmachinery:blockcasing>, <ore:ingotSteel>, <mekanism:basicblock:8>, false);
@@ -61,17 +61,14 @@ RecipeUtils.recipeShaped(<contenttweaker:hammer_plate>,
 	 [<minecraft:stick>,null,null]], false);
 
 RecipeUtils.recipeShaped(<contenttweaker:electric_iron>,
-	[[null,null,<contenttweaker:ingot_in>],
+	[[null,null,<ore:ingotInvar>],
 	 [null,<minecraft:diamond>,null],
 	 [<ore:stickIron>,null,null]], false);
 
-RecipeUtils.recipeShapeless(<contenttweaker:iron_with_nickel>,
-	[<ore:dustIron>,<contenttweaker:material_part:179>], false);
-
 RecipeUtils.recipeShaped(<contenttweaker:pc>,
-	[[<contenttweaker:material_part:143>,<contenttweaker:pcb>,<contenttweaker:material_part:143>],
+	[[<contenttweaker:material_part:78>,<contenttweaker:pcb>,<contenttweaker:material_part:78>],
 	 [<contenttweaker:ram>,<contenttweaker:singlechip>,<contenttweaker:rom>],
-	 [<contenttweaker:material_part:143>,<contenttweaker:cpu>,<contenttweaker:material_part:143>]], false);
+	 [<contenttweaker:material_part:78>,<contenttweaker:cpu>,<contenttweaker:material_part:78>]], false);
 
 RecipeUtils.recipeShaped(<contenttweaker:test_unit>,
 	[[<ore:paneGlass>,null,null],
@@ -87,11 +84,6 @@ RecipeUtils.recipeShaped(<contenttweaker:temperature_monitor>,
 	[[<ore:paneGlass>,null,<mekanism:enrichedalloy>],
 	 [<minecraft:redstone>,null,<mekanism:enrichedalloy>],
 	 [null,<minecraft:dye:4>,<mekanism:enrichedalloy>]], false);
-
-RecipeUtils.recipeShaped(<contenttweaker:ram>,
-	[[<contenttweaker:material_part:149>,<pneumaticcraft:transistor>,<contenttweaker:material_part:149>],
-	 [<pneumaticcraft:capacitor>,<mekanism:controlcircuit:2>,<pneumaticcraft:capacitor>],
-	 [<contenttweaker:material_part:149>,<pneumaticcraft:transistor>,<contenttweaker:material_part:149>]], false);
 
 RecipeUtils.recipeShaped(<contenttweaker:gc_core>*2,
 	[[<contenttweaker:structure_block>,<mekanismgenerators:generator:8>,<contenttweaker:structure_block>],

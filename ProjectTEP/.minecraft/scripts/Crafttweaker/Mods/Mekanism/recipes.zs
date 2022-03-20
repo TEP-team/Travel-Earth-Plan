@@ -9,7 +9,7 @@
 
 RecipeUtils.recipeCenterSide(<mekanism:basicblock2:8>, <mekanism:basicblock2:7>, <mekanism:controlcircuit:3>, true);
 
-RecipeUtils.recipeCenterCornerSide(<mekanism:basicblock2:6>, <contenttweaker:material_part:72>, <contenttweaker:material_part:83>, <mekanismgenerators:generator:10>, true);
+RecipeUtils.recipeCenterCornerSide(<mekanism:basicblock2:6>, <ore:ingotIron>, <ore:ingotNickel>, <mekanismgenerators:generator:10>, true);
 RecipeUtils.recipeCenterCornerSide(<mekanism:controlcircuit>, <mekanism:enrichedalloy>, <mekanism:ingot:1>, <contenttweaker:papers>, true);
 RecipeUtils.recipeCenterCornerSide(<mekanism:controlcircuit:1>, <botania:manaresource>, <mekanism:enrichedalloy>, <mekanism:controlcircuit>, true);
 RecipeUtils.recipeCenterCornerSide(<mekanism:controlcircuit:2>, <botania:manaresource:7>, <mekanism:reinforcedalloy>, <mekanism:controlcircuit:1>, true);

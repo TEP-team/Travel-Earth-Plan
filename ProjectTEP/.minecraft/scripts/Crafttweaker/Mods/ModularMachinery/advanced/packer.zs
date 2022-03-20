@@ -43,6 +43,8 @@ ModularUtils.itemRecipeBuilder(machine + 6 + 3, machine, 600, 50, [<contenttweak
 ModularUtils.itemRecipeBuilder(machine + 6 + 4, machine, 200, 20, [<contenttweaker:ram>, <contenttweaker:papers>*8, <contenttweaker:tin_solder_dust>*8], [<contenttweaker:rom>], true, true).build();
 ModularUtils.itemRecipeBuilder(machine + 6 + 5, machine, 40, 15, [<ore:plateIron>.firstItem*4, <ore:stickIron>.firstItem], [<immersiveengineering:material:8>], true, true).build();
 ModularUtils.itemRecipeBuilder(machine + 6 + 6, machine, 40, 15, [<ore:plateSteel>.firstItem*4, <ore:stickSteel>.firstItem], [<immersiveengineering:material:9>], true, true).build();
+ModularUtils.itemRecipeBuilder(machine + 6 + 7, machine, 200, 25, [<pneumaticcraft:capacitor>*16, <contenttweaker:ingot_is>*2, <mekanism:controlcircuit>, <contenttweaker:cloth_string>*6], [<contenttweaker:capacitance_pack>], true, true).build();
+ModularUtils.itemRecipeBuilder(machine + 6 + 8, machine, 200, 25, [<pneumaticcraft:transistor>*16, <contenttweaker:ingot_is>*2, <mekanism:controlcircuit>, <contenttweaker:cloth_string>*6], [<contenttweaker:resistance_pack>], true, true).build();
 
 /*
 ModularUtils.itemRecipeBuilder(machine + 6 + 5, machine, 400, 1200, [<contenttweaker:material_part:58>*4, <contenttweaker:pin>*2, <contenttweaker:huge_driver>], [<contenttweaker:singlechip>], true, true).build();

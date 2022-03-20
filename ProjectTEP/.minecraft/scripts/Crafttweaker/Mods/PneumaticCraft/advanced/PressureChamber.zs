@@ -48,9 +48,6 @@ pressurechamber.addRecipe(
     [<pneumaticcraft:printed_circuit_board>*2,<pneumaticcraft:plastic>*4,<pneumaticcraft:ingot_iron_compressed>*8], 3.0, [<contenttweaker:cpu>]);
 
 pressurechamber.addRecipe(
-    [<ore:ingotIron>,<contenttweaker:material_part:181>], 1.0, [<contenttweaker:ingot_in>]);
-
-pressurechamber.addRecipe(
     [<contenttweaker:cell_empty>,<pneumaticcraft:air_canister>], 3.0, [<contenttweaker:cell_cold>,<pneumaticcraft:air_canister:30000>]);
 
 pressurechamber.addRecipe(
