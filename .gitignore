@@ -75,6 +75,7 @@ ProjectTEP/.minecraft/scripts/.zsrc
 
 #resources
 !ProjectTEP/.minecraft/resources/contenttweaker/models/item/electric_iron.json
+!ProjectTEP/.minecraft/resources/contenttweaker/models/item/hammer_flint.json
 !ProjectTEP/.minecraft/resources/contenttweaker/models/item/hammer_plate.json
 !ProjectTEP/.minecraft/resources/contenttweaker/models/item/handsaw_wood.json
 

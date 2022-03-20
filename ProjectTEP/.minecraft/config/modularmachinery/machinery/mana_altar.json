@@ -57,9 +57,7 @@
             "x": 1,
             "y": 0,
             "z": 0,
-            "elements": [
-                "modularmachinery:blockoutputbus@2"
-            ]
+            "elements": "item_output"
         },
         {
             "x": -1,
@@ -137,9 +135,7 @@
             "x": 2,
             "y": 0,
             "z": 2,
-            "elements": [
-                "modularmachinery:blockinputbus@2"
-            ]
+            "elements": "item_input"
         },
         {
             "x": 0,
@@ -213,4 +209,5 @@
                 "botania:livingrock@0"
             ]
         }
-    ]}
+    ]
+}

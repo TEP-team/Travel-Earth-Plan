@@ -161,9 +161,7 @@
             "x": 2,
             "y": 1,
             "z": -1,
-            "elements": [
-                "modularmachinery:blockinputbus@3"
-            ]
+            "elements": "item_input"
         },
         {
             "x": -1,
@@ -257,9 +255,7 @@
             "x": -2,
             "y": 1,
             "z": -1,
-            "elements": [
-                "modularmachinery:blockoutputbus@3"
-            ]
+            "elements": "item_output"
         },
         {
             "x": -3,
@@ -321,9 +317,7 @@
             "x": 2,
             "y": 0,
             "z": -1,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@3"
-            ]
+            "elements": "fluid_input"
         },
         {
             "x": -3,
@@ -393,9 +387,7 @@
             "x": -2,
             "y": 0,
             "z": -1,
-            "elements": [
-                "modularmachinery:blockfluidoutputhatch@3"
-            ]
+            "elements": "fluid_output"
         },
         {
             "x": 1,
@@ -557,4 +549,5 @@
                 "immersiveengineering:sheetmetal@2"
             ]
         }
-    ]}
+    ]
+}

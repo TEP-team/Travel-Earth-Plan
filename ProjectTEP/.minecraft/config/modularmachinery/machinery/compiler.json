@@ -81,9 +81,7 @@
             "x": 1,
             "y": 0,
             "z": 1,
-            "elements": [
-                "modularmachinery:blockenergyinputhatch@1"
-            ]
+            "elements": "energy_input"
         },
         {
             "x": 0,
@@ -121,9 +119,7 @@
             "x": -1,
             "y": 1,
             "z": 1,
-            "elements": [
-                "modularmachinery:blockoutputbus@1"
-            ]
+            "elements": "item_output"
         },
         {
             "x": 0,
@@ -161,9 +157,7 @@
             "x": 1,
             "y": 1,
             "z": 1,
-            "elements": [
-                "modularmachinery:blockinputbus@1"
-            ]
+            "elements": "item_input"
         },
         {
             "x": 1,
@@ -221,4 +215,5 @@
                 "immersiveengineering:sheetmetal_slab@1"
             ]
         }
-    ]}
+    ]
+}

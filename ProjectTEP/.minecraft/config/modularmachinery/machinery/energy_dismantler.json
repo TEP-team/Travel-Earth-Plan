@@ -17,9 +17,7 @@
             "x": -1,
             "y": 0,
             "z": 0,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@4"
-            ]
+            "elements": "fluid_output"
         },
         {
             "x": 2,
@@ -65,9 +63,7 @@
             "x": 1,
             "y": 0,
             "z": 0,
-            "elements": [
-                "modularmachinery:blockinputbus@4"
-            ]
+            "elements": "item_output"
         },
         {
             "x": 2,
@@ -1121,25 +1117,19 @@
             "x": -1,
             "y": 1,
             "z": 5,
-            "elements": [
-                "modularmachinery:blockoutputbus@4"
-            ]
+            "elements": "item_input"
         },
         {
             "x": 0,
             "y": 1,
             "z": 5,
-            "elements": [
-                "modularmachinery:blockenergyoutputhatch@4"
-            ]
+            "elements": "energy_input"
         },
         {
             "x": 1,
             "y": 1,
             "z": 5,
-            "elements": [
-                "modularmachinery:blockfluidoutputhatch@4"
-            ]
+            "elements": "fluid_input"
         },
         {
             "x": 2,
@@ -1205,4 +1195,5 @@
                 "contenttweaker:electrolyte@0"
             ]
         }
-    ]}
+    ]
+}

@@ -145,9 +145,7 @@
             "x": 3,
             "y": 0,
             "z": 4,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@3"
-            ]
+            "elements": "fluid_input"
         },
         {
             "x": -2,
@@ -329,9 +327,7 @@
             "x": -3,
             "y": 0,
             "z": 3,
-            "elements": [
-                "modularmachinery:blockfluidoutputhatch@3"
-            ]
+            "elements": "fluid_output"
         },
         {
             "x": -1,
@@ -394,7 +390,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "contenttweaker:gc_bearing@0"
+                "immersiveengineering:sheetmetal@7"
             ]
         },
         {
@@ -441,9 +437,7 @@
             "x": 3,
             "y": 0,
             "z": 3,
-            "elements": [
-                "modularmachinery:blockenergyinputhatch@3"
-            ]
+            "elements": "energy_input"
         },
         {
             "x": -1,
@@ -721,9 +715,7 @@
             "x": 3,
             "y": 0,
             "z": 2,
-            "elements": [
-                "modularmachinery:blockinputbus@3"
-            ]
+            "elements": "item_input"
         },
         {
             "x": -1,
@@ -1197,4 +1189,5 @@
                 "immersiveengineering:sheetmetal@7"
             ]
         }
-    ]}
+    ]
+}

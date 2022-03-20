@@ -6,20 +6,10 @@
     "color": "005117",
     "parts": [
         {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcontroller@2"
-            ]
-        },
-        {
             "x": -1,
             "y": 0,
             "z": 0,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
-            ]
+            "elements": "fluid_input"
         },
         {
             "x": 1,
@@ -38,6 +28,12 @@
             ]
         },
         {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": "item_input"
+        },
+        {
             "x": 2,
             "y": 2,
             "z": 1,
@@ -46,15 +42,15 @@
             ]
         },
         {
-            "x": 1,
+            "x": -3,
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockinputbus@6"
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
-            "x": -3,
+            "x": 2,
             "y": 0,
             "z": 0,
             "elements": [
@@ -70,23 +66,23 @@
             ]
         },
         {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
             "x": 2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 3,
             "y": -1,
             "z": 0,
             "elements": [
@@ -102,7 +98,7 @@
             ]
         },
         {
-            "x": 2,
+            "x": 1,
             "y": -1,
             "z": 0,
             "elements": [
@@ -118,20 +114,10 @@
             ]
         },
         {
-            "x": 1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
             "x": 0,
             "y": -1,
             "z": 0,
-            "elements": [
-                "modularmachinery:blockenergyoutputhatch@7"
-            ]
+            "elements": "energy_output"
         },
         {
             "x": -1,
@@ -142,20 +128,18 @@
             ]
         },
         {
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockoutputbus@6"
-            ]
-        },
-        {
             "x": -1,
             "y": -1,
             "z": 0,
             "elements": [
                 "mekanism:basicblock@10"
             ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": "item_output"
         },
         {
             "x": -2,
@@ -326,6 +310,14 @@
             ]
         },
         {
+            "x": 1,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
             "x": 2,
             "y": 0,
             "z": 12,
@@ -334,7 +326,7 @@
             ]
         },
         {
-            "x": 1,
+            "x": 2,
             "y": -2,
             "z": 11,
             "elements": [
@@ -347,14 +339,6 @@
             "z": 12,
             "elements": [
                 "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 11,
-            "elements": [
-                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -406,17 +390,17 @@
             ]
         },
         {
-            "x": 0,
-            "y": 1,
-            "z": 12,
+            "x": -2,
+            "y": -3,
+            "z": 10,
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
         },
         {
-            "x": -2,
-            "y": -3,
-            "z": 10,
+            "x": 0,
+            "y": 1,
+            "z": 12,
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -454,14 +438,6 @@
             ]
         },
         {
-            "x": 3,
-            "y": 1,
-            "z": 12,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
             "x": 1,
             "y": -3,
             "z": 10,
@@ -470,7 +446,23 @@
             ]
         },
         {
+            "x": 3,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
             "x": 2,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
             "y": -3,
             "z": 10,
             "elements": [
@@ -483,14 +475,6 @@
             "z": 11,
             "elements": [
                 "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": 10,
-            "elements": [
-                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -590,14 +574,6 @@
             ]
         },
         {
-            "x": 4,
-            "y": 1,
-            "z": 11,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
             "x": 2,
             "y": -3,
             "z": 9,
@@ -606,11 +582,27 @@
             ]
         },
         {
+            "x": 4,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
             "x": 3,
             "y": -3,
             "z": 9,
             "elements": [
                 "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -622,14 +614,6 @@
             ]
         },
         {
-            "x": 4,
-            "y": -3,
-            "z": 9,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
             "x": -5,
             "y": 0,
             "z": 10,
@@ -683,14 +667,6 @@
             "z": 11,
             "elements": [
                 "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 9,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
             ]
         },
         {
@@ -775,14 +751,6 @@
         },
         {
             "x": 0,
-            "y": -1,
-            "z": 9,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
-            ]
-        },
-        {
-            "x": 0,
             "y": -3,
             "z": 8,
             "elements": [
@@ -806,19 +774,19 @@
             ]
         },
         {
-            "x": 5,
-            "y": 1,
-            "z": 10,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
             "x": 3,
             "y": -3,
             "z": 8,
             "elements": [
                 "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "mekanism:basicblock@10"
             ]
         },
         {
@@ -863,14 +831,6 @@
         },
         {
             "x": -2,
-            "y": 0,
-            "z": 9,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
-            ]
-        },
-        {
-            "x": -2,
             "y": -2,
             "z": 8,
             "elements": [
@@ -879,26 +839,10 @@
         },
         {
             "x": -1,
-            "y": 0,
-            "z": 9,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
-            ]
-        },
-        {
-            "x": -1,
             "y": -2,
             "z": 8,
             "elements": [
                 "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 9,
-            "elements": [
-                "mekanismgenerators:generator@9"
             ]
         },
         {
@@ -911,22 +855,14 @@
         },
         {
             "x": 1,
-            "y": 0,
-            "z": 9,
+            "y": -2,
+            "z": 8,
             "elements": [
-                "immersiveengineering:sheetmetal@5"
+                "contenttweaker:sub_block_holder_0@2"
             ]
         },
         {
             "x": 2,
-            "y": 0,
-            "z": 9,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
-            ]
-        },
-        {
-            "x": 1,
             "y": -2,
             "z": 8,
             "elements": [
@@ -942,19 +878,11 @@
             ]
         },
         {
-            "x": 3,
-            "y": 0,
-            "z": 9,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
-            ]
-        },
-        {
-            "x": 2,
+            "x": 5,
             "y": -2,
             "z": 8,
             "elements": [
-                "contenttweaker:sub_block_holder_0@2"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -963,14 +891,6 @@
             "z": 9,
             "elements": [
                 "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -2,
-            "z": 8,
-            "elements": [
-                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -1022,14 +942,6 @@
             ]
         },
         {
-            "x": 0,
-            "y": 3,
-            "z": 10,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
             "x": -3,
             "y": -3,
             "z": 7,
@@ -1046,19 +958,11 @@
             ]
         },
         {
-            "x": 1,
+            "x": 0,
             "y": 3,
             "z": 10,
             "elements": [
                 "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 9,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
             ]
         },
         {
@@ -1078,6 +982,14 @@
             ]
         },
         {
+            "x": 1,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
             "x": -1,
             "y": -3,
             "z": 7,
@@ -1110,6 +1022,14 @@
             ]
         },
         {
+            "x": 1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@2"
+            ]
+        },
+        {
             "x": 3,
             "y": 3,
             "z": 10,
@@ -1119,10 +1039,10 @@
         },
         {
             "x": 1,
-            "y": -1,
-            "z": 8,
+            "y": -3,
+            "z": 7,
             "elements": [
-                "contenttweaker:sub_block_holder_0@2"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -1131,14 +1051,6 @@
             "z": 8,
             "elements": [
                 "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -3,
-            "z": 7,
-            "elements": [
-                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -1158,19 +1070,19 @@
             ]
         },
         {
-            "x": 6,
-            "y": 1,
-            "z": 9,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
             "x": 4,
             "y": -3,
             "z": 7,
             "elements": [
                 "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "mekanism:basicblock@10"
             ]
         },
         {
@@ -1206,27 +1118,11 @@
             ]
         },
         {
-            "x": -3,
-            "y": 0,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
-            ]
-        },
-        {
             "x": -2,
             "y": 0,
             "z": 8,
             "elements": [
                 "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 9,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
             ]
         },
         {
@@ -1258,7 +1154,7 @@
             "y": 0,
             "z": 8,
             "elements": [
-                "contenttweaker:sub_block_holder_0@2"
+                "mekanismgenerators:generator@9"
             ]
         },
         {
@@ -1278,14 +1174,6 @@
             ]
         },
         {
-            "x": 2,
-            "y": 0,
-            "z": 8,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
             "x": 1,
             "y": -2,
             "z": 7,
@@ -1294,11 +1182,11 @@
             ]
         },
         {
-            "x": 3,
+            "x": 2,
             "y": 0,
             "z": 8,
             "elements": [
-                "immersiveengineering:sheetmetal@5"
+                "contenttweaker:sub_block_holder_0@2"
             ]
         },
         {
@@ -1315,14 +1203,6 @@
             "z": 9,
             "elements": [
                 "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 6,
-            "y": 0,
-            "z": 8,
-            "elements": [
-                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -1334,6 +1214,14 @@
             ]
         },
         {
+            "x": 6,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
             "x": -6,
             "y": 1,
             "z": 8,
@@ -1398,14 +1286,6 @@
             ]
         },
         {
-            "x": 0,
-            "y": 3,
-            "z": 9,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
             "x": -3,
             "y": -3,
             "z": 6,
@@ -1430,19 +1310,11 @@
             ]
         },
         {
-            "x": 1,
+            "x": 0,
             "y": 3,
             "z": 9,
             "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 8,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -1462,6 +1334,22 @@
             ]
         },
         {
+            "x": 0,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
             "x": -1,
             "y": -3,
             "z": 6,
@@ -1478,19 +1366,19 @@
             ]
         },
         {
-            "x": 2,
-            "y": 3,
-            "z": 9,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
             "x": 1,
             "y": 1,
             "z": 8,
             "elements": [
                 "contenttweaker:sub_block_holder_0@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "mekanism:basicblock@10"
             ]
         },
         {
@@ -1502,11 +1390,11 @@
             ]
         },
         {
-            "x": 3,
-            "y": 3,
-            "z": 9,
+            "x": 1,
+            "y": -1,
+            "z": 7,
             "elements": [
-                "mekanism:basicblock@10"
+                "contenttweaker:working_box@0"
             ]
         },
         {
@@ -1518,11 +1406,27 @@
             ]
         },
         {
+            "x": 3,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
             "x": 1,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
             "y": -1,
             "z": 7,
             "elements": [
-                "contenttweaker:working_box@0"
+                "contenttweaker:sub_block_holder_0@2"
             ]
         },
         {
@@ -1535,22 +1439,6 @@
         },
         {
             "x": 2,
-            "y": -1,
-            "z": 7,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -3,
-            "z": 6,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 2,
             "y": -3,
             "z": 6,
             "elements": [
@@ -1559,6 +1447,14 @@
         },
         {
             "x": 3,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
             "y": -3,
             "z": 6,
             "elements": [
@@ -1571,14 +1467,6 @@
             "z": 8,
             "elements": [
                 "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -3,
-            "z": 6,
-            "elements": [
-                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -1614,27 +1502,11 @@
             ]
         },
         {
-            "x": -3,
-            "y": 0,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
-            ]
-        },
-        {
             "x": -2,
             "y": 2,
             "z": 8,
             "elements": [
                 "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
             ]
         },
         {
@@ -1647,14 +1519,6 @@
         },
         {
             "x": -1,
-            "y": 2,
-            "z": 8,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": 0,
             "y": 2,
             "z": 8,
             "elements": [
@@ -1675,6 +1539,14 @@
             "z": 7,
             "elements": [
                 "contenttweaker:working_box@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@2"
             ]
         },
         {
@@ -1710,14 +1582,6 @@
             ]
         },
         {
-            "x": 2,
-            "y": 2,
-            "z": 8,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
             "x": 1,
             "y": 0,
             "z": 7,
@@ -1727,8 +1591,8 @@
         },
         {
             "x": 2,
-            "y": 0,
-            "z": 7,
+            "y": 2,
+            "z": 8,
             "elements": [
                 "contenttweaker:sub_block_holder_0@2"
             ]
@@ -1742,11 +1606,11 @@
             ]
         },
         {
-            "x": 3,
+            "x": 2,
             "y": 0,
             "z": 7,
             "elements": [
-                "immersiveengineering:sheetmetal@5"
+                "contenttweaker:sub_block_holder_0@2"
             ]
         },
         {
@@ -1766,25 +1630,17 @@
             ]
         },
         {
-            "x": 3,
+            "x": 5,
             "y": -2,
             "z": 6,
             "elements": [
-                "immersiveengineering:sheetmetal@5"
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
             "x": 6,
             "y": 0,
             "z": 7,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -2,
-            "z": 6,
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1838,14 +1694,6 @@
             ]
         },
         {
-            "x": -3,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
-            ]
-        },
-        {
             "x": -2,
             "y": 1,
             "z": 7,
@@ -1859,14 +1707,6 @@
             "z": 8,
             "elements": [
                 "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 8,
-            "elements": [
-                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -1887,6 +1727,38 @@
         },
         {
             "x": -1,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:working_box@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:working_box@0"
+            ]
+        },
+        {
+            "x": 0,
             "y": 1,
             "z": 7,
             "elements": [
@@ -1899,30 +1771,6 @@
             "z": 8,
             "elements": [
                 "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 7,
-            "elements": [
-                "contenttweaker:working_box@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -3,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "contenttweaker:working_box@0"
             ]
         },
         {
@@ -1942,19 +1790,19 @@
             ]
         },
         {
-            "x": 2,
-            "y": 3,
-            "z": 8,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
             "x": 1,
             "y": 1,
             "z": 7,
             "elements": [
                 "contenttweaker:working_box@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -1966,22 +1814,6 @@
             ]
         },
         {
-            "x": 3,
-            "y": 3,
-            "z": 8,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 7,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
             "x": 1,
             "y": -1,
             "z": 6,
@@ -1990,19 +1822,19 @@
             ]
         },
         {
-            "x": 4,
-            "y": 3,
-            "z": 8,
+            "x": 2,
+            "y": 1,
+            "z": 7,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "contenttweaker:sub_block_holder_0@2"
             ]
         },
         {
-            "x": 2,
-            "y": -1,
-            "z": 6,
+            "x": 3,
+            "y": 3,
+            "z": 8,
             "elements": [
-                "contenttweaker:sub_block_holder_0@2"
+                "mekanism:basicblock@10"
             ]
         },
         {
@@ -2014,11 +1846,19 @@
             ]
         },
         {
-            "x": 3,
+            "x": 2,
             "y": -1,
             "z": 6,
             "elements": [
-                "immersiveengineering:sheetmetal@5"
+                "contenttweaker:sub_block_holder_0@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -2038,19 +1878,19 @@
             ]
         },
         {
-            "x": 6,
-            "y": 1,
-            "z": 7,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
             "x": 4,
             "y": -3,
             "z": 5,
             "elements": [
                 "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "mekanism:basicblock@10"
             ]
         },
         {
@@ -2086,7 +1926,15 @@
             ]
         },
         {
-            "x": -3,
+            "x": -2,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@2"
+            ]
+        },
+        {
+            "x": -2,
             "y": 0,
             "z": 6,
             "elements": [
@@ -2094,35 +1942,11 @@
             ]
         },
         {
-            "x": -2,
-            "y": 2,
-            "z": 7,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
             "x": -1,
             "y": 2,
             "z": 7,
             "elements": [
                 "contenttweaker:working_box@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 7,
-            "elements": [
-                "contenttweaker:ft_core@0"
             ]
         },
         {
@@ -2139,6 +1963,14 @@
             "z": 6,
             "elements": [
                 "contenttweaker:working_box@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:ft_core@0"
             ]
         },
         {
@@ -2171,14 +2003,6 @@
             "z": 5,
             "elements": [
                 "contenttweaker:ft_core@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 7,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
             ]
         },
         {
@@ -2191,8 +2015,8 @@
         },
         {
             "x": 2,
-            "y": 0,
-            "z": 6,
+            "y": 2,
+            "z": 7,
             "elements": [
                 "contenttweaker:sub_block_holder_0@2"
             ]
@@ -2206,7 +2030,7 @@
             ]
         },
         {
-            "x": 3,
+            "x": 2,
             "y": 0,
             "z": 6,
             "elements": [
@@ -2230,14 +2054,6 @@
             ]
         },
         {
-            "x": 6,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
             "x": 5,
             "y": -2,
             "z": 5,
@@ -2246,6 +2062,14 @@
             ]
         },
         {
+            "x": 6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
             "x": -6,
             "y": 1,
             "z": 6,
@@ -2278,14 +2102,6 @@
             ]
         },
         {
-            "x": -3,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
-            ]
-        },
-        {
             "x": -2,
             "y": 3,
             "z": 7,
@@ -2315,14 +2131,6 @@
             "z": 7,
             "elements": [
                 "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 7,
-            "elements": [
-                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -2350,11 +2158,27 @@
             ]
         },
         {
-            "x": 1,
+            "x": 0,
             "y": 3,
             "z": 7,
             "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 4,
+            "elements": [
                 "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:working_box@0"
             ]
         },
         {
@@ -2366,19 +2190,11 @@
             ]
         },
         {
-            "x": -2,
-            "y": -3,
-            "z": 4,
+            "x": 1,
+            "y": 3,
+            "z": 7,
             "elements": [
                 "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "contenttweaker:working_box@0"
             ]
         },
         {
@@ -2393,6 +2209,14 @@
             "x": 0,
             "y": -1,
             "z": 5,
+            "elements": [
+                "contenttweaker:working_box@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
             "elements": [
                 "contenttweaker:working_box@0"
             ]
@@ -2406,19 +2230,27 @@
             ]
         },
         {
-            "x": 1,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "contenttweaker:working_box@0"
-            ]
-        },
-        {
             "x": 0,
             "y": -3,
             "z": 4,
             "elements": [
                 "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:working_box@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@2"
             ]
         },
         {
@@ -2430,19 +2262,19 @@
             ]
         },
         {
-            "x": 2,
-            "y": 1,
-            "z": 6,
+            "x": 1,
+            "y": -3,
+            "z": 4,
             "elements": [
-                "contenttweaker:sub_block_holder_0@2"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
-            "x": 1,
+            "x": 2,
             "y": -1,
             "z": 5,
             "elements": [
-                "contenttweaker:working_box@0"
+                "contenttweaker:sub_block_holder_0@2"
             ]
         },
         {
@@ -2454,30 +2286,6 @@
             ]
         },
         {
-            "x": 3,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -3,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
             "x": 2,
             "y": -3,
             "z": 4,
@@ -2491,20 +2299,20 @@
             "z": 4,
             "elements": [
                 "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 6,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "modularmachinery:blockcasing@4"
             ]
         },
         {
             "x": 4,
             "y": -3,
             "z": 4,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 6,
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -2542,22 +2350,6 @@
             ]
         },
         {
-            "x": -3,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
-            ]
-        },
-        {
             "x": -2,
             "y": 2,
             "z": 6,
@@ -2579,6 +2371,22 @@
             "z": 6,
             "elements": [
                 "contenttweaker:ft_core@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:working_box@0"
             ]
         },
         {
@@ -2590,22 +2398,6 @@
             ]
         },
         {
-            "x": -2,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "contenttweaker:working_box@0"
-            ]
-        },
-        {
             "x": -1,
             "y": -2,
             "z": 4,
@@ -2638,14 +2430,6 @@
             ]
         },
         {
-            "x": 2,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
             "x": 1,
             "y": 0,
             "z": 5,
@@ -2654,17 +2438,9 @@
             ]
         },
         {
-            "x": 3,
+            "x": 2,
             "y": 2,
             "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 5,
             "elements": [
                 "contenttweaker:sub_block_holder_0@2"
             ]
@@ -2678,11 +2454,11 @@
             ]
         },
         {
-            "x": 3,
+            "x": 2,
             "y": 0,
             "z": 5,
             "elements": [
-                "immersiveengineering:sheetmetal@5"
+                "contenttweaker:sub_block_holder_0@2"
             ]
         },
         {
@@ -2697,14 +2473,6 @@
             "x": 5,
             "y": 2,
             "z": 6,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 6,
-            "y": 0,
-            "z": 5,
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -2715,6 +2483,14 @@
             "z": 4,
             "elements": [
                 "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -2782,14 +2558,6 @@
             ]
         },
         {
-            "x": 0,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
             "x": -3,
             "y": -3,
             "z": 3,
@@ -2814,19 +2582,11 @@
             ]
         },
         {
-            "x": 1,
+            "x": 0,
             "y": 3,
             "z": 6,
             "elements": [
                 "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "contenttweaker:working_box@0"
             ]
         },
         {
@@ -2846,6 +2606,22 @@
             ]
         },
         {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:working_box@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
             "x": -1,
             "y": -3,
             "z": 3,
@@ -2862,19 +2638,19 @@
             ]
         },
         {
-            "x": 2,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
             "x": 1,
             "y": 1,
             "z": 5,
             "elements": [
                 "contenttweaker:working_box@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -2886,11 +2662,11 @@
             ]
         },
         {
-            "x": 3,
-            "y": 3,
-            "z": 6,
+            "x": 1,
+            "y": -1,
+            "z": 4,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "contenttweaker:sub_block_holder_0@2"
             ]
         },
         {
@@ -2902,7 +2678,23 @@
             ]
         },
         {
+            "x": 3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
             "x": 1,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 2,
             "y": -1,
             "z": 4,
             "elements": [
@@ -2919,22 +2711,6 @@
         },
         {
             "x": 2,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 2,
             "y": -3,
             "z": 3,
             "elements": [
@@ -2947,6 +2723,14 @@
             "z": 3,
             "elements": [
                 "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -2955,14 +2739,6 @@
             "z": 5,
             "elements": [
                 "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -2998,14 +2774,6 @@
             ]
         },
         {
-            "x": -3,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
-            ]
-        },
-        {
             "x": -2,
             "y": 2,
             "z": 5,
@@ -3027,6 +2795,14 @@
             "z": 5,
             "elements": [
                 "contenttweaker:working_box@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@2"
             ]
         },
         {
@@ -3038,369 +2814,9 @@
             ]
         },
         {
-            "x": -1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
             "x": 0,
             "y": 0,
             "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "contenttweaker:working_box@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 6,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -6,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": -6,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 6,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 6,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": -6,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -5,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 3,
             "elements": [
                 "mekanismgenerators:generator@9"
             ]
@@ -3408,6 +2824,310 @@
         {
             "x": 1,
             "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:working_box@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
             "z": 4,
             "elements": [
                 "contenttweaker:sub_block_holder_0@2"
@@ -3419,22 +3139,6 @@
             "z": 4,
             "elements": [
                 "contenttweaker:sub_block_holder_0@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
             ]
         },
         {
@@ -3526,14 +3230,6 @@
             ]
         },
         {
-            "x": 0,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
-            ]
-        },
-        {
             "x": 2,
             "y": 3,
             "z": 4,
@@ -3558,17 +3254,17 @@
             ]
         },
         {
-            "x": 6,
-            "y": 1,
-            "z": 3,
+            "x": 5,
+            "y": -1,
+            "z": 2,
             "elements": [
                 "mekanism:basicblock@10"
             ]
         },
         {
-            "x": 5,
-            "y": -1,
-            "z": 2,
+            "x": 6,
+            "y": 1,
+            "z": 3,
             "elements": [
                 "mekanism:basicblock@10"
             ]
@@ -3595,14 +3291,6 @@
             "z": 1,
             "elements": [
                 "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@5"
             ]
         },
         {
@@ -3646,19 +3334,19 @@
             ]
         },
         {
-            "x": 5,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
             "x": 3,
             "y": -2,
             "z": 1,
             "elements": [
                 "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@10"
             ]
         },
         {
@@ -3750,17 +3438,17 @@
             ]
         },
         {
-            "x": 5,
-            "y": 1,
-            "z": 2,
+            "x": 4,
+            "y": -1,
+            "z": 1,
             "elements": [
                 "mekanism:basicblock@10"
             ]
         },
         {
-            "x": 4,
-            "y": -1,
-            "z": 1,
+            "x": 5,
+            "y": 1,
+            "z": 2,
             "elements": [
                 "mekanism:basicblock@10"
             ]
@@ -3901,4 +3589,5 @@
                 "modularmachinery:blockcasing@4"
             ]
         }
-    ]}
+    ]
+}

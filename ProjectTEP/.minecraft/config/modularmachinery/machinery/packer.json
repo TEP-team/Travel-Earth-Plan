@@ -17,9 +17,7 @@
             "x": -2,
             "y": 0,
             "z": 2,
-            "elements": [
-                "modularmachinery:blockoutputbus@3"
-            ]
+            "elements": "item_output"
         },
         {
             "x": -1,
@@ -113,17 +111,13 @@
             "x": 2,
             "y": 0,
             "z": 2,
-            "elements": [
-                "modularmachinery:blockinputbus@3"
-            ]
+            "elements": "item_input"
         },
         {
             "x": 0,
             "y": 0,
             "z": 4,
-            "elements": [
-                "modularmachinery:blockenergyinputhatch@3"
-            ]
+            "elements": "energy_input"
         },
         {
             "x": 1,
@@ -685,4 +679,5 @@
                 "contenttweaker:structure_block@0"
             ]
         }
-    ]}
+    ]
+}

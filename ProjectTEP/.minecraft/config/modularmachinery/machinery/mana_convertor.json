@@ -152,9 +152,7 @@
             "x": 2,
             "y": 0,
             "z": 2,
-            "elements": [
-                "modularmachinery:blockenergyinputhatch@2"
-            ]
+            "elements": "energy_input"
         },
         {
             "x": 0,
@@ -276,4 +274,5 @@
                 "botania:livingrock0slab@0"
             ]
         }
-    ]}
+    ]
+}
