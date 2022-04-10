@@ -1,40 +1,24 @@
 #Custom Tips for TEP
-tip.tep.1=哎嘿嘿嘿，寄汤来咯 ||ヽ(*￣▽￣*)ノミ|Ю ~
-tip.tep.2=TEP是芙蓉起的名字！
-tip.tep.3=TEP在早期是个战争服！
-tip.tep.4=芙蓉，yyds！
-tip.tep.5=暗夜，yyds！
-tip.tep.6=仰望，yyds！
-tip.tep.7=小知识：䵫(yue)
-tip.tep.8=小知识：䡳(si)
-tip.tep.9=小知识：彳亍(chi chu)
-tip.tep.10=我焯，快看电脑前那位，他/她竟然在玩TEP！
-tip.tep.11=你tm就会盯着我看是吧
-tip.tep.12=tnnd，你为什么还没进游戏？
+tip.tep.1=当你看到这句话，说明这条文本已经成功被本地化.
+tip.tep.2=你以为TEP是个冒险包? 其实是个科魔包！
+tip.tep.3=你以为TEP耗时一年完成，实际上团队成员大部分时间都在上学！
+tip.tep.4=搭建温室以种植植物.
+tip.tep.5=开局先干啥? 反正开局不撸树！
+tip.tep.6=控制好你的压力机器，别让它们炸了！
+tip.tep.7=随身携带一个水壶或许是个不错的选择.
+tip.tep.8=使用动态联合模组搭建网络系统，更好地帮助你完成自动化产线.
+tip.tep.9=探矿仪可以帮助你探测周围地下的矿物资源.
+tip.tep.10=TEP加入了骨折和流血机制，请不要过于冲动.
+tip.tep.11=无限暖贴可以提供无限的温暖效果.
+tip.tep.12=集齐9种核心以唤醒逝去的一切.
 tip.tep.13=你可以制造 "虚空矿物采掘机" 以省去挖矿的时间.
 tip.tep.14=如果键位感到不适，可以进行自行调整.
 tip.tep.15=传送石只允许在主世界使用！
 tip.tep.16=你可以使用环境科技中的机器来获取需要的资源.
 tip.tep.17=为植物魔法中的工具充能，你可以在魔力池上放置一个基座！
 tip.tep.18=尝试架设一个烤架在篝火上，烤一些肉吃！
-tip.tep.19="求生者指南" 中包含了许多的求生与科学知识.
+tip.tep.19="求生者指南" 中包含了本包的游玩教程.
 tip.tep.20=你可以使用精灵门来跟精灵们进行一些特殊的交易.
-
-#Patchouli
-tep.patchouli.title=求生者指南
-tep.patchouli.landing_text=这本书总结了科技，魔法等等相关的知识，并且它将引导求生者们如何在这片寒冷废土上活下去...
-tep.patchouli.subtitle=Made By Dark2932
-
-#Custom Main Menu for TEP
-menu.tep.ctserver=加入服务器
-menu.tep.options=选项设置
-menu.tep.mods=模组设置
-menu.tep.settings=视频设置
-menu.tep.languages=语言设置
-menu.tep.links=链接区
-menu.tep.back=返回
-menu.tep.quit=退出游戏
-link.tep.afdian=爱发电
 
 #Localization
 tpgem.tep.tpsuccess=§a§l随机传送成功！
@@ -52,16 +36,16 @@ exe.tep.get=§a§l读取成功！
 exe.tep.clear=§a§l清除成功！
 item.tep.prevent=§c§l此物品禁止使用！
 place.tep.prevent=§c§l此方块禁止在压缩空间内使用！
-logged.tep.send1=§9§l欢迎游玩 §dTravel Earth Plan §9§l！
-logged.tep.send2=§b本服基于 §aMinecraft 1.12.2 §b开发，采用多种魔改技术构建而成.
-logged.tep.send3=§c因服主QQ有时过于繁忙，故 §eBUG §c请尽量提交至 §eGitHub Issues §c.
+logged.tep.send1=§9§l欢迎游玩 §dTravel Earth Plan §9§l 整合包/服务器！
+logged.tep.send2=§bTEP基于 §aMinecraft 1.12.2 §b开发，由 §aTEP-team §b主持开发.
+logged.tep.send3=§c如遇到BUG，请尽量提交至 §eGitHub Issues §c.
 logged.tep.send4=§a祝您游戏愉快 :-) ！
 
 #Tool Tips
 tooltip.tep.0=§b高度的酸性，锂与硫酸反应的产物.
-tooltip.tep.1=§b简易小锤子.
-tooltip.tep.2=§c只有3格耐久！
-tooltip.tep.3=§b一把锯子.
+tooltip.tep.1=§b简易小锤子，能砸碎石头.
+tooltip.tep.2=§c耐久极低，不适合作为长期工具！
+tooltip.tep.3=§b一把锯子，比徒手拆木头效率高多了.
 tooltip.tep.4=§6闪烁迷离，震荡不定.
 tooltip.tep.5=§6无穷无尽，璀璨耀眼.
 tooltip.tep.6=§b程序代码与红石构成的高级芯片.
@@ -81,7 +65,7 @@ tooltip.tep.19=§c骨折时才可以使用！
 tooltip.tep.20=§a长按以恢复 §e3 §a点生命值！
 tooltip.tep.21=§d闪烁着迷人的色彩.
 tooltip.tep.22=§d拿在手中即可生效.
-tooltip.tep.23=§b一把锻造锤.
+tooltip.tep.23=§b锻造锤，可以打造金属板.
 tooltip.tep.24=§b扔到 §e蚀刻酸 §b中或与 §e蚀刻酸桶 §b在 §6压力室 §b中进行蚀刻.
 tooltip.tep.25=§b目前耐久不满，请在 §e紫外光灯线 §b中进行紫外线照射！
 tooltip.tep.26=§b目前耐久为零，可直接放入 §6装配室 §b中进行激光印刷！
@@ -94,7 +78,7 @@ tooltip.tep.32=§b电容工具.
 tooltip.tep.33=§b电阻工具.
 tooltip.tep.34=§b纳米工具.
 tooltip.tep.35=§b帮助你快速组装机械.
-tooltip.tep.36=§d蕴含着地球的神秘力量
+tooltip.tep.36=§d蕴含着地球的神秘力量.
 tooltip.tep.37=§d蕴含着天空的神秘力量.
 tooltip.tep.38=§d蕴含着地底的神秘力量.
 tooltip.tep.39=§d蕴含着魔力的神秘力量.
@@ -105,8 +89,13 @@ tooltip.tep.43=§d蕴含着智慧的神秘力量.
 tooltip.tep.44=§d蕴含着四季的神秘力量.
 tooltip.tep.45=§d掌控世间万物的核心.
 
+#Patchouli
+tep.patchouli.title=求生者指南
+tep.patchouli.landing_text=这本书总结了科技，魔法等等相关的知识，并且它将引导求生者们如何在这片寒冷废土上活下去...
+tep.patchouli.subtitle=Made By Dark2932
+
 #advancements
-advancement.tep.beginning.root=寒冷与希望
+advancement.tep.beginning.root=Welcome to TEP !
 advancement.tep.beginning.root.doc=你被刺骨的寒风吹醒，望着周围白茫茫的一片，你不知道你在哪...... 但你明白，如何在这片寒冷废土上活下去更重要。
 advancedment.tep.snowball=就地取雪
 advancedment.tep.snowball.doc=你望向脚下，认为雪中或许会有些有用的东西，并决定徒手弄一些。 [获得雪球]

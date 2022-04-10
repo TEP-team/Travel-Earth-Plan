@@ -71,10 +71,10 @@ recipeContronller("mana_convertor", <mekanism:controlcircuit:3>, <botania:rfgene
 recipeContronller("mana_altar", <botania:manaresource:4>, <botania:rune:8>);
 recipeContronller("reactor", <mekanism:controlcircuit:3>, <mekanism:atomicalloy>);
 
-RecipeUtils.recipeCenterCornerSide(<modularmachinery:blockcasing:1>, <modularmachinery:blockcasing>, <minecraft:iron_bars>, <pneumaticcraft:heat_sink>, false);
-RecipeUtils.recipeCenterCornerSide(<modularmachinery:blockcasing:5>, <modularmachinery:blockcasing>, <ore:dustRedstone>, <mekanism:controlcircuit>, false);
-RecipeUtils.recipeCenterCornerSide(<modularmachinery:blockcasing:2>, <modularmachinery:blockcasing>, <immersiveengineering:material:6>, <immersiveengineering:material:17>, false);
-RecipeUtils.recipeCenterCornerSide(<modularmachinery:blockcasing:3>, <modularmachinery:blockcasing>, <immersiveengineering:material:9>, <pneumaticcraft:compressed_iron_gear>, false);
+RecipeUtils.recipeCenterCornerSide(<modularmachinery:blockcasing:1>*2, <modularmachinery:blockcasing>, <minecraft:iron_bars>, <pneumaticcraft:heat_sink>, true);
+RecipeUtils.recipeCenterCornerSide(<modularmachinery:blockcasing:5>*2, <modularmachinery:blockcasing>, <ore:dustRedstone>, <mekanism:controlcircuit>, true);
+RecipeUtils.recipeCenterCornerSide(<modularmachinery:blockcasing:2>*2, <modularmachinery:blockcasing>, <immersiveengineering:material:6>, <immersiveengineering:material:17>, true);
+RecipeUtils.recipeCenterCornerSide(<modularmachinery:blockcasing:3>*2, <modularmachinery:blockcasing>, <immersiveengineering:material:9>, <pneumaticcraft:compressed_iron_gear>, true);
 RecipeUtils.recipeCenterCornerSide(<modularmachinery:blockcasing:4>*4, <modularmachinery:blockcasing>, <ore:ingotSteel>, <mekanism:basicblock:8>, true);
 
 RecipeUtils.recipeAround(<modularmachinery:blockcasing>, <ore:plateCopper>, null, true);

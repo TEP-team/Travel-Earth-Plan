@@ -22,17 +22,34 @@ zenClass BasicUtils {
     }
 
     function getAllMaterialPartItem() as IItemStack[][] {
-        var m = 0 as int;
+        var meta as int = 0;
         var Items = [[],[],[],[],[],[],[],[],[],[],[]] as IItemStack[][];
-        for i in 0 to 11 {
+        for part in 0 to 11 {
             var item = [] as IItemStack[];
-            for k in 0 to 9 {
-                item += <contenttweaker:material_part>.definition.makeStack(m);
-                m += 11;
+            for material in 0 to 9 {
+
+                item += <contenttweaker:material_part>.definition.makeStack(meta);
+                meta += 11;
+
+                //fix meta
+                if (material == 1) {
+                    meta += 2;
+                }
+                if (material == 2) {
+                    meta += 2;
+                }
+                if (material == 5) {
+                    meta += 2;
+                }
+
             }
-            Items[i] = item;
-            m = i + 1;
+            Items[part] = item;
+            meta = part + 1;
         }
+
+        //fix ingot
+        Items[0] = [<immersiveengineering:metal:3>,<contenttweaker:material_part:11>,<contenttweaker:material_part:24>,<mekanism:ingot:6>,<immersiveengineering:metal:2>,<contenttweaker:material_part:59>,<minecraft:iron_ingot>,<immersiveengineering:metal:4>,<immersiveengineering:metal>];
+        
         return Items;
     }
 
@@ -42,7 +59,7 @@ zenClass BasicUtils {
             <contenttweaker:sub_block_holder_0:1>, <mekanism:oreblock:2>,
             <immersiveengineering:ore:2>, <contenttweaker:sub_block_holder_0:4>,
             <minecraft:iron_ore>, <immersiveengineering:ore:4>,
-            <mekanism:oreblock:1>, <minecraft:gold_ore>, <mekanism:oreblock:1>
+            <mekanism:oreblock:1>, <minecraft:gold_ore>
         ];
         return ore;
     }

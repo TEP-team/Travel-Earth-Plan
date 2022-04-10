@@ -33,10 +33,10 @@ RuneAltar.addRecipe(<contenttweaker:rainbow_rune>, inputs1, 3000000);
 RuneAltar.addRecipe(<botania:pylon>, [<botania:storage>, <minecraft:gold_ingot>, <minecraft:gold_ingot>], 7000);
 RuneAltar.addRecipe(<botania:rune:7>, [<botania:rune>, <botania:rune:2>, <minecraft:snow>, <minecraft:snow>, <minecraft:ice>, <minecraft:wool:*>], 8000);
 RuneAltar.addRecipe(<botania:rune:8>*2, [<botania:rune>, <botania:rune:1>, <botania:rune:2>, <botania:rune:3>, <botania:manaresource:23>, <botania:storage>], 8000);
-RuneAltar.addRecipe(<contenttweaker:rainbow_gem>, [<contenttweaker:tp_gem>, <contenttweaker:rainbow_rune>, <botania:bifrostperm>*9], 3000000);
+RuneAltar.addRecipe(<contenttweaker:rainbow_gem>, [<contenttweaker:tp_gem>, <contenttweaker:rainbow_rune>, <botania:bifrostperm>], 3000000);
 RuneAltar.addRecipe(<minecraft:skull>, [<minecraft:clay_ball>*2, <minecraft:iron_ingot>, <minecraft:bone>, <minecraft:bow>, <minecraft:arrow>], 10000);
-RuneAltar.addRecipe(<minecraft:skull:1>, [<botania:rune:15>, <minecraft:skull>, <minecraft:coal>*2, <minecraft:quartz>*2], 12000);
-RuneAltar.addRecipe(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mana_convertor"}), [<botania:manaresource:4>*4, <mekanism:reinforcedalloy>*4, <botania:rune:11>, <contenttweaker:papers>], 8000);
+RuneAltar.addRecipe(<minecraft:skull:1>, [<botania:rune:15>, <minecraft:skull>, <minecraft:coal>, <minecraft:coal>, <minecraft:quartz>, <minecraft:quartz>], 12000);
+RuneAltar.addRecipe(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mana_convertor"}), [<botania:manaresource:4>, <mekanism:reinforcedalloy>, <botania:rune:11>, <contenttweaker:papers>], 8000);
 
 val removes as IItemStack[] = [
     <minecraft:skull:3>, <botania:rune:7>, <botania:rune:8>

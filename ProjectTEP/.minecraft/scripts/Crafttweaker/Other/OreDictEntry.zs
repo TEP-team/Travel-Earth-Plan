@@ -9,9 +9,6 @@
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
 
-//21 --> 2
-//32 --> 4
-//65 --> 6
 val remove as IItemStack[][IOreDictEntry] = {
     <ore:etLaserLens> : [<environmentaltech:laser_lens_crystal>],
 

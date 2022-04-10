@@ -46,7 +46,7 @@ zenClass AFKAutoSpawnItem {
                     if (!(this.position has pos)) {
                         this.position += pos;
                         this.hasItem += 1;
-                        this.switch += 0;
+                        this.startor += 0;
                         this.tick += 0;
                         this.worldItem += item;
                         this.worldBlock += block;
@@ -54,7 +54,7 @@ zenClass AFKAutoSpawnItem {
                         for i, Pos in this.position {
                             this.position[i] = pos;
                             this.hasItem[i] = 1;
-                            this.switch[i] = 0;
+                            this.startor[i] = 0;
                             this.tick[i] = 0;
                             this.worldItem[i] = item;
                             this.worldBlock[i] = block;
@@ -64,21 +64,21 @@ zenClass AFKAutoSpawnItem {
 
                 //start and close
                 else {
-                    if (!isNull(this.switch) && !isNull(this.hasItem)) {
+                    if (!isNull(this.startor) && !isNull(this.hasItem)) {
                         for i, Pos in this.position {
                             if (Pos.x == pos.x && Pos.y == pos.y && Pos.z == pos.z && this.hasItem[i] == 1) {
 
                                 //start
-                                if (this.switch[i] == 0) {
+                                if (this.startor[i] == 0) {
                                     player.sendMessage("§b§l资源刷新: §a开启");
                                     player.sendMessage("§d§l刷新频率: §e" + this.speed + "s/个");
-                                    this.switch[i] = 1;
+                                    this.startor[i] = 1;
                                 }
 
                                 //close
-                                else if (this.switch[i] == 1) {
+                                else if (this.startor[i] == 1) {
                                     player.sendMessage("§b§l资源刷新: §c关闭");
-                                    this.switch[i] = 0;
+                                    this.startor[i] = 0;
                                 }
                             }
                         }
@@ -97,7 +97,7 @@ zenClass AFKAutoSpawnItem {
                 if (!isNull(this.position) && !isNull(this.tick) && !isNull(this.worldBlock) && !isNull(this.worldItem)) {
                     for i, item in this.worldItem {
                         this.tick[i] = this.tick[i] + 1;
-                        if ((this.tick[i] % (second * 20) == 0) && (this.switch[i] == 1)) {
+                        if ((this.tick[i] % (second * 20) == 0) && (this.startor[i] == 1)) {
                             val pos = this.position[i];
                             val x = pos.x;
                             val y = pos.y;
@@ -118,7 +118,7 @@ zenClass AFKAutoSpawnItem {
     val id as string;
     val speed as double;
     var hasItem as int[] = [];
-    var switch as int[] = [];
+    var startor as int[] = [];
     var tick as int[] = [];
     var position as IBlockPos[] = [];
     var worldBlock as IBlock[] = [];

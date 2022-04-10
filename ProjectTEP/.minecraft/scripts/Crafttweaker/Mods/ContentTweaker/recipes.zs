@@ -23,7 +23,7 @@ RecipeUtils.recipeBlock(<contenttweaker:sub_block_holder_0:2>, <contenttweaker:m
 RecipeUtils.recipeBlock(<contenttweaker:sub_block_holder_0:5>, <contenttweaker:material_part:59>, false);
 
 RecipeUtils.recipeCenterCornerSide(<contenttweaker:ft_core>, <modularmachinery:blockcasing:4>, <mekanismgenerators:reactor:1>, <mekanism:controlcircuit:3>, false);
-RecipeUtils.recipeCenterCornerSide(<contenttweaker:structure_block>, <modularmachinery:blockcasing>, <ore:ingotSteel>, <mekanism:basicblock:8>, false);
+RecipeUtils.recipeCenterCornerSide(<contenttweaker:structure_block>*4, <modularmachinery:blockcasing>, <ore:ingotSteel>, <mekanism:basicblock:8>, false);
 
 RecipeUtils.recipeShaped(<contenttweaker:hammer_flint>,
 	[[<minecraft:flint>,null],

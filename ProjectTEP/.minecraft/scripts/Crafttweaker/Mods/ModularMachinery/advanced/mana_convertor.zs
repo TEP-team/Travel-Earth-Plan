@@ -7,4 +7,4 @@
 
 #priority 60000
 
-ModularUtils.emptyRecipeBuilder("mana_convertor0", "mana_convertor", 10).addEnergyPerTickInput(4).addManaOutput(500).build();
+ModularUtils.emptyRecipeBuilder("mana_convertor_0", "mana_convertor", 10).addEnergyPerTickInput(4).addManaOutput(500).build();
