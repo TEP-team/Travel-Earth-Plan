@@ -8,11 +8,12 @@
 #priority 50000
 import crafttweaker.item.IItemStack;
 
-var remove as IItemStack[] = 
+val remove as IItemStack[] = 
 [
-    <botania:manaresource:14>,<botania:felpumpkin>,<botania:pylon>,<botania:pylon:1>,
-    <botania:pylon:2>,<botania:cellblock>,<botania:bifrostperm>
+    <botania:manaresource:14>, <botania:felpumpkin>, <botania:pylon>, <botania:pylon:1>,
+    <botania:pylon:2>, <botania:cellblock>, <botania:bifrostperm>, <botania:flighttiara>
 ];
+
 for Remove in remove {
     recipes.remove(Remove);
 }

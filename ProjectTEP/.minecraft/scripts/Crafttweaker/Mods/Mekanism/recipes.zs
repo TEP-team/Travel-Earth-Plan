@@ -6,6 +6,17 @@
 */
 
 #priority 50000
+import crafttweaker.item.IItemStack;
+
+val remove as IItemStack[] = [
+    <mekanismgenerators:generator:7>, <mekanismgenerators:turbineblade>,
+    <mekanism:electrolyticcore>, <mekanismgenerators:generator:8>,
+    <mekanism:teleportationcore>
+];
+
+for Remove in remove {
+    recipes.remove(Remove);
+}
 
 RecipeUtils.recipeCenterSide(<mekanism:basicblock2:8>, <mekanism:basicblock2:7>, <mekanism:controlcircuit:3>, true);
 
