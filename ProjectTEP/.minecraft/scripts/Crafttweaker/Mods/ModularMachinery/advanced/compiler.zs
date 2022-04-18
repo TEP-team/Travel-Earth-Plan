@@ -28,3 +28,19 @@ ModularUtils.itemRecipeBuilder(machine ~ "_3", machine, 400, 200,
 ModularUtils.itemRecipeBuilder(machine ~ "_4", machine, 400, 200,
     [<pneumaticcraft:assembly_program>, <pneumaticcraft:assembly_program:1>],
     [<pneumaticcraft:assembly_program:2>], true, true).build();
+
+ModularUtils.itemRecipeBuilder(machine ~ "_5", machine, 100, 200,
+    [<contenttweaker:papers>, <pneumaticcraft:compressed_iron_gear>, <mekanismgenerators:turbineblade>, <pneumaticcraft:turbine_blade>*4],
+    [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mixin_tank"})], true, true).build();
+
+ModularUtils.itemRecipeBuilder(machine ~ "_6", machine, 100, 200,
+    [<contenttweaker:papers>, <thermalfoundation:material:23>],
+    [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:packer"})], true, true).build();
+
+ModularUtils.itemRecipeBuilder(machine ~ "_7", machine, 100, 200,
+    [<contenttweaker:papers>, <mekanism:electrolyticcore>],
+    [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_dismantler"})], true, true).build();
+
+ModularUtils.itemRecipeBuilder(machine ~ "_8", machine, 100, 200,
+    [<contenttweaker:papers>, <minecraft:piston>, <mekanism:machineblock2:11>.withTag({tier: 0})],
+    [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fluid_processor"})], true, true).build();

@@ -19,3 +19,5 @@ val remove as IIngredient[] =
 for Remove in remove {
     ManaInfusion.removeRecipe(Remove);
 }
+
+ManaInfusion.addInfusion(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mana_altar"}), <contenttweaker:papers>, 20000);

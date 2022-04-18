@@ -27,9 +27,5 @@ for i in 0 to Items[0].length {
     furnace.addRecipe(Items[0][i], Items[2][i], 1); 
 }
 
-//seeds
-vanilla.seeds.removeSeed(<minecraft:wheat_seeds>);
-vanilla.seeds.removeSeed(<immersiveengineering:seed>);
-
 //other
 <minecraft:flint_and_steel>.maxDamage = 4;
