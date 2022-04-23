@@ -6,7 +6,7 @@
 */
 
 #priority 60000
-import mods.jei.JEI.hideCategory;
+import mods.jei.JEI;
 
 //hideCategory
 val hide as string[] = 
@@ -16,5 +16,5 @@ val hide as string[] =
     "environmentaltech.voidminer.ore.t5","environmentaltech.voidminer.ore.t6"
 ];
 for Hide in hide {
-    hideCategory(Hide);
+    JEI.hideCategory(Hide);
 }

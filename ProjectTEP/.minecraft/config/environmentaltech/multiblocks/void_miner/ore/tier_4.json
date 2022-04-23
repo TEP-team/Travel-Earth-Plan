@@ -16,6 +16,16 @@
       "id": "minecraft:redstone"
     },
     {
+      "target": "gray",
+      "weight": 20,
+      "id": "contenttweaker:sub_block_holder_0:1"
+    },
+    {
+      "target": "white",
+      "weight": 18,
+      "id": "contenttweaker:sub_block_holder_0:4"
+    },
+    {
       "target": "white",
       "weight": 18,
       "id": "contenttweaker:sub_block_holder_0:3"

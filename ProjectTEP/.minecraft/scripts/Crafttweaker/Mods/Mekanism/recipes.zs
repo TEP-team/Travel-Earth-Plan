@@ -56,11 +56,6 @@ RecipeUtils.recipeShaped(<mekanism:atomicdisassembler>,
      [<mekanism:atomicalloy>,<mekanism:ingot>,<mekanism:atomicalloy>],
      [null,<mekanism:ingot>,null]], true);
 
-RecipeUtils.recipeShaped(<mekanismgenerators:generator>,
-    [[<ore:ingotSteel>,<mekanism:ingot:1>,<ore:ingotSteel>],
-     [<minecraft:iron_bars>,<mekanism:basicblock:8>,<minecraft:iron_bars>],
-     [<ore:dustRedstone>,<minecraft:furnace>,<ore:dustRedstone>]], true);
-
 RecipeUtils.recipeShaped(<mekanismgenerators:solarpanel>,
     [[<ore:paneGlass>,<ore:paneGlass>,<ore:paneGlass>],
      [<ore:dustRedstone>,<mekanism:enrichedalloy>,<ore:dustRedstone>],

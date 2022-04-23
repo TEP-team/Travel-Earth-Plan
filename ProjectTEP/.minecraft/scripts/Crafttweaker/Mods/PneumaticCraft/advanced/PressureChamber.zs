@@ -13,7 +13,7 @@ pressurechamber.removeAllRecipes();
 pressurechamber.addRecipe([<minecraft:water_bucket>, <minecraft:gunpowder>*3, <minecraft:coal:1>*3, <minecraft:flint>*3], 1.0, [<forge:bucketfilled>.withTag({FluidName: "etchacid", Amount: 1000})]);
 
 pressurechamber.addRecipe([<minecraft:paper>*8], 1.0, [<contenttweaker:papers>]);
-pressurechamber.addRecipe([<minecraft:glass>, <mekanism:ingot:6>*4], 1.5, [<contenttweaker:cell_empty>]);
+pressurechamber.addRecipe([<minecraft:glass>, <ore:plateTin>.firstItem*4], 1.5, [<contenttweaker:cell_empty>]);
 pressurechamber.addRecipe([<pneumaticcraft:printed_circuit_board>*2, <pneumaticcraft:plastic>*4, <pneumaticcraft:ingot_iron_compressed>*8], 3.0, [<contenttweaker:cpu>]);
 pressurechamber.addRecipe([<pneumaticcraft:plastic:12>*4, <appliedenergistics2:material:36>*2, <contenttweaker:pcb>*2, <contenttweaker:motor>], 3.8, [<contenttweaker:mini_driver>]);
 
