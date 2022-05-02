@@ -32,6 +32,7 @@ zenClass BasicUtils {
                 meta += 11;
 
                 //fix meta
+                /*
                 if (material == 1) {
                     meta += 2;
                 }
@@ -41,6 +42,7 @@ zenClass BasicUtils {
                 if (material == 5) {
                     meta += 2;
                 }
+                */
 
             }
             Items[part] = item;
@@ -48,7 +50,7 @@ zenClass BasicUtils {
         }
 
         //overrides
-        Items[0] = [<immersiveengineering:metal:3>,<contenttweaker:material_part:11>,<contenttweaker:material_part:24>,<mekanism:ingot:6>,<immersiveengineering:metal:2>,<contenttweaker:material_part:59>,<minecraft:iron_ingot>,<immersiveengineering:metal:4>,<immersiveengineering:metal>];
+        Items[0] = [<immersiveengineering:metal:3>,<contenttweaker:material_part:11>,<contenttweaker:material_part:22>,<mekanism:ingot:6>,<immersiveengineering:metal:2>,<contenttweaker:material_part:55>,<minecraft:iron_ingot>,<immersiveengineering:metal:4>,<immersiveengineering:metal>];
         
         return Items;
     }
@@ -58,8 +60,8 @@ zenClass BasicUtils {
             <immersiveengineering:ore:3>, <contenttweaker:sub_block_holder_0:3>,
             <contenttweaker:sub_block_holder_0:1>, <mekanism:oreblock:2>,
             <immersiveengineering:ore:2>, <contenttweaker:sub_block_holder_0:4>,
-            <minecraft:iron_ore>, <immersiveengineering:ore:4>,
-            <mekanism:oreblock:1>, <minecraft:gold_ore>, <mekanism:oreblock>
+            <minecraft:iron_ore>, <immersiveengineering:ore:4>, <mekanism:oreblock:1>,
+            <minecraft:gold_ore>, <mekanism:oreblock>
         ];
         return ore;
     }

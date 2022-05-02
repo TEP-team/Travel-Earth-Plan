@@ -8,19 +8,18 @@
 #priority 50000
 import crafttweaker.item.IItemStack;
 
-val iron = <ore:ingotIron>;
-val hammer = <contenttweaker:hammer_plate>.anyDamage().transformDamage();
-val Items as IItemStack[][] = BasicUtils.getAllMaterialPartItem();
+val hammer1 = <contenttweaker:hammer_plate>.anyDamage().transformDamage();
+val hammer2 = <immersiveengineering:tool:0>.anyDamage().transformDamage();
 
 for i in 0 to Items[0].length {
 	RecipeUtils.recipeShapeless(Items[4][i]*9, [Items[0][i]], false);
-	RecipeUtils.recipeShapeless(Items[5][i], [Items[0][i], hammer], false);
-	RecipeUtils.recipeShapeless(Items[7][i]*2, [Items[5][i], hammer], false);
+	RecipeUtils.recipeShapeless(Items[5][i], [Items[0][i], hammer1 | hammer2], false);
+	RecipeUtils.recipeShapeless(Items[7][i]*2, [Items[5][i], hammer1 | hammer2], false);
 }
 
 RecipeUtils.recipeBlock(<contenttweaker:sub_block_holder_0>, <contenttweaker:material_part:11>, false);
-RecipeUtils.recipeBlock(<contenttweaker:sub_block_holder_0:2>, <contenttweaker:material_part:24>, false);
-RecipeUtils.recipeBlock(<contenttweaker:sub_block_holder_0:5>, <contenttweaker:material_part:59>, false);
+RecipeUtils.recipeBlock(<contenttweaker:sub_block_holder_0:2>, <contenttweaker:material_part:22>, false);
+RecipeUtils.recipeBlock(<contenttweaker:sub_block_holder_0:5>, <contenttweaker:material_part:55>, false);
 
 RecipeUtils.recipeCenterCornerSide(<contenttweaker:ft_core>, <modularmachinery:blockcasing:4>, <mekanismgenerators:reactor:1>, <mekanism:controlcircuit:3>, false);
 RecipeUtils.recipeCenterCornerSide(<contenttweaker:structure_block>*4, <modularmachinery:blockcasing>, <ore:ingotSteel>, <mekanism:basicblock:8>, false);
@@ -31,12 +30,12 @@ RecipeUtils.recipeShaped(<contenttweaker:hammer_flint>,
 
 RecipeUtils.recipeShaped(<contenttweaker:conversion_core>,
     [[<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>],
-	 [<minecraft:redstone>,iron,<minecraft:redstone>],
+	 [<minecraft:redstone>,<ore:ingotIron>,<minecraft:redstone>],
 	 [<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>]], false);
 
 RecipeUtils.recipeShaped(<contenttweaker:handsaw_wood>,
-    [[null,null,iron],
-	 [null,iron,<ore:plankWood>],
+    [[null,null,<ore:ingotIron>],
+	 [null,<ore:ingotIron>,<ore:plankWood>],
 	 [<minecraft:stick>,<ore:plankWood>,null]], false);
 
 RecipeUtils.recipeShaped(<contenttweaker:medical_splint>,
@@ -56,8 +55,8 @@ RecipeUtils.recipeShapeless(<contenttweaker:medical_bandage>,
     [<contenttweaker:cloth_string>,<contenttweaker:cloth_string>,<contenttweaker:cloth_string>], false);
 
 RecipeUtils.recipeShaped(<contenttweaker:hammer_plate>,
-    [[null,iron,null],
-	 [null,<minecraft:stick>,iron],
+    [[null,<ore:ingotIron>,null],
+	 [null,<minecraft:stick>,<ore:ingotIron>],
 	 [<minecraft:stick>,null,null]], false);
 
 RecipeUtils.recipeShaped(<contenttweaker:electric_iron>,

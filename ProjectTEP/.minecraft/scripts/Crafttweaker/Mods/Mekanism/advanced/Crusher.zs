@@ -6,8 +6,23 @@
 */
 
 #priority 60000
+import crafttweaker.item.IItemStack;
 import mods.mekanism.crusher;
 
-crusher.removeRecipe(<mekanism:biofuel>);
+val remove as IItemStack[] = [
+    <mekanism:biofuel>, <minecraft:string>,
+    <mekanism:dust:*>, <mekanism:dirtydust:*>,
+    <thermalfoundation:material:68>, <thermalfoundation:material:69>,
+    <thermalfoundation:material:70>, <mekanism:otherdust:1>
+];
+
+for Remove in remove {
+    crusher.removeRecipe(Remove);
+}
+
+/* using global variables (dust, ingot) */
+for i, dust in dust {
+    crusher.addRecipe(ingot[i], dust);
+}
 
 crusher.addRecipe(<contenttweaker:ingot_is>, <contenttweaker:tin_solder_dust>);

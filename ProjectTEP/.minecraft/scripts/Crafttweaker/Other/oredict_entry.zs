@@ -8,6 +8,7 @@
 #priority 80000
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
+import mods.jei.JEI;
 
 val remove as IItemStack[][IOreDictEntry] = {
     <ore:etLaserLens> : [<environmentaltech:laser_lens_crystal>],
@@ -22,6 +23,14 @@ val remove as IItemStack[][IOreDictEntry] = {
 
     <ore:stickIron> : [<immersiveengineering:material:1>, <car:iron_stick>],
 
+    <ore:ingotIron> : [<contenttweaker:material_part:66>],
+    <ore:ingotCopper> : [<contenttweaker:material_part:88>, <mekanism:ingot:5>, <thermalfoundation:material:128>],
+    <ore:ingotTin> : [<contenttweaker:material_part:33>, <thermalfoundation:material:129>],
+    <ore:ingotSteel> : [<variedcommodities:ingot_steel>, <mekanism:ingot:4>, <thermalfoundation:material:160>],
+    <ore:ingotLead> : [<contenttweaker:material_part:44>, <thermalfoundation:material:131>],
+    <ore:ingotSilver> : [<contenttweaker:material_part>, <thermalfoundation:material:130>],
+    <ore:ingotNickel> : [<contenttweaker:material_part:77>, <thermalfoundation:material:133>],
+    /*
     <ore:ingotIron> : [<contenttweaker:material_part:72>],
     <ore:ingotCopper> : [<contenttweaker:material_part:94>, <mekanism:ingot:5>, <thermalfoundation:material:128>],
     <ore:ingotTin> : [<contenttweaker:material_part:37>, <thermalfoundation:material:129>],
@@ -29,6 +38,7 @@ val remove as IItemStack[][IOreDictEntry] = {
     <ore:ingotLead> : [<contenttweaker:material_part:48>, <thermalfoundation:material:131>],
     <ore:ingotSilver> : [<contenttweaker:material_part>, <thermalfoundation:material:130>],
     <ore:ingotNickel> : [<contenttweaker:material_part:83>, <thermalfoundation:material:133>],
+    */
     <ore:ingotBronze> : [<variedcommodities:ingot_bronze>, <thermalfoundation:material:163>],
     <ore:ingotConstantan> : [<thermalfoundation:material:164>],
     <ore:ingotElectrum> : [<thermalfoundation:material:161>],
@@ -49,6 +59,7 @@ val remove as IItemStack[][IOreDictEntry] = {
     <ore:dustPlatinum> : [<thermalfoundation:material:70>],
     <ore:dustObsidian> : [<thermalfoundation:material:770>],
     <ore:dustLithium> : [<mekanism:otherdust:4>],
+    <ore:dustSulfur> : [<mekanism:otherdust:3>],
 
     <ore:nuggetIron> : [<immersiveengineering:metal:29>, <minecraft:iron_nugget>],
     <ore:nuggetCopper> : [<immersiveengineering:metal:20>, <mekanism:nugget:5>, <thermalfoundation:material:192>],
@@ -99,11 +110,13 @@ val remove as IItemStack[][IOreDictEntry] = {
 
 for ore, items in remove {
     for item in items {
+
         ore.remove(item);
-
-        //super remove
+        recipes.remove(item);
         furnace.remove(item);
+        JEI.removeAndHide(item);
 
+/*
         mods.appliedenergistics2.Grinder.removeRecipe(item);
 
         mods.thermalexpansion.RedstoneFurnace.removeRecipe(item);
@@ -113,13 +126,9 @@ for ore, items in remove {
 
         mods.mekanism.combiner.removeRecipe(item);
         mods.mekanism.enrichment.removeRecipe(item);
-        mods.mekanism.crusher.removeRecipe(item);
-
-        mods.immersiveengineering.MetalPress.removeRecipe(item);
-        mods.immersiveengineering.Crusher.removeRecipe(item);
+        
         mods.immersiveengineering.ArcFurnace.removeRecipe(item);
-
-        mods.jei.JEI.removeAndHide(item);
+*/
     }
 }
 

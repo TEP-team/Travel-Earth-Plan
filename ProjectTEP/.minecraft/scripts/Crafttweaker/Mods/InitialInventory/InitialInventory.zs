@@ -5,7 +5,7 @@
     Thanks a lot!
 */
 
-#priority 80000
+#priority 60000
 import crafttweaker.item.IItemStack;
 import mods.initialinventory.InvHandler;
 
