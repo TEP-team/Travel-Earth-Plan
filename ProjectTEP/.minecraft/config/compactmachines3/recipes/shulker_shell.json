@@ -1,7 +1,7 @@
 {
   "name": "minecraft:shulker_shell",
   "target-item": "minecraft:shulker_shell",
-  "target-count": 1,
+  "target-count": 4,
   "duration": 100,
   "catalyst": "minecraft:chorus_fruit",
   "input-types": {

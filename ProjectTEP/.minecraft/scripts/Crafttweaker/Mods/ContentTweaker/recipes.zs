@@ -9,7 +9,7 @@
 import crafttweaker.item.IItemStack;
 
 val hammer1 = <contenttweaker:hammer_plate>.anyDamage().transformDamage();
-val hammer2 = <immersiveengineering:tool:0>.anyDamage().transformDamage();
+val hammer2 = itemUtils.getItem("immersiveengineering:tool", 0).anyDamage().transformDamage();
 
 for i in 0 to Items[0].length {
 	RecipeUtils.recipeShapeless(Items[4][i]*9, [Items[0][i]], false);

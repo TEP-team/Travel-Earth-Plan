@@ -20,9 +20,10 @@ for Remove in remove {
     crusher.removeRecipe(Remove);
 }
 
-/* using global variables (dust, ingot) */
+/* using global variables (ingot, dust, dirtydust, ore) */
 for i, dust in dust {
     crusher.addRecipe(ingot[i], dust);
+    crusher.addRecipe(ore[i], dirtydust[i]);
 }
 
 crusher.addRecipe(<contenttweaker:ingot_is>, <contenttweaker:tin_solder_dust>);

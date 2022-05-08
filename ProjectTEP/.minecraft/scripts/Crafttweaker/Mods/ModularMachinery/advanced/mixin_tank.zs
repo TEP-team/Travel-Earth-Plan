@@ -15,10 +15,7 @@ var recipe0 = ModularUtils.fluidRecipeBuilder(machine ~ "_0", machine, 600, 0, [
     recipe0.addItemInput(<minecraft:glowstone_dust>);
     recipe0.build();
 
-val Items as IItemStack[][] = BasicUtils.getAllMaterialPartItem();
-val dust as IItemStack[] = Items[2] + <mekanism:dust:1> + <mekanism:dust:2>;
-val dirtydust as IItemStack[] = Items[3] + <mekanism:dirtydust:1> + <mekanism:dirtydust:2>;
-
+/* using global variables (dirtydust, dust) */
 for i, dust in dust {
-    ModularUtils.itemRecipeBuilder(machine ~ "_1_" ~ i, machine, 40, 0, [dirtydust[i]], [dust], true, true).addFluidInput(<liquid:water>*50).build();
+    ModularUtils.itemRecipeBuilder(machine ~ "_1_" ~ i, machine, 40, 0, [dirtydust[i]], [dust], true, true).addFluidInput(<liquid:water>*400).build();
 }

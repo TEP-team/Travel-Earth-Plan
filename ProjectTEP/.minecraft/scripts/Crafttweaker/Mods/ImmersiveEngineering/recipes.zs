@@ -9,7 +9,7 @@
 import crafttweaker.item.IItemStack;
 
 val hammer1 = <contenttweaker:hammer_plate>.anyDamage().transformDamage();
-val hammer2 = <immersiveengineering:tool:0>.anyDamage().transformDamage();
+val hammer2 = itemUtils.getItem("immersiveengineering:tool", 0).anyDamage().transformDamage();
 
 RecipeUtils.recipeAround(<immersiveengineering:metal_decoration0>, <immersiveengineering:wirecoil>, <ore:ingotSteel>, true);
 RecipeUtils.recipeAround(<immersiveengineering:metal_decoration0:1>, <immersiveengineering:wirecoil:1>, <ore:ingotSteel>, true);

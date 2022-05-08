@@ -19,4 +19,5 @@ val remove as IItemStack[]= [
 
 for Remove in remove {
     Compactor.removeStorageRecipe(Remove);
+    Compactor.removeGearRecipe(Remove);
 }

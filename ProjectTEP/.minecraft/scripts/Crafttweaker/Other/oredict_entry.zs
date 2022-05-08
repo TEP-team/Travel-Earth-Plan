@@ -117,12 +117,9 @@ for ore, items in remove {
         JEI.removeAndHide(item);
 
 /*
-        mods.appliedenergistics2.Grinder.removeRecipe(item);
 
         mods.thermalexpansion.RedstoneFurnace.removeRecipe(item);
-        mods.thermalexpansion.Pulverizer.removeRecipe(item);
-        mods.thermalexpansion.Compactor.removePressRecipe(item);
-        mods.thermalexpansion.Compactor.removeGearRecipe(item);
+        mods.thermalexpansion.Pulverizer.removeRecipe(item);;
 
         mods.mekanism.combiner.removeRecipe(item);
         mods.mekanism.enrichment.removeRecipe(item);
