@@ -1,0 +1,101 @@
+#Custom Tips for TEP
+tip.tep.1=When you read this sentence,This means that the text has been successfully localized.
+tip.tep.2=Do you think TEP is a AdventurePack?It's actually a Science-Magic Pack!
+tip.tep.3=Do you think use one year of production TEP,Actually,Team members spend most of their time in school!
+tip.tep.4=Building greenhouses to grow plants.
+tip.tep.5=What to do first in the opening?Anyway, the opening does not break the tree!
+tip.tep.6=Take control of your pressure machine,Don't let them explode!
+tip.tep.7=Carrying a water bottle with you might be a good choice.
+tip.tep.8=Build a network system with Integrated Dynamics mod,Better help you with your auto-production line.
+tip.tep.9=Ore Detector can help you to detect ore resources in the surrounding underground.
+tip.tep.10=TEP adds fracture and bleeding features,Please don't be too impulsive.
+tip.tep.11=Infinity Warm Paste can give you infinity effect of warm.
+tip.tep.12=Collecting the 9 cores to awaken the departed.
+tip.tep.13=You can make "Void Ore Miner" to save time on mining.
+tip.tep.14=If you feel uncomfortable with the keys,You can adjust it yourself.
+tip.tep.15=Teleport Gem just can use with surface！
+tip.tep.16=You can use the machines in Environmental Tech to get the resources you need.
+tip.tep.17=Charging the tools in Botania,You can place a pedestal on the Mana Pool!
+tip.tep.18=Try setting up a grill over the campfire,Grill some meat for dinner!
+tip.tep.19=The "Survivor's Guide" contains a tutorial on how to play this modpack.
+tip.tep.20=You can use Elven Door to make some special deals with the elves. #♂ dark ♂ deals ♂
+
+#Localization
+tpgem.tep.tpsuccess=§a§lRandom teleport success!
+tpgem.tep.tpfail=§c§lRandom teleport failures,Please wait for the cool down to complete and try again!
+bleeding.tep.bsuccess=§c§lYou're bleeding!
+fractured.tep.fsuccess=§c§lYou've a fracture!
+healing.tep.msuccess=§a§lWound dressing successful!
+healing.tep.mfail=§c§lWound dressing failures,You're not bleeding!
+healing.tep.mpsuccess=§a§lMedicine Pack use successful!
+healing.tep.mpfail=§c§lMedicine Pack use failures,Your blood level must be below §e§l20 §c§l！
+healing.tep.ssuccess=§a§lSuccessful!
+healing.tep.sfail=§c§lFailures,You don't have a fracture!
+dimension.tep.ban=§c§lNether&End are disabled!
+exe.tep.get=§a§lRead successful!
+exe.tep.clear=§a§lCleared successful!
+item.tep.prevent=§c§lThis item don't use!
+place.tep.prevent=§c§lThis block is forbidden to be used in the compressed space!
+logged.tep.send1=§9§lWelcome to play §dTravel Earth Plan §9§l Modpack/Server!
+logged.tep.send2=§bTEP is §aMinecraft 1.12.2 §b,It is §aTEP-team §b develop.
+logged.tep.send3=§c如遇到BUG，请尽量提交至 §eGitHub Issues §c.
+logged.tep.send4=§a祝您游戏愉快 :-) ！
+
+#Tool Tips
+tooltip.tep.0=§b高度的酸性，锂与硫酸反应的产物.
+tooltip.tep.1=§b简易小锤子，能砸碎石头.
+tooltip.tep.2=§c耐久极低，不适合作为长期工具！
+tooltip.tep.3=§b一把锯子，比徒手拆木头效率高多了.
+tooltip.tep.4=§6闪烁迷离，震荡不定.
+tooltip.tep.5=§6无穷无尽，璀璨耀眼.
+tooltip.tep.6=§b程序代码与红石构成的高级芯片.
+tooltip.tep.7=§6投影，编译，储存等效果显著！
+tooltip.tep.8=§a可以在主世界进行随机传送！
+tooltip.tep.9=§b内部电子正在高速运转...
+tooltip.tep.10=§b焊接工具.
+tooltip.tep.11=§a提供无限的温暖！
+tooltip.tep.12=§a长按以恢复 §e2 §a点生命值！
+tooltip.tep.13=§a可以治疗 §e流血 §a！
+tooltip.tep.14=§c流血时才可以使用！
+tooltip.tep.15=§a长按以恢复 §e6 §a点生命值！
+tooltip.tep.16=§a可以治疗 §e骨折 §a与 §e流血 §a！
+tooltip.tep.17=§c生命值低于 §e20 §c时才可以使用！
+tooltip.tep.18=§a可以治疗 §e骨折 §a！
+tooltip.tep.19=§c骨折时才可以使用！
+tooltip.tep.20=§a长按以恢复 §e3 §a点生命值！
+tooltip.tep.21=§d闪烁着迷人的色彩.
+tooltip.tep.22=§d拿在手中即可生效.
+tooltip.tep.23=§b锻造锤，可以打造金属板.
+tooltip.tep.24=§b扔到 §e蚀刻酸 §b中或与 §e蚀刻酸桶 §b在 §6压力室 §b中进行蚀刻.
+tooltip.tep.25=§b目前耐久不满，请在 §e紫外光灯线 §b中进行紫外线照射！
+tooltip.tep.26=§b目前耐久为零，可直接放入 §6装配室 §b中进行激光印刷！
+tooltip.tep.27=§b它可以食用.
+tooltip.tep.28=§a没错你就是老八的传人！
+tooltip.tep.29=§a右键以查看搭建机器所需材料.
+tooltip.tep.30=
+tooltip.tep.31=§d不停地闪烁，似乎是某种镶嵌在活石中的宝石？
+tooltip.tep.32=§b电容工具.
+tooltip.tep.33=§b电阻工具.
+tooltip.tep.34=§b纳米工具.
+tooltip.tep.35=§b帮助你快速组装机械.
+tooltip.tep.36=§d蕴含着地球的神秘力量.
+tooltip.tep.37=§d蕴含着天空的神秘力量.
+tooltip.tep.38=§d蕴含着地底的神秘力量.
+tooltip.tep.39=§d蕴含着魔力的神秘力量.
+tooltip.tep.40=§d蕴含着机械的神秘力量.
+tooltip.tep.41=§d蕴含着生命的神秘力量.
+tooltip.tep.42=§d蕴含着闪耀的神秘力量.
+tooltip.tep.43=§d蕴含着智慧的神秘力量.
+tooltip.tep.44=§d蕴含着四季的神秘力量.
+tooltip.tep.45=§d掌控世间万物的核心.
+
+#Patchouli
+tep.patchouli.title=求生者指南
+tep.patchouli.landing_text=这本书总结了科技，魔法等等相关的知识，并且它将引导求生者们如何在这片寒冷废土上活下去...
+tep.patchouli.subtitle=Made By Dark2932
+
+#advancements
+advancement.tep.beginning.root=Welcome to TEP !
+advancement.tep.beginning.root.doc=你被刺骨的寒风吹醒，望着周围白茫茫的一片，你不知道你在哪...... 但你明白，如何在这片寒冷废土上活下去更重要。
+advancedment.tep.snowball=就地取雪
+advancedment.tep.snowball.doc=你望向脚下，认为雪中或许会有些有用的东西，并决定徒手弄一些。 [获得雪球]
