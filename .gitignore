@@ -72,6 +72,7 @@ ProjectTEP/.minecraft/scripts/.zsrc
 !ProjectTEP/.minecraft/config/simpledifficulty.cfg
 !ProjectTEP/.minecraft/config/tips.cfg
 !ProjectTEP/.minecraft/config/toastcontrol.cfg
+!ProjectTEP/.minecraft/config/worleycaves.cfg
 
 #resources
 !ProjectTEP/.minecraft/resources/contenttweaker/models/item/electric_iron.json
