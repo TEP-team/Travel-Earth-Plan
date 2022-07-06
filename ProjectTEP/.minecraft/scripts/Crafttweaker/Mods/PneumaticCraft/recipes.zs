@@ -19,7 +19,7 @@ for Remove in remove {
 
 RecipeUtils.recipeShaped(<pneumaticcraft:pneumatic_cylinder>,
     [[null, <pneumaticcraft:cannon_barrel>, null], 
-     [<pneumaticcraft:plastic:4>, <contenttweaker:cell_empty>, <pneumaticcraft:plastic:4>], 
+     [<pneumaticcraft:plastic:4>, <minecraft:bucket>, <pneumaticcraft:plastic:4>], 
      [<pneumaticcraft:plastic:4>, <pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:plastic:4>]], true);
 
 RecipeUtils.recipeShaped(<pneumaticcraft:liquid_compressor>,
@@ -53,11 +53,11 @@ RecipeUtils.recipeShaped(<pneumaticcraft:assembly_controller>,
 
 RecipeUtils.recipeShaped(<pneumaticcraft:refinery>,
     [[<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:compressed_iron_gear>, <pneumaticcraft:ingot_iron_compressed>], 
-     [<pneumaticcraft:ingot_iron_compressed>, <contenttweaker:cell_empty>, <pneumaticcraft:ingot_iron_compressed>], 
+     [<pneumaticcraft:ingot_iron_compressed>, <minecraft:bucket>, <pneumaticcraft:ingot_iron_compressed>], 
      [<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:compressed_iron_gear>, <pneumaticcraft:ingot_iron_compressed>]], true);
 
 RecipeUtils.recipeShaped(<pneumaticcraft:thermopneumatic_processing_plant>,
-    [[<contenttweaker:cell_empty>, null, <contenttweaker:cell_empty>], 
+    [[<minecraft:bucket>, null, <minecraft:bucket>], 
      [<pneumaticcraft:pressure_tube>, <pneumaticcraft:compressed_iron_gear>, <pneumaticcraft:pressure_tube>], 
      [<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>]], true);
 

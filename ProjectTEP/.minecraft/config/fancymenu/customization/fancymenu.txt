@@ -25,22 +25,22 @@ customization {
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-right
   x = -121
   action = movebutton
-  y = 1
+  y = 2
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   width = 108
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -49,46 +49,46 @@ customization {
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   path = resources\fancymenu\sounds\join.wav
   action = addhoversound
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   path = resources/fancymenu/sounds/choose.wav
   action = setbuttonclicksound
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   action = setbuttondescription
   description = Multiplayer
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-right
   x = -121
   action = movebutton
-  y = 27
+  y = 28
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   width = 51
   action = resizebutton
   height = 19
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   action = setbuttonlabel
   value = Settings
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -97,52 +97,52 @@ customization {
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   path = resources\fancymenu\sounds\keyboarda.wav
   action = addhoversound
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   action = sethoverlabel
   label = §eSettings
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   path = resources/fancymenu/sounds/keyboardc.wav
   action = setbuttonclicksound
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   action = setbuttondescription
   description = Game Settings
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-right
   x = -93
   action = movebutton
-  y = 53
+  y = 54
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   width = 80
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = setbuttonlabel
   value = §cQuit Game
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -151,46 +151,46 @@ customization {
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   path = resources\fancymenu\sounds\keyboardb.wav
   action = addhoversound
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = sethoverlabel
   label = §4Really ?
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   path = resources/fancymenu/sounds/keyboardc.wav
   action = setbuttonclicksound
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = setbuttondescription
   description = Quit Game
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = mid-right
   x = -121
   action = movebutton
-  y = 53
+  y = 54
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   width = 19
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -199,40 +199,40 @@ customization {
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   path = resources\fancymenu\sounds\papera.wav
   action = addhoversound
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   path = resources/fancymenu/sounds/paperb.wav
   action = setbuttonclicksound
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   action = setbuttondescription
   description = Game Language
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-right
   x = -121
   action = movebutton
-  y = -25
+  y = -24
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   width = 108
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -241,40 +241,46 @@ customization {
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   path = resources\fancymenu\sounds\join.wav
   action = addhoversound
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = sethoverlabel
+  label = Singleplayer
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   path = resources/fancymenu/sounds/choose.wav
   action = setbuttonclicksound
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   action = setbuttondescription
   description = Singleplayer
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-right
   x = -64
   action = movebutton
-  y = 27
+  y = 28
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   width = 51
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -283,26 +289,94 @@ customization {
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   path = resources\fancymenu\sounds\keyboarda.wav
   action = addhoversound
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   path = resources/fancymenu/sounds/keyboardc.wav
   action = setbuttonclicksound
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   action = setbuttondescription
   description = Game Mods
 }
 
 customization {
-  identifier = %id=502346%
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 113
+  width = 200
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 182e2f19-5b65-46fa-8d33-60ccbd04b84b1657099597778
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 121
+  action = deep_customization_element:title_screen_branding
+  actionid = 248fc87c-be27-4d60-8c1e-661398c7ea1d1657099597779
+  y = 188
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 311
+  width = 168
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 14d19325-e9a1-4309-aaf0-7d3da1d0b02e1657099597779
+  y = 235
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = f46947b6-ac57-48a6-8622-fc271f9388961657099597779
+  y = 163
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 4534c748-ad93-42bd-b6f2-997f793e740f1657099597779
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 4eabbe05-57f5-4a11-8001-baa227a6bb411657099597779
+  y = 0
+  height = 30
 }
 
 customization {
@@ -337,7 +411,7 @@ customization {
   y = -9
   scale = 1.0
   alignment = left
-  value = §9Travel Earth Plan §6Made By §6Wheat Paper Team
+  value = §9Travel Earth Plan §5Made By §6Wheat Paper Team
 }
 
 customization {
@@ -346,10 +420,10 @@ customization {
   shadow = true
   splashfilepath = resources\fancymenu\splash.txt
   rotation = -15.0
-  x = 227
+  x = 231
   actionid = ade5f768-ced1-487a-9d8d-c2d9d58831991628555509847
   action = addsplash
-  y = 65
+  y = 61
   scale = 1.0
   refresh = false
   bouncing = true
@@ -419,7 +493,7 @@ customization {
   action = addbutton
   y = 28
   backgroundnormal = resources\fancymenu\images\links\afdian.png
-  value = https://afdian.net/@anye2932
+  value = https://afdian.net/@wheatpaper
   height = 36
 }
 
@@ -470,7 +544,7 @@ customization {
   width = 281
   actionid = b000b46a-729f-45ed-bb63-933885a0ea0a1628563564086
   action = addtexture
-  y = -25
+  y = -24
   height = 99
 }
 

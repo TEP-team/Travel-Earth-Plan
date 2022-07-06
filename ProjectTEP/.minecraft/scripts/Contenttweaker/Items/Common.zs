@@ -7,7 +7,6 @@
 
 #priority 90000
 #loader contenttweaker
-import mods.zenutils.cotx.Item;
 
 ContentUtils.itemBuilder("conversion_core", "uncommon", -1, 64, true).register();
 ContentUtils.itemBuilder("rainbow_rune", "epic", -1, 64, true).register();
@@ -28,7 +27,6 @@ var tools as string[] = [
 
 var materials as string[] = [
     "tin_solder_dust", "ingot_is", "papers", "paper_ee",
-    "cell_empty", "cell_electrolyte", "cell_cold",
     "wood_residue", "cloth_string", "motor", "ram",
     "rom", "cpu", "exe", "pcb", "pin", "gc_exe", "ft_exe",
     "test_unit", "temperature_monitor", "mini_driver", "mediuim_driver",

@@ -11,7 +11,7 @@ import mods.pneumaticcraft.assembly;
 assembly.removeAllDrillLaserRecipes();
 assembly.removeAllDrillRecipes();
 
-assembly.removeDrillLaserRecipe(<pneumaticcraft:advanced_pressure_tube>);
+assembly.removeLaserRecipe(<pneumaticcraft:advanced_pressure_tube>);
 assembly.removeLaserRecipe(<pneumaticcraft:aphorism_tile>);
 
 assembly.addLaserRecipe(<pneumaticcraft:printed_circuit_board>, <contenttweaker:pcb>);

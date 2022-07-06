@@ -29,4 +29,4 @@ pressurechamber.addRecipe([<contenttweaker:conversion_core>, <appliedenergistics
 pressurechamber.addRecipe([<contenttweaker:conversion_core>, <appliedenergistics2:material:45>*4, <minecraft:gold_ingot>*4, <ore:dustRedstone>], 2.5, [<appliedenergistics2:material:15>]);
 pressurechamber.addRecipe([<contenttweaker:conversion_core>, <appliedenergistics2:material:45>*4, <appliedenergistics2:material:5>*4, <ore:dustRedstone>], 2.5, [<appliedenergistics2:material:19>]);
 
-pressurechamber.addRecipe([<botania:manaresource:15>, <integrateddynamics:crystalized_chorus_chunk>*8], 4.2, [<botania:manaresource:15>]);
+pressurechamber.addRecipe([<minecraft:glass_bottle>, <integrateddynamics:crystalized_chorus_chunk>*8], 4.2, [<botania:manaresource:15>]);

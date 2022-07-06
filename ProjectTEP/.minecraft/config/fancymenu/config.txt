@@ -24,22 +24,7 @@ B:showcustomizationbuttons = 'true';
 ##[mainmenu]
 
 S:copyrightposition = 'bottom-right';
-B:hidebranding = 'true';
 S:copyrightcolor = '#ffffff';
-B:hidelogo = 'true';
-B:hiderealmsnotifications = 'false';
-B:hideforgenotifications = 'false';
-
-
-##[mainmenu_splash]
-
-S:splashcolor = '#ffff00';
-I:splashrotation = '-20';
-I:splashy = '0';
-I:splashx = '0';
-B:hidesplashtext = 'true';
-S:splashtextfile = '';
-S:splashorientation = 'original';
 
 
 ##[loading]
@@ -63,7 +48,7 @@ B:customwindowicon = 'false';
 ##[layouteditor]
 
 I:gridsize = '10';
-B:editordeleteconfirmation = 'true';
+B:editordeleteconfirmation = 'false';
 B:showgrid = 'false';
 [If the warning when trying to move an vanilla button without an orientation should be displayed or not.]
 B:showvanillamovewarning = 'true';
@@ -71,7 +56,7 @@ B:showvanillamovewarning = 'true';
 
 ##[ui]
 
-F:uiscale = '00.0';
+F:uiscale = '0.0';
 
 
 ##[multiplayer_screen]

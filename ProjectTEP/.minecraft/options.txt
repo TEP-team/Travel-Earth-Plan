@@ -9,7 +9,7 @@ guiScale:0
 particles:1
 bobView:true
 anaglyph3d:false
-maxFps:240
+maxFps:260
 fboEnable:true
 difficulty:2
 fancyGraphics:false
@@ -18,7 +18,7 @@ renderClouds:false
 resourcePacks:["Minecraft-Mod-Language-Modpack.zip","TEP\u0027s Resource Package.zip"]
 incompatibleResourcePacks:[]
 lastServer:
-lang:zh_cn
+lang:en_us
 chatVisibility:0
 chatColors:true
 chatLinks:true
@@ -168,6 +168,13 @@ key_key.integratedterminals.terminal.tab.previous:15:SHIFT
 key_key.integratedterminals.terminal.craftinggrid.clearplayer:0
 key_key.integratedterminals.terminal.craftinggrid.clearstorage:0:SHIFT
 key_key.integratedterminals.terminal.craftinggrid.balance:48
+key_invtweaks.key.sort:19
+key_key.itemzoom.toggle:44:SHIFT
+key_key.itemzoom.hold:0
+key_key.itemzoom.zoom.in:0
+key_key.itemzoom.zoom.out:0
+key_jecalculation.key.gui_craft:0
+key_jecalculation.key.gui_math:0
 key_key.rotateup:200
 key_key.rotatedown:208
 key_key.rotateright:205
