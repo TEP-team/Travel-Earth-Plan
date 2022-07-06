@@ -7,6 +7,7 @@
 
 #priority 90000
 #loader contenttweaker
+import crafttweaker.data.IData;
 import crafttweaker.text.ITextComponent;
 import mods.contenttweaker.Commands;
 import mods.contenttweaker.Player;

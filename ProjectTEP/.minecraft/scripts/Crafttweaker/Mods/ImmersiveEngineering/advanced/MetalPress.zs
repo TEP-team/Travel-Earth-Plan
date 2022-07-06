@@ -12,6 +12,7 @@ MetalPress.removeRecipeByMold(<immersiveengineering:mold>);
 MetalPress.removeRecipeByMold(<immersiveengineering:mold:1>);
 
 MetalPress.addRecipe(<immersiveengineering:metal:40>, <minecraft:gold_ingot>, <immersiveengineering:mold>, 3600);
+MetalPress.addRecipe(<integrateddynamics:variable>*2, <integrateddynamics:crystalized_menril_chunk>, <immersiveengineering:mold:6>, 800);
 
 /* using global variables (Items) */
 for i, plate in Items[5] {

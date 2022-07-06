@@ -10,11 +10,11 @@
 val machine as string = "compiler";
 
 ModularUtils.itemRecipeBuilder(machine ~ "_0", machine, 800, 750,
-    [<minecraft:paper>, <contenttweaker:gc_exe>],
+    [<contenttweaker:papers>, <contenttweaker:gc_exe>],
     [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:gas_centrifuger"}), <contenttweaker:exe>], true, true).build();
 
 ModularUtils.itemRecipeBuilder(machine ~ "_1", machine, 1200, 1000,
-    [<minecraft:paper>, <contenttweaker:ft_exe>],
+    [<contenttweaker:papers>, <contenttweaker:ft_exe>],
     [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:reactor"}), <contenttweaker:exe>], true, true).build();
 
 ModularUtils.itemRecipeBuilder(machine ~ "_2", machine, 400, 200,

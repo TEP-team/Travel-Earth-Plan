@@ -6,7 +6,6 @@
 */
 
 #priority 60000
-
 import mods.appliedenergistics2.Grinder;
 
 /* using global variables (dirtydust, ore, dust, ingot) */

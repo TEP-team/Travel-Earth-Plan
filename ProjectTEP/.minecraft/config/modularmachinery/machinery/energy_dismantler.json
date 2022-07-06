@@ -1,7 +1,6 @@
 {
     "registryname": "energy_dismantler",
     "localizedname": "modularmachinery.energy_dismantler",
-    "activated_sound": "modularcontroller:machine_activated_science_fiction",
     "requires-blueprint": false,
     "color": "2c2c2c",
     "parts": [

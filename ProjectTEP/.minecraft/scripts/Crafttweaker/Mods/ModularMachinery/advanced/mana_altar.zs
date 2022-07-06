@@ -31,5 +31,5 @@ ModularUtils.itemRecipeBuilder(machine ~ "_4", machine, 1200, 5000000,
     [<mekanism:teleportationcore>], true, false).build();
 
 ModularUtils.itemRecipeBuilder(machine ~ "_5", machine, 200, 20000,
-    [<botania:storage:2>*2, <botania:manaresource:14>*4, <contenttweaker:shinystar_ingot>*2, <contenttweaker:rainbow_gem>, <minecraft:nether_star>],
-    [<botania:flighttiara>, <contenttweaker:rainbow_gem>], true, false).build();
+    [<botania:storage:2>*2, <botania:manaresource:14>*4, <contenttweaker:shinystar_ingot>*2, <minecraft:nether_star>],
+    [<botania:flighttiara>], true, false).build();

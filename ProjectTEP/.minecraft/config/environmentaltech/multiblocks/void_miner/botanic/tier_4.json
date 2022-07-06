@@ -124,6 +124,11 @@
       "target": "gooditems",
       "weight": 1,
       "id": "OD_PREFIX:botaniaGoodItems"
+    },
+    {
+      "target": "seed",
+      "weight": 2,
+      "id": "immersiveengineering:seed"
     }
   ]
 }

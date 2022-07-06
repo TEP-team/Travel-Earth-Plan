@@ -11,9 +11,9 @@ import mods.botania.ManaInfusion;
 
 val remove as IIngredient[] = 
 [
-    <botania:manabottle>,<botania:manacookie>,<minecraft:wheat_seeds>,
-    <minecraft:carrot>,<minecraft:pumpkin_seeds>,<minecraft:melon_seeds>,
-    <minecraft:potato>,<minecraft:beetroot_seeds>,<minecraft:dye:3>
+    <botania:manabottle>, <botania:manacookie>, <minecraft:wheat_seeds>,
+    <minecraft:carrot>, <minecraft:pumpkin_seeds>, <minecraft:melon_seeds>,
+    <minecraft:potato>, <minecraft:beetroot_seeds>, <minecraft:dye:3>
 ];
 
 for Remove in remove {

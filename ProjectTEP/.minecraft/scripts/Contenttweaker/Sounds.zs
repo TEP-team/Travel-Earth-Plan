@@ -8,9 +8,10 @@
 #priority 90000
 #loader contenttweaker
 import mods.contenttweaker.VanillaFactory;
-
-val sounds as string[] = ["machine_0", "machine_1", "machine_2", "machine_3", "machine_4"];
+/*
+val sounds as string[] = [];
 
 for sound in sounds {
     VanillaFactory.createSoundEvent(sound);
 }
+*/

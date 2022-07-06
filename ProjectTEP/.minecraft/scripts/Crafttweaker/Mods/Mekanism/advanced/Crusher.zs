@@ -23,7 +23,7 @@ for Remove in remove {
 /* using global variables (ingot, dust, dirtydust, ore) */
 for i, dust in dust {
     crusher.addRecipe(ingot[i], dust);
-    crusher.addRecipe(ore[i], dirtydust[i]);
+    crusher.addRecipe(ore[i], dirtydust[i]*2);
 }
 
 crusher.addRecipe(<contenttweaker:ingot_is>, <contenttweaker:tin_solder_dust>);

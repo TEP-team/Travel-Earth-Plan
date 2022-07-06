@@ -11,7 +11,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.text.ITextComponent;
 import crafttweaker.event.PlayerRightClickItemEvent;
 
-static items as IItemStack[] = [<botania:manaresource:15>];
+static items as IItemStack[] = [<botania:manaresource:15>, <minecraft:writable_book>];
 
 events.onPlayerRightClickItem(function(event as PlayerRightClickItemEvent) {
     for item in items {

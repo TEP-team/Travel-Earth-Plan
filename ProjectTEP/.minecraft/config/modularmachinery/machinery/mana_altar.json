@@ -1,7 +1,6 @@
 {
     "registryname": "mana_altar",
     "localizedname": "modularmachinery.mana_altar",
-    "activated_sound": "botania:terrasteelcraft",
     "requires-blueprint": false,
     "color": "DFE1D3",
     "parts": [

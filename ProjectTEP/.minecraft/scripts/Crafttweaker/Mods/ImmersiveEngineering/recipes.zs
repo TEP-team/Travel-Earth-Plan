@@ -8,9 +8,6 @@
 #priority 50000
 import crafttweaker.item.IItemStack;
 
-val hammer1 = <contenttweaker:hammer_plate>.anyDamage().transformDamage();
-val hammer2 = itemUtils.getItem("immersiveengineering:tool", 0).anyDamage().transformDamage();
-
 RecipeUtils.recipeAround(<immersiveengineering:metal_decoration0>, <immersiveengineering:wirecoil>, <ore:ingotSteel>, true);
 RecipeUtils.recipeAround(<immersiveengineering:metal_decoration0:1>, <immersiveengineering:wirecoil:1>, <ore:ingotSteel>, true);
 RecipeUtils.recipeAround(<immersiveengineering:metal_decoration0:2>, <immersiveengineering:wirecoil:2>, <ore:ingotSteel>, true);
@@ -26,10 +23,10 @@ for toolRecipe in toolRecipe {
 }
 
 RecipeUtils.recipeShapeless(<immersiveengineering:metal:40>,
-	[<minecraft:gold_ingot>, hammer1 | hammer2], true);
+	[<minecraft:gold_ingot>, <contenttweaker:hammer_plate>.anyDamage().transformDamage()], true);
 
 /* using global variables (otheringot, otherplate) */
 for i, otherplate in otherplate {
     RecipeUtils.recipeShapeless(otherplate,
-	    [otheringot[i], hammer1 | hammer2], true);
+	    [otheringot[i], <contenttweaker:hammer_plate>.anyDamage().transformDamage()], true);
 }

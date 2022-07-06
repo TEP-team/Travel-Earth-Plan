@@ -1,8 +1,8 @@
 setIcon(<minecraft:snowball>)
 setPos(-10,30)
 
-setTranslatedTitle("advancedment.tep.snowball")
-setTranslatedDescription("advancedment.tep.snowball.doc")
+setTranslatedTitle("advancement.tep.snowball")
+setTranslatedDescription("advancement.tep.snowball.doc")
 
 setShowToast(true)
 setAnnounceToChat(false)

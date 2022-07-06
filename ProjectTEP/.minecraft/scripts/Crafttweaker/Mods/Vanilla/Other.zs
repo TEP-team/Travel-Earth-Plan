@@ -6,9 +6,6 @@
 */
 
 #priority 50000
-import crafttweaker.item.IItemStack;
-
-val Items as IItemStack[][] = BasicUtils.getAllMaterialPartItem();
 
 //furnace
 furnace.setFuel(<contenttweaker:wood_residue>, 75);
@@ -16,6 +13,8 @@ furnace.setFuel(<contenttweaker:wood_residue>, 75);
 furnace.remove(<pneumaticcraft:empty_pcb:100>);
 furnace.remove(<forge:bucketfilled>.withTag({FluidName: "purifiedwater", Amount: 1000}));
 furnace.remove(<simpledifficulty:purified_water_bottle>);
+furnace.remove(<immersiveengineering:metal:1>, <immersiveengineering:ore:1>);
+furnace.remove(<immersiveengineering:metal:5>, <immersiveengineering:ore:5>);
 
 furnace.addRecipe(<minecraft:leather>, <minecraft:rotten_flesh>, 0.1);
 furnace.addRecipe(<contenttweaker:ingot_is>, <contenttweaker:tin_solder_dust>, 1);

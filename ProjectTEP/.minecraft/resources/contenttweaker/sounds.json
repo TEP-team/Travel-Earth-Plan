@@ -124,50 +124,5 @@
       }
     ],
     "subtitle": "subtitle.contenttweaker.roundabout"
-  },
-  "machine_1": {
-    "sounds": [
-      {
-        "name": "contenttweaker:machine_1",
-        "stream": false
-      }
-    ],
-    "subtitle": "subtitle.contenttweaker.machine_1"
-  },
-  "machine_0": {
-    "sounds": [
-      {
-        "name": "contenttweaker:machine_0",
-        "stream": false
-      }
-    ],
-    "subtitle": "subtitle.contenttweaker.machine_0"
-  },
-  "machine_3": {
-    "sounds": [
-      {
-        "name": "contenttweaker:machine_3",
-        "stream": false
-      }
-    ],
-    "subtitle": "subtitle.contenttweaker.machine_3"
-  },
-  "machine_2": {
-    "sounds": [
-      {
-        "name": "contenttweaker:machine_2",
-        "stream": false
-      }
-    ],
-    "subtitle": "subtitle.contenttweaker.machine_2"
-  },
-  "machine_4": {
-    "sounds": [
-      {
-        "name": "contenttweaker:machine_4",
-        "stream": false
-      }
-    ],
-    "subtitle": "subtitle.contenttweaker.machine_4"
   }
 }

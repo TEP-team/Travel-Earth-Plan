@@ -119,6 +119,11 @@
       "target": "flowers",
       "weight": 10,
       "id": "OD_PREFIX:doubleflowers"
+    },
+    {
+      "target": "seed",
+      "weight": 2,
+      "id": "immersiveengineering:seed"
     }
   ]
 }

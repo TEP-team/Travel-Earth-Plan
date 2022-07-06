@@ -119,6 +119,11 @@
       "target": "seed",
       "weight": 2,
       "id": "botania:overgrowthseed"
+    },
+    {
+      "target": "seed",
+      "weight": 2,
+      "id": "immersiveengineering:seed"
     }
   ]
 }

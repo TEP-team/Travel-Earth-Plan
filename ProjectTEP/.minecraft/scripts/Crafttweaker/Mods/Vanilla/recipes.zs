@@ -8,21 +8,15 @@
 #priority 50000
 import crafttweaker.item.IIngredient;
 
-var plank = <ore:plankWood>;
-var log = <ore:logWood>;
-var glass = <ore:blockGlass>;
-var pane = <ore:paneGlass>;
-var iron = <ore:ingotIron>;
-
 //all recipes (log --> plank)
 var handsaw = <contenttweaker:handsaw_wood>.anyDamage().transformDamage();
-for Plank in plank.items {
+for Plank in <ore:plankWood>.items {
     var recipe = recipes.getRecipesFor(Plank);
     for rec in recipe {
         var inputs as IIngredient[] = rec.ingredients1D;
         if (inputs.length == 1) {
             for input in inputs[0].items {
-                if (log.matches(input)) {
+                if (<ore:logWood>.matches(input)) {
                     recipes.removeByRecipeName(rec.fullResourceDomain);
                     RecipeUtils.recipeShapeless(rec.output*2, inputs, false);
                     RecipeUtils.recipeShapeless(rec.output*4, inputs += handsaw, false);
@@ -33,13 +27,13 @@ for Plank in plank.items {
 }
 
 //all recipes (glass --> pane)
-for Pane in pane.items {
+for Pane in <ore:paneGlass>.items {
     var recipe = recipes.getRecipesFor(Pane);
     for rec in recipe {
         var inputs as IIngredient[][] = rec.ingredients2D;
         if (inputs.length == 2) {
             for input in inputs[0][0].items {
-                if (glass.matches(input)) {
+                if (<ore:blockGlass>.matches(input)) {
                     recipes.removeByRecipeName(rec.fullResourceDomain);
                     RecipeUtils.recipeShapeless(rec.output*6, [inputs[0][0]], false);
                 }
@@ -49,39 +43,39 @@ for Pane in pane.items {
 }
 
 RecipeUtils.recipeShaped(<minecraft:stick>,
-    [[<contenttweaker:wood_residue>],
+    [[<contenttweaker:wood_residue>], 
 	 [<contenttweaker:wood_residue>]], false);
 
 RecipeUtils.recipeShaped(<minecraft:crafting_table>,
-    [[<minecraft:brick_block>,<minecraft:brick_block>],
-	 [<minecraft:brick_block>,<minecraft:brick_block>]], true);
+    [[<minecraft:brick_block>, <minecraft:brick_block>], 
+	 [<minecraft:brick_block>, <minecraft:brick_block>]], true);
 
 RecipeUtils.recipeShaped(<minecraft:furnace>,
-    [[<ore:cobblestone>,<ore:cobblestone>],
-	 [<ore:cobblestone>,<ore:cobblestone>]], true);
+    [[<ore:cobblestone>, <ore:cobblestone>], 
+	 [<ore:cobblestone>, <ore:cobblestone>]], true);
 
-RecipeUtils.recipeShaped(<bonsaitrees:bonsaipot>,
-    [[iron,null,iron],
-	 [iron,iron,iron]], true);
+RecipeUtils.recipeShaped(<bonsaitrees:bonsaipot>, 
+    [[<ore:ingotIron>, null, <ore:ingotIron>], 
+	 [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]], true);
 
 RecipeUtils.recipeShaped(<spiceoflife:lunchbag>,
-    [[null,<contenttweaker:cloth_string>,null],
-	 [<contenttweaker:cloth_string>,<spiceoflife:bookfoodjournal>,<contenttweaker:cloth_string>],
-	 [null,<contenttweaker:cloth_string>,null]], true);
+    [[null, <contenttweaker:cloth_string>, null], 
+	 [<contenttweaker:cloth_string>, <spiceoflife:bookfoodjournal>, <contenttweaker:cloth_string>], 
+	 [null, <contenttweaker:cloth_string>, null]], true);
 
 RecipeUtils.recipeShaped(<spiceoflife:lunchbox>,
-    [[null,iron,null],
-	 [iron,<spiceoflife:lunchbag>,iron],
-	 [null,iron,null]], true);
+    [[null, <ore:ingotIron>, null], 
+	 [<ore:ingotIron>, <spiceoflife:lunchbag>, <ore:ingotIron>], 
+	 [null, <ore:ingotIron>, null]], true);
 
 RecipeUtils.recipeShapeless(<minecraft:flint_and_steel>,
-    [<minecraft:cobblestone>,<minecraft:flint>], true);
+    [<minecraft:cobblestone>, <minecraft:flint>], true);
 
 RecipeUtils.recipeShapeless(<spiceoflife:bookfoodjournal>,
-    [<minecraft:book>,<minecraft:wheat>], true);
+    [<minecraft:book>, <minecraft:wheat>], true);
 
 RecipeUtils.recipeShapeless(<minecraft:blaze_powder>*5,
     [<minecraft:blaze_rod>], true);
 
 RecipeUtils.recipeShapeless(<minecraft:dye:15>*4,
-    [<minecraft:dye:15>,<cropdusting:poop>], false);
+    [<minecraft:dye:15>, <cropdusting:poop>], false);

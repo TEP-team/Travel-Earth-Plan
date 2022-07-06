@@ -8,7 +8,8 @@
 #priority 60000
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
-val mods as string[] = ["variedcommodities","botania_tweaks","car","vehicle"];
+
+val mods as string[] = ["variedcommodities", "botania_tweaks", "car", "vehicle"];
 for Mods in mods {
     val hide as IItemStack[] = loadedMods[Mods].items;
     for Hide in hide {
@@ -17,28 +18,31 @@ for Mods in mods {
     }
 }
 
-val hides as IItemStack[] = 
-[
-    <minecraft:golden_rail>,<minecraft:detector_rail>,<minecraft:rail>,
-    <minecraft:activator_rail>,<minecraft:boat>,<minecraft:spruce_boat>,
-    <minecraft:birch_boat>,<minecraft:jungle_boat>,<minecraft:acacia_boat>,
-    <minecraft:dark_oak_boat>,<minecraft:minecart>,<minecraft:chest_minecart>,
-    <minecraft:furnace_minecart>,<minecraft:tnt_minecart>,<minecraft:hopper_minecart>,
-    <botania:poolminecart>,<minecraft:command_block_minecart>,<pneumaticcraft:empty_pcb:100>,
-    <simpledifficulty:chiller>,<simpledifficulty:ice_helmet>,<simpledifficulty:ice_chestplate>,
-    <simpledifficulty:ice_leggings>,<simpledifficulty:ice_boots>,<compactmachines3:psd>,
-    <sereneseasons:season_clock>,<sereneseasons:season_sensor_spring>,
-    <sereneseasons:season_sensor_summer>,<sereneseasons:season_sensor_autumn>,
-    <sereneseasons:season_sensor_winter>,<compactmachines3:psd>,<armorunder:cooling_goo>,
-    <armorunder:cool_liner_material>,<armorunder:cool_helmet_liner>,<armorunder:cool_chestplate_liner>,
-    <armorunder:cool_leggings_liner>,<armorunder:cool_boots_liner>,<armorunder:goopak_cool>,
-    <armorunder:auto_chestplate_liner>,<armorunder:auto_leggings_liner>,<armorunder:flipflop_liner_material>,
-    <armorunder:flipflop_goo>,<environmentaltech:structure_frame_5>,<environmentaltech:structure_frame_6>,
-    <environmentaltech:void_ore_miner_cont_5>,<environmentaltech:void_ore_miner_cont_6>,
-    <environmentaltech:void_botanic_miner_cont_5>,<environmentaltech:void_botanic_miner_cont_6>,
-    <pneumaticcraft:printed_circuit_board>,<pneumaticcraft:electrostatic_compressor>,
-    <pneumaticcraft:compressed_iron_gear>,<pneumaticcraft:amadron_tablet>,
-    <pneumaticcraft:vortex_cannon>,<modularmachinery:itemmodularium>
+val hide as IItemStack[] = [
+    <sereneseasons:season_clock>, <sereneseasons:season_sensor_spring>, 
+    <sereneseasons:season_sensor_summer>, <sereneseasons:season_sensor_autumn>,
+    <sereneseasons:season_sensor_winter>,
+    
+    <environmentaltech:structure_frame_5>, <environmentaltech:structure_frame_6>,
+    <environmentaltech:void_ore_miner_cont_5>, <environmentaltech:void_ore_miner_cont_6>,
+    <environmentaltech:void_botanic_miner_cont_5>, <environmentaltech:void_botanic_miner_cont_6>,
+
+    <thermalexpansion:augment:257>, <thermalexpansion:augment:273>,
+    <thermalexpansion:augment:304>, <thermalexpansion:augment:337>,
+    <thermalexpansion:augment:512>, <thermalexpansion:augment:513>,
+    <thermalexpansion:augment:514>, <thermalexpansion:augment:515>,
+    <thermalexpansion:augment:576>, <thermalexpansion:augment:640>,
+    <thermalexpansion:augment:656>, <thermalexpansion:augment:672>,
+    <thermalexpansion:augment:673>, <thermalexpansion:augment:674>,
+    <thermalexpansion:augment:688>, <thermalexpansion:augment:704>,
+    <thermalexpansion:dynamo:*>,
+
+    <pneumaticcraft:vortex_cannon>,
+
+    <botania:poolminecart>,
+
+    <modularmachinery:itemmodularium>
+
     /*
     <mekanismgenerators:generator>,<mekanismgenerators:generator:3>,<mekanismgenerators:reactor>,
     <mekanismgenerators:reactor:1>,<mekanismgenerators:reactor:2>,<mekanismgenerators:reactor:3>,
@@ -52,7 +56,7 @@ val hides as IItemStack[] =
     <mekanism:jetpack>,<mekanism:armoredjetpack>,<mekanism:electricbow>
     */
 ];
-for Hide in hides {
-    JEI.removeAndHide(Hide);
-    furnace.remove(Hide);
+
+for Hide in hide {
+    JEI.hide(Hide);
 }

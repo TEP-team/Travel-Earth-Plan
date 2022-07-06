@@ -10,7 +10,7 @@ import crafttweaker.item.IItemStack;
 import mods.immersiveengineering.Blueprint;
 
 val remove as IItemStack[] = [
-    <immersiveengineering:material:8>,<immersiveengineering:material:9>
+    <immersiveengineering:material:8>, <immersiveengineering:material:9>
 ];
 
 for Remove in remove {

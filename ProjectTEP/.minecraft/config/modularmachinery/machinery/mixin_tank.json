@@ -1,7 +1,6 @@
 {
     "registryname": "mixin_tank",
     "localizedname": "modularmachinery.mixin_tank",
-    "activated_sound": "modularcontroller:machine_activated_steam",
     "requires-blueprint": false,
     "color": "3f4349",
     "parts": [
@@ -293,9 +292,7 @@
             "x": -2,
             "y": 2,
             "z": 0,
-            "elements": [
-                "immersiveengineering:storage@2"
-            ]
+            "elements": "energy_input"
         },
         {
             "x": -1,
@@ -317,6 +314,7 @@
             "x": 2,
             "y": 0,
             "z": -1,
+
             "elements": "fluid_input"
         },
         {
@@ -355,9 +353,7 @@
             "x": 2,
             "y": 2,
             "z": 0,
-            "elements": [
-                "immersiveengineering:storage@2"
-            ]
+            "elements": "energy_input"
         },
         {
             "x": -1,

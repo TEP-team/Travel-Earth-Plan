@@ -10,7 +10,7 @@
 val machine as string = "energy_dismantler";
 
 ModularUtils.itemRecipeBuilder(machine ~ "_0", machine, 2400, 4000,
-    [<contenttweaker:shinystar_matter>],
+    [<contenttweaker:shinystar_matter>, <botania:manaresource:7>],
     [<contenttweaker:shinystar_ingot>], true, true).build();
 
 ModularUtils.itemRecipeBuilder(machine ~ "_1", machine, 600, 100,

@@ -95,14 +95,14 @@ val remove as IItemStack[][IOreDictEntry] = {
     <ore:gearNickel> : [<thermalfoundation:material:261>],
     <ore:gearPlatinum> : [<thermalfoundation:material:262>],
 
-    <ore:blockCopper> : [<thermalfoundation:storage:0>],
+    <ore:blockCopper> : [<thermalfoundation:storage:0>, <immersiveengineering:storage>],
     <ore:blockTin> : [<thermalfoundation:storage:1>],
     <ore:blockLead> : [<thermalfoundation:storage:3>],
     <ore:blockSilver> : [<thermalfoundation:storage:2>],
     <ore:blockNickel> : [<thermalfoundation:storage:5>],
     <ore:blockConstantan> : [<thermalfoundation:storage_alloy:4>],
     <ore:blockElectrum> : [<thermalfoundation:storage_alloy:1>],
-    <ore:blockSteel> : [<thermalfoundation:storage_alloy:0>],
+    <ore:blockSteel> : [<thermalfoundation:storage_alloy:0>, <mekanism:basicblock:5>],
     <ore:blockBronze> : [<thermalfoundation:storage_alloy:3>],
     <ore:blockAluminum> : [<thermalfoundation:storage:4>],
     <ore:blockPlatinum> : [<thermalfoundation:storage:6>]
@@ -110,22 +110,10 @@ val remove as IItemStack[][IOreDictEntry] = {
 
 for ore, items in remove {
     for item in items {
-
         ore.remove(item);
         recipes.remove(item);
         furnace.remove(item);
         JEI.removeAndHide(item);
-
-/*
-
-        mods.thermalexpansion.RedstoneFurnace.removeRecipe(item);
-        mods.thermalexpansion.Pulverizer.removeRecipe(item);;
-
-        mods.mekanism.combiner.removeRecipe(item);
-        mods.mekanism.enrichment.removeRecipe(item);
-        
-        mods.immersiveengineering.ArcFurnace.removeRecipe(item);
-*/
     }
 }
 

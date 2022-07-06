@@ -9,9 +9,11 @@
 import crafttweaker.item.IItemStack;
 
 val remove as IItemStack[] = [
-    <integrateddynamics:coal_generator>
+    <integrateddynamics:coal_generator>, <integrateddynamics:variable>
 ];
 
 for Remove in remove {
     recipes.remove(Remove);
 }
+
+RecipeUtils.recipeAround(<integrateddynamics:logic_programmer>, <integrateddynamics:variable>, <minecraft:crafting_table>, true);

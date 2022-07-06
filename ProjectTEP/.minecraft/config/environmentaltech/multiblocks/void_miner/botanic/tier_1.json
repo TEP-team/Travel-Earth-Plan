@@ -109,6 +109,11 @@
       "target": "brown",
       "weight": 20,
       "id": "minecraft:deadbush:0"
+    },
+    {
+      "target": "seed",
+      "weight": 2,
+      "id": "immersiveengineering:seed"
     }
   ]
 }

@@ -337,7 +337,7 @@ customization {
   y = -9
   scale = 1.0
   alignment = left
-  value = §9Travel Earth Plan §6Made By §5TEP-team
+  value = §9Travel Earth Plan §6Made By §6Wheat Paper Team
 }
 
 customization {

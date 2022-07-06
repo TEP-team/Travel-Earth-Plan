@@ -6,15 +6,14 @@
 */
 
 #priority 60000
-import crafttweaker.item.IItemStack;
 import mods.pneumaticcraft.assembly;
 
-//remove
 assembly.removeAllDrillLaserRecipes();
 assembly.removeAllDrillRecipes();
-assembly.removeLaserRecipe(<pneumaticcraft:advanced_pressure_tube>);
+
+assembly.removeDrillLaserRecipe(<pneumaticcraft:advanced_pressure_tube>);
 assembly.removeLaserRecipe(<pneumaticcraft:aphorism_tile>);
 
-//add
-assembly.addLaserRecipe(<pneumaticcraft:printed_circuit_board>,<contenttweaker:pcb>);
-assembly.addLaserRecipe(<contenttweaker:pcb>,<pneumaticcraft:printed_circuit_board>);
+assembly.addLaserRecipe(<pneumaticcraft:printed_circuit_board>, <contenttweaker:pcb>);
+assembly.addLaserRecipe(<contenttweaker:pcb>, <pneumaticcraft:printed_circuit_board>);
+assembly.addLaserRecipe(<contenttweaker:paper_ee>, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:laser"}));

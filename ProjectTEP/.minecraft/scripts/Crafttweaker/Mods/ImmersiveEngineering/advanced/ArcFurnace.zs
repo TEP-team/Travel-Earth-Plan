@@ -18,7 +18,12 @@ for Remove in remove {
 }
 
 ArcFurnace.addRecipe(<contenttweaker:material_part:11>, <contenttweaker:material_part:13>, null, 100, 512);
-ArcFurnace.addRecipe(<contenttweaker:material_part:11>, <contenttweaker:sub_block_holder_0:3>, <immersiveengineering:material:7>, 200, 512);
+ArcFurnace.addRecipe(<contenttweaker:material_part:11>*2, <contenttweaker:sub_block_holder_0:3>, <immersiveengineering:material:7>, 200, 512);
 
 ArcFurnace.addRecipe(<mekanism:ingot:6>, <contenttweaker:material_part:35>, null, 100, 512);
-ArcFurnace.addRecipe(<mekanism:ingot:6>, <mekanism:oreblock:2>, <immersiveengineering:material:7>, 200, 512);
+ArcFurnace.addRecipe(<mekanism:ingot:6>*2, <mekanism:oreblock:2>, <immersiveengineering:material:7>, 200, 512);
+
+/* using global variables (dirtydust, ingot) */
+for i, ingot in ingot {
+    ArcFurnace.addRecipe(ingot, dirtydust[i], <immersiveengineering:material:7>, 100, 512);
+}

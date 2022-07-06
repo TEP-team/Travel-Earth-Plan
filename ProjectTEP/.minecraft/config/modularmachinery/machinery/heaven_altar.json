@@ -1,0 +1,5485 @@
+{
+    "registryname": "heaven_altar",
+    "localizedname": "modularmachinery.heaven_altar",
+    "requires-blueprint": false,
+    "color": "DFE1D3",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "gugu-utils:sparkmanahatch@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": "item_input"
+        },
+        {
+            "x": -17,
+            "y": 7,
+            "z": -13,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -21,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "botania:pylon@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": 7,
+            "z": -12,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "minecraft:emerald_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 7,
+            "z": 19,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "minecraft:emerald_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "botania:pylon@1"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 21,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 7,
+            "z": 19,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "mekanism:basicblock@13"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "mekanism:basicblock@13"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": 7,
+            "z": -12,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -21,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "botania:corporeaindex@0"
+            ]
+        },
+        {
+            "x": 19,
+            "y": 7,
+            "z": -11,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 7,
+            "z": 18,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "z": -15,
+            "elements": [
+                "minecraft:emerald_block@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "minecraft:diamond_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "minecraft:diamond_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "minecraft:diamond_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "minecraft:diamond_block@0"
+            ]
+        },
+        {
+            "x": 21,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "minecraft:diamond_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "minecraft:diamond_block@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 7,
+            "z": 18,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "z": -15,
+            "elements": [
+                "mekanism:basicblock@13"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -19,
+            "y": 7,
+            "z": -11,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -21,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 20,
+            "y": 7,
+            "z": -10,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -1,
+            "z": -14,
+            "elements": [
+                "minecraft:emerald_block@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 7,
+            "z": 17,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 1,
+            "z": -13,
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -1,
+            "z": -14,
+            "elements": [
+                "minecraft:emerald_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": -14,
+            "elements": [
+                "minecraft:emerald_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -14,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -14,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -14,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -14,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -14,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -14,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -14,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 21,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": -14,
+            "elements": [
+                "mekanism:basicblock@13"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 7,
+            "z": 17,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -1,
+            "z": -14,
+            "elements": [
+                "mekanism:basicblock@13"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 1,
+            "z": -13,
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -1,
+            "z": -14,
+            "elements": [
+                "mekanism:basicblock@13"
+            ]
+        },
+        {
+            "x": 17,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -21,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -20,
+            "y": 7,
+            "z": -10,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 21,
+            "y": 7,
+            "z": -9,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": -1,
+            "z": -13,
+            "elements": [
+                "minecraft:emerald_block@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 7,
+            "z": 16,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": -13,
+            "elements": [
+                "minecraft:emerald_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": 21,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": -13,
+            "elements": [
+                "mekanism:basicblock@13"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 7,
+            "z": 16,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -1,
+            "z": -13,
+            "elements": [
+                "mekanism:basicblock@13"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": -1,
+            "z": -13,
+            "elements": [
+                "mekanism:basicblock@13"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -21,
+            "y": 7,
+            "z": -9,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -1,
+            "z": -12,
+            "elements": [
+                "minecraft:emerald_block@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 7,
+            "z": 15,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 21,
+            "y": 7,
+            "z": -8,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -1,
+            "z": -12,
+            "elements": [
+                "minecraft:emerald_block@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": -12,
+            "elements": [
+                "minecraft:emerald_block@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": -12,
+            "elements": [
+                "mekanism:basicblock@13"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 7,
+            "z": 15,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": -12,
+            "elements": [
+                "mekanism:basicblock@13"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -1,
+            "z": -12,
+            "elements": [
+                "mekanism:basicblock@13"
+            ]
+        },
+        {
+            "x": -21,
+            "y": 7,
+            "z": -8,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": -10,
+            "elements": [
+                "botania:pylon@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": -10,
+            "elements": [
+                "botania:pylon@2"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 7,
+            "z": 14,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 21,
+            "y": 7,
+            "z": -7,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -1,
+            "z": -11,
+            "elements": [
+                "minecraft:emerald_block@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "z": -11,
+            "elements": [
+                "mekanism:basicblock@13"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 7,
+            "z": 14,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -1,
+            "z": -11,
+            "elements": [
+                "mekanism:basicblock@13"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -21,
+            "y": 7,
+            "z": -7,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": 7,
+            "z": 13,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 21,
+            "y": 7,
+            "z": -6,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "minecraft:emerald_block@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "minecraft:emerald_block@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "mekanism:basicblock@13"
+            ]
+        },
+        {
+            "x": 17,
+            "y": 7,
+            "z": 13,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "mekanism:basicblock@13"
+            ]
+        },
+        {
+            "x": -21,
+            "y": 7,
+            "z": -6,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "botania:pylon@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "botania:pylon@2"
+            ]
+        },
+        {
+            "x": -18,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 21,
+            "y": 7,
+            "z": -5,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "minecraft:emerald_block@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -8,
+            "elements": [
+                "botania:pylon@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "z": -21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "z": -21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "mekanism:basicblock@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": -21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": -21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": -21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": -21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": -21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": -21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": -21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": -21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": -21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": -21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": -21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": -21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": -21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -21,
+            "y": 7,
+            "z": -5,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": -21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": -21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": -21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 7,
+            "z": -21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -19,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 21,
+            "y": 7,
+            "z": -4,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "minecraft:emerald_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "botania:pylon@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 7,
+            "z": -20,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "mekanism:basicblock@13"
+            ]
+        },
+        {
+            "x": 19,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -21,
+            "y": 7,
+            "z": -4,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 7,
+            "z": -20,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -20,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 21,
+            "y": 7,
+            "z": -3,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 7,
+            "z": -19,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 20,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "botania:pylon@2"
+            ]
+        },
+        {
+            "x": -21,
+            "y": 7,
+            "z": -3,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 7,
+            "z": -19,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -21,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "botania:pylon@2"
+            ]
+        },
+        {
+            "x": 21,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "botania:pylon@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:dreamwood@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "botania:pylon@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:dreamwood@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 7,
+            "z": -18,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 21,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -21,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 7,
+            "z": -18,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -21,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 21,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "botania:pylon@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "botania:livingwood@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "botania:livingwood@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:dreamwood@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "botania:pylon@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:dreamwood@5"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 7,
+            "z": -17,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 21,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "botania:pylon@2"
+            ]
+        },
+        {
+            "x": -21,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 7,
+            "z": -17,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -21,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "botania:pylon@2"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botania:livingwood@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botania:livingwood@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 7,
+            "z": -16,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": 21,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 7,
+            "z": -16,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -21,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 7,
+            "z": -15,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "minecraft:diamond_block@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "minecraft:diamond_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "minecraft:diamond_block@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "minecraft:diamond_block@0"
+            ]
+        },
+        {
+            "x": 21,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "minecraft:diamond_block@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "minecraft:diamond_block@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 7,
+            "z": -15,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -21,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 7,
+            "z": -14,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -1,
+            "z": -18,
+            "elements": [
+                "minecraft:emerald_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 7,
+            "z": 21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": 21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": 21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -18,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -18,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -18,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -18,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -18,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -18,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -18,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 21,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "z": 21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "z": 21,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -1,
+            "z": -18,
+            "elements": [
+                "mekanism:basicblock@13"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 7,
+            "z": -14,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -21,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": 7,
+            "z": -13,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -1,
+            "z": -17,
+            "elements": [
+                "minecraft:emerald_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 7,
+            "z": 20,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:dreamwood@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "minecraft:diamond_block@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "minecraft:diamond_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -16,
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "minecraft:diamond_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "minecraft:diamond_block@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "minecraft:diamond_block@0"
+            ]
+        },
+        {
+            "x": 21,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "minecraft:diamond_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "minecraft:diamond_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 7,
+            "z": 20,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -1,
+            "z": -17,
+            "elements": [
+                "mekanism:basicblock@13"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        }
+    ]}

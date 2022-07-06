@@ -12,29 +12,21 @@ import crafttweaker.util.Position3f;
 import crafttweaker.world.IWorld;
 import crafttweaker.event.ProjectileImpactThrowableEvent;
 
-val map as int[][IItemStack] = {
-    <minecraft:clay_ball> : [1, 2],
-    <minecraft:flint> : [2, 6],
-    <contenttweaker:wood_residue> : [6, 16],
-    <minecraft:dye:15> : [16, 18],
-    <minecraft:string> : [18, 20],
-    <minecraft:wheat_seeds> : [20, 21],
-    <minecraft:melon_seeds> : [21, 22],
-    <minecraft:pumpkin_seeds> : [22, 23],
-    <minecraft:beetroot_seeds> : [24, 25],
-    <immersiveengineering:seed> : [25, 26],
-};
+function setSnowDrop(item as IItemStack, num1 as int, num2 as int, world as IWorld, pos as Position3f) {
+    val random = world.random.nextInt(1, 100);
+    if (random >= num1 && random < num2) {
+        world.spawnEntity(item.createEntityItem(world, pos));
+    }
+}
 
 events.onProjectileImpactThrowable(function(event as ProjectileImpactThrowableEvent) {
     val entity = event.throwable;
     val world = entity.world;
+    val pos = entity.position3f;
     if (!world.remote && entity.definition.id == "minecraft:snowball") {
-        val pos = entity.position3f;
-        val random = world.random.nextInt(1, 65);
-        for item, range in map {
-            if (random >= range[0] && random < range[1]) {
-                world.spawnEntity(item.createEntityItem(world, pos));
-            }
-        }
+        setSnowDrop(<contenttweaker:wood_residue>, 1, 30, world, pos);
+        setSnowDrop(<minecraft:flint>, 31, 40, world, pos);
+        setSnowDrop(<minecraft:string>, 41, 45, world, pos);
+        setSnowDrop(<minecraft:clay_ball>, 46, 50, world, pos);
     }
 });

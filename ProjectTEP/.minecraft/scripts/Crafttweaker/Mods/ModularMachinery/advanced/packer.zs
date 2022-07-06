@@ -73,7 +73,7 @@ ModularUtils.itemRecipeBuilder(machine ~ "_6_" ~ 8, machine, 400, 25,
     [<mekanismgenerators:generator:7>], true, true).build();
 
 ModularUtils.itemRecipeBuilder(machine ~ "_6_" ~ 9, machine, 400, 25,
-    [<contenttweaker:material_part:75>*4, <contenttweaker:material_part:73>*2, <contenttweaker:material_part:73>],
+    [<contenttweaker:material_part:75>*4, <contenttweaker:material_part:73>*2, <contenttweaker:material_part:74>],
     [<mekanismgenerators:turbineblade>*4], true, true).build();
 
 ModularUtils.itemRecipeBuilder(machine ~ "_6_" ~ 10, machine, 200, 30,
@@ -81,7 +81,7 @@ ModularUtils.itemRecipeBuilder(machine ~ "_6_" ~ 10, machine, 200, 30,
     [<contenttweaker:ram>], true, true).build();
 
 ModularUtils.itemRecipeBuilder(machine ~ "_6_" ~ 11, machine, 400, 25,
-    [<contenttweaker:material_part:29>*4, <contenttweaker:ingot_is>*2, <mekanism:controlcircuit:2>, <contenttweaker:ram>, <contenttweaker:rom>, <contenttweaker:pcb>, <contenttweaker:cpu>, <contenttweaker:pin>*4],
+    [<contenttweaker:material_part:29>*4, <contenttweaker:ingot_is>*2, <mekanism:controlcircuit:2>],
     [<contenttweaker:singlechip>], true, true).build();
 
 ModularUtils.itemRecipeBuilder(machine ~ "_6_" ~ 12, machine, 400, 25,

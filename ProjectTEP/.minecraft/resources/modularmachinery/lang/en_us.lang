@@ -7,3 +7,5 @@ modularmachinery.mixin_tank=Mixin Tank
 modularmachinery.packer=Part Processor
 modularmachinery.reactor=Fusion Reactor
 modularmachinery.mana_convertor=Mana Convertor
+modularmachinery.laser=Laser Machine
+modularmachinery.heaven_altar=Heaven Altar

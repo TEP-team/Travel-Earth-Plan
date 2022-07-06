@@ -52,7 +52,7 @@ zenClass ModularUtils {
         }
         return recipe;
     }
-    
+
 }
 
 global ModularUtils as ModularUtils = ModularUtils("Instanced");

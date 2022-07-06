@@ -7,15 +7,12 @@
 
 #priority 50000
 
-val iron = <ore:ingotIron>;
+RecipeUtils.recipeShaped(<compactmachines3:fieldprojector>,
+    [[null, <ore:blockGlass>, null], 
+     [null, <contenttweaker:conversion_core>, null], 
+     [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]],  true);
 
-recipes.remove(<compactmachines3:fieldprojector>);
-recipes.addShaped(<compactmachines3:fieldprojector>,
-    [[null,<ore:blockGlass>,null],
-     [null,<contenttweaker:conversion_core>,null],
-     [iron,iron,iron]]);
-
-recipes.addShaped(<compactmachines3:psd>,
-    [[iron,<ore:blockGlass>,iron],
-     [<ore:gemLapis>,<contenttweaker:tp_gem>,<ore:dustRedstone>],
-     [iron,iron,iron]]);
+RecipeUtils.recipeShaped(<compactmachines3:psd>,
+    [[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>], 
+     [<ore:gemLapis>, <contenttweaker:tp_gem>, <ore:dustRedstone>], 
+     [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]],  true);

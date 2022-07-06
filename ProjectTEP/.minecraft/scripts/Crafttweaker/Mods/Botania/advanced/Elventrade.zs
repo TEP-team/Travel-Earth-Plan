@@ -8,5 +8,4 @@
 #priority 60000
 import mods.botania.ElvenTrade;
 
-ElvenTrade.addRecipe([<contenttweaker:gc_singlechip>, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:gas_centrifuger"})], [<contenttweaker:singlechip>, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:gas_centrifuger"})]);
-ElvenTrade.addRecipe([<contenttweaker:ft_singlechip>, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:reactor"})], [<contenttweaker:singlechip>, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:reactor"})]);
+ElvenTrade.addRecipe([<contenttweaker:papers>, <contenttweaker:shinystar_ingot>*4], [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:heaven_altar"})]);
