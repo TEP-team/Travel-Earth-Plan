@@ -82,9 +82,9 @@
       ],
       "rarity": 16,
       "min_y": 2,
-      "max_y": 32,
+      "max_y": 28,
       "density": 256,
-      "vertical_size": 7,
-      "horizontal_size": 7
+      "vertical_size": 6,
+      "horizontal_size": 6
     }
 }

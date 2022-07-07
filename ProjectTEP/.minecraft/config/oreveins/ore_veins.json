@@ -26,7 +26,7 @@
       ],
       "rarity": 1,
       "min_y": 2,
-      "max_y": 40,
+      "max_y": 45,
       "density": 256,
       "vertical_size": 2,
       "horizontal_size": 2
@@ -42,7 +42,7 @@
       ],
       "rarity": 1,
       "min_y": 2,
-      "max_y": 180,
+      "max_y": 56,
       "density": 300,
       "vertical_size": 2,
       "horizontal_size": 2
@@ -58,7 +58,7 @@
       ],
       "rarity": 1,
       "min_y": 2,
-      "max_y": 180,
+      "max_y": 48,
       "density": 300,
       "vertical_size": 2,
       "horizontal_size": 2
@@ -74,7 +74,7 @@
       ],
       "rarity": 1,
       "min_y": 2,
-      "max_y": 180,
+      "max_y": 48,
       "density": 300,
       "vertical_size": 2,
       "horizontal_size": 2
@@ -90,7 +90,7 @@
       ],
       "rarity": 1,
       "min_y": 2,
-      "max_y": 150,
+      "max_y": 40,
       "density": 300,
       "vertical_size": 2,
       "horizontal_size": 2
@@ -107,7 +107,7 @@
       ],
       "rarity": 1,
       "min_y": 2,
-      "max_y": 150,
+      "max_y": 45,
       "density": 300,
       "vertical_size": 2,
       "horizontal_size": 2
@@ -137,9 +137,9 @@
             "ore": "oreEmerald"
           }
         ],
-        "rarity": 20,
+        "rarity": 15,
         "min_y": 2,
-        "max_y": 20,
+        "max_y": 16,
         "density": 70,
         "vertical_size": 1,
         "horizontal_size": 2
@@ -155,7 +155,7 @@
       ],
       "rarity": 1,
       "min_y": 2,
-      "max_y": 180,
+      "max_y": 42,
       "density": 220,
       "vertical_size": 2,
       "horizontal_size": 1
@@ -185,7 +185,7 @@
           "ore": "oreLapis"
         }
       ],
-      "rarity": 3,
+      "rarity": 2,
       "min_y": 2,
       "max_y": 20,
       "density": 120,
@@ -201,7 +201,7 @@
           "ore": "oreDiamond"
         }
       ],
-      "rarity": 1,
+      "rarity": 3,
       "min_y": 2,
       "max_y": 16,
       "density": 120,
@@ -219,7 +219,7 @@
         ],
         "rarity": 1,
         "min_y": 2,
-        "max_y": 120,
+        "max_y": 32,
         "density": 200,
         "vertical_size": 1,
         "horizontal_size": 2
@@ -235,7 +235,7 @@
         ],
         "rarity": 1,
         "min_y": 2,
-        "max_y": 100,
+        "max_y": 28,
         "density": 180,
         "vertical_size": 1,
         "horizontal_size": 2
@@ -251,7 +251,7 @@
         ],
         "rarity": 1,
         "min_y": 2,
-        "max_y": 140,
+        "max_y": 40,
         "density": 210,
         "vertical_size": 1,
         "horizontal_size": 2
@@ -267,10 +267,10 @@
         ],
         "rarity": 1,
         "min_y": 2,
-        "max_y": 110,
+        "max_y": 30,
         "density": 168,
-        "vertical_size": 2,
-        "horizontal_size": 1
+        "vertical_size": 1,
+        "horizontal_size": 2
       },
       
       "platinum": {
@@ -283,10 +283,10 @@
         ],
         "rarity": 1,
         "min_y": 2,
-        "max_y": 36,
+        "max_y": 24,
         "density": 152,
-        "vertical_size": 2,
-        "horizontal_size": 1
+        "vertical_size": 1,
+        "horizontal_size": 2
       },
 
       "certus_quartz": {
@@ -299,7 +299,7 @@
         ],
         "rarity": 1,
         "min_y": 2,
-        "max_y": 60,
+        "max_y": 180,
         "density": 200,
         "vertical_size": 2,
         "horizontal_size": 2
@@ -315,7 +315,7 @@
         ],
         "rarity": 1,
         "min_y": 2,
-        "max_y": 60,
+        "max_y": 48,
         "density": 200,
         "vertical_size": 2,
         "horizontal_size": 1

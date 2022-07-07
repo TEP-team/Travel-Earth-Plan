@@ -1,6 +1,6 @@
 {
   
-    "coal": {
+    "coal_iron": {
       "type": "sphere",
       "stone": "minecraft:stone",
       "ore": [
@@ -57,7 +57,7 @@
       ],
       "rarity": 1,
       "min_y": 2,
-      "max_y": 55,
+      "max_y": 48,
       "density": 300,
       "vertical_size": 2,
       "horizontal_size": 2
@@ -78,7 +78,7 @@
       ],
       "rarity": 1,
       "min_y": 2,
-      "max_y": 50,
+      "max_y": 42,
       "density": 180,
       "vertical_size": 2,
       "horizontal_size": 2
@@ -103,7 +103,7 @@
       ],
       "rarity": 1,
       "min_y": 2,
-      "max_y": 42,
+      "max_y": 32,
       "density": 160,
       "vertical_size": 2,
       "horizontal_size": 2
@@ -122,9 +122,9 @@
             "weight": 8
           }
         ],
-        "rarity": 15,
+        "rarity": 14,
         "min_y": 2,
-        "max_y": 16,
+        "max_y": 12,
         "density": 70,
         "vertical_size": 2,
         "horizontal_size": 2
@@ -145,7 +145,7 @@
         ],
         "rarity": 1,
         "min_y": 2,
-        "max_y": 50,
+        "max_y": 46,
         "density": 200,
         "vertical_size": 2,
         "horizontal_size": 2
@@ -166,7 +166,7 @@
         ],
         "rarity": 1,
         "min_y": 2,
-        "max_y": 50,
+        "max_y": 26,
         "density": 200,
         "vertical_size": 2,
         "horizontal_size": 2
