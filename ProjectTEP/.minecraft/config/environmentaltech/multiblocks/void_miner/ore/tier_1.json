@@ -51,6 +51,11 @@
       "id": "mekanism:oreblock"
     },
     {
+      "target": "black",
+      "weight": 20,
+      "id": "immersiveengineering:ore:2"
+    },
+    {
       "target": "red",
       "weight": 12,
       "id": "minecraft:netherbrick"
@@ -59,6 +64,16 @@
       "target": "white",
       "weight": 10,
       "id": "minecraft:quartz"
+    },
+    {
+      "target": "crystal",
+      "weight": 18,
+      "id": "appliedenergistics2:material"
+    },
+    {
+      "target": "crystal",
+      "weight": 8,
+      "id": "appliedenergistics2:material:1"
     },
     {
       "target": "crystal",

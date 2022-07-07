@@ -8,4 +8,4 @@
 #priority 60000
 import mods.botania.ElvenTrade;
 
-ElvenTrade.addRecipe([<contenttweaker:papers>, <contenttweaker:shinystar_ingot>*4], [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:heaven_altar"})]);
+ElvenTrade.addRecipe([<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:heaven_altar"})], [<contenttweaker:papers>, <contenttweaker:shinystar_ingot>*4]);
