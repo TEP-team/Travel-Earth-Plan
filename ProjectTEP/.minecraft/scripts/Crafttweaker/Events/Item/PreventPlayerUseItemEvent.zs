@@ -12,7 +12,7 @@ import crafttweaker.text.ITextComponent;
 import crafttweaker.event.PlayerInteractBlockEvent;
 import crafttweaker.event.PlayerRightClickItemEvent;
 
-static items as IItemStack[] = [<botania:manaresource:15>, <minecraft:dye:15>];
+static items as IItemStack[] = [<botania:manaresource:15>];
 
 events.onPlayerRightClickItem(function(event as PlayerRightClickItemEvent) {
     for item in items {

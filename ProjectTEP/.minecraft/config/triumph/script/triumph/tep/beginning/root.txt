@@ -1,6 +1,6 @@
 setIcon(<minecraft:snow>)
 setBackground("minecraft:textures/blocks/snow.png")
-setPos(-40,30)
+setPos(-146,25)
 
 setTranslatedTitle("advancement.tep.beginning.root")
 setTranslatedDescription("advancement.tep.beginning.root.doc")

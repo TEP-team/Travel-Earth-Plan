@@ -1,5 +1,5 @@
 setIcon(<minecraft:snowball>)
-setPos(-10,30)
+setPos(-146,-23)
 
 setTranslatedTitle("advancement.tep.snowball")
 setTranslatedDescription("advancement.tep.snowball.doc")

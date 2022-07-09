@@ -63,6 +63,7 @@ ProjectTEP/.minecraft/scripts/.zsrc
 !ProjectTEP/.minecraft/config/InGameInfo.xml
 !ProjectTEP/.minecraft/config/ingameinfoxml.cfg
 !ProjectTEP/.minecraft/config/littletiles-client.json
+!ProjectTEP/.minecraft/config/itemzoom.cfg
 !ProjectTEP/.minecraft/config/mapwriter.cfg
 !ProjectTEP/.minecraft/config/mekanism.cfg
 !ProjectTEP/.minecraft/config/modularassembly.cfg

@@ -47,12 +47,21 @@ RecipeUtils.recipeShaped(<minecraft:stick>,
 	 [<contenttweaker:wood_residue>]], false);
 
 RecipeUtils.recipeShaped(<minecraft:crafting_table>,
-    [[<minecraft:brick_block>, <minecraft:brick_block>], 
+    [[<minecraft:brick_block>, <minecraft:brick_block>],
 	 [<minecraft:brick_block>, <minecraft:brick_block>]], true);
 
 RecipeUtils.recipeShaped(<minecraft:furnace>,
     [[<ore:cobblestone>, <ore:cobblestone>], 
 	 [<ore:cobblestone>, <ore:cobblestone>]], true);
+
+RecipeUtils.recipeShapeless(<minecraft:flint_and_steel>,
+    [<minecraft:cobblestone>, <minecraft:flint>], true);
+
+RecipeUtils.recipeShapeless(<minecraft:blaze_powder>*5,
+    [<minecraft:blaze_rod>], true);
+
+RecipeUtils.recipeShapeless(<minecraft:dye:15>*4,
+    [<minecraft:dye:15>, <cropdusting:poop>], false);
 
 RecipeUtils.recipeShaped(<bonsaitrees:bonsaipot>, 
     [[<ore:ingotIron>, null, <ore:ingotIron>], 
@@ -68,14 +77,5 @@ RecipeUtils.recipeShaped(<spiceoflife:lunchbox>,
 	 [<ore:ingotIron>, <spiceoflife:lunchbag>, <ore:ingotIron>], 
 	 [null, <ore:ingotIron>, null]], true);
 
-RecipeUtils.recipeShapeless(<minecraft:flint_and_steel>,
-    [<minecraft:cobblestone>, <minecraft:flint>], true);
-
 RecipeUtils.recipeShapeless(<spiceoflife:bookfoodjournal>,
     [<minecraft:book>, <minecraft:wheat>], true);
-
-RecipeUtils.recipeShapeless(<minecraft:blaze_powder>*5,
-    [<minecraft:blaze_rod>], true);
-
-RecipeUtils.recipeShapeless(<minecraft:dye:15>*4,
-    [<minecraft:dye:15>, <cropdusting:poop>], false);

@@ -68,6 +68,10 @@
             "weight": 4
         },
         {
+            "ore": "oreEmerald",
+            "weight": 1
+        },
+        {
             "ore": "oreAluminum",
             "weight": 20
         },

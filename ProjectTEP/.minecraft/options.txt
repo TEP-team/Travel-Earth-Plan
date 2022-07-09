@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:false
 ao:1
 renderClouds:false
@@ -201,7 +201,7 @@ key_Toggle perspective:47
 key_WorldEdit Reference:0
 key_NBTEdit Shortcut:0
 soundCategory_master:0.75165564
-soundCategory_music:0.2535211
+soundCategory_music:0.0
 soundCategory_record:0.45774648
 soundCategory_weather:0.75352114
 soundCategory_block:0.70422536

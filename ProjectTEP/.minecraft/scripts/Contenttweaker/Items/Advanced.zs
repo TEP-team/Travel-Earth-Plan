@@ -63,12 +63,12 @@ item3.onItemUseFinish = function(stack, world, entity) {
         if (!player.isFake()) {
             val isBleeding = player.isPotionActive(<potion:contenttweaker:bleeding>);
             val isFractured = player.isPotionActive(<potion:contenttweaker:fractured>);
-            if (player.health < 20 || isBleeding || isFractured) {
+            if (player.health < 40 || isBleeding || isFractured) {
                 player.removePotionEffect(<potion:contenttweaker:fractured>);
                 player.removePotionEffect(<potion:contenttweaker:bleeding>);
                 player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(200, 0));
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.mpsuccess"));
-                player.health += 6;
+                player.health += 12;
                 player.update(player.data + {"shrink" : 1, "slowness" : 1});
             } else {
                 player.sendRichTextStatusMessage(ITextComponent.fromTranslation("healing.tep.mpfail"));

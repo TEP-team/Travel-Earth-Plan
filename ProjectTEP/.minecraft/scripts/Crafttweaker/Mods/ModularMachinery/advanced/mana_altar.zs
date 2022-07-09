@@ -23,7 +23,7 @@ ModularUtils.itemRecipeBuilder(machine ~ "_2", machine, 400, 15000,
     [<botania:pylon:2>], true, false).build();
 
 ModularUtils.itemRecipeBuilder(machine ~ "_3", machine, 200, 20000,
-    [<minecraft:pumpkin>, <minecraft:rotten_flesh>, <minecraft:bone>, <minecraft:spider_eye>, <minecraft:magma_cream>, <minecraft:nether_wart>],
+    [<minecraft:pumpkin>, <minecraft:rotten_flesh>, <minecraft:bone>, <minecraft:spider_eye>],
     [<botania:felpumpkin>], true, false).build();
 
 ModularUtils.itemRecipeBuilder(machine ~ "_4", machine, 1200, 5000000,
