@@ -23,6 +23,7 @@ events.onPlayerRightClickItem(function(event as PlayerRightClickItemEvent) {
     }
 });
 
+/*
 events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     for item in items {
         if (!event.world.remote && item.matches(event.item)) {
@@ -31,3 +32,4 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
         }
     }
 });
+*/

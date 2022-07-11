@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:0
+difficulty:1
 fancyGraphics:false
 ao:1
 renderClouds:false
@@ -93,7 +93,7 @@ key_Scene1 start/pause:0
 key_Scene2 start/pause:0
 key_Scene3 start/pause:0
 key_Scene reset:0
-key_Quest Log:0
+key_Quest Log:38
 key_key.fart.desc:0
 key_pneumaticcraft.armor.options:22
 key_pneumaticcraft.helmet.hack:68

@@ -9,20 +9,22 @@
 #loader crafttweaker reloadableevents
 import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.player.IPlayer;
-import crafttweaker.text.ITextComponent;
-import crafttweaker.event.EntityLivingHurtEvent;
+import crafttweaker.event.EntityLivingDeathEvent;
+import mods.ctintegration.date.IDate;
+import mods.ctintegration.util.DateUtil;
+import mods.randomtweaker.file.IProp;
 
-events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
+events.onEntityLivingDeath(function(event as EntityLivingDeathEvent) {
     val living = event.entityLivingBase;
     val world = living.world;
-    if(!world.remote && living instanceof IPlayer && world.random.nextInt(100) <= 8) {
+    if(!world.remote && living instanceof IPlayer) {
         val player as IPlayer = living;
         val attacker = event.damageSource.trueSource;
         if(!isNull(attacker) && attacker instanceof IEntityLivingBase) {
             val bleeding = living.isPotionActive(<potion:contenttweaker:bleeding>);
-            if (!bleeding) {
-                player.addPotionEffect(<potion:contenttweaker:bleeding>.makePotionEffect(6000, 0));
-                player.sendRichTextStatusMessage(ITextComponent.fromTranslation("bleeding.tep.bsuccess"));
+            if (attacker instanceof IPlayer) {
+                val time as IDate = DateUtil.now().toString();
+                IProp.write(time, attacker.name ~ " killed " ~ player.name);
             }
         }
     }

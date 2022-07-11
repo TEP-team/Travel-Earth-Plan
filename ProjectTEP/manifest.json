@@ -11,8 +11,8 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Travel Earth Plan",
-  "version": "v1.0.0.",
-  "author": "TEP-team",
+  "version": "v1.0.0",
+  "author": "Wheat Paper Team (TEP-team)",
   "files": [
     {
       "projectID": 224472,
@@ -116,7 +116,7 @@
     },
     {
       "projectID": 367706,
-      "fileID": 3851935,
+      "fileID": 3868431,
       "required": true
     },
     {
@@ -287,6 +287,11 @@
     {
       "projectID": 291499,
       "fileID": 3346568,
+      "required": true
+    },
+    {
+      "projectID": 224663,
+      "fileID": 3466431,
       "required": true
     },
     {
@@ -476,7 +481,7 @@
     },
     {
       "projectID": 55438,
-      "fileID": 2749993,
+      "fileID": 3865259,
       "required": true
     },
     {
@@ -537,6 +542,11 @@
     {
       "projectID": 237065,
       "fileID": 3331364,
+      "required": true
+    },
+    {
+      "projectID": 254334,
+      "fileID": 3466259,
       "required": true
     },
     {
@@ -625,13 +635,13 @@
       "required": true
     },
     {
-      "projectID": 360779,
-      "fileID": 3613814,
+      "projectID": 245480,
+      "fileID": 2691542,
       "required": true
     },
     {
-      "projectID": 245480,
-      "fileID": 2691542,
+      "projectID": 360779,
+      "fileID": 3613814,
       "required": true
     },
     {
