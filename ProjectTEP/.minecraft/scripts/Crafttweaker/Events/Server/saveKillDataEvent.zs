@@ -10,7 +10,6 @@
 import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.player.IPlayer;
 import crafttweaker.event.EntityLivingDeathEvent;
-import mods.ctintegration.date.IDate;
 import mods.ctintegration.util.DateUtil;
 import mods.randomtweaker.file.IProp;
 
@@ -23,8 +22,9 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent) {
         if(!isNull(attacker) && attacker instanceof IEntityLivingBase) {
             val bleeding = living.isPotionActive(<potion:contenttweaker:bleeding>);
             if (attacker instanceof IPlayer) {
-                val time as IDate = DateUtil.now().toString();
-                IProp.write(time, attacker.name ~ " killed " ~ player.name);
+                val killer as IPlayer = attacker;
+                val time = DateUtil.now().toString();
+                IProp.write(time, killer.name ~ " killed " ~ player.name);
             }
         }
     }
