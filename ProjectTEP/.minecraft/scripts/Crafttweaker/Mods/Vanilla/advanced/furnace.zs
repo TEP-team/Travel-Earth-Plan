@@ -5,7 +5,7 @@
     Thanks a lot!
 */
 
-#priority 50000
+#priority 60000
 
 //furnace
 furnace.setFuel(<contenttweaker:wood_residue>, 75);
@@ -24,6 +24,3 @@ for i, ingot in ingot {
     furnace.remove(ingot);
     furnace.addRecipe(ingot, dust[i], 1); 
 }
-
-//other
-<minecraft:flint_and_steel>.maxDamage = 4;

@@ -68,7 +68,7 @@ RecipeUtils.recipeCenterCornerSide(<modularmachinery:blockcasing:2>*2, <modularm
 RecipeUtils.recipeCenterCornerSide(<modularmachinery:blockcasing:3>*2, <modularmachinery:blockcasing>, <immersiveengineering:material:9>, <pneumaticcraft:compressed_iron_gear>, true);
 RecipeUtils.recipeCenterCornerSide(<modularmachinery:blockcasing:4>*4, <modularmachinery:blockcasing>, <ore:ingotSteel>, <mekanism:basicblock:8>, true);
 
-RecipeUtils.recipeAround(<modularmachinery:blockcasing>, <ore:plateCopper>, null, true);
+RecipeUtils.recipeAround(<modularmachinery:blockcasing>*4, <ore:plateCopper>, null, true);
 
 RecipeUtils.recipeShaped(<modularmachinery:blockoutputbus>, 
     [[<modularmachinery:blockcasing>, <ore:dustRedstone>, <modularmachinery:blockcasing>], 

@@ -1,12 +1,12 @@
 {
   "name": "environmentaltech:kyronite_crystal",
   "target-item": "environmentaltech:kyronite_crystal",
-  "target-count": 18,
+  "target-count": 9,
   "duration": 400,
-  "catalyst": "environmentaltech:erodium_crystal",
+  "catalyst": "minecraft:ender_pearl",
 
   "input-types": {
-    "e": {"id": "contenttweaker:erodium_light"},
+    "e": {"id": "environmentaltech:erodium"},
     "m": {"id": "compactmachines3:wallbreakable"}
   },
 

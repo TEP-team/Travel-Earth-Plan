@@ -55,6 +55,7 @@ ProjectTEP/.minecraft/scripts/.zsrc
 !ProjectTEP/.minecraft/config/customloadingscreen.cfg
 !ProjectTEP/.minecraft/config/dmgcontrol.cfg
 !ProjectTEP/.minecraft/config/enhancedvisuals.json
+!ProjectTEP/.minecraft/config/flux_networks.cfg
 !ProjectTEP/.minecraft/config/fancymenu/config.txt
 !ProjectTEP/.minecraft/config/fancymenu/customization/fancymenu.txt
 !ProjectTEP/.minecraft/config/gugu-utils.cfg
@@ -68,6 +69,7 @@ ProjectTEP/.minecraft/scripts/.zsrc
 !ProjectTEP/.minecraft/config/mekanism.cfg
 !ProjectTEP/.minecraft/config/modularassembly.cfg
 !ProjectTEP/.minecraft/config/openblocks.cfg
+!ProjectTEP/.minecraft/config/openmodularturrets.cfg
 !ProjectTEP/.minecraft/config/oreveins.cfg
 !ProjectTEP/.minecraft/config/randomtweaker.cfg
 !ProjectTEP/.minecraft/config/shouldersurfing.cfg

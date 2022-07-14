@@ -19,7 +19,7 @@ zenClass RecipeUtils {
     val id as string;
 
     function recipeRemove(output as IItemStack) {
-        recipes.remove(output);
+        recipes.remove(output.anyAmount());
     }
 
     function recipeShaped(output as IItemStack, input as IIngredient[][], remove as bool) {

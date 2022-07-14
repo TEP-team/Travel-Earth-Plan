@@ -25,7 +25,7 @@ ofPotionParticles:true
 ofFireworkParticles:true
 ofDrippingWaterLava:true
 ofAnimatedTerrain:true
-ofAnimatedTextures:false
+ofAnimatedTextures:true
 ofRainSplash:true
 ofLagometer:false
 ofShowFps:false

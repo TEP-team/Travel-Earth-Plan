@@ -14,7 +14,7 @@ for Mods in mods {
     }
 }
 
-RecipeUtils.recipeShaped(<sereneseasons:greenhouse_glass>*8,
-    [[<ore:dyeCyan>, <minecraft:glass>, <ore:dyeCyan>], 
-     [<minecraft:glass>, <armorunder:heating_goo>, <minecraft:glass>], 
-     [<ore:dyeCyan>, <minecraft:glass>, <ore:dyeCyan>]], true);
+RecipeUtils.recipeShaped(<sereneseasons:greenhouse_glass>*4,
+    [[<minecraft:glass>, <minecraft:stick>, <minecraft:glass>], 
+     [<minecraft:stick>, <ore:dyeCyan>, <minecraft:stick>], 
+     [<minecraft:glass>, <minecraft:stick>, <minecraft:glass>]], true);

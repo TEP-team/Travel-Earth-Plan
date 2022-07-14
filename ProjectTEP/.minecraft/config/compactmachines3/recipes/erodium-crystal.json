@@ -1,12 +1,12 @@
 {
   "name": "environmentaltech:erodium_crystal",
   "target-item": "environmentaltech:erodium_crystal",
-  "target-count": 18,
+  "target-count": 9,
   "duration": 300,
-  "catalyst": "environmentaltech:litherite_crystal",
+  "catalyst": "minecraft:ender_pearl",
 
   "input-types": {
-    "l": {"id": "contenttweaker:litherite_light"},
+    "l": {"id": "environmentaltech:litherite"},
     "m": {"id": "compactmachines3:wallbreakable"}
   },
 

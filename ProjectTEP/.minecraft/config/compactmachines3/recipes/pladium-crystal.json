@@ -1,12 +1,12 @@
 {
   "name": "environmentaltech:pladium_crystal",
   "target-item": "environmentaltech:pladium_crystal",
-  "target-count": 18,
+  "target-count": 9,
   "duration": 500,
-  "catalyst": "environmentaltech:kyronite_crystal",
+  "catalyst": "minecraft:ender_pearl",
 
   "input-types": {
-    "k": {"id": "contenttweaker:kyronite_light"},
+    "k": {"id": "environmentaltech:kyronite"},
     "m": {"id": "compactmachines3:wallbreakable"}
   },
 

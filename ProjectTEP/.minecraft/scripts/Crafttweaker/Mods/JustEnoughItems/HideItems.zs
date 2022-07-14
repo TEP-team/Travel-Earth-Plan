@@ -9,7 +9,7 @@
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
-val mods as string[] = ["variedcommodities", "botania_tweaks", "car", "vehicle"];
+val mods as string[] = ["variedcommodities", "botania_tweaks", "vehicle"];
 for Mods in mods {
     val hide as IItemStack[] = loadedMods[Mods].items;
     for Hide in hide {
