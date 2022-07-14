@@ -11,10 +11,10 @@
 vanilla.seeds.removeSeed(<immersiveengineering:seed>);
 vanilla.seeds.removeSeed(<car:canola_seeds>);
 
-vanilla.seeds.addSeed(<minecraft:wheat_seeds>, 4);
-vanilla.seeds.addSeed(<minecraft:melon_seeds>, 2);
-vanilla.seeds.addSeed(<minecraft:pumpkin_seeds>, 2);
-vanilla.seeds.addSeed(<minecraft:beetroot_seeds>, 2);
+vanilla.seeds.addSeed(<minecraft:wheat_seeds> % 4);
+vanilla.seeds.addSeed(<minecraft:melon_seeds> % 2);
+vanilla.seeds.addSeed(<minecraft:pumpkin_seeds> % 2);
+vanilla.seeds.addSeed(<minecraft:beetroot_seeds> % 2);
 
 //entity
 <entity:minecraft:enderman>.addDrop(<contenttweaker:exe>.weight(0.25));

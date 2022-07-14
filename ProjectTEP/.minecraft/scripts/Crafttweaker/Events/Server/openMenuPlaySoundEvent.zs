@@ -12,8 +12,9 @@ import crafttweaker.event.PlayerInteractEvent;
 events.onPlayerInteract(function(event as PlayerInteractEvent) {
     val player = event.player;
     val world = player.world;
-    if (world.remote && !player.isFake() && <variedcommodities:phone>.matches(player.mainHandHeldItem)) {
-        player.sendRMessage("§f§l[§bTEP§f§l] §a你打开了TEP服务器菜单！");
+    val item = event.item;
+    if (world.remote && !player.isFake() && <variedcommodities:phone>.matches(item)) {
+        player.sendMessage("§f§l[§bTEP§f§l] §a你打开了TEP服务器菜单！");
         player.playSound("minecraft:entity.player.levelup", 1.2, 2);
     }
 });
