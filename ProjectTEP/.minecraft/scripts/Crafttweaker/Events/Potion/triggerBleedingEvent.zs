@@ -11,6 +11,7 @@ import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.player.IPlayer;
 import crafttweaker.text.ITextComponent;
 import crafttweaker.event.EntityLivingHurtEvent;
+import crafttweaker.event.PlayerUseItemTickEvent;
 
 events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
     val living = event.entityLivingBase;

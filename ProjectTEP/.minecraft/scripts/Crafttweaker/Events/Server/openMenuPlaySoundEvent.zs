@@ -7,9 +7,9 @@
 
 #priority 70000
 #loader crafttweaker reloadableevents
-import crafttweaker.event.PlayerInteractEvent;
+import crafttweaker.event.PlayerRightClickItemEvent;
 
-events.onPlayerInteract(function(event as PlayerInteractEvent) {
+events.onPlayerRightClickItem(function(event as PlayerRightClickItemEvent) {
     val player = event.player;
     val world = player.world;
     val item = event.item;

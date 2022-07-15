@@ -17,8 +17,7 @@ val remove as IItemStack[] =
     <thermalexpansion:augment:576>, <thermalexpansion:augment:640>,
     <thermalexpansion:augment:656>, <thermalexpansion:augment:672>,
     <thermalexpansion:augment:673>, <thermalexpansion:augment:674>,
-    <thermalexpansion:augment:688>, <thermalexpansion:augment:704>,
-    <thermalexpansion:dynamo:*>
+    <thermalexpansion:augment:688>, <thermalexpansion:augment:704>
 ];
 
 for Remove in remove {

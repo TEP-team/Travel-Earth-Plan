@@ -26,7 +26,7 @@ events.onProjectileImpactThrowable(function(event as ProjectileImpactThrowableEv
     if (!world.remote && entity.definition.id == "minecraft:snowball") {
         setSnowDrop(<contenttweaker:wood_residue>, 1, 30, world, pos);
         setSnowDrop(<minecraft:flint>, 31, 40, world, pos);
-        setSnowDrop(<minecraft:string>, 41, 45, world, pos);
-        setSnowDrop(<minecraft:clay_ball>, 46, 50, world, pos);
+        setSnowDrop(<minecraft:string>, 41, 50, world, pos);
+        setSnowDrop(<minecraft:clay_ball>, 51, 58, world, pos);
     }
 });

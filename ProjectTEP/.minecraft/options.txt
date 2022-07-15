@@ -15,7 +15,7 @@ difficulty:0
 fancyGraphics:false
 ao:1
 renderClouds:false
-resourcePacks:["Minecraft-Mod-Language-Modpack.zip","TEP\u0027s Resource Package.zip"]
+resourcePacks:["Minecraft-Mod-Language-Modpack.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -198,11 +198,10 @@ key_Camera up:200
 key_Camera down:208
 key_Swap shoulder:157
 key_Toggle perspective:47
-key_WorldEdit Reference:0
 key_NBTEdit Shortcut:0
 soundCategory_master:0.75165564
-soundCategory_music:0.0
-soundCategory_record:0.2535211
+soundCategory_music:0.30985916
+soundCategory_record:0.1056338
 soundCategory_weather:0.75352114
 soundCategory_block:0.70422536
 soundCategory_hostile:0.70422536

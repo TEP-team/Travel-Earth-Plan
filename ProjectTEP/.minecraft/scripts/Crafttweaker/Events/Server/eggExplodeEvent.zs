@@ -26,6 +26,21 @@ events.onProjectileImpactThrowable(function(event as ProjectileImpactThrowableEv
                         world.performExplosion(entity, pos.x, pos.y, pos.z, 6.8f, false, false);
                         DelayManager.addDelayWork(function() {
                             world.performExplosion(entity, pos.x, pos.y, pos.z, 6.8f, false, false);
+                            DelayManager.addDelayWork(function() {
+                                world.performExplosion(entity, pos.x, pos.y, pos.z, 6.8f, false, false);
+                                DelayManager.addDelayWork(function() {
+                                    world.performExplosion(entity, pos.x, pos.y, pos.z, 6.8f, false, false);
+                                        DelayManager.addDelayWork(function() {
+                                        world.performExplosion(entity, pos.x, pos.y, pos.z, 6.8f, false, false);
+                                        DelayManager.addDelayWork(function() {
+                                            world.performExplosion(entity, pos.x, pos.y, pos.z, 6.8f, false, false);
+                                            DelayManager.addDelayWork(function() {
+                                                world.performExplosion(entity, pos.x, pos.y, pos.z, 6.8f, false, false);
+                                            }, 7);
+                                        }, 7);
+                                    }, 7);
+                                }, 7);
+                            }, 7);
                         }, 7);
                     }, 7);
                 }, 7);
