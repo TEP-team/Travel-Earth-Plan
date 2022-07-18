@@ -1,0 +1,17 @@
+#aspect
+setIcon(<minecraft:iron_ingot>)
+setPos(140,-35)
+
+#language
+setTranslatedTitle("advancement.tep.beginning.iron_ingot")
+setTranslatedDescription("advancement.tep.beginning.iron_ingot.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/grindstone")
+iron_ingot = addCriteria("iron_ingot", "minecraft:inventory_changed")
+iron_ingot.addItem(<minecraft:iron_ingot>)
+setRequiresParents()

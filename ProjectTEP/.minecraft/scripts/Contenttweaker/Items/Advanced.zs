@@ -17,17 +17,24 @@ import mods.zenutils.cotx.Item;
 
 val item1 = ContentUtils.itemBuilder("tp_gem", "epic", -1, 64, true) as Item;
 item1.itemRightClick = function(stack, world, player, hand) {
-    if (!player.isFake() && world.dimension == 0) {
-        if (!world.remote) {
-            val x = Math.random() * 3000 + player.x;
-            val z = Math.random() * 3000 + player.z;
-            Commands.call("tp @p " + x + " 140 " + z, player, world, false, true);
-            player.sendRichTextStatusMessage(ITextComponent.fromTranslation("tpgem.tep.tpsuccess"));
-            player.update(player.data + {"teleport" : 1});
-            player.setCooldown(stack, 2400);
-            stack.shrink(1);
-        }
-        player.playSound("block.portal.travel", 0.8, 2);
+    if (!world.remote && !player.isFake() && world.dimension == 0) {
+
+        val random = world.random;
+        val distance = Math.random() * random.nextInt(5000);
+
+        val perTpX = player.x;
+        val directionX = random.nextBoolean();
+        val x = directionX ? (distance + perTpX) : (distance - perTpX);
+
+        val perTpZ = player.z;
+        val directionZ = random.nextBoolean();
+        val z = directionZ ? (distance + perTpZ) : (distance - perTpZ);
+
+        Commands.call("tp @p " + x + " 140 " + z, player, world, false, true);
+        player.sendRichTextStatusMessage(ITextComponent.fromTranslation("tpgem.tep.tpsuccess"));
+        player.update(player.data + {"teleport" : 1});
+        player.setCooldown(stack, 2400);
+        stack.shrink(1);
     }
     return "success";
 };

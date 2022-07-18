@@ -1,0 +1,17 @@
+#aspect
+setIcon(<appliedenergistics2:grindstone>)
+setPos(105,-35)
+
+#language
+setTranslatedTitle("advancement.tep.beginning.grindstone")
+setTranslatedDescription("advancement.tep.beginning.grindstone.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/hammer_flint")
+grindstone = addCriteria("grindstone", "triumph:player_crafted_item")
+grindstone.setItem(<appliedenergistics2:grindstone>)
+setRequiresParents()

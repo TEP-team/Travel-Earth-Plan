@@ -1,0 +1,18 @@
+#aspect
+setIcon(<environmentaltech:void_botanic_miner_cont_1>)
+setPos(280,-18)
+
+#language
+setTranslatedTitle("advancement.tep.beginning.void_botanic_miner")
+setTranslatedDescription("advancement.tep.beginning.void_botanic_miner.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/chorus_flower")
+addParent("tep:beginning/generator")
+void_botanic_miner = addCriteria("void_botanic_miner", "triumph:player_crafted_item")
+void_botanic_miner.setItem(<environmentaltech:void_botanic_miner_cont_1>)
+setRequiresParents()

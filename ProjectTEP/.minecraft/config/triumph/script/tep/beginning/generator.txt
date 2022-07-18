@@ -1,0 +1,17 @@
+#aspect
+setIcon(<mekanismgenerators:generator>)
+setPos(245,-70)
+
+#language
+setTranslatedTitle("advancement.tep.beginning.generator")
+setTranslatedDescription("advancement.tep.beginning.generator.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/blast_furnace")
+generator = addCriteria("generator", "triumph:player_crafted_item")
+generator.setItem(<mekanismgenerators:generator, meta:0>)
+setRequiresParents()

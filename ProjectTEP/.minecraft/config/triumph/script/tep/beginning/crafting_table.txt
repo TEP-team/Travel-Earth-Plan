@@ -1,0 +1,17 @@
+#aspect
+setIcon(<minecraft:crafting_table>)
+setPos(105,35)
+
+#language
+setTranslatedTitle("advancement.tep.beginning.crafting_table")
+setTranslatedDescription("advancement.tep.beginning.crafting_table.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/furnace")
+crafting_table = addCriteria("crafting_table", "triumph:player_crafted_item")
+crafting_table.setItem(<minecraft:crafting_table>)
+setRequiresParents()

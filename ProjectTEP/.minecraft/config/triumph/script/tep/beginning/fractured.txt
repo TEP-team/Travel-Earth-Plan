@@ -1,0 +1,23 @@
+#aspect
+setIcon(<contenttweaker:medical_mttal_splint>)
+setPos(35,95)
+hideLines()
+
+#language
+setTranslatedTitle("advancement.tep.beginning.fractured")
+setTranslatedDescription("advancement.tep.beginning.fractured.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/root")
+fractured = addCriteria("fractured", "minecraft:effects_changed")
+fractured.addEffect("contenttweaker:fractured")
+setRequiresParents()
+
+#type
+setCompletedIconColor(#e555e7)
+setCompletedTitleColor(#a82faa)
+setFrameType("GOAL")

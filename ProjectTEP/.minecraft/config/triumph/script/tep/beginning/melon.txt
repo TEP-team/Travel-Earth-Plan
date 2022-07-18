@@ -1,0 +1,17 @@
+#aspect
+setIcon(<minecraft:melon>)
+setPos(245,70)
+
+#language
+setTranslatedTitle("advancement.tep.beginning.melon")
+setTranslatedDescription("advancement.tep.beginning.melon.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/seed")
+melon = addCriteria("melon", "triumph:player_destroy_block")
+melon.setBlock(<minecraft:melon_block>)
+setRequiresParents()

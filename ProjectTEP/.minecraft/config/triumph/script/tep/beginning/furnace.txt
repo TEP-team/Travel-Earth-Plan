@@ -1,0 +1,17 @@
+#aspect
+setIcon(<minecraft:furnace>)
+setPos(70,35)
+
+#language
+setTranslatedTitle("advancement.tep.beginning.furnace")
+setTranslatedDescription("advancement.tep.beginning.furnace.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/snowball")
+furnace = addCriteria("furnace", "triumph:player_crafted_item")
+furnace.setItem(<minecraft:furnace>)
+setRequiresParents()

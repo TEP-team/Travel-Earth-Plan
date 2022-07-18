@@ -1,0 +1,18 @@
+#aspect
+setIcon(<botania:specialflower, meta:0, nbt:{type:"puredaisy"}>)
+setPos(245,0)
+
+#language
+setTranslatedTitle("advancement.tep.beginning.puredaisy")
+setTranslatedDescription("advancement.tep.beginning.puredaisy.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/infuser")
+addParent("tep:beginning/common_flower")
+puredaisy = addCriteria("puredaisy", "minecraft:inventory_changed")
+puredaisy.addItem(<botania:specialflower, meta:0, nbt:{type:"puredaisy"}>)
+setRequiresParents()

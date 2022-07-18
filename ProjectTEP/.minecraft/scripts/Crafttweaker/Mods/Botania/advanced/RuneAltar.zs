@@ -29,7 +29,7 @@ RuneAltar.addRecipe(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "m
 
 RuneAltar.addRecipe(<contenttweaker:ground_core>, [<minecraft:ender_pearl>, <minecraft:quartz>, <minecraft:coal>, <minecraft:lava_bucket>, <botania:rune:13>, <contenttweaker:shinystar_matter>], 250000);
 RuneAltar.addRecipe(<contenttweaker:mana_core>, [<minecraft:ender_pearl>, <botania:specialflower>.withTag({type: "arcanerose"}), <botania:manatablet>.withTag({mana: 500000}), <environmentaltech:lonsdaleite_crystal>, <botania:rune:10>, <contenttweaker:shinystar_matter>], 250000);
-RuneAltar.addRecipe(<contenttweaker:shiny_core>, [<minecraft:ender_pearl>, <contenttweaker:shinystar_ingot>, <botania:manaresource:8>, <integrateddynamics:crystalized_chorus_chunk>, <appliedenergistics2:material:45>, <contenttweaker:shinystar_matter>], 250000);
+RuneAltar.addRecipe(<contenttweaker:shiny_core>, [<minecraft:ender_pearl>, <contenttweaker:shinystar_ingot>, <botania:manaresource:8>, <minecraft:shulker_shell>, <appliedenergistics2:material:45>, <contenttweaker:shinystar_matter>], 250000);
 RuneAltar.addRecipe(<contenttweaker:smart_core>, [<minecraft:ender_pearl>, <openblocks:pencil_glasses>, <openblocks:generic:11>, <integrateddynamics:menril_berries>, <minecraft:redstone>, <contenttweaker:shinystar_matter>], 250000);
 RuneAltar.addRecipe(<contenttweaker:world_core>, [<minecraft:ender_pearl>, <minecraft:dirt>, <minecraft:snowball>, <botania:rune>, <botania:rune:2>, <contenttweaker:shinystar_matter>], 500000);
 RuneAltar.addRecipe(<contenttweaker:sky_core>, [<minecraft:ender_pearl>, <openblocks:hang_glider>, <minecraft:chorus_fruit>, <minecraft:feather>, <botania:rune:12>, <contenttweaker:shinystar_matter>], 250000);

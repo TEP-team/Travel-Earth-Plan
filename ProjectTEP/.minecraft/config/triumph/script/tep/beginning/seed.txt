@@ -1,0 +1,17 @@
+#aspect
+setIcon(<minecraft:melon_seeds>)
+setPos(210,70)
+
+#language
+setTranslatedTitle("advancement.tep.beginning.seed")
+setTranslatedDescription("advancement.tep.beginning.seed.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/greenhouse")
+seed = addCriteria("seed", "minecraft:inventory_changed")
+seed.addItem(<minecraft:melon_seeds>)
+setRequiresParents()

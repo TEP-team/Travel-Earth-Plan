@@ -28,5 +28,6 @@ events.onProjectileImpactThrowable(function(event as ProjectileImpactThrowableEv
         setSnowDrop(<minecraft:flint>, 31, 40, world, pos);
         setSnowDrop(<minecraft:string>, 41, 50, world, pos);
         setSnowDrop(<minecraft:clay_ball>, 51, 58, world, pos);
+        setSnowDrop(<minecraft:dye:15>, 59, 65, world, pos);
     }
 });

@@ -21,8 +21,8 @@ val materials as int[string] = {
 };
 
 val parts as string[] = [
-    "ingot","crushed_ore","dust","dirty_dust","nugget",
-    "plate","dense_plate","casing","rod","bolt","gear"
+    "ingot", "crushed_ore", "dust", "dirty_dust", "nugget", 
+    "plate", "dense_plate", "casing", "rod", "bolt", "gear"
 ];
 
 for name, color in materials {
@@ -32,12 +32,11 @@ for name, color in materials {
     }
 }
 
-val material as string[] = ["Lithium","Platinum","Graphite"];
-val blocks as string[] = ["ore","block"];
-for Materials in material {
-    for Blocks in blocks {
-        var MaterialPart = MaterialPartUtils.registeMaterialPart(Materials, Blocks);
-        MaterialPartUtils.addData(MaterialPart, "hardness", "6");
-        MaterialPartUtils.addData(MaterialPart, "harvestLevel", "2");
+val material as string[][] = [["ore", "block"], ["Lithium", "Platinum", "Graphite"], ["5", "6", "5"], ["2", "2", "1"]];
+for type in material[0] {
+    for i, Material in material[1] {
+        var MaterialPart = MaterialPartUtils.registeMaterialPart(Material, type);
+        MaterialPartUtils.addData(MaterialPart, "hardness", material[2][i]);
+        MaterialPartUtils.addData(MaterialPart, "harvestLevel", material[3][i]);
     }
 }

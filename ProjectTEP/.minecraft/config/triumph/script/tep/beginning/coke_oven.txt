@@ -1,0 +1,17 @@
+#aspect
+setIcon(<immersiveengineering:stone_device, meta:0>)
+setPos(175,-70)
+
+#language
+setTranslatedTitle("advancement.tep.beginning.coke_oven")
+setTranslatedDescription("advancement.tep.beginning.coke_oven.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/iron_ingot")
+coke_oven = addCriteria("coke_oven", "immersiveengineering:multiblock_formed")
+coke_oven.setMultiblock("IE:CokeOven")
+setRequiresParents()

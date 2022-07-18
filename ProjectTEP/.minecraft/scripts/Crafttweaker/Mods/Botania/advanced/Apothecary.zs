@@ -5,6 +5,7 @@
     Thanks a lot!
 */
 
-#priority 50000
+#priority 60000
+import mods.botania.Apothecary;
 
-recipes.replaceAllOccurences(<car:iron_stick>, <contenttweaker:material_part:74>);
+Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "puredaisy"}));

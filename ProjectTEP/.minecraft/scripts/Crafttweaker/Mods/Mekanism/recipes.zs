@@ -23,7 +23,7 @@ RecipeUtils.recipeCenterSide(<mekanism:basicblock2:8>, <mekanism:basicblock2:7>,
 RecipeUtils.recipeCenterCornerSide(<mekanism:basicblock2:6>, <contenttweaker:material_part:72>, <contenttweaker:material_part:83>, <mekanismgenerators:generator:10>, true);
 RecipeUtils.recipeCenterCornerSide(<mekanism:controlcircuit:1>, <botania:manaresource>, <mekanism:enrichedalloy>, <mekanism:controlcircuit>, true);
 RecipeUtils.recipeCenterCornerSide(<mekanism:controlcircuit:2>, <botania:manaresource:7>, <mekanism:reinforcedalloy>, <mekanism:controlcircuit:1>, true);
-RecipeUtils.recipeCenterCornerSide(<mekanism:controlcircuit:3>, <botania:manaresource:14>, <mekanism:atomicalloy>, <mekanism:controlcircuit:2>, true);
+RecipeUtils.recipeCenterCornerSide(<mekanism:controlcircuit:3>, <botania:manaresource:4>, <mekanism:atomicalloy>, <mekanism:controlcircuit:2>, true);
 RecipeUtils.recipeCenterCornerSide(<mekanism:basicblock2:7>, <ore:ingotIron>, <ore:ingotSteel>, <ore:ingotCopper>, true);
 RecipeUtils.recipeCenterCornerSide(<mekanismgenerators:generator:10>*2, <ore:ingotIron>, <ore:ingotSteel>, <ore:ingotIron>, true);
 RecipeUtils.recipeCenterCornerSide(<mekanismgenerators:generator:9>, <ore:ingotSteel>, <immersiveengineering:metal_decoration0:2>, <contenttweaker:super_coil>, true);
@@ -54,6 +54,11 @@ RecipeUtils.recipeShaped(<mekanism:atomicdisassembler>,
     [[<mekanism:controlcircuit:3>, <mekanism:energycube>.withTag({tier: 3}), <mekanism:controlcircuit:3>], 
      [<mekanism:atomicalloy>, <mekanism:ingot>, <mekanism:atomicalloy>], 
      [null, <mekanism:ingot>, null]], true);
+
+RecipeUtils.recipeShaped(<mekanismgenerators:generator>,
+    [[<ore:ingotSteel>, <mekanism:ingot:1>, <ore:ingotSteel>],
+     [<minecraft:iron_bars>, <mekanism:basicblock:8>, <minecraft:iron_bars>],
+     [<ore:dustRedstone>, <minecraft:furnace>, <ore:dustRedstone>]], true);
 
 RecipeUtils.recipeShaped(<mekanismgenerators:solarpanel>, 
     [[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>], 

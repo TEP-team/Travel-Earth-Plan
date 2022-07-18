@@ -15,7 +15,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     val block = event.block;
     val item = event.item;
     val pos = event.position;
-    if (!player.isFake() && player.isSneaking) {
+    if (!world.remote && !player.isFake() && player.isSneaking) {
         val machine as string[] = [
             "fluid_processor", "packer", "compiler",
             "energy_dismantler", "gas_centrifuger",
@@ -31,5 +31,3 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
         }
     }
 });
-
-

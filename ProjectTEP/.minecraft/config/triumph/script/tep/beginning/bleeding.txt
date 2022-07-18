@@ -1,0 +1,23 @@
+#aspect
+setIcon(<contenttweaker:medical_bandage>)
+setPos(0,95)
+hideLines()
+
+#language
+setTranslatedTitle("advancement.tep.beginning.bleeding")
+setTranslatedDescription("advancement.tep.beginning.bleeding.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/root")
+bleeding = addCriteria("bleeding", "minecraft:effects_changed")
+bleeding.addEffect("contenttweaker:bleeding")
+setRequiresParents()
+
+#type
+setCompletedIconColor(#6aff6a)
+setCompletedTitleColor(#00b100)
+setFrameType("GOAL")

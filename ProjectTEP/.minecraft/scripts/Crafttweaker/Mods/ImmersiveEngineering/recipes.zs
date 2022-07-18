@@ -12,6 +12,14 @@ RecipeUtils.recipeAround(<immersiveengineering:metal_decoration0>, <immersiveeng
 RecipeUtils.recipeAround(<immersiveengineering:metal_decoration0:1>, <immersiveengineering:wirecoil:1>, <ore:ingotSteel>, true);
 RecipeUtils.recipeAround(<immersiveengineering:metal_decoration0:2>, <immersiveengineering:wirecoil:2>, <ore:ingotSteel>, true);
 
+RecipeUtils.recipeCornerSide(<immersiveengineering:stone_decoration:1>*3, <minecraft:brick>, <ore:coals>, true);
+RecipeUtils.recipeCornerSide(<immersiveengineering:stone_decoration>*3, <minecraft:brick>, <minecraft:clay_ball>, true);
+
+recipes.addShapedMirrored(<immersiveengineering:tool>,
+    [[null, <ore:ingotIron>, <minecraft:string>],
+     [null, <minecraft:stick>, <ore:ingotIron>],
+     [<minecraft:stick>, null, null]]);
+
 val remove as IItemStack[] = [<immersiveengineering:material:8>, <immersiveengineering:material:9>];
 for Remove in remove {
     recipes.remove(Remove);

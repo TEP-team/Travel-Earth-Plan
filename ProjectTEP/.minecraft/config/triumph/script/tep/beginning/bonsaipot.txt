@@ -1,0 +1,17 @@
+#aspect
+setIcon(<bonsaitrees:bonsaipot>)
+setPos(140,0)
+
+#language
+setTranslatedTitle("advancement.tep.beginning.bonsaipot")
+setTranslatedDescription("advancement.tep.beginning.bonsaipot.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/iron_ingot")
+bonsaipot = addCriteria("bonsaipot", "triumph:player_crafted_item")
+bonsaipot.setItem(<bonsaitrees:bonsaipot>)
+setRequiresParents()

@@ -1,0 +1,17 @@
+#aspect
+setIcon(<sereneseasons:greenhouse_glass>)
+setPos(175,35)
+
+#language
+setTranslatedTitle("advancement.tep.beginning.greenhouse")
+setTranslatedDescription("advancement.tep.beginning.greenhouse.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/flower")
+greenhouse = addCriteria("greenhouse", "minecraft:placed_block")
+greenhouse.setBlock(<sereneseasons:greenhouse_glass>)
+setRequiresParents()

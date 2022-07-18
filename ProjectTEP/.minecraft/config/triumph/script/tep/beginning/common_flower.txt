@@ -1,0 +1,17 @@
+#aspect
+setIcon(<minecraft:red_flower>)
+setPos(210,0)
+
+#language
+setTranslatedTitle("advancement.tep.beginning.common_flower")
+setTranslatedDescription("advancement.tep.beginning.common_flower.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/greenhouse")
+common_flower = addCriteria("common_flower", "minecraft:inventory_changed")
+common_flower.addItem(<ore:flowers>)
+setRequiresParents()

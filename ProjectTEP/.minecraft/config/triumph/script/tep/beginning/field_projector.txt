@@ -1,0 +1,18 @@
+#aspect
+setIcon(<compactmachines3:fieldprojector>)
+setPos(210,-35)
+
+#language
+setTranslatedTitle("advancement.tep.beginning.field_projector")
+setTranslatedDescription("advancement.tep.beginning.field_projector.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/conversion_core")
+field_projector = addCriteria("field_projector", "triumph:player_crafted_item")
+field_projector.setItem(<compactmachines3:fieldprojector>)
+field_projector.setCount(4)
+setRequiresParents()

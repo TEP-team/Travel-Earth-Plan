@@ -1,16 +1,20 @@
-setIcon(<minecraft:snow>)
+#aspect
 setBackground("minecraft:textures/blocks/snow.png")
-setPos(-146,25)
+setIcon(<patchouli:guide_book, nbt:{"patchouli:book":"patchouli:tep_guide"}>)
+setPos(0,0)
 
+#language
 setTranslatedTitle("advancement.tep.beginning.root")
 setTranslatedDescription("advancement.tep.beginning.root.doc")
 
+#message
 setShowToast(true)
 setAnnounceToChat(true)
 
+#requirements
+addCriteria("location", "minecraft:location")
+
+#type
 setCompletedIconColor(#6aff6a)
 setCompletedTitleColor(#00b100)
-setUncompletedIconColor(#a0a0a0)
 setFrameType("CHALLENGE")
-
-addCriteria("location", "minecraft:location")

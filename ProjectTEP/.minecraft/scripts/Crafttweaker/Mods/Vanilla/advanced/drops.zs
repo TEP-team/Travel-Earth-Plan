@@ -8,8 +8,8 @@
 #priority 60000
 
 //seeds
+vanilla.seeds.removeSeed(<minecraft:wheat_seeds>);
 vanilla.seeds.removeSeed(<immersiveengineering:seed>);
-vanilla.seeds.removeSeed(<car:canola_seeds>);
 
 vanilla.seeds.addSeed(<minecraft:wheat_seeds> % 4);
 vanilla.seeds.addSeed(<minecraft:melon_seeds> % 2);

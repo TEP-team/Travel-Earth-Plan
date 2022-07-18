@@ -18,13 +18,15 @@ for Remove in remove {
 }
 
 val storages as IItemStack[][IItemStack] = {
-    <appliedenergistics2:material:39> : [<appliedenergistics2:storage_cell_1k>, <appliedenergistics2:storage_cell_4k>, <appliedenergistics2:storage_cell_16k>, <appliedenergistics2:storage_cell_64k>, <extracells:storage.physical:0>, <extracells:storage.physical:1>, <extracells:storage.physical:2>, <extracells:storage.physical:3>],
+    <appliedenergistics2:material:39> : [<appliedenergistics2:storage_cell_1k>, <appliedenergistics2:storage_cell_4k>, <appliedenergistics2:storage_cell_16k>, <appliedenergistics2:storage_cell_64k>],
+    <extracells:storage.casing> : [<extracells:storage.physical:0>, <extracells:storage.physical:1>, <extracells:storage.physical:2>, <extracells:storage.physical:3>],
     <extracells:storage.casing:1> : [<appliedenergistics2:fluid_storage_cell_1k>, <appliedenergistics2:fluid_storage_cell_4k>, <appliedenergistics2:fluid_storage_cell_16k>, <appliedenergistics2:fluid_storage_cell_64k>, <extracells:storage.fluid:4>, <extracells:storage.fluid:5>, <extracells:storage.fluid:6>],
     <extracells:storage.casing:2> : [<extracells:storage.gas:0>, <extracells:storage.gas:1>, <extracells:storage.gas:2>, <extracells:storage.gas:3>, <extracells:storage.gas:4>, <extracells:storage.gas:5>, <extracells:storage.gas:6>]
 };
 
 val components as IItemStack[][IItemStack] = {
-    <appliedenergistics2:material:39> : [<appliedenergistics2:material:35>, <appliedenergistics2:material:36>, <appliedenergistics2:material:37>, <appliedenergistics2:material:38>, <extracells:storage.component:0>, <extracells:storage.component:1>, <extracells:storage.component:2>, <extracells:storage.component:3>],
+    <appliedenergistics2:material:39> : [<appliedenergistics2:material:35>, <appliedenergistics2:material:36>, <appliedenergistics2:material:37>, <appliedenergistics2:material:38>],
+    <extracells:storage.casing> : [<extracells:storage.component:0>, <extracells:storage.component:1>, <extracells:storage.component:2>, <extracells:storage.component:3>],
     <extracells:storage.casing:1> : [<appliedenergistics2:material:54>, <appliedenergistics2:material:55>, <appliedenergistics2:material:56>, <appliedenergistics2:material:57>, <extracells:storage.component:8>, <extracells:storage.component:9>, <extracells:storage.component:10>],
     <extracells:storage.casing:2> : [<extracells:storage.component:11>, <extracells:storage.component:12>, <extracells:storage.component:13>, <extracells:storage.component:14>, <extracells:storage.component:15>, <extracells:storage.component:16>, <extracells:storage.component:17>]
 };

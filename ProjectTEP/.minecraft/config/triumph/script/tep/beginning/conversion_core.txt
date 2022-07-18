@@ -1,0 +1,17 @@
+#aspect
+setIcon(<contenttweaker:conversion_core>)
+setPos(175,-35)
+
+#language
+setTranslatedTitle("advancement.tep.beginning.conversion_core")
+setTranslatedDescription("advancement.tep.beginning.conversion_core.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/iron_ingot")
+conversion_core = addCriteria("conversion_core", "triumph:player_crafted_item")
+conversion_core.setItem(<contenttweaker:conversion_core>)
+setRequiresParents()

@@ -1,0 +1,35 @@
+{
+  "blockList": [
+    "oreCoal",
+    "oreGraphite",
+    "oreIron",
+    "oreLead",
+    "oreUranium",
+    "oreNickel",
+    "oreSilver",
+    "oreRedstone",
+    "oreLapis",
+    "oreGold",
+    "orePlatinum",
+    "oreLithium",
+    "oreCopper",
+    "oreTin",
+    "oreOsmium",
+    "oreDiamond",
+    "oreEmerald",
+    "oreAluminum",
+    "oreCertusQuartz",
+    "oreChargedCertusQuartz",
+    "appliedenergistics2:sky_stone_block"
+  ],
+  "strictSubtypes": [
+    "cropWheat",
+    "cropPotato",
+    "cropCarrot",
+    "cropNetherWart"
+  ],
+  "gamestages": {
+    "examplemod:example_block1": "example_stage1",
+    "examplemod:example_block2": "example_stage2"
+  }
+}

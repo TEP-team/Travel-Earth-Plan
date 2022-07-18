@@ -1,0 +1,17 @@
+#aspect
+setIcon(<minecraft:end_stone>)
+setPos(245,35)
+
+#language
+setTranslatedTitle("advancement.tep.beginning.end_stone")
+setTranslatedDescription("advancement.tep.beginning.end_stone.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/puredaisy")
+end_stone = addCriteria("end_stone", "triumph:player_destroy_block")
+end_stone.setBlock(<minecraft:end_stone>)
+setRequiresParents()

@@ -1,0 +1,17 @@
+#aspect
+setIcon(<mekanism:machineblock, meta:8>)
+setPos(245,-35)
+
+#language
+setTranslatedTitle("advancement.tep.beginning.infuser")
+setTranslatedDescription("advancement.tep.beginning.infuser.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/generator")
+infuser = addCriteria("infuser", "triumph:player_crafted_item")
+infuser.setItem(<mekanism:machineblock, meta:8>)
+setRequiresParents()

@@ -1,0 +1,17 @@
+#aspect
+setIcon(<botania:flower, meta:9>)
+setPos(140,35)
+
+#language
+setTranslatedTitle("advancement.tep.beginning.flower")
+setTranslatedDescription("advancement.tep.beginning.flower.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/crafting_table")
+flower = addCriteria("flower", "triumph:right_click_block")
+flower.setItem(<botania:fertilizer>)
+setRequiresParents()

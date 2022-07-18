@@ -35,6 +35,7 @@ val hide as IItemStack[] = [
     <thermalexpansion:augment:656>, <thermalexpansion:augment:672>,
     <thermalexpansion:augment:673>, <thermalexpansion:augment:674>,
     <thermalexpansion:augment:688>, <thermalexpansion:augment:704>,
+    <thermalexpansion:augment:720>, <thermalexpansion:dynamo:*>,
 
     <pneumaticcraft:vortex_cannon>,
 

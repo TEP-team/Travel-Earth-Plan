@@ -1,0 +1,17 @@
+#aspect
+setIcon(<minecraft:snowball>)
+setPos(35,0)
+
+#language
+setTranslatedTitle("advancement.tep.beginning.snowball")
+setTranslatedDescription("advancement.tep.beginning.snowball.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/root")
+snowball = addCriteria("snowball", "minecraft:inventory_changed")
+snowball.addItem(<minecraft:snowball>)
+setRequiresParents()

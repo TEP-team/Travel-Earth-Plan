@@ -4,21 +4,21 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:0.6056338
 saturation:0.0
-renderDistance:12
+renderDistance:9
 guiScale:0
 particles:1
 bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:0
+difficulty:3
 fancyGraphics:false
 ao:1
 renderClouds:false
-resourcePacks:["Minecraft-Mod-Language-Modpack.zip"]
+resourcePacks:["Minecraft-Mod-Language-Modpack.zip","TEP\u0027s Resource Package.zip"]
 incompatibleResourcePacks:[]
 lastServer:
-lang:en_us
+lang:zh_cn
 chatVisibility:0
 chatColors:true
 chatLinks:true
@@ -75,7 +75,7 @@ key_key.spectatorOutlines:0
 key_key.swapHands:33
 key_key.saveToolbarActivator:0
 key_key.loadToolbarActivator:0
-key_key.advancements:0
+key_key.advancements:49
 key_key.hotbar.1:2
 key_key.hotbar.2:3
 key_key.hotbar.3:4
@@ -88,7 +88,7 @@ key_key.hotbar.9:10
 key_of.key.zoom:46
 key_Reload Menu | CTRL + ALT + :0
 key_Toggle Customization Overlay | CTRL + ALT + :0
-key_keybind.baublesinventory:41
+key_keybind.baublesinventory:36
 key_Scene1 start/pause:0
 key_Scene2 start/pause:0
 key_Scene3 start/pause:0
@@ -112,6 +112,8 @@ key_key.mw_underground_mode:0
 key_openblocks.keybind.vario_switch:35
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
+key_oreexcavation.key.excavate:41
+key_oreexcavation.key.shape:47
 key_key.toastcontrol.clear:73
 key_key.vehicle.horn:48
 key_key.vehicle.cycle_seats:184
@@ -130,14 +132,6 @@ key_key.toggle_focus.desc:13
 key_keys.armourers_workshop.undo:44:CONTROL
 key_keys.armourers_workshop.open-wardrobe:25
 key_nei.options.keys.gui.botania_corporea_request:0
-key_key.car_forward:17
-key_key.car_back:31
-key_key.car_left:30
-key_key.car_right:32
-key_key.car_gui:23
-key_key.car_start:19
-key_key.car_horn:20
-key_key.center_car:57
 key_key.cofh.multimode:47
 key_key.craftingtweaks.rotate:0
 key_key.craftingtweaks.rotate_counter_clockwise:0

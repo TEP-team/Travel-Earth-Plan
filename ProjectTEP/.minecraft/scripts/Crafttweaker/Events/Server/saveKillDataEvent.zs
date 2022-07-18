@@ -6,6 +6,7 @@
 */
 
 #priority 70000
+#norun
 #loader crafttweaker reloadableevents
 import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.player.IPlayer;

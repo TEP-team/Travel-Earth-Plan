@@ -1,0 +1,17 @@
+#aspect
+setIcon(<contenttweaker:hammer_flint>)
+setPos(70,-35)
+
+#language
+setTranslatedTitle("advancement.tep.beginning.hammer_flint")
+setTranslatedDescription("advancement.tep.beginning.hammer_flint.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/snowball")
+hammer_flint = addCriteria("hammer_flint", "triumph:player_crafted_item")
+hammer_flint.setItem(<contenttweaker:hammer_flint>)
+setRequiresParents()

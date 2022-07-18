@@ -1,0 +1,18 @@
+#aspect
+setIcon(<minecraft:chorus_flower>)
+setPos(280,53)
+
+#language
+setTranslatedTitle("advancement.tep.beginning.chorus_flower")
+setTranslatedDescription("advancement.tep.beginning.chorus_flower.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/end_stone")
+addParent("tep:beginning/melon")
+chorus_flower = addCriteria("chorus_flower", "minecraft:inventory_changed")
+chorus_flower.addItem(<minecraft:chorus_flower>)
+setRequiresParents()

@@ -1,0 +1,17 @@
+#aspect
+setIcon(<immersiveengineering:stone_device, meta:1>)
+setPos(210,-70)
+
+#language
+setTranslatedTitle("advancement.tep.beginning.blast_furnace")
+setTranslatedDescription("advancement.tep.beginning.blast_furnace.doc")
+
+#message
+setShowToast(true)
+setAnnounceToChat(false)
+
+#requirements
+addParent("tep:beginning/coke_oven")
+blast_furnace = addCriteria("blast_furnace", "immersiveengineering:multiblock_formed")
+blast_furnace.setMultiblock("IE:BlastFurnace")
+setRequiresParents()

@@ -21,7 +21,7 @@ val remove as IItemStack[][IOreDictEntry] = {
     <ore:orePlatinum> : [<thermalfoundation:ore:6>],
     <ore:oreAluminum> : [<thermalfoundation:ore:4>],
 
-    <ore:stickIron> : [<immersiveengineering:material:1>, <car:iron_stick>],
+    <ore:stickIron> : [<immersiveengineering:material:1>],
 
     <ore:ingotIron> : [<contenttweaker:material_part:66>],
     <ore:ingotCopper> : [<contenttweaker:material_part:88>, <mekanism:ingot:5>, <thermalfoundation:material:128>],
@@ -30,15 +30,7 @@ val remove as IItemStack[][IOreDictEntry] = {
     <ore:ingotLead> : [<contenttweaker:material_part:44>, <thermalfoundation:material:131>],
     <ore:ingotSilver> : [<contenttweaker:material_part>, <thermalfoundation:material:130>],
     <ore:ingotNickel> : [<contenttweaker:material_part:77>, <thermalfoundation:material:133>],
-    /*
-    <ore:ingotIron> : [<contenttweaker:material_part:72>],
-    <ore:ingotCopper> : [<contenttweaker:material_part:94>, <mekanism:ingot:5>, <thermalfoundation:material:128>],
-    <ore:ingotTin> : [<contenttweaker:material_part:37>, <thermalfoundation:material:129>],
-    <ore:ingotSteel> : [<variedcommodities:ingot_steel>, <mekanism:ingot:4>, <thermalfoundation:material:160>],
-    <ore:ingotLead> : [<contenttweaker:material_part:48>, <thermalfoundation:material:131>],
-    <ore:ingotSilver> : [<contenttweaker:material_part>, <thermalfoundation:material:130>],
-    <ore:ingotNickel> : [<contenttweaker:material_part:83>, <thermalfoundation:material:133>],
-    */
+
     <ore:ingotBronze> : [<variedcommodities:ingot_bronze>, <thermalfoundation:material:163>],
     <ore:ingotConstantan> : [<thermalfoundation:material:164>],
     <ore:ingotElectrum> : [<thermalfoundation:material:161>],
