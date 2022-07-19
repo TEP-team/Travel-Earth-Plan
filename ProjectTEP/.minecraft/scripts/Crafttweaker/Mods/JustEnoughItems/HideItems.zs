@@ -41,7 +41,9 @@ val hide as IItemStack[] = [
 
     <botania:poolminecart>,
 
-    <modularmachinery:itemmodularium>
+    <modularmachinery:itemmodularium>,
+
+    <minecraft:minecart>
 
     /*
     <mekanismgenerators:generator>,<mekanismgenerators:generator:3>,<mekanismgenerators:reactor>,

@@ -49,13 +49,13 @@ ProjectTEP/.minecraft/scripts/.zsrc
 !ProjectTEP/.minecraft/config/sereneseasons/seasons.cfg
 !ProjectTEP/.minecraft/config/simpledifficulty/
 !ProjectTEP/.minecraft/config/triumph/
+!ProjectTEP/.minecraft/config/veinminer/
 !ProjectTEP/.minecraft/config/waila/
 !ProjectTEP/.minecraft/config/aroma1997/aromabackup.cfg
 !ProjectTEP/.minecraft/config/bloodmoon.cfg
 !ProjectTEP/.minecraft/config/cfm.cfg
 !ProjectTEP/.minecraft/config/customloadingscreen.cfg
 !ProjectTEP/.minecraft/config/dmgcontrol.cfg
-!ProjectTEP/.minecraft/config/enhancedvisuals.json
 !ProjectTEP/.minecraft/config/flux_networks.cfg
 !ProjectTEP/.minecraft/config/fancymenu/config.txt
 !ProjectTEP/.minecraft/config/fancymenu/customization/fancymenu.txt
@@ -66,13 +66,10 @@ ProjectTEP/.minecraft/scripts/.zsrc
 !ProjectTEP/.minecraft/config/ingameinfoxml.cfg
 !ProjectTEP/.minecraft/config/littletiles-client.json
 !ProjectTEP/.minecraft/config/itemzoom.cfg
-!ProjectTEP/.minecraft/config/mapwriter.cfg
 !ProjectTEP/.minecraft/config/mekanism.cfg
 !ProjectTEP/.minecraft/config/modularassembly.cfg
 !ProjectTEP/.minecraft/config/openblocks.cfg
 !ProjectTEP/.minecraft/config/openmodularturrets.cfg
-!ProjectTEP/.minecraft/config/oreexcavation_groups.json
-!ProjectTEP/.minecraft/config/oreexcavation.cfg
 !ProjectTEP/.minecraft/config/oreveins.cfg
 !ProjectTEP/.minecraft/config/randomtweaker.cfg
 !ProjectTEP/.minecraft/config/shouldersurfing.cfg
@@ -81,6 +78,9 @@ ProjectTEP/.minecraft/scripts/.zsrc
 !ProjectTEP/.minecraft/config/toastcontrol.cfg
 !ProjectTEP/.minecraft/config/torohealthmod.cfg
 !ProjectTEP/.minecraft/config/worleycaves.cfg
+!ProjectTEP/.minecraft/config/xaerominimap.txt
+!ProjectTEP/.minecraft/config/xaerominimap_entities.json
+!ProjectTEP/.minecraft/config/xaeroworldmap.txt
 
 #resources
 !ProjectTEP/.minecraft/resources/contenttweaker/models/item/electric_iron.json

@@ -1,6 +1,6 @@
 #aspect
 setIcon(<contenttweaker:medical_bandage>)
-setPos(0,95)
+setPos(0,105)
 hideLines()
 
 #language
@@ -18,6 +18,6 @@ bleeding.addEffect("contenttweaker:bleeding")
 setRequiresParents()
 
 #type
-setCompletedIconColor(#6aff6a)
-setCompletedTitleColor(#00b100)
+setCompletedIconColor(#e555e7)
+setCompletedTitleColor(#a82faa)
 setFrameType("GOAL")

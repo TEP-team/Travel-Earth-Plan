@@ -12,7 +12,7 @@
   "manifestVersion": 1,
   "name": "Travel Earth Plan",
   "version": "v1.0.0",
-  "author": "Wheat Paper Team (TEP-team)",
+  "author": "",
   "files": [
     {
       "projectID": 224472,
@@ -152,6 +152,11 @@
     {
       "projectID": 530919,
       "fileID": 3652765,
+      "required": true
+    },
+    {
+      "projectID": 267458,
+      "fileID": 2626135,
       "required": true
     },
     {
@@ -391,7 +396,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3784010,
+      "fileID": 3882858,
       "required": true
     },
     {
@@ -402,11 +407,6 @@
     {
       "projectID": 233071,
       "fileID": 2562139,
-      "required": true
-    },
-    {
-      "projectID": 250898,
-      "fileID": 2897369,
       "required": true
     },
     {
@@ -470,6 +470,11 @@
       "required": true
     },
     {
+      "projectID": 317780,
+      "fileID": 3861257,
+      "required": true
+    },
+    {
       "projectID": 229218,
       "fileID": 2855967,
       "required": true
@@ -477,6 +482,11 @@
     {
       "projectID": 254284,
       "fileID": 3516274,
+      "required": true
+    },
+    {
+      "projectID": 67133,
+      "fileID": 2528295,
       "required": true
     },
     {
@@ -655,11 +665,6 @@
       "required": true
     },
     {
-      "projectID": 268324,
-      "fileID": 2460821,
-      "required": true
-    },
-    {
       "projectID": 306770,
       "fileID": 3162874,
       "required": true
@@ -767,6 +772,11 @@
     {
       "projectID": 287357,
       "fileID": 3010631,
+      "required": true
+    },
+    {
+      "projectID": 263420,
+      "fileID": 3848402,
       "required": true
     },
     {

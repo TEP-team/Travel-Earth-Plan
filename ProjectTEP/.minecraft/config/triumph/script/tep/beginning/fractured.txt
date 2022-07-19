@@ -1,6 +1,6 @@
 #aspect
-setIcon(<contenttweaker:medical_mttal_splint>)
-setPos(35,95)
+setIcon(<contenttweaker:medical_metal_splint>)
+setPos(35,105)
 hideLines()
 
 #language
